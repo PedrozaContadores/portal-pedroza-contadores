@@ -51,3 +51,10 @@
 - Correção do endereço para Rua Mayrink Veiga, 32, Sala 1003, Centro, Rio de Janeiro/RJ.
 - Imagens de notícias e links alinhadas à prévia oficial.
 - Responsividade revisada para desktop, tablet e celular.
+
+
+## 1.1.6 — Acabamento responsivo
+- Logotipos/identificadores dos Links Úteis ampliados e centralizados.
+- Hero mobile reposicionado para preservar a imagem institucional e a marca na parede.
+- Overlay mobile refinado para equilibrar legibilidade e presença da fotografia.
+- Altura, botões e sobreposição dos serviços ajustados para telas pequenas.
