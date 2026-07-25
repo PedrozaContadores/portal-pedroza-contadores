@@ -1,3 +1,10 @@
+## 1.1.13 — Ajuste fino do hero mobile
+
+- Desktop preservado e congelado.
+- Imagem do hero mobile reduzida levemente para ampliar o enquadramento.
+- Altura do hero e tipografia compactadas para reduzir o espaço excedente.
+- Links Úteis preservados conforme aprovação.
+
 ## 1.1.12 — Redução da imagem do hero mobile
 
 - Versão desktop preservada e congelada.

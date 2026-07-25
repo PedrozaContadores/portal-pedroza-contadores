@@ -706,3 +706,53 @@
     max-width: 305px !important;
   }
 }
+
+/* Sprint 1.1.13 — ajuste fino do hero mobile; desktop congelado */
+@media (max-width: 520px) {
+  .hero,
+  .hero-inner {
+    min-height: 525px !important;
+  }
+
+  .hero-office {
+    background-size: auto 68% !important;
+    background-position: 76% 47% !important;
+  }
+
+  .hero-copy {
+    padding: 24px 0 20px !important;
+  }
+
+  .hero h1 {
+    max-width: 330px !important;
+    font-size: clamp(1.58rem, 7vw, 1.82rem) !important;
+    line-height: 1.07 !important;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 326px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero,
+  .hero-inner {
+    min-height: 515px !important;
+  }
+
+  .hero-office {
+    background-size: auto 65% !important;
+    background-position: 78% 47% !important;
+  }
+
+  .hero h1 {
+    max-width: 300px !important;
+    font-size: 1.54rem !important;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 300px !important;
+  }
+}
