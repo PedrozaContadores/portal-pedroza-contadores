@@ -130,3 +130,11 @@
 - Atualizados cards e links da Home.
 - Atualizados sitemap e identificacao de versao.
 - Preservados layout, identidade visual, responsividade e arquitetura homologada.
+
+## 1.3.0 - Sprint 1.3 - Servicos (2026-07-25)
+- Criadas seis paginas individuais de servicos.
+- Adicionados breadcrumbs e navegacao cruzada.
+- Implementado SEO individual e dados estruturados Service.
+- Atualizados cards e links da Home.
+- Atualizados sitemap e identificacao de versao.
+- Preservados layout, identidade visual, responsividade e arquitetura homologada.
