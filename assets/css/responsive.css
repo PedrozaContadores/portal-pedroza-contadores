@@ -166,3 +166,173 @@
     max-width: 310px;
   }
 }
+
+/* Sprint 1.1.8 — mobile definitivo; desktop preservado */
+@media (max-width: 520px) {
+  .hero,
+  .hero-inner {
+    min-height: 548px;
+  }
+
+  .hero-office {
+    inset: 0;
+    background-size: cover;
+    background-position: 73% center;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg, rgba(7,16,49,.96) 0%, rgba(7,16,49,.88) 46%, rgba(7,16,49,.50) 72%, rgba(7,16,49,.12) 100%),
+      linear-gradient(180deg, rgba(7,16,49,.05) 0%, rgba(7,16,49,.06) 68%, rgba(7,16,49,.40) 100%);
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: 305px;
+    padding: 30px 0 26px;
+  }
+
+  .hero h1 {
+    max-width: 300px;
+    font-size: clamp(1.82rem, 8.1vw, 2.08rem);
+    line-height: 1.08;
+    letter-spacing: -.03em;
+    margin-bottom: 16px;
+  }
+
+  .hero-text {
+    max-width: 300px;
+    font-size: .79rem;
+    line-height: 1.45;
+  }
+
+  .hero-actions {
+    max-width: 300px;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .hero-actions .button {
+    min-height: 43px;
+    padding: .72rem .9rem;
+    font-size: .76rem;
+  }
+
+  .client-text {
+    padding-top: 4px;
+    font-size: .76rem;
+  }
+
+  .service-strip { margin-top: -10px; }
+
+  .link-grid a {
+    min-height: 102px;
+    padding: 12px 8px;
+  }
+
+  .useful-logo {
+    max-width: 92%;
+    max-height: 58px;
+  }
+  .useful-logo--caixa { max-width: 88%; max-height: 48px; }
+  .useful-logo--rfb,
+  .useful-logo--simples,
+  .useful-logo--cfc,
+  .useful-logo--ecac { max-height: 62px; }
+  .useful-logo--correios { max-height: 52px; }
+}
+
+@media (max-width: 380px) {
+  .hero,
+  .hero-inner { min-height: 530px; }
+  .hero-office { background-position: 71% center; }
+  .hero-copy { max-width: 282px; padding-top: 27px; }
+  .hero h1 { max-width: 280px; font-size: 1.74rem; }
+  .hero-text,
+  .hero-actions { max-width: 282px; }
+}
+
+/* Sprint 1.1.8 — mobile definitivo; desktop preservado */
+@media (max-width: 520px) {
+  .hero,
+  .hero-inner {
+    min-height: 548px;
+  }
+
+  .hero-office {
+    inset: 0;
+    background-size: cover;
+    background-position: 73% center;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg, rgba(7,16,49,.96) 0%, rgba(7,16,49,.88) 46%, rgba(7,16,49,.50) 72%, rgba(7,16,49,.12) 100%),
+      linear-gradient(180deg, rgba(7,16,49,.05) 0%, rgba(7,16,49,.06) 68%, rgba(7,16,49,.40) 100%);
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: 305px;
+    padding: 30px 0 26px;
+  }
+
+  .hero h1 {
+    max-width: 300px;
+    font-size: clamp(1.82rem, 8.1vw, 2.08rem);
+    line-height: 1.08;
+    letter-spacing: -.03em;
+    margin-bottom: 16px;
+  }
+
+  .hero-text {
+    max-width: 300px;
+    font-size: .79rem;
+    line-height: 1.45;
+  }
+
+  .hero-actions {
+    max-width: 300px;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .hero-actions .button {
+    min-height: 43px;
+    padding: .72rem .9rem;
+    font-size: .76rem;
+  }
+
+  .client-text {
+    padding-top: 4px;
+    font-size: .76rem;
+  }
+
+  .service-strip { margin-top: -10px; }
+
+  .link-grid a {
+    min-height: 102px;
+    padding: 12px 8px;
+  }
+
+  .useful-logo {
+    max-width: 92%;
+    max-height: 58px;
+  }
+  .useful-logo--caixa { max-width: 88%; max-height: 48px; }
+  .useful-logo--rfb,
+  .useful-logo--simples,
+  .useful-logo--cfc,
+  .useful-logo--ecac { max-height: 62px; }
+  .useful-logo--correios { max-height: 52px; }
+}
+
+@media (max-width: 380px) {
+  .hero,
+  .hero-inner { min-height: 530px; }
+  .hero-office { background-position: 71% center; }
+  .hero-copy { max-width: 282px; padding-top: 27px; }
+  .hero h1 { max-width: 280px; font-size: 1.74rem; }
+  .hero-text,
+  .hero-actions { max-width: 282px; }
+}
