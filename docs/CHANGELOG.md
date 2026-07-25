@@ -37,3 +37,10 @@
 - Cabeçalho, hero, serviços, diferenciais, indicadores, notícias, links úteis, CTA e rodapé.
 - Responsividade para desktop, tablet e celular.
 - Menu móvel e identificação permanente da versão.
+
+## 1.1.3 — Reconstrução visual
+- Reconstrução do cabeçalho, hero, serviços, diferenciais, indicadores, notícias, links úteis e rodapé.
+- Aplicação dos logotipos oficiais em SVG.
+- Correção do endereço para Rua Mayrink Veiga, 32, Sala 1003, Centro, Rio de Janeiro/RJ.
+- Imagens de notícias e links alinhadas à prévia oficial.
+- Responsividade revisada para desktop, tablet e celular.
