@@ -1,3 +1,10 @@
+## [1.1.5] - 2026-07-25
+
+### Corrigido
+- Reposicionamento do fundo do hero para preservar integralmente a inscrição “Pedroza Contadores”.
+- Remoção do zoom do fundo do hero, evitando cortes nas bordas.
+- Ajuste equivalente para tablet e celular.
+
 ## 1.1.2 — Logotipos oficiais
 
 - Substituído o logotipo provisório pelo SVG oficial da Pedroza Contadores.
