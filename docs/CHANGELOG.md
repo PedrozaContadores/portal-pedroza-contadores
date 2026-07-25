@@ -122,3 +122,11 @@
 - Desktop, tablet, textos, botoes e demais secoes preservados.
 - Imagem do hero mobile reduzida em aproximadamente 10%.
 - Enquadramento deslocado levemente para a direita para ampliar a visualizacao da marca na parede.
+
+## 1.3.0 - Sprint 1.3 - Servicos (2026-07-25)
+- Criadas seis paginas individuais de servicos.
+- Adicionados breadcrumbs e navegacao cruzada.
+- Implementado SEO individual e dados estruturados Service.
+- Atualizados cards e links da Home.
+- Atualizados sitemap e identificacao de versao.
+- Preservados layout, identidade visual, responsividade e arquitetura homologada.
