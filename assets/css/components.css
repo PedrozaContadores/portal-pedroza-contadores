@@ -1,0 +1,80 @@
+﻿.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand__name {
+    color: var(--color-primary);
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.brand__description {
+    font-size: 0.78rem;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    font-size: 0.92rem;
+    font-weight: 600;
+    transition: color var(--transition-default);
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus-visible {
+    color: var(--color-secondary);
+}
+
+.foundation__eyebrow {
+    margin-bottom: 12px;
+    color: var(--color-accent);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.foundation h1 {
+    margin-bottom: 20px;
+    font-size: clamp(2.4rem, 7vw, 5rem);
+    line-height: 1;
+}
+
+.foundation__description {
+    max-width: 700px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.foundation__status {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 16px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius-medium);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.placeholder-section h2 {
+    color: var(--color-primary);
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+}
+
+.contact-notice {
+    font-weight: 700;
+}
+
+.site-footer p {
+    margin-bottom: 5px;
+}
+
+.site-footer__technical {
+    text-align: right;
+    font-size: 0.82rem;
+}

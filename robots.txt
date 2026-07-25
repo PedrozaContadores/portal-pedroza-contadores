@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://pedrozacontadores.github.io/portal-pedroza-contadores/sitemap.xml

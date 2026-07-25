@@ -1,0 +1,21 @@
+﻿:root {
+    --color-primary: #16365c;
+    --color-primary-dark: #0d2948;
+    --color-secondary: #2f6f73;
+    --color-accent: #d4a447;
+    --color-background: #f5f7fa;
+    --color-surface: #ffffff;
+    --color-text: #25313d;
+    --color-text-light: #ffffff;
+    --color-border: #dce3ea;
+
+    --container-width: 1180px;
+    --header-height: 82px;
+
+    --radius-small: 6px;
+    --radius-medium: 12px;
+
+    --shadow-soft: 0 10px 30px rgba(13, 41, 72, 0.08);
+
+    --transition-default: 180ms ease;
+}

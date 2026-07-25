@@ -1,0 +1,13 @@
+﻿{
+    "project": "Portal Pedroza Contadores",
+    "sprint": "1.0",
+    "version": "1.0.0",
+    "status": "development",
+    "branch": "main",
+    "architecture": {
+        "clientAreaPrepared": true,
+        "clientAreaEnabled": false,
+        "authenticationEnabled": false,
+        "formsEnabled": false
+    }
+}
