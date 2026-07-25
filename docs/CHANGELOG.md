@@ -101,3 +101,9 @@
 - Fotografia do hero mobile reduzida para exibir uma área maior do escritório.
 - Marca na parede reposicionada para permanecer visível sem ampliar excessivamente a imagem.
 - Overlay e altura do hero refinados sem alterar textos, botões ou identidade visual.
+
+## 1.1.15 — Microajuste final do hero mobile
+
+- Desktop, tablet, textos, botoes e demais secoes preservados.
+- Imagem do hero mobile reduzida em aproximadamente 10%.
+- Enquadramento deslocado levemente para a direita para ampliar a visualizacao da marca na parede.

@@ -799,3 +799,18 @@
     background-position: 84% 48% !important;
   }
 }
+
+/* Sprint 1.1.15 - microajuste final do hero mobile; desktop congelado */
+@media (max-width: 520px) {
+  .hero-office {
+    background-size: auto 55% !important;
+    background-position: calc(100% + 20px) 48% !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-office {
+    background-size: auto 52% !important;
+    background-position: calc(100% + 18px) 48% !important;
+  }
+}
