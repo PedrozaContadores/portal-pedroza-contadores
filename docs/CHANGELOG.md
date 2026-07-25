@@ -1,3 +1,10 @@
+## 1.1.12 — Redução da imagem do hero mobile
+
+- Versão desktop preservada e congelada.
+- Imagem do hero reduzida exclusivamente no celular.
+- Marca da parede enquadrada com mais área visível.
+- Overlay e tipografia mobile reequilibrados.
+
 # Changelog
 
 ## 1.1.9 — Correção definitiva dos Links Úteis
@@ -71,3 +78,12 @@
 - Hero mobile redimensionado e reposicionado, com tipografia e overlay próprios.
 - Links Úteis mobile reconstruídos em grade 2 x 3, sem cortes ou distorções.
 - Cache busting aplicado ao CSS para forçar a atualização no navegador móvel.
+
+## 1.1.11 — Ajuste final do hero mobile
+
+- Desktop preservado e congelado.
+- Título mobile reduzido para manter as quatro linhas previstas.
+- Imagem do hero reposicionada sem cortar a marca da parede.
+- Overlay mobile reequilibrado.
+- Altura, texto e CTAs compactados.
+- Links Úteis preservados conforme aprovação.

@@ -537,3 +537,172 @@
     max-width: 286px !important;
   }
 }
+
+/* Sprint 1.1.11 — ajuste final exclusivo do hero mobile; desktop congelado */
+@media (max-width: 520px) {
+  .hero,
+  .hero-inner {
+    min-height: 560px !important;
+  }
+
+  .hero-office {
+    inset: 0 !important;
+    background-size: auto 100% !important;
+    background-position: right center !important;
+    background-repeat: no-repeat !important;
+    transform: none !important;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg,
+        rgba(7, 16, 49, .98) 0%,
+        rgba(7, 16, 49, .94) 43%,
+        rgba(7, 16, 49, .72) 63%,
+        rgba(7, 16, 49, .28) 82%,
+        rgba(7, 16, 49, .08) 100%),
+      linear-gradient(180deg,
+        rgba(7, 16, 49, .05) 0%,
+        rgba(7, 16, 49, .08) 66%,
+        rgba(7, 16, 49, .58) 100%) !important;
+  }
+
+  .hero-copy {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 30px 0 26px !important;
+  }
+
+  .hero .eyebrow {
+    margin-bottom: 14px !important;
+    font-size: .72rem !important;
+    letter-spacing: .11em !important;
+  }
+
+  .hero h1 {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin-bottom: 18px !important;
+    font-size: clamp(1.72rem, 7.7vw, 1.95rem) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -.03em !important;
+  }
+
+  .hero-text {
+    max-width: 335px !important;
+    margin-bottom: 0 !important;
+    font-size: .84rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .hero-actions {
+    width: 100% !important;
+    max-width: 335px !important;
+    gap: 9px !important;
+    margin-top: 18px !important;
+  }
+
+  .hero-actions .button {
+    min-height: 45px !important;
+    padding: 11px 16px !important;
+    font-size: .82rem !important;
+  }
+
+  .client-text {
+    padding-top: 5px !important;
+    font-size: .83rem !important;
+  }
+
+  .service-strip {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero,
+  .hero-inner {
+    min-height: 545px !important;
+  }
+
+  .hero h1 {
+    max-width: 315px !important;
+    font-size: 1.66rem !important;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 315px !important;
+  }
+}
+
+/* Sprint 1.1.12 — hero mobile com imagem reduzida; desktop congelado */
+@media (max-width: 520px) {
+  .hero,
+  .hero-inner {
+    min-height: 555px !important;
+  }
+
+  .hero-office {
+    inset: 0 !important;
+    background-color: #0b153d !important;
+    background-size: auto 72% !important;
+    background-position: 78% center !important;
+    background-repeat: no-repeat !important;
+    transform: none !important;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg,
+        rgba(7,16,49,.99) 0%,
+        rgba(7,16,49,.95) 39%,
+        rgba(7,16,49,.74) 59%,
+        rgba(7,16,49,.34) 79%,
+        rgba(7,16,49,.12) 100%),
+      linear-gradient(180deg,
+        rgba(7,16,49,.08) 0%,
+        rgba(7,16,49,.06) 62%,
+        rgba(7,16,49,.58) 100%) !important;
+  }
+
+  .hero-copy {
+    padding: 28px 0 24px !important;
+  }
+
+  .hero h1 {
+    max-width: 335px !important;
+    font-size: clamp(1.68rem, 7.4vw, 1.9rem) !important;
+    line-height: 1.08 !important;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 330px !important;
+  }
+
+  .service-strip {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero,
+  .hero-inner {
+    min-height: 540px !important;
+  }
+
+  .hero-office {
+    background-size: auto 68% !important;
+    background-position: 80% center !important;
+  }
+
+  .hero h1 {
+    max-width: 305px !important;
+    font-size: 1.62rem !important;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 305px !important;
+  }
+}
