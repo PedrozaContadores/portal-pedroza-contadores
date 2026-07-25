@@ -1,0 +1,38 @@
+[
+  {
+    "id": "reforma-tributaria-2026",
+    "slug": "reforma-tributaria-2026",
+    "titulo": "O que a Reforma Tributaria muda para sua empresa em 2026",
+    "resumo": "Entenda os principais pontos da Reforma Tributaria e como sua empresa deve se preparar para as mudancas.",
+    "categoria": "Empresarial",
+    "data": "2026-07-21",
+    "imagem": "../../assets/images/noticia-reforma.jpg",
+    "fonte": "Pedroza Contadores",
+    "tipo": "manual",
+    "destaque": true
+  },
+  {
+    "id": "simples-nacional-2026",
+    "slug": "simples-nacional-2026",
+    "titulo": "Simples Nacional: novas regras e impactos para 2026",
+    "resumo": "Confira as atualizacoes do Simples Nacional e os pontos que merecem atencao das pequenas empresas.",
+    "categoria": "Fiscal",
+    "data": "2026-07-17",
+    "imagem": "../../assets/images/noticia-simples.jpg",
+    "fonte": "Pedroza Contadores",
+    "tipo": "manual",
+    "destaque": false
+  },
+  {
+    "id": "fgts-digital-obrigacoes",
+    "slug": "fgts-digital-obrigacoes",
+    "titulo": "FGTS Digital: o que sua empresa precisa saber",
+    "resumo": "Saiba como funciona o FGTS Digital e quais cuidados devem ser observados pelos empregadores.",
+    "categoria": "Trabalhista",
+    "data": "2026-07-15",
+    "imagem": "../../assets/images/noticia-fgts.jpg",
+    "fonte": "Pedroza Contadores",
+    "tipo": "manual",
+    "destaque": false
+  }
+]

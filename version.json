@@ -1,8 +1,8 @@
 {
   "project": "Portal Pedroza Contadores",
-  "sprint": "Sprint 1.3.2 - Correcao de Caracteres Mobile",
-  "version": "1.3.2",
-  "status": "Em homologacao",
+  "sprint": "1.4 - Noticias",
+  "version": "1.4.0",
+  "status": "em homologacao",
   "publishedAt": "2026-07-25",
-  "build": "mobile-character-hotfix"
+  "branch": "main"
 }
