@@ -2,26 +2,40 @@
   {
     "id": "reforma-tributaria-2026",
     "slug": "reforma-tributaria-2026",
-    "titulo": "O que a Reforma Tributaria muda para sua empresa em 2026",
-    "resumo": "Entenda os principais pontos da Reforma Tributaria e como sua empresa deve se preparar para as mudancas.",
+    "titulo": "O que a Reforma Tributária muda para sua empresa em 2026",
+    "resumo": "Entenda os principais pontos da Reforma Tributária e como sua empresa deve se preparar para as mudanças.",
     "categoria": "Empresarial",
     "data": "2026-07-21",
+    "atualizado": "2026-07-25",
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "Pedroza Contadores",
+    "autor": "Equipe Pedroza Contadores",
     "tipo": "manual",
-    "destaque": true
+    "destaque": true,
+    "conteudo": [
+      "A Reforma Tributária inicia uma nova etapa de adaptação para empresas de todos os portes. O período de transição exige revisão de processos fiscais, cadastros, contratos e sistemas de emissão de documentos.",
+      "Durante 2026, o acompanhamento das regras e dos testes operacionais será essencial para reduzir riscos. Cada empresa deve avaliar os impactos conforme o regime tributário, o setor de atuação e a composição das suas receitas e despesas.",
+      "A Pedroza Contadores acompanha a regulamentação e orienta seus clientes na preparação dos procedimentos internos necessários para a transição."
+    ]
   },
   {
     "id": "simples-nacional-2026",
     "slug": "simples-nacional-2026",
     "titulo": "Simples Nacional: novas regras e impactos para 2026",
-    "resumo": "Confira as atualizacoes do Simples Nacional e os pontos que merecem atencao das pequenas empresas.",
+    "resumo": "Confira as atualizações do Simples Nacional e os pontos que merecem atenção das pequenas empresas.",
     "categoria": "Fiscal",
     "data": "2026-07-17",
+    "atualizado": "2026-07-25",
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Pedroza Contadores",
+    "autor": "Equipe Pedroza Contadores",
     "tipo": "manual",
-    "destaque": false
+    "destaque": false,
+    "conteudo": [
+      "As empresas optantes pelo Simples Nacional devem acompanhar as mudanças tributárias e manter os cadastros fiscais atualizados.",
+      "A análise periódica do faturamento, das atividades exercidas e dos anexos aplicáveis ajuda a evitar desenquadramentos e recolhimentos incorretos.",
+      "O planejamento deve considerar não apenas a alíquota nominal, mas também a carga efetiva e as obrigações acessórias de cada operação."
+    ]
   },
   {
     "id": "fgts-digital-obrigacoes",
@@ -30,9 +44,16 @@
     "resumo": "Saiba como funciona o FGTS Digital e quais cuidados devem ser observados pelos empregadores.",
     "categoria": "Trabalhista",
     "data": "2026-07-15",
+    "atualizado": "2026-07-25",
     "imagem": "../../assets/images/noticia-fgts.jpg",
     "fonte": "Pedroza Contadores",
+    "autor": "Equipe Pedroza Contadores",
     "tipo": "manual",
-    "destaque": false
+    "destaque": false,
+    "conteudo": [
+      "O FGTS Digital utiliza informações transmitidas ao eSocial para gerar as guias de recolhimento dos trabalhadores.",
+      "Divergências cadastrais, remunerações informadas incorretamente e eventos enviados fora do prazo podem afetar diretamente a apuração.",
+      "A conferência mensal da folha e dos eventos do eSocial é indispensável para manter a regularidade dos recolhimentos."
+    ]
   }
 ]

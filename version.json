@@ -1,8 +1,6 @@
 {
-    "project":  "Portal Pedroza Contadores",
-    "sprint":  "1.4 - Noticias",
-    "version":  "1.4.1",
-    "status":  "em homologacao",
-    "publishedAt":  "2026-07-25",
-    "branch":  "main"
+  "version": "1.4.2",
+  "sprint": "Sprint 1.4 - Noticias",
+  "build": "1.4.2",
+  "date": "2026-07-25"
 }

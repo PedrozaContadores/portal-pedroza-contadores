@@ -1,4 +1,4 @@
-﻿import { BUILD_INFORMATION } from "./modules/build-information.js";
+import { BUILD_INFORMATION } from "./modules/build-information.js";
 
 function initializePortal() {
   document.querySelectorAll("[data-build-version]").forEach((element) => {
