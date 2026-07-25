@@ -7,6 +7,7 @@ const DATA_URL = new URL('data/noticias.json', ROOT);
 const SOURCES_URL = new URL('data/fontes.json', ROOT);
 const CATEGORIES_URL = new URL('data/categorias.json', ROOT);
 const SITEMAP_URL = new URL('sitemap-noticias.xml', ROOT);
+const NEWS_SITEMAP_URL = new URL('news-sitemap.xml', ROOT);
 const BASE_URL = 'https://pedrozacontadores.github.io/portal-pedroza-contadores';
 
 const decodeEntities = (value = '') => value
@@ -152,6 +153,29 @@ async function main() {
   const urls = finalItems.map((item) => `  <url>\n    <loc>${xmlEscape(`${BASE_URL}/pages/noticia/?slug=${encodeURIComponent(item.slug)}`)}</loc>\n    <lastmod>${xmlEscape(item.atualizado || item.data)}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.70</priority>\n  </url>`).join('\n');
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
   await writeFile(SITEMAP_URL, sitemap, 'utf8');
+
+  const cutoff = Date.now() - (2 * 24 * 60 * 60 * 1000);
+  const recentItems = finalItems.filter((item) => {
+    const value = new Date(`${item.data}T12:00:00Z`).getTime();
+    return Number.isFinite(value) && value >= cutoff;
+  });
+  const newsUrls = recentItems.map((item) => `  <url>
+    <loc>${xmlEscape(`${BASE_URL}/pages/noticia/?slug=${encodeURIComponent(item.slug)}`)}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pedroza Contadores</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>${xmlEscape(item.data)}</news:publication_date>
+      <news:title>${xmlEscape(item.titulo)}</news:title>
+    </news:news>
+  </url>`).join('\n');
+  const newsSitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+${newsUrls}
+</urlset>
+`;
+  await writeFile(NEWS_SITEMAP_URL, newsSitemap, 'utf8');
   console.log(`[OK] Base final: ${finalItems.length} noticias`);
 }
 

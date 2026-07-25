@@ -173,7 +173,7 @@
 - Instalacao de validador UTF-8 e hook pre-commit.
 - Identidade visual e funcionalidades preservadas.
 
-## 1.4.3 - AFNS v1.0 - Noticias Automaticas (2026-07-25)
+## 1.4.4 - AFNS v1.0 - Noticias Automaticas (2026-07-25)
 
 - Criado workflow agendado do GitHub Actions para atualizacao automatica em dias uteis.
 - Integrados feeds do CFC e da editoria Economia da Agencia Brasil.

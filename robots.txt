@@ -3,3 +3,5 @@ Allow: /
 
 Sitemap: https://pedrozacontadores.github.io/portal-pedroza-contadores/sitemap.xml
 Sitemap: https://pedrozacontadores.github.io/portal-pedroza-contadores/sitemap-noticias.xml
+
+Sitemap: https://pedrozacontadores.github.io/portal-pedroza-contadores/news-sitemap.xml
