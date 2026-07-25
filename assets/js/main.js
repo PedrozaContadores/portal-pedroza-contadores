@@ -1,4 +1,4 @@
-import { BUILD_INFORMATION } from "./modules/build-information.js";
+﻿import { BUILD_INFORMATION } from "./modules/build-information.js";
 
 function initializePortal() {
   document.querySelectorAll("[data-build-version]").forEach((element) => {
@@ -7,16 +7,34 @@ function initializePortal() {
 
   const toggle = document.querySelector(".menu-toggle");
   const menu = document.querySelector(".main-nav");
+  const menuOverlay = document.querySelector(".mobile-menu-overlay");
+
   if (toggle && menu) {
-    toggle.addEventListener("click", () => {
-      const open = menu.classList.toggle("is-open");
+    const setMenuState = (open) => {
+      menu.classList.toggle("is-open", open);
+      document.body.classList.toggle("menu-open", open);
       toggle.setAttribute("aria-expanded", String(open));
       toggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+      toggle.textContent = open ? "x" : "â˜°";
+    };
+
+    toggle.addEventListener("click", () => {
+      setMenuState(!menu.classList.contains("is-open"));
     });
-    menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => {
-      menu.classList.remove("is-open");
-      toggle.setAttribute("aria-expanded", "false");
-    }));
+
+    menuOverlay?.addEventListener("click", () => setMenuState(false));
+
+    menu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => setMenuState(false));
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") setMenuState(false);
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 800) setMenuState(false);
+    }, { passive: true });
   }
 
   const header = document.querySelector(".site-header");
@@ -87,3 +105,4 @@ function initializePortal() {
 document.readyState === "loading"
   ? document.addEventListener("DOMContentLoaded", initializePortal)
   : initializePortal();
+

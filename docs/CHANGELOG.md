@@ -138,3 +138,10 @@
 - Atualizados cards e links da Home.
 - Atualizados sitemap e identificacao de versao.
 - Preservados layout, identidade visual, responsividade e arquitetura homologada.
+
+## 1.3.1 - Correcao do Menu Mobile (2026-07-25)
+- Corrigida a abertura do menu no celular.
+- Menu mobile passou a usar painel branco independente do conteudo da Home.
+- Adicionados overlay, bloqueio de rolagem e fechamento por toque externo.
+- Corrigidos alinhamento, espacamento e sobreposicao dos links.
+- Desktop e conteudo institucional preservados.
