@@ -145,3 +145,9 @@
 - Adicionados overlay, bloqueio de rolagem e fechamento por toque externo.
 - Corrigidos alinhamento, espacamento e sobreposicao dos links.
 - Desktop e conteudo institucional preservados.
+## 1.3.2 - Correcao de caracteres no menu mobile
+
+- Substituido o simbolo do menu por entidade HTML numerica.
+- Eliminada a dependencia de codificacao do caractere visual.
+- Atualizado o cache dos arquivos CSS e JavaScript.
+- Preservados o layout desktop e a identidade visual homologada.
