@@ -35,3 +35,29 @@
 .useful-logo--cfc { max-height: 54px; }
 .useful-logo--correios { max-width: 86%; max-height: 48px; }
 .useful-logo--ecac { max-height: 55px; }
+
+/* Sprint 1.1.9 — Links Úteis: logos institucionais sem corte */
+.link-grid a {
+  height: 104px;
+  padding: 18px 14px;
+  overflow: visible;
+  background: #fff;
+}
+.link-grid .useful-logo {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 88%;
+  max-height: 66px;
+  object-fit: contain;
+  object-position: center;
+  mix-blend-mode: normal;
+  filter: none;
+  transform: none;
+}
+.link-grid .useful-logo--rfb { max-width: 78%; max-height: 64px; }
+.link-grid .useful-logo--caixa { max-width: 82%; max-height: 54px; }
+.link-grid .useful-logo--simples { max-width: 78%; max-height: 68px; }
+.link-grid .useful-logo--cfc { max-width: 92%; max-height: 62px; }
+.link-grid .useful-logo--correios { max-width: 84%; max-height: 50px; }
+.link-grid .useful-logo--ecac { max-width: 82%; max-height: 62px; }

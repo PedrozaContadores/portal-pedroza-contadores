@@ -1,3 +1,10 @@
+# Changelog
+
+## 1.1.9 — Correção definitiva dos Links Úteis
+- Substituição das imagens recortadas por arquivos institucionais limpos.
+- Logos exibidos com `object-fit: contain`, sem cortes, zoom ou distorção.
+- Cards ampliados e responsivos em desktop, tablet e celular.
+
 ## [1.1.5] - 2026-07-25
 
 ### Corrigido
