@@ -1,3 +1,18 @@
+# Changelog
+
+## 1.2.1 — Home Institucional: SEO e Performance
+
+- Metadados de busca revisados e ampliados.
+- Open Graph e Twitter Cards adicionados.
+- Dados estruturados Schema.org adicionados.
+- URL canônica e imagem principal pré-carregada.
+- Imagens abaixo da dobra com carregamento tardio e dimensões explícitas.
+- Fallbacks para navegadores sem IntersectionObserver.
+- Links inativos da futura Área do Cliente bloqueados de forma acessível.
+- Foco visível reforçado para navegação por teclado.
+- `robots.txt`, `sitemap.xml` e identificação da versão atualizados.
+- Layout desktop e mobile preservados.
+
 ## 1.1.13 — Ajuste fino do hero mobile
 
 - Desktop preservado e congelado.
