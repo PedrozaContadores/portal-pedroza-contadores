@@ -79,3 +79,90 @@
   .brand-correios { font-size: 1.7rem; }
   .brand-ecac { font-size: 1.92rem; }
 }
+
+/* Sprint 1.1.7 — correção exclusiva do hero mobile; desktop congelado */
+@media (max-width: 520px) {
+  .hero {
+    min-height: 590px;
+  }
+
+  .hero-inner {
+    min-height: 590px;
+  }
+
+  .hero-office {
+    inset: 0;
+    background-size: cover;
+    background-position: 67% center;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg, rgba(8,17,52,.98) 0%, rgba(8,17,52,.91) 43%, rgba(8,17,52,.58) 67%, rgba(8,17,52,.18) 100%),
+      linear-gradient(180deg, rgba(8,17,52,.10) 0%, rgba(8,17,52,.08) 64%, rgba(8,17,52,.52) 100%);
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: 340px;
+    padding: 34px 0 34px;
+  }
+
+  .hero h1 {
+    max-width: 330px;
+    font-size: clamp(2rem, 9vw, 2.25rem);
+    line-height: 1.06;
+    letter-spacing: -.035em;
+  }
+
+  .hero-text {
+    max-width: 330px;
+    font-size: .88rem;
+    line-height: 1.48;
+  }
+
+  .hero-actions {
+    max-width: 330px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .hero-actions .button {
+    min-height: 48px;
+  }
+
+  .client-text {
+    text-align: center;
+    padding: 8px 0 0;
+  }
+
+  .service-strip {
+    margin-top: -18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero,
+  .hero-inner {
+    min-height: 570px;
+  }
+
+  .hero-office {
+    background-position: 65% center;
+  }
+
+  .hero-copy {
+    max-width: 310px;
+    padding-top: 30px;
+  }
+
+  .hero h1 {
+    max-width: 300px;
+    font-size: 1.95rem;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 310px;
+  }
+}
