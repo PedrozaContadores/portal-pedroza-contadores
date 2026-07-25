@@ -172,3 +172,14 @@
 - Inclusao de .editorconfig e .gitattributes.
 - Instalacao de validador UTF-8 e hook pre-commit.
 - Identidade visual e funcionalidades preservadas.
+
+## 1.4.3 - AFNS v1.0 - Noticias Automaticas (2026-07-25)
+
+- Criado workflow agendado do GitHub Actions para atualizacao automatica em dias uteis.
+- Integrados feeds do CFC e da editoria Economia da Agencia Brasil.
+- Criada configuracao extensivel de fontes e categorias.
+- Preservadas as noticias manuais e implementada deduplicacao.
+- Criado sitemap especifico de noticias.
+- Home passou a carregar as tres noticias mais recentes sem alterar o layout.
+- Pagina individual ganhou link para a fonte oficial e noticias relacionadas.
+- Mantidos layout, responsividade, SEO e estrutura futura da Area do Cliente.

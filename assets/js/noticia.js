@@ -41,9 +41,23 @@ async function init() {
     const time = document.querySelector('#article-date'); time.textContent = formatDate(item.data); time.dateTime = item.data;
     document.querySelector('#article-title').textContent = item.titulo;
     document.querySelector('#article-summary').textContent = item.resumo;
-    document.querySelector('#article-source').textContent = `Fonte: ${item.fonte}`;
+    const source = document.querySelector('#article-source');
+    source.innerHTML = item.url_fonte
+      ? `Fonte: <a href="${escapeHtml(item.url_fonte)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.fonte)}</a>`
+      : `Fonte: ${escapeHtml(item.fonte)}`;
     const image = document.querySelector('#article-image'); image.src = item.imagem; image.alt = item.titulo;
     document.querySelector('#article-body').innerHTML = renderBody(item);
+    const sourceButton = document.querySelector('#article-source-button');
+    if (sourceButton && item.url_fonte) {
+      sourceButton.href = item.url_fonte;
+      sourceButton.hidden = false;
+    }
+    const related = items.filter((news) => news.slug !== item.slug && news.categoria === item.categoria).slice(0, 3);
+    const relatedList = document.querySelector('#related-news-list');
+    if (relatedList && related.length) {
+      relatedList.innerHTML = related.map((news) => `<li><a href="?slug=${encodeURIComponent(news.slug)}">${escapeHtml(news.titulo)}</a></li>`).join('');
+      document.querySelector('#related-news').hidden = false;
+    }
     configureSeo(item); article.hidden = false;
   } catch (error) { console.error(error); errorBox.hidden = false; }
 }

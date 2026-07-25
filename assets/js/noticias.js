@@ -19,7 +19,7 @@ function filteredNews() {
   const term = normalize(state.busca.trim());
   return state.noticias.filter((item) => {
     const sameCategory = state.categoria === 'Todas' || item.categoria === state.categoria;
-    const searchable = normalize(`${item.titulo} ${item.resumo} ${item.categoria} ${item.fonte}`);
+    const searchable = normalize(`${item.titulo} ${item.resumo} ${item.categoria} ${item.fonte} ${(item.conteudo || []).join(' ')}`);
     return sameCategory && (!term || searchable.includes(term));
   });
 }
@@ -46,7 +46,7 @@ function renderNews() {
         </div>
         <h3>${item.titulo}</h3>
         <p>${item.resumo}</p>
-        <a href="../noticia/?slug=${encodeURIComponent(item.slug)}" aria-label="Ler ${item.titulo}">Ler noticia →</a>
+        <a href="../noticia/?slug=${encodeURIComponent(item.slug)}" aria-label="Ler ${item.titulo}">Ler noticia &rarr;</a>
       </div>
     </article>
   `).join('');

@@ -1,0 +1,7 @@
+[
+  { "nome": "Fiscal", "palavras": ["tribut", "imposto", "receita federal", "simples nacional", "fisco", "irpf", "cnpj"] },
+  { "nome": "Trabalhista", "palavras": ["trabalh", "fgts", "esocial", "emprego", "salario", "previdencia"] },
+  { "nome": "Contabilidade", "palavras": ["contabil", "auditoria", "cfc", "crc", "balanco", "norma brasileira"] },
+  { "nome": "Economia", "palavras": ["economia", "inflacao", "juros", "pib", "dolar", "mercado financeiro"] },
+  { "nome": "Empresarial", "palavras": ["empresa", "empreendedor", "negocio", "mei", "gestao", "credito"] }
+]
