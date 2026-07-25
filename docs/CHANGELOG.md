@@ -24,3 +24,10 @@
 - sem autenticação;
 - sem formulários;
 - sem alteração do layout oficial congelado.
+
+## [1.1.0] - 2026-07-25
+### Adicionado
+- Identidade visual completa conforme prévia oficial congelada.
+- Cabeçalho, hero, serviços, diferenciais, indicadores, notícias, links úteis, CTA e rodapé.
+- Responsividade para desktop, tablet e celular.
+- Menu móvel e identificação permanente da versão.
