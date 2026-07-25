@@ -1,13 +1,6 @@
 {
-  "project": "Portal Pedroza Contadores",
-  "sprint": "1.1",
-  "version": "1.1.0",
-  "status": "development",
-  "branch": "main",
-  "architecture": {
-    "clientAreaPrepared": true,
-    "clientAreaEnabled": false,
-    "authenticationEnabled": false,
-    "formsEnabled": false
-  }
+  "version": "1.1.2",
+  "sprint": "Sprint 1.1 — Identidade Visual",
+  "status": "Em homologação",
+  "description": "Aplicação dos logotipos oficiais da Pedroza Contadores e Pedroza Certificadora."
 }

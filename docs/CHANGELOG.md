@@ -1,3 +1,9 @@
+## 1.1.2 — Logotipos oficiais
+
+- Substituído o logotipo provisório pelo SVG oficial da Pedroza Contadores.
+- Incluído o logotipo oficial da Pedroza Certificadora como parceira, com hiperlink.
+- Ajustadas dimensões e proporções no cabeçalho e rodapé.
+
 ﻿# Registro de Versões
 
 ## Versão 1.0.0
