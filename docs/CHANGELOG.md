@@ -94,3 +94,10 @@
 - Overlay mobile reequilibrado.
 - Altura, texto e CTAs compactados.
 - Links Úteis preservados conforme aprovação.
+
+## 1.1.14 — Enquadramento final do hero mobile
+
+- Desktop, tablet e Links Úteis preservados.
+- Fotografia do hero mobile reduzida para exibir uma área maior do escritório.
+- Marca na parede reposicionada para permanecer visível sem ampliar excessivamente a imagem.
+- Overlay e altura do hero refinados sem alterar textos, botões ou identidade visual.

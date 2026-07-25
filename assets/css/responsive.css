@@ -756,3 +756,46 @@
     max-width: 300px !important;
   }
 }
+
+/* Sprint 1.1.14 — enquadramento final do hero mobile; desktop congelado */
+@media (max-width: 520px) {
+  .hero,
+  .hero-inner {
+    min-height: 505px !important;
+  }
+
+  .hero-office {
+    background-size: auto 61% !important;
+    background-position: 82% 48% !important;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg,
+        rgba(7,16,49,.99) 0%,
+        rgba(7,16,49,.95) 36%,
+        rgba(7,16,49,.70) 57%,
+        rgba(7,16,49,.30) 78%,
+        rgba(7,16,49,.08) 100%),
+      linear-gradient(180deg,
+        rgba(7,16,49,.06) 0%,
+        rgba(7,16,49,.04) 62%,
+        rgba(7,16,49,.54) 100%) !important;
+  }
+
+  .hero-copy {
+    padding: 22px 0 18px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero,
+  .hero-inner {
+    min-height: 495px !important;
+  }
+
+  .hero-office {
+    background-size: auto 58% !important;
+    background-position: 84% 48% !important;
+  }
+}
