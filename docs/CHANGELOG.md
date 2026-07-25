@@ -65,3 +65,9 @@
 - Hero mobile reposicionado para preservar a imagem institucional e a marca na parede.
 - Overlay mobile refinado para equilibrar legibilidade e presença da fotografia.
 - Altura, botões e sobreposição dos serviços ajustados para telas pequenas.
+
+## 1.1.10 — Correção mobile isolada
+- Desktop preservado e congelado.
+- Hero mobile redimensionado e reposicionado, com tipografia e overlay próprios.
+- Links Úteis mobile reconstruídos em grade 2 x 3, sem cortes ou distorções.
+- Cache busting aplicado ao CSS para forçar a atualização no navegador móvel.

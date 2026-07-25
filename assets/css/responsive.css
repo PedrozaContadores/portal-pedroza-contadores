@@ -349,3 +349,191 @@
   .link-grid .useful-logo--caixa,
   .link-grid .useful-logo--correios { max-width: 88%; }
 }
+
+/* Sprint 1.1.10 — correção mobile isolada; desktop permanece congelado */
+@media (max-width: 800px) {
+  .hero,
+  .hero-inner {
+    min-height: 610px !important;
+  }
+
+  .hero-office {
+    inset: 0 !important;
+    background-size: cover !important;
+    background-position: 76% center !important;
+    transform: none !important;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg, rgba(7, 16, 49, .97) 0%, rgba(7, 16, 49, .88) 45%, rgba(7, 16, 49, .46) 70%, rgba(7, 16, 49, .12) 100%),
+      linear-gradient(180deg, rgba(7, 16, 49, .05) 0%, rgba(7, 16, 49, .08) 65%, rgba(7, 16, 49, .58) 100%) !important;
+  }
+
+  .hero-copy {
+    width: min(100%, 390px) !important;
+    max-width: 390px !important;
+    padding: 42px 0 36px !important;
+  }
+
+  .hero h1 {
+    max-width: 365px !important;
+    font-size: clamp(2rem, 7.7vw, 2.65rem) !important;
+    line-height: 1.04 !important;
+    letter-spacing: -.035em !important;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 365px !important;
+  }
+
+  .hero-text {
+    font-size: .94rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .hero-actions {
+    gap: 10px !important;
+    margin-top: 20px !important;
+  }
+
+  .hero-actions .button {
+    min-height: 48px !important;
+  }
+
+  .service-strip {
+    margin-top: -22px !important;
+  }
+
+  .link-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 12px !important;
+  }
+
+  .link-grid a {
+    min-width: 0 !important;
+    min-height: 104px !important;
+    height: 104px !important;
+    padding: 14px 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+  }
+
+  .link-grid .useful-logo {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    max-width: 88% !important;
+    max-height: 68px !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    margin: 0 auto !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  .link-grid .useful-logo--caixa,
+  .link-grid .useful-logo--correios {
+    max-width: 92% !important;
+    max-height: 54px !important;
+  }
+
+  .link-grid .useful-logo--rfb,
+  .link-grid .useful-logo--simples,
+  .link-grid .useful-logo--cfc,
+  .link-grid .useful-logo--ecac {
+    max-height: 70px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero,
+  .hero-inner {
+    min-height: 575px !important;
+  }
+
+  .hero-office {
+    background-position: 78% center !important;
+  }
+
+  .hero-copy {
+    width: 100% !important;
+    max-width: 315px !important;
+    padding: 30px 0 28px !important;
+  }
+
+  .hero h1 {
+    max-width: 305px !important;
+    font-size: clamp(1.92rem, 8.5vw, 2.22rem) !important;
+    line-height: 1.03 !important;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 315px !important;
+  }
+
+  .hero-text {
+    font-size: .86rem !important;
+    line-height: 1.45 !important;
+  }
+
+  .hero-actions .button {
+    min-height: 46px !important;
+    font-size: .84rem !important;
+  }
+
+  .client-text {
+    padding-top: 6px !important;
+    font-size: .86rem !important;
+  }
+
+  .service-strip {
+    margin-top: -16px !important;
+  }
+
+  .link-grid a {
+    height: 98px !important;
+    min-height: 98px !important;
+    padding: 12px 8px !important;
+  }
+
+  .link-grid .useful-logo {
+    max-width: 92% !important;
+    max-height: 64px !important;
+  }
+
+  .link-grid .useful-logo--caixa,
+  .link-grid .useful-logo--correios {
+    max-height: 48px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero,
+  .hero-inner {
+    min-height: 555px !important;
+  }
+
+  .hero-office {
+    background-position: 79% center !important;
+  }
+
+  .hero-copy {
+    max-width: 286px !important;
+    padding-top: 26px !important;
+  }
+
+  .hero h1 {
+    max-width: 282px !important;
+    font-size: 1.82rem !important;
+  }
+
+  .hero-text,
+  .hero-actions {
+    max-width: 286px !important;
+  }
+}
