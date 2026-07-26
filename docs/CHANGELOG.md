@@ -267,3 +267,12 @@
 - Todos os links externos utilizam `target="_blank"` e `rel="noopener noreferrer"`.
 - Atualizados Service Worker, versionamento, sitemap e cache dos ativos.
 - Layout, cabeçalho, rodapé, identidade visual e arquitetura futura da Área do Cliente preservados.
+
+## 1.9.0 - Sprint 1.9 - Conteúdo Fiscal Inteligente (2026-07-26)
+
+- Criada biblioteca tributária pesquisável com 12 conteúdos iniciais.
+- Adicionados filtros por categoria e pesquisa por tema, sigla, obrigação e órgão.
+- Cada conteúdo possui resumo, pontos essenciais e link para fonte oficial.
+- Criada base JSON extensível para expansão da biblioteca.
+- Atualizados navegação, sitemap, Service Worker e versionamento.
+- Layout homologado, identidade visual e arquitetura futura da Área do Cliente preservados.
