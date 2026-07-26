@@ -1,3 +1,15 @@
+# Changelog
+
+## 1.7.1 — Hotfix Visual Enterprise
+
+- Aplicação das identidades visuais específicas nos oito serviços mais utilizados.
+- Reutilização dos arquivos oficiais já homologados da Receita Federal, e-CAC, Simples Nacional, CAIXA e CFC.
+- Novos identificadores institucionais vetoriais para eSocial, FGTS Digital, DET, NFS-e Nacional e Nota Carioca.
+- Regeneração dos identificadores neutros dos demais órgãos, eliminando siglas incorretas como “CQC”.
+- Ampliação e melhor enquadramento das marcas nos cards.
+- Fallback visual para imagens indisponíveis.
+- Cache e versão atualizados para 1.7.1.
+
 # Sprint 1.6.2 — DP/RH e Obrigações Trabalhistas
 
 - Criada seção exclusiva para DP/RH e rotinas trabalhistas.

@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 96" role="img" aria-labelledby="t d"><title id="t">Conselho Regional de Contabilidade do Rio de Janeiro</title><desc id="d">Identificador institucional neutro</desc><rect width="160" height="96" rx="18" fill="#eef7f5"/><rect x="8" y="8" width="144" height="80" rx="14" fill="#ffffff" stroke="#cfe5df"/><text x="80" y="56" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#10163f">CRC-RJ</text><path d="M44 70h72" stroke="#167c80" stroke-width="4" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 96" role="img" aria-labelledby="t d">
+<title id="t">Conselho Regional de Contabilidade do Rio de Janeiro</title><desc id="d">Identificador institucional de Conselho Regional de Contabilidade do Rio de Janeiro</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10163f"/><stop offset="1" stop-color="#167c80"/></linearGradient></defs>
+<rect width="240" height="96" rx="18" fill="#ffffff"/><rect x="1" y="1" width="238" height="94" rx="17" fill="none" stroke="#dce9e6" stroke-width="2"/>
+<rect x="10" y="10" width="60" height="76" rx="14" fill="url(#g)"/><circle cx="40" cy="34" r="13" fill="#fff" opacity=".16"/>
+<path d="M29 39l11-18 11 18-11 7z" fill="#fff" opacity=".95"/><text x="40" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="800" fill="#fff">CRCRJ</text>
+<text x="82" y="41" font-family="Arial,sans-serif" font-size="14" font-weight="800" fill="#10163f">Conselho Regional de Contabilid…</text>
+<text x="82" y="62" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#167c80">PORTAL OFICIAL</text>
+</svg>
