@@ -931,3 +931,34 @@
     pointer-events: auto !important;
   }
 }
+
+/* Sprint 1.9.1 - equilibrio responsivo do cabecalho glass */
+@media (max-width: 1240px) and (min-width: 801px) {
+  .header-inner{gap:11px}
+  .logo{flex-basis:164px;width:164px}
+  .logo img{width:154px}
+  .main-nav{gap:11px}
+  .main-nav a{font-size:.71rem}
+  .header-actions{gap:7px}
+  .phone-link{font-size:.71rem}
+  .button--client{padding:.72rem .78rem;font-size:.76rem}
+}
+@media (max-width: 1080px) and (min-width: 801px) {
+  .logo{flex-basis:150px;width:150px}
+  .logo img{width:142px}
+  .main-nav{gap:9px}
+  .main-nav a{font-size:.69rem}
+  .header-actions .phone-link span{display:none}
+}
+@media (max-width: 800px) {
+  body{padding-top:78px}
+  .site-header,.site-header.is-scrolled{
+    position:fixed !important;
+    background:rgba(255,255,255,.91) !important;
+    border-bottom:1px solid rgba(41,61,140,.14) !important;
+    -webkit-backdrop-filter:blur(16px) saturate(145%) !important;
+    backdrop-filter:blur(16px) saturate(145%) !important;
+  }
+  .logo{flex:1 1 auto;width:auto}
+  .calc-shortcuts,.fiscal-toolbar{top:78px}
+}

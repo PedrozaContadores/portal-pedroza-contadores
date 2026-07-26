@@ -276,3 +276,13 @@
 - Criada base JSON extensível para expansão da biblioteca.
 - Atualizados navegação, sitemap, Service Worker e versionamento.
 - Layout homologado, identidade visual e arquitetura futura da Área do Cliente preservados.
+
+## 1.9.1 - Hotfix Cabeçalho Glass (2026-07-26)
+
+- Cabeçalho transformado em elemento fixo branco translúcido.
+- Aplicado efeito de vidro com desfoque, saturação e fallback compatível.
+- Corrigida a quebra de linha do telefone.
+- Reequilibrados logotipo, navegação, telefone e botão Área do Cliente.
+- Ajustado o comportamento em desktop, notebook, tablet e celular.
+- Barras internas das calculadoras e do conteúdo fiscal reposicionadas abaixo do cabeçalho.
+- Conteúdo, rodapé, identidade visual e funcionalidades da versão 1.9.0 preservados.
