@@ -124,19 +124,19 @@
 - Enquadramento deslocado levemente para a direita para ampliar a visualizacao da marca na parede.
 
 ## 1.3.0 - Sprint 1.3 - Servicos (2026-07-25)
-- Criadas seis paginas individuais de servicos.
+- Criadas seis páginas individuais de servicos.
 - Adicionados breadcrumbs e navegacao cruzada.
 - Implementado SEO individual e dados estruturados Service.
 - Atualizados cards e links da Home.
-- Atualizados sitemap e identificacao de versao.
+- Atualizados sitemap e identificacao de versão.
 - Preservados layout, identidade visual, responsividade e arquitetura homologada.
 
 ## 1.3.0 - Sprint 1.3 - Servicos (2026-07-25)
-- Criadas seis paginas individuais de servicos.
+- Criadas seis páginas individuais de servicos.
 - Adicionados breadcrumbs e navegacao cruzada.
 - Implementado SEO individual e dados estruturados Service.
 - Atualizados cards e links da Home.
-- Atualizados sitemap e identificacao de versao.
+- Atualizados sitemap e identificacao de versão.
 - Preservados layout, identidade visual, responsividade e arquitetura homologada.
 
 ## 1.3.1 - Correcao do Menu Mobile (2026-07-25)
@@ -168,27 +168,27 @@
 ## 1.4.1 - Hotfix UTF-8 e bloqueio preventivo
 
 - Correcao global de caracteres corrompidos.
-- Garantia de meta charset UTF-8 nas paginas HTML.
+- Garantia de meta charset UTF-8 nas páginas HTML.
 - Inclusao de .editorconfig e .gitattributes.
 - Instalacao de validador UTF-8 e hook pre-commit.
 - Identidade visual e funcionalidades preservadas.
 
 ## 1.4.4 - AFNS v1.0 - Noticias Automaticas (2026-07-25)
 
-- Criado workflow agendado do GitHub Actions para atualizacao automatica em dias uteis.
+- Criado workflow agendado do GitHub Actions para atualização automática em dias úteis.
 - Integrados feeds do CFC e da editoria Economia da Agencia Brasil.
 - Criada configuracao extensivel de fontes e categorias.
 - Preservadas as noticias manuais e implementada deduplicacao.
 - Criado sitemap especifico de noticias.
 - Home passou a carregar as tres noticias mais recentes sem alterar o layout.
-- Pagina individual ganhou link para a fonte oficial e noticias relacionadas.
+- Página individual ganhou link para a fonte oficial e noticias relacionadas.
 - Mantidos layout, responsividade, SEO e estrutura futura da Area do Cliente.
 
 ## 1.4.5 - Performance
 - Service Worker com cache versionado.
 - Cache inteligente para recursos estaticos, noticias e sitemaps.
 - Precarregamento de links internos por intencao do usuario.
-- Otimizacao automatica de imagens e reducao de movimento.
+- Otimizacao automática de imagens e reducao de movimento.
 - Content visibility nos componentes de maior custo visual.
 
 ## 1.4.5.1 - Hotfix ortográfico e UTF-8

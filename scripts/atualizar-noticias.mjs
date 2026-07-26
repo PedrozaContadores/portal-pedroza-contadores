@@ -87,7 +87,7 @@ const parseFeed = (xml, source, categories) => {
       imagem: source.imagem_padrao,
       fonte: source.sigla || source.nome,
       autor: source.nome,
-      tipo: 'automatico',
+      tipo: 'automático',
       destaque: false,
       url_fonte: urlFonte,
       conteudo: [
@@ -120,7 +120,7 @@ async function main() {
   const current = JSON.parse(await readFile(DATA_URL, 'utf8'));
   const config = JSON.parse(await readFile(SOURCES_URL, 'utf8'));
   const categories = JSON.parse(await readFile(CATEGORIES_URL, 'utf8'));
-  const manual = current.filter((item) => item.tipo !== 'automatico');
+  const manual = current.filter((item) => item.tipo !== 'automático');
   const automatic = [];
 
   for (const source of config.fontes.filter((item) => item.ativa && item.tipo === 'rss')) {
@@ -139,9 +139,9 @@ async function main() {
       candidate.slug === item.slug || (candidate.url_fonte && candidate.url_fonte === item.url_fonte)))
     .sort((a, b) => b.data.localeCompare(a.data) || a.titulo.localeCompare(b.titulo, 'pt-BR'));
 
-  if (automatic.length === 0 && current.some((item) => item.tipo === 'automatico')) {
+  if (automatic.length === 0 && current.some((item) => item.tipo === 'automático')) {
     console.log('[AVISO] Nenhuma fonte respondeu. Mantendo noticias automaticas existentes.');
-    deduplicated.push(...current.filter((item) => item.tipo === 'automatico'));
+    deduplicated.push(...current.filter((item) => item.tipo === 'automático'));
   }
 
   const finalItems = deduplicated

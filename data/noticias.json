@@ -10,7 +10,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/34a-secofem-em-blumenau-continua-com-inscricoes-abertas/",
     "conteudo": [
@@ -29,7 +29,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-5-recebem-bolsa-familia-de-julho",
     "conteudo": [
@@ -48,7 +48,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/com-precatorios-previsao-de-deficit-primario-soma-r-52-bilhoes",
     "conteudo": [
@@ -67,7 +67,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-fica-estavel-em-r-508-mas-cai-058-na-semana",
     "conteudo": [
@@ -86,7 +86,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/governo-desbloqueia-r-57-bi-do-orcamento-de-2026",
     "conteudo": [
@@ -105,7 +105,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/presidente-defende-investimento-nas-forcas-armadas",
     "conteudo": [
@@ -124,7 +124,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-libera-consulta-ao-terceiro-lote-de-restituicao-do-ir-2026",
     "conteudo": [
@@ -143,7 +143,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-preve-arrecadar-r-172-bilhoes-com-ir-sobre-dividendos",
     "conteudo": [
@@ -162,7 +162,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/subsidio-de-r-035-ao-diesel-nao-sera-retomado-diz-ministro",
     "conteudo": [
@@ -181,7 +181,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifa-de-375-atingira-quase-4-mil-produtos-brasileiros-estima-cni",
     "conteudo": [
@@ -200,7 +200,7 @@
     "imagem": "../../assets/images/noticia-simples.jpg",
     "fonte": "Agencia Brasil",
     "autor": "Agencia Brasil - Economia",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifa-de-375-dos-eua-atinge-us-66-bi-em-exportacoes-do-brasil",
     "conteudo": [
@@ -219,7 +219,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/congresso-da-usp-reune-representantes-do-cfc-em-troca-de-experiencias-sobre-contabilidade/",
     "conteudo": [
@@ -238,7 +238,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/iasb-conclui-revisao-da-ifrs-16-e-prepara-mudancas-na-apresentacao-de-tributos-nas-demonstracoes-financeiras/",
     "conteudo": [
@@ -257,7 +257,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/cfc-e-receita-federal-abordam-regimes-diferenciados-e-especificos-no-10-modulo-da-capacitacao-sobre-reforma-tributaria/",
     "conteudo": [
@@ -276,7 +276,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/economia-digital-e-destaque-no-9o-modulo-do-curso-sobre-a-reforma-tributaria-do-consumo/",
     "conteudo": [
@@ -295,7 +295,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/grupo-de-economias-emergentes-debate-revisao-de-normas-contabeis-internacionais-com-participacao-do-brasil/",
     "conteudo": [
@@ -314,7 +314,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/ifrs-para-pmes-reune-requisitos-contabeis-simplificados-para-pequenas-e-medias-empresas/",
     "conteudo": [
@@ -333,7 +333,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/inscricoes-para-o-2o-exame-de-qualificacao-tecnica-seguem-abertas-ate-12-de-agosto/",
     "conteudo": [
@@ -371,7 +371,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/contabilidade-eleitoral-e-partidaria-nas-proximas-eleicoes-e-destaque-na-rbc-no-279/",
     "conteudo": [
@@ -390,7 +390,7 @@
     "imagem": "../../assets/images/noticia-reforma.jpg",
     "fonte": "CFC",
     "autor": "Conselho Federal de Contabilidade",
-    "tipo": "automatico",
+    "tipo": "automático",
     "destaque": false,
     "url_fonte": "https://cfc.org.br/noticias/economia-digital-sera-o-tema-do-9o-modulo-do-curso-sobre-a-reforma-tributaria-do-consumo/",
     "conteudo": [
