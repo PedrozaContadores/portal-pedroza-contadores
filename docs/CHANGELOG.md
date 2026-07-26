@@ -1,3 +1,9 @@
+# 1.14.0 — Central Inteligente de Obrigações
+
+- Nova CIO integrada à CAA, ATI, BTI, CIC e Pesquisa Inteligente.
+- Catálogo oficial com pesquisa, filtros, histórico e cache.
+- Service Worker, sitemap e versionamento atualizados.
+
 # 1.13.0 — 2026-07-26
 
 - Central Inteligente de Certidões (CIC).

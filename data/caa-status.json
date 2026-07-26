@@ -1,8 +1,8 @@
 {
-  "version": "1.13.0",
+  "version": "1.14.0",
   "status": "concluido-com-pendencias",
-  "startedAt": "2026-07-26T07:56:05.776Z",
-  "finishedAt": "2026-07-26T07:56:05.785Z",
+  "startedAt": "2026-07-26T08:07:09.300Z",
+  "finishedAt": "2026-07-26T08:07:09.312Z",
   "executions": [],
   "validation": {
     "valid": true,
@@ -37,6 +37,17 @@
         "nonOfficial": []
       },
       {
+        "id": "obrigacoes",
+        "file": "data/obrigacoes.json",
+        "valid": true,
+        "missing": false,
+        "items": 24,
+        "urls": 22,
+        "hash": "7da3f61fd76d37b36648282737fbe0ae49f638b08142eed70e531945634fcef9",
+        "errors": [],
+        "nonOfficial": []
+      },
+      {
         "id": "conteudo-fiscal",
         "file": "data/conteudo-fiscal.json",
         "valid": true,
@@ -61,12 +72,12 @@
     ]
   },
   "linkValidation": {
-    "checkedAt": "2026-07-26T07:56:05.781Z",
+    "checkedAt": "2026-07-26T08:07:09.306Z",
     "total": 0,
     "online": 0,
     "alerts": 0
   },
   "changes": [
-    "certidoes"
+    "obrigacoes"
   ]
 }

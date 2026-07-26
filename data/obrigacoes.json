@@ -1,0 +1,557 @@
+{
+  "version": "1.14.0",
+  "atualizadoEm": "2026-07-26T08:08:57.944Z",
+  "fonte": "Fontes oficiais com validação automatizada pela Central de Atualização Automática",
+  "aviso": "Prazos podem variar conforme regime, atividade, enquadramento, feriados e atos normativos. Confirme sempre a agenda oficial e a orientação profissional aplicável.",
+  "total": 24,
+  "categorias": [
+    {
+      "id": "federais",
+      "nome": "Federais",
+      "icone": "🏛",
+      "descricao": "Declarações e escriturações administradas pela Receita Federal e pelo SPED."
+    },
+    {
+      "id": "estaduais",
+      "nome": "Estaduais — RJ",
+      "icone": "◆",
+      "descricao": "Obrigações econômico-fiscais administradas pela SEFAZ-RJ."
+    },
+    {
+      "id": "municipais",
+      "nome": "Municipais — Rio",
+      "icone": "▦",
+      "descricao": "Obrigações relacionadas ao ISS e à Nota Carioca no Município do Rio de Janeiro."
+    },
+    {
+      "id": "trabalhistas",
+      "nome": "Trabalhistas",
+      "icone": "⚖",
+      "descricao": "Eventos e declarações vinculados às relações de trabalho."
+    },
+    {
+      "id": "previdenciarias",
+      "nome": "Previdenciárias",
+      "icone": "◉",
+      "descricao": "Informações previdenciárias integradas ao eSocial, EFD-Reinf e DCTFWeb."
+    },
+    {
+      "id": "fgts",
+      "nome": "FGTS",
+      "icone": "▣",
+      "descricao": "Recolhimentos e informações processados pelo FGTS Digital."
+    },
+    {
+      "id": "simples",
+      "nome": "Simples Nacional",
+      "icone": "◇",
+      "descricao": "Apurações e declarações próprias dos optantes pelo Simples Nacional e SIMEI."
+    }
+  ],
+  "itens": [
+    {
+      "id": "cio-dctfweb",
+      "categoria": "federais",
+      "nome": "DCTFWeb e MIT",
+      "orgao": "Receita Federal",
+      "descricao": "Declara débitos e créditos tributários federais, inclusive tributos informados pelo eSocial, EFD-Reinf e pelo Módulo de Inclusão de Tributos.",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/DCTFWeb",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme agenda oficial da Receita Federal",
+      "publico": "Empresas e demais contribuintes obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "dctfweb mit darf débitos créditos federais",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-efd-reinf",
+      "categoria": "federais",
+      "nome": "EFD-Reinf",
+      "orgao": "Receita Federal / SPED",
+      "descricao": "Escrituração de retenções e outras informações fiscais não abrangidas pelo eSocial.",
+      "url": "https://www.gov.br/pt-br/servicos/efd-reinf",
+      "periodicidade": "Mensal e por evento",
+      "prazo": "Conforme cronograma e agenda oficial",
+      "publico": "Pessoas jurídicas e entidades obrigadas",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "efd reinf retenções serviços receita sped",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-efd-contribuicoes",
+      "categoria": "federais",
+      "nome": "EFD-Contribuições",
+      "orgao": "Receita Federal / SPED",
+      "descricao": "Escrituração digital da contribuição para o PIS/Pasep e da Cofins, inclusive registros vinculados à CPRB quando aplicável.",
+      "url": "https://sped.rfb.gov.br/projeto/show/268",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme agenda oficial do SPED",
+      "publico": "Contribuintes sujeitos à obrigação",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "efd contribuições pis cofins cprb sped",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-ecf",
+      "categoria": "federais",
+      "nome": "Escrituração Contábil Fiscal — ECF",
+      "orgao": "Receita Federal / SPED",
+      "descricao": "Escrituração anual que reúne informações fiscais e econômicas relacionadas ao IRPJ e à CSLL.",
+      "url": "https://sped.rfb.gov.br/projeto/show/269",
+      "periodicidade": "Anual",
+      "prazo": "Conforme calendário anual da Receita Federal",
+      "publico": "Pessoas jurídicas obrigadas",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "ecf irpj csll lalur anual",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-ecd",
+      "categoria": "federais",
+      "nome": "Escrituração Contábil Digital — ECD",
+      "orgao": "Receita Federal / SPED",
+      "descricao": "Transmissão digital dos livros contábeis integrantes do Sistema Público de Escrituração Digital.",
+      "url": "https://sped.rfb.gov.br/projeto/show/273",
+      "periodicidade": "Anual",
+      "prazo": "Conforme calendário anual da Receita Federal",
+      "publico": "Pessoas jurídicas e entidades obrigadas",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "ecd escrituração contábil livros diário razão",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-dimob",
+      "categoria": "federais",
+      "nome": "DIMOB",
+      "orgao": "Receita Federal",
+      "descricao": "Declaração de Informações sobre Atividades Imobiliárias prestada pelas pessoas jurídicas enquadradas nas hipóteses oficiais.",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob",
+      "periodicidade": "Anual",
+      "prazo": "Conforme agenda oficial da Receita Federal",
+      "publico": "Empresas do setor imobiliário obrigadas",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "dimob imobiliária incorporação locação",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-dmed",
+      "categoria": "federais",
+      "nome": "DMED",
+      "orgao": "Receita Federal",
+      "descricao": "Declaração de Serviços Médicos e de Saúde com informações de pagamentos recebidos por prestadores obrigados.",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dmed",
+      "periodicidade": "Anual",
+      "prazo": "Conforme agenda oficial da Receita Federal",
+      "publico": "Prestadores de serviços de saúde obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "dmed médicos saúde pagamentos",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-efd-icms",
+      "categoria": "estaduais",
+      "nome": "EFD ICMS/IPI — RJ",
+      "orgao": "SEFAZ-RJ",
+      "descricao": "Escrituração fiscal digital para contribuintes do ICMS e do IPI, com consulta de obrigatoriedade e entrega no painel oficial.",
+      "url": "https://portal.fazenda.rj.gov.br/efd/",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme calendário da SEFAZ-RJ",
+      "publico": "Contribuintes credenciados ou obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "efd icms ipi sped fiscal sefaz rj",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-gia-icms",
+      "categoria": "estaduais",
+      "nome": "GIA-ICMS — RJ",
+      "orgao": "SEFAZ-RJ",
+      "descricao": "Guia de Informação e Apuração do ICMS transmitida exclusivamente pela internet conforme regras estaduais.",
+      "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme calendário da SEFAZ-RJ",
+      "publico": "Contribuintes obrigados pela legislação estadual",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "gia icms rj apuração estadual",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-destda",
+      "categoria": "estaduais",
+      "nome": "DeSTDA — RJ",
+      "orgao": "SEFAZ-RJ",
+      "descricao": "Declaração de Substituição Tributária, Diferencial de Alíquota e Antecipação para contribuintes enquadrados.",
+      "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme calendário da SEFAZ-RJ",
+      "publico": "Optantes e contribuintes obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "destda substituição tributária difal antecipação",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-declan",
+      "categoria": "estaduais",
+      "nome": "DECLAN-IPM — RJ",
+      "orgao": "SEFAZ-RJ",
+      "descricao": "Declaração anual utilizada na apuração do índice de participação dos municípios no produto da arrecadação do ICMS.",
+      "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
+      "periodicidade": "Anual",
+      "prazo": "Conforme calendário da SEFAZ-RJ",
+      "publico": "Contribuintes obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "declan ipm índice participação municípios",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-nota-carioca",
+      "categoria": "municipais",
+      "nome": "Declaração e escrituração da Nota Carioca",
+      "orgao": "Prefeitura do Rio de Janeiro",
+      "descricao": "Emissão, escrituração e consulta de documentos fiscais de serviços no sistema municipal.",
+      "url": "https://notacarioca.rio.gov.br/",
+      "periodicidade": "Mensal e por operação",
+      "prazo": "Conforme calendário municipal",
+      "publico": "Prestadores e tomadores sujeitos ao ISS",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "nota carioca nfs-e iss rio",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-dief-rio",
+      "categoria": "municipais",
+      "nome": "Obrigações do ISS — Rio de Janeiro",
+      "orgao": "Secretaria Municipal de Fazenda e Planejamento",
+      "descricao": "Acesso às orientações e serviços oficiais relacionados ao ISS no Município do Rio de Janeiro.",
+      "url": "https://www.rio.rj.gov.br/web/smf/iss",
+      "periodicidade": "Mensal ou eventual",
+      "prazo": "Conforme calendário municipal",
+      "publico": "Contribuintes do ISS",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "iss rio obrigação municipal smf",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-esocial-eventos",
+      "categoria": "trabalhistas",
+      "nome": "Eventos do eSocial",
+      "orgao": "eSocial / Governo Federal",
+      "descricao": "Prestação unificada de informações trabalhistas, previdenciárias e tributárias decorrentes das relações de trabalho.",
+      "url": "https://www.gov.br/esocial/pt-br",
+      "periodicidade": "Por evento e mensal",
+      "prazo": "Conforme leiautes e prazos oficiais",
+      "publico": "Empregadores e demais obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "esocial admissão desligamento folha eventos",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-esocial-sst",
+      "categoria": "trabalhistas",
+      "nome": "Eventos de SST no eSocial",
+      "orgao": "eSocial / Governo Federal",
+      "descricao": "Envio de informações de Saúde e Segurança do Trabalho conforme enquadramento e cronograma oficial.",
+      "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral",
+      "periodicidade": "Por evento",
+      "prazo": "Conforme ocorrência e prazo oficial",
+      "publico": "Empregadores obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "sst esocial acidente trabalho saúde segurança",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-caged-raiz",
+      "categoria": "trabalhistas",
+      "nome": "Informações de admissões e desligamentos pelo eSocial",
+      "orgao": "Ministério do Trabalho e Emprego",
+      "descricao": "As informações prestadas ao eSocial substituem obrigações trabalhistas conforme os atos oficiais de substituição.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
+      "periodicidade": "Por evento",
+      "prazo": "Conforme prazo do evento no eSocial",
+      "publico": "Empregadores obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "novo caged admissão desligamento esocial",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-previdencia-folha",
+      "categoria": "previdenciarias",
+      "nome": "Fechamento previdenciário da folha",
+      "orgao": "eSocial / Receita Federal",
+      "descricao": "Consolidação dos eventos periódicos da folha que alimentam a DCTFWeb e a apuração previdenciária.",
+      "url": "https://www.gov.br/esocial/pt-br/empresas",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme competência e agenda oficial",
+      "publico": "Empregadores e contribuintes obrigados",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "fechamento folha previdência esocial dctfweb",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-cprb-reinf",
+      "categoria": "previdenciarias",
+      "nome": "CPRB na EFD-Reinf",
+      "orgao": "Receita Federal / SPED",
+      "descricao": "Prestação de informações da Contribuição Previdenciária sobre a Receita Bruta quando aplicável ao contribuinte.",
+      "url": "https://sped.rfb.gov.br/projeto/show/1196",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme prazo da EFD-Reinf",
+      "publico": "Contribuintes sujeitos à CPRB",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "cprb reinf previdenciária receita bruta",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-fgts-digital",
+      "categoria": "fgts",
+      "nome": "Guia do FGTS Digital — GFD",
+      "orgao": "Ministério do Trabalho e Emprego",
+      "descricao": "Emissão e recolhimento da guia com base nas remunerações declaradas no eSocial.",
+      "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
+      "periodicidade": "Mensal e rescisória",
+      "prazo": "Dia 20 para o recolhimento mensal, salvo regra específica",
+      "publico": "Empregadores sujeitos ao FGTS Digital",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "fgts digital gfd guia pix mensal",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-fgts-servicos",
+      "categoria": "fgts",
+      "nome": "Serviços do FGTS Digital",
+      "orgao": "Ministério do Trabalho e Emprego",
+      "descricao": "Consulta de débitos, emissão de guias, parcelamento e demais serviços disponibilizados no portal oficial.",
+      "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
+      "periodicidade": "Contínua",
+      "prazo": "Conforme ocorrência",
+      "publico": "Empregadores",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "fgts digital serviços débitos parcelamento",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-pgdas",
+      "categoria": "simples",
+      "nome": "PGDAS-D",
+      "orgao": "Comitê Gestor do Simples Nacional",
+      "descricao": "Apuração e declaração mensal dos tributos devidos pelas empresas optantes pelo Simples Nacional.",
+      "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme agenda oficial do Simples Nacional",
+      "publico": "Microempresas e empresas de pequeno porte optantes",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "pgdas das simples nacional apuração mensal",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-defis",
+      "categoria": "simples",
+      "nome": "DEFIS",
+      "orgao": "Comitê Gestor do Simples Nacional",
+      "descricao": "Declaração anual de informações socioeconômicas e fiscais das empresas optantes pelo Simples Nacional.",
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
+      "periodicidade": "Anual",
+      "prazo": "Conforme agenda oficial do Simples Nacional",
+      "publico": "Optantes pelo Simples Nacional",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "defis simples declaração anual",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-dasn-simei",
+      "categoria": "simples",
+      "nome": "DASN-SIMEI",
+      "orgao": "Comitê Gestor do Simples Nacional",
+      "descricao": "Declaração anual do Microempreendedor Individual com informações sobre receita bruta e empregados.",
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=8",
+      "periodicidade": "Anual",
+      "prazo": "Conforme agenda oficial do SIMEI",
+      "publico": "Microempreendedores Individuais",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "dasn simei mei declaração anual",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    },
+    {
+      "id": "cio-destda-simples",
+      "categoria": "simples",
+      "nome": "DeSTDA para optantes obrigados",
+      "orgao": "SEFAZ-RJ",
+      "descricao": "Obrigação estadual aplicável a optantes do Simples Nacional nas hipóteses de substituição tributária, antecipação e diferencial de alíquota.",
+      "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
+      "periodicidade": "Mensal",
+      "prazo": "Conforme calendário da SEFAZ-RJ",
+      "publico": "Optantes obrigados pela legislação estadual",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "destda simples nacional rj",
+      "integracoes": [
+        "ATI",
+        "BTI",
+        "CIC",
+        "CAA",
+        "Pesquisa Inteligente"
+      ]
+    }
+  ]
+}
