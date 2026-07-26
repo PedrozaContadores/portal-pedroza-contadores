@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "2026-07-26T08:07:09.300Z-34b7375cd1",
+      "version": "1.14.0",
+      "startedAt": "2026-07-26T08:07:09.300Z",
+      "finishedAt": "2026-07-26T08:07:09.312Z",
+      "status": "concluido-com-pendencias",
+      "changes": [
+        "obrigacoes"
+      ],
+      "datasets": {
+        "biblioteca-tributaria": {
+          "hash": "b9e6a8c7377fe2db1fd943d89c1b1a261910e06609204620124ab89ca74ba20b",
+          "items": 17,
+          "available": true
+        },
+        "agenda-tributaria": {
+          "hash": null,
+          "items": 0,
+          "available": false
+        },
+        "certidoes": {
+          "hash": "dc57ab23e9f2d300957d034cfda35417c3cded511164fa6f3401d79353b2560e",
+          "items": 20,
+          "available": true
+        },
+        "obrigacoes": {
+          "hash": "7da3f61fd76d37b36648282737fbe0ae49f638b08142eed70e531945634fcef9",
+          "items": 24,
+          "available": true
+        },
+        "conteudo-fiscal": {
+          "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+          "items": 12,
+          "available": true
+        },
+        "noticias": {
+          "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
+          "items": 23,
+          "available": true
+        }
+      }
+    },
+    {
+      "id": "2026-07-26T07:56:05.776Z-757e0bfbd1",
+      "version": "1.13.0",
+      "startedAt": "2026-07-26T07:56:05.776Z",
+      "finishedAt": "2026-07-26T07:56:05.785Z",
+      "status": "concluido-com-pendencias",
+      "changes": [
+        "certidoes"
+      ],
+      "datasets": {
+        "biblioteca-tributaria": {
+          "hash": "b9e6a8c7377fe2db1fd943d89c1b1a261910e06609204620124ab89ca74ba20b",
+          "items": 17,
+          "available": true
+        },
+        "agenda-tributaria": {
+          "hash": null,
+          "items": 0,
+          "available": false
+        },
+        "certidoes": {
+          "hash": "dc57ab23e9f2d300957d034cfda35417c3cded511164fa6f3401d79353b2560e",
+          "items": 20,
+          "available": true
+        },
+        "conteudo-fiscal": {
+          "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+          "items": 12,
+          "available": true
+        },
+        "noticias": {
+          "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
+          "items": 23,
+          "available": true
+        }
+      }
+    },
+    {
+      "id": "2026-07-26T07:48:22.010Z-ff34a5ea77",
+      "version": "1.12.2",
+      "startedAt": "2026-07-26T07:48:22.010Z",
+      "finishedAt": "2026-07-26T07:48:22.016Z",
+      "status": "concluido-com-pendencias",
+      "changes": [
+        "biblioteca-tributaria",
+        "conteudo-fiscal",
+        "noticias"
+      ],
+      "datasets": {
+        "biblioteca-tributaria": {
+          "hash": "b9e6a8c7377fe2db1fd943d89c1b1a261910e06609204620124ab89ca74ba20b",
+          "items": 17,
+          "available": true
+        },
+        "agenda-tributaria": {
+          "hash": null,
+          "items": 0,
+          "available": false
+        },
+        "conteudo-fiscal": {
+          "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+          "items": 12,
+          "available": true
+        },
+        "noticias": {
+          "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
+          "items": 23,
+          "available": true
+        }
+      }
+    }
+  ]
+}

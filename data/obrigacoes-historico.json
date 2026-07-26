@@ -3,15 +3,15 @@
   "entries": [
     {
       "id": "2026-07-26T08:08:57.944Z-65e3577f23",
-      "version": "1.14.0",
+      "version": "2.0.0",
       "updatedAt": "2026-07-26T08:08:57.944Z",
       "items": 24,
       "hash": "65e3577f23169633b76e8ff7fabfbd1ed4b97479c9a85e9536c629c3029dda28",
       "note": "Consolidação automática da CIO pela CAA."
     },
     {
-      "id": "2026-07-26-sprint-1.14.0",
-      "version": "1.14.0",
+      "id": "2026-07-26-sprint-2.0.0",
+      "version": "2.0.0",
       "updatedAt": "2026-07-26T00:00:00-03:00",
       "items": 24,
       "note": "Base inicial da Central Inteligente de Obrigações criada com fontes oficiais."

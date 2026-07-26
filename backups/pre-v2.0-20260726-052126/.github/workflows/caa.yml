@@ -1,0 +1,40 @@
+name: Central de Atualizacao Automatica
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 10 * * 1-5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: central-atualizacao-automatica
+  cancel-in-progress: false
+
+jobs:
+  atualizar-validar-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Executar CAA
+        run: npm run caa:update
+      - name: Validar resultado consolidado
+        run: npm run caa:validate
+      - name: Publicar alteracoes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "Nenhuma alteracao detectada pela CAA."
+            exit 0
+          fi
+          git config user.name "Pedroza CAA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data scripts package.json service-worker.js version.json assets/js/modules/build-information.js docs/CHANGELOG.md
+          git commit -m "Sprint 1.14: atualizacao automatica CAA"
+          git push

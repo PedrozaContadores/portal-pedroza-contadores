@@ -1,0 +1,132 @@
+{
+  "versao": "2.0.0",
+  "atualizadoEm": "2026-07-26",
+  "itens": [
+    {
+      "id": "dbe",
+      "nome": "DBE — Documento Básico de Entrada",
+      "orgao": "Receita Federal",
+      "descricao": "Inscrição, alteração e baixa de dados no CNPJ.",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "coletor",
+      "nome": "Coletor Nacional",
+      "orgao": "Receita Federal",
+      "descricao": "Coleta de dados cadastrais para atos no CNPJ.",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "redesim",
+      "nome": "REDESIM",
+      "orgao": "Governo Federal",
+      "descricao": "Integração para abertura, alteração, baixa e legalização de empresas.",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "jucerja",
+      "nome": "Serviços Digitais JUCERJA",
+      "orgao": "JUCERJA",
+      "descricao": "Protocolos, registros e acompanhamento de processos empresariais no Rio de Janeiro.",
+      "url": "https://www.jucerja.rj.gov.br/",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "regin",
+      "nome": "REGIN",
+      "orgao": "JUCERJA",
+      "descricao": "Viabilidade, licenciamento e integração estadual e municipal.",
+      "url": "https://www.jucerja.rj.gov.br/",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "ecac",
+      "nome": "e-CAC",
+      "orgao": "Receita Federal",
+      "descricao": "Atendimento digital, processos, declarações, pagamentos e situação fiscal.",
+      "url": "https://cav.receita.fazenda.gov.br/",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "mei",
+      "nome": "Portal do Empreendedor — MEI",
+      "orgao": "Governo Federal",
+      "descricao": "Formalização, alteração, baixa e serviços do Microempreendedor Individual.",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "simples",
+      "nome": "Opção pelo Simples Nacional",
+      "orgao": "Simples Nacional",
+      "descricao": "Opção, exclusão, parcelamentos e serviços do regime.",
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "nota-carioca",
+      "nome": "Nota Carioca",
+      "orgao": "Prefeitura do Rio",
+      "descricao": "Emissão de NFS-e e serviços relacionados ao ISS do Município do Rio.",
+      "url": "https://notacarioca.rio.gov.br/",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "carioca-digital",
+      "nome": "Carioca Digital",
+      "orgao": "Prefeitura do Rio",
+      "descricao": "Serviços digitais, protocolos e requerimentos municipais.",
+      "url": "https://carioca.rio/",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "sefaz-rj",
+      "nome": "Atendimento Digital SEFAZ-RJ",
+      "orgao": "SEFAZ-RJ",
+      "descricao": "Serviços fiscais estaduais, inscrições e obrigações do ICMS.",
+      "url": "https://portal.fazenda.rj.gov.br/",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "empregador-web",
+      "nome": "Empregador Web",
+      "orgao": "Ministério do Trabalho",
+      "descricao": "Requerimento do Seguro-Desemprego e serviços trabalhistas.",
+      "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "esocial",
+      "nome": "eSocial",
+      "orgao": "Governo Federal",
+      "descricao": "Eventos trabalhistas, previdenciários e fiscais.",
+      "url": "https://www.gov.br/esocial/pt-br",
+      "categoria": "empresarial",
+      "oficial": true
+    },
+    {
+      "id": "fgts-digital",
+      "nome": "FGTS Digital",
+      "orgao": "Ministério do Trabalho",
+      "descricao": "Gestão e recolhimento do FGTS.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
+      "categoria": "empresarial",
+      "oficial": true
+    }
+  ]
+}

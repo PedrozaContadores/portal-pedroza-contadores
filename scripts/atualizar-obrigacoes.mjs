@@ -5,7 +5,7 @@ const data=await readJson(file);
 if(!Array.isArray(data.itens)||!Array.isArray(data.categorias)) throw new Error('Estrutura da CIO inválida.');
 const ids=new Set();
 data.itens=data.itens.map((item)=>{if(!item.id||ids.has(item.id)) throw new Error(`ID inválido ou duplicado: ${item.id}`);ids.add(item.id);return {...item, atualizadoEm:item.atualizadoEm||new Date().toISOString().slice(0,10)};});
-data.total=data.itens.length;data.version='1.14.0';data.atualizadoEm=now();
+data.total=data.itens.length;data.version='2.0.0';data.atualizadoEm=now();
 const previous=await readJson(file);
 await writeJson(file,data);
 const history=await readJson(historyFile,{version:1,entries:[]});

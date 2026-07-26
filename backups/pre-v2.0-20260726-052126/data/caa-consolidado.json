@@ -1,0 +1,65 @@
+{
+  "version": "1.14.0",
+  "generatedAt": "2026-07-26T08:07:09.310Z",
+  "policy": "Conteúdos dinâmicos sincronizados exclusivamente a partir de fontes oficiais.",
+  "status": "concluido-com-pendencias",
+  "changes": [
+    "obrigacoes"
+  ],
+  "datasets": {
+    "biblioteca-tributaria": {
+      "file": "data/legislacao.json",
+      "available": true,
+      "required": true,
+      "items": 17,
+      "hash": "b9e6a8c7377fe2db1fd943d89c1b1a261910e06609204620124ab89ca74ba20b",
+      "updatedAt": "2026-07-26"
+    },
+    "agenda-tributaria": {
+      "file": "data/agenda-tributaria.json",
+      "available": false,
+      "required": false
+    },
+    "certidoes": {
+      "file": "data/certidoes.json",
+      "available": true,
+      "required": true,
+      "items": 20,
+      "hash": "dc57ab23e9f2d300957d034cfda35417c3cded511164fa6f3401d79353b2560e",
+      "updatedAt": "2026-07-26T00:00:00-03:00"
+    },
+    "obrigacoes": {
+      "file": "data/obrigacoes.json",
+      "available": true,
+      "required": true,
+      "items": 24,
+      "hash": "7da3f61fd76d37b36648282737fbe0ae49f638b08142eed70e531945634fcef9",
+      "updatedAt": "2026-07-26T00:00:00-03:00"
+    },
+    "conteudo-fiscal": {
+      "file": "data/conteudo-fiscal.json",
+      "available": true,
+      "required": true,
+      "items": 12,
+      "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+      "updatedAt": "2026-07-26"
+    },
+    "noticias": {
+      "file": "data/noticias.json",
+      "available": true,
+      "required": true,
+      "items": 23,
+      "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
+      "updatedAt": "2026-07-26T08:07:09.310Z"
+    }
+  },
+  "pending": [
+    "Agenda Tributária Inteligente ausente na base recebida; integração será ativada automaticamente quando data/agenda-tributaria.json estiver presente."
+  ],
+  "linkValidation": {
+    "checkedAt": "2026-07-26T08:07:09.306Z",
+    "total": 0,
+    "online": 0,
+    "alerts": 0
+  }
+}

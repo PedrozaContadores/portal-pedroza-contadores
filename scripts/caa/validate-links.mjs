@@ -4,8 +4,8 @@ import { collectUrls, now, readJson } from './lib.mjs';
 const isOfficial = (raw) => { try { const h = new URL(raw).hostname.toLowerCase(); return OFFICIAL_HOSTS.some((o) => h === o || h.endsWith(`.${o}`)); } catch { return false; } };
 async function check(url) {
   try {
-    let response = await fetch(url, { method: 'HEAD', redirect: 'follow', signal: AbortSignal.timeout(LINK_TIMEOUT_MS), headers: { 'User-Agent': 'Portal-Pedroza-CAA/1.14.0' } });
-    if ([403, 405].includes(response.status)) response = await fetch(url, { method: 'GET', redirect: 'follow', signal: AbortSignal.timeout(LINK_TIMEOUT_MS), headers: { 'User-Agent': 'Portal-Pedroza-CAA/1.14.0' } });
+    let response = await fetch(url, { method: 'HEAD', redirect: 'follow', signal: AbortSignal.timeout(LINK_TIMEOUT_MS), headers: { 'User-Agent': 'Portal-Pedroza-CAA/2.0.0' } });
+    if ([403, 405].includes(response.status)) response = await fetch(url, { method: 'GET', redirect: 'follow', signal: AbortSignal.timeout(LINK_TIMEOUT_MS), headers: { 'User-Agent': 'Portal-Pedroza-CAA/2.0.0' } });
     return { url, status: response.ok ? 'online' : 'alerta', code: response.status, finalUrl: response.url };
   } catch (error) { return { url, status: 'erro', code: 0, message: String(error.message || error) }; }
 }

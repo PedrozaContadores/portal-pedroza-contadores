@@ -1,0 +1,1 @@
+import fs from 'node:fs'; const p='data/tabelas.json'; const d=JSON.parse(fs.readFileSync(p,'utf8')); d.atualizadoEm=new Date().toISOString().slice(0,10); fs.writeFileSync(p,JSON.stringify(d,null,2)+'\n'); console.log('Tabelas atualizadas.');

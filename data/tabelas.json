@@ -1,0 +1,126 @@
+{
+  "versao": "2.0.0",
+  "atualizadoEm": "2026-07-26",
+  "itens": [
+    {
+      "id": "salario-minimo",
+      "nome": "Salário Mínimo",
+      "categoria": "Trabalhista",
+      "descricao": "Referência nacional vigente e histórico oficial.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
+      "oficial": true
+    },
+    {
+      "id": "inss",
+      "nome": "Tabela INSS",
+      "categoria": "Previdenciária",
+      "descricao": "Faixas e alíquotas de contribuição previdenciária.",
+      "url": "https://www.gov.br/inss/pt-br",
+      "oficial": true
+    },
+    {
+      "id": "irrf",
+      "nome": "Tabela IRRF",
+      "categoria": "Tributária",
+      "descricao": "Faixas, alíquotas e deduções do imposto de renda retido na fonte.",
+      "url": "https://www.gov.br/receitafederal/pt-br",
+      "oficial": true
+    },
+    {
+      "id": "salario-familia",
+      "nome": "Salário-Família",
+      "categoria": "Previdenciária",
+      "descricao": "Limites de remuneração e valor da cota.",
+      "url": "https://www.gov.br/inss/pt-br",
+      "oficial": true
+    },
+    {
+      "id": "fgts",
+      "nome": "FGTS",
+      "categoria": "Trabalhista",
+      "descricao": "Alíquotas e referências para recolhimento do FGTS.",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
+      "oficial": true
+    },
+    {
+      "id": "simples",
+      "nome": "Simples Nacional",
+      "categoria": "Tributária",
+      "descricao": "Anexos, faixas, alíquotas nominais e parcela a deduzir.",
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+      "oficial": true
+    },
+    {
+      "id": "fator-r",
+      "nome": "Fator R",
+      "categoria": "Tributária",
+      "descricao": "Relação entre folha e receita usada no enquadramento dos anexos III e V.",
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
+      "oficial": true
+    },
+    {
+      "id": "selic",
+      "nome": "Taxa Selic",
+      "categoria": "Econômica",
+      "descricao": "Taxa básica de juros e série histórica oficial.",
+      "url": "https://www.bcb.gov.br/controleinflacao/taxaselic",
+      "oficial": true
+    },
+    {
+      "id": "ipca",
+      "nome": "IPCA",
+      "categoria": "Econômica",
+      "descricao": "Índice oficial de inflação ao consumidor.",
+      "url": "https://www.ibge.gov.br/explica/inflacao.php",
+      "oficial": true
+    },
+    {
+      "id": "inpc",
+      "nome": "INPC",
+      "categoria": "Econômica",
+      "descricao": "Índice Nacional de Preços ao Consumidor.",
+      "url": "https://www.ibge.gov.br/explica/inflacao.php",
+      "oficial": true
+    },
+    {
+      "id": "cdi",
+      "nome": "CDI",
+      "categoria": "Econômica",
+      "descricao": "Referência do mercado interbancário.",
+      "url": "https://www.b3.com.br/",
+      "oficial": true
+    },
+    {
+      "id": "tr",
+      "nome": "TR",
+      "categoria": "Econômica",
+      "descricao": "Taxa Referencial divulgada pelo Banco Central.",
+      "url": "https://www.bcb.gov.br/",
+      "oficial": true
+    },
+    {
+      "id": "ufir-rj",
+      "nome": "UFIR-RJ",
+      "categoria": "Estadual",
+      "descricao": "Unidade Fiscal de Referência do Estado do Rio de Janeiro.",
+      "url": "https://portal.fazenda.rj.gov.br/",
+      "oficial": true
+    },
+    {
+      "id": "ufesp",
+      "nome": "UFESP",
+      "categoria": "Estadual",
+      "descricao": "Unidade Fiscal do Estado de São Paulo.",
+      "url": "https://portal.fazenda.sp.gov.br/",
+      "oficial": true
+    },
+    {
+      "id": "ufir-rio",
+      "nome": "UFIR-Rio",
+      "categoria": "Municipal",
+      "descricao": "Unidade fiscal utilizada pelo Município do Rio de Janeiro.",
+      "url": "https://prefeitura.rio/",
+      "oficial": true
+    }
+  ]
+}

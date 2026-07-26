@@ -1,4 +1,4 @@
-# 1.14.0 — Central Inteligente de Obrigações
+# 2.0.0 — Central Inteligente de Obrigações
 
 - Nova CIO integrada à CAA, ATI, BTI, CIC e Pesquisa Inteligente.
 - Catálogo oficial com pesquisa, filtros, histórico e cache.

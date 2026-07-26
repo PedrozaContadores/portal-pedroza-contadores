@@ -1,0 +1,337 @@
+{
+  "version": "1.13.0",
+  "atualizadoEm": "2026-07-26T00:00:00-03:00",
+  "fonte": "Curadoria Pedroza Contadores com validação automatizada pela CAA",
+  "total": 20,
+  "categorias": [
+    {
+      "id": "federal",
+      "nome": "Federal",
+      "icone": "🏛",
+      "descricao": "Regularidade perante a União, Receita Federal e PGFN."
+    },
+    {
+      "id": "estadual",
+      "nome": "Estadual — RJ",
+      "icone": "◆",
+      "descricao": "Receita Estadual e Dívida Ativa do Estado do Rio de Janeiro."
+    },
+    {
+      "id": "municipal",
+      "nome": "Municipal — Rio",
+      "icone": "▦",
+      "descricao": "Situação fiscal, ISS e Dívida Ativa do Município do Rio de Janeiro."
+    },
+    {
+      "id": "trabalhista",
+      "nome": "Trabalhista",
+      "icone": "⚖",
+      "descricao": "Débitos e distribuição de processos na Justiça do Trabalho."
+    },
+    {
+      "id": "fgts",
+      "nome": "FGTS",
+      "icone": "▣",
+      "descricao": "Regularidade do empregador perante o Fundo de Garantia."
+    },
+    {
+      "id": "previdenciaria",
+      "nome": "Previdenciária",
+      "icone": "◉",
+      "descricao": "Regularidade previdenciária abrangida pela certidão federal."
+    },
+    {
+      "id": "justica",
+      "nome": "Justiça",
+      "icone": "§",
+      "descricao": "Certidões judiciais cíveis, criminais e de distribuição."
+    },
+    {
+      "id": "eleitoral",
+      "nome": "Eleitoral",
+      "icone": "✓",
+      "descricao": "Quitação eleitoral, crimes eleitorais e filiação partidária."
+    },
+    {
+      "id": "ambiental",
+      "nome": "Ambiental",
+      "icone": "♧",
+      "descricao": "Regularidade e embargos ambientais em fontes oficiais."
+    },
+    {
+      "id": "conselhos",
+      "nome": "Conselhos Profissionais",
+      "icone": "◇",
+      "descricao": "Regularidade cadastral e profissional nos conselhos oficiais."
+    }
+  ],
+  "itens": [
+    {
+      "id": "cic-federal-pj",
+      "categoria": "federal",
+      "nome": "Certidão de Regularidade Fiscal — Pessoa Jurídica",
+      "orgao": "Receita Federal e PGFN",
+      "descricao": "Comprova a situação fiscal da pessoa jurídica perante a Fazenda Nacional, incluindo créditos tributários federais e Dívida Ativa da União.",
+      "url": "https://servicos.receitafederal.gov.br/servico/certidoes/",
+      "abrangencia": "Nacional",
+      "documento": "CNPJ",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "cnd federal conjunta receita pgfn pessoa juridica cnpj"
+    },
+    {
+      "id": "cic-federal-pf",
+      "categoria": "federal",
+      "nome": "Certidão de Regularidade Fiscal — Pessoa Física",
+      "orgao": "Receita Federal e PGFN",
+      "descricao": "Emissão e consulta da certidão conjunta de regularidade fiscal para pessoa física.",
+      "url": "https://servicos.receitafederal.gov.br/servico/certidoes/",
+      "abrangencia": "Nacional",
+      "documento": "CPF",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "cnd federal pessoa fisica cpf"
+    },
+    {
+      "id": "cic-federal-obra",
+      "categoria": "federal",
+      "nome": "Certidão de Regularidade Fiscal — Obra de Construção Civil",
+      "orgao": "Receita Federal e PGFN",
+      "descricao": "Emissão de certidão relativa à obra de construção civil identificada no cadastro federal.",
+      "url": "https://servicos.receitafederal.gov.br/servico/certidoes/",
+      "abrangencia": "Nacional",
+      "documento": "CNO/CEI",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "obra construcao civil cno cei certidao"
+    },
+    {
+      "id": "cic-estadual-sefaz-rj",
+      "categoria": "estadual",
+      "nome": "Certidão de Regularidade Fiscal — SEFAZ-RJ",
+      "orgao": "Secretaria de Estado de Fazenda do Rio de Janeiro",
+      "descricao": "Atesta a existência ou não de débitos perante a Receita Estadual do Rio de Janeiro.",
+      "url": "https://portal.fazenda.rj.gov.br/certidoes-de-regularidade-fiscal/",
+      "abrangencia": "Estado do Rio de Janeiro",
+      "documento": "CPF/CNPJ ou Inscrição Estadual",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "sefaz rj icms receita estadual cnd"
+    },
+    {
+      "id": "cic-estadual-pge-rj",
+      "categoria": "estadual",
+      "nome": "Certidão da Dívida Ativa Estadual — PGE-RJ",
+      "orgao": "Procuradoria-Geral do Estado do Rio de Janeiro",
+      "descricao": "Informa a existência ou não de débitos tributários e não tributários inscritos em dívida ativa estadual.",
+      "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
+      "abrangencia": "Estado do Rio de Janeiro",
+      "documento": "CPF/CNPJ",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "pge rj divida ativa estadual certidao"
+    },
+    {
+      "id": "cic-municipal-iss-rio",
+      "categoria": "municipal",
+      "nome": "Certidão de Situação Fiscal do ISS — Rio",
+      "orgao": "Secretaria Municipal de Fazenda e Planejamento",
+      "descricao": "Pedido de certidão negativa, de regularização, de não contribuinte ou declaração de pessoa não inscrita no ISS.",
+      "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
+      "abrangencia": "Município do Rio de Janeiro",
+      "documento": "CPF/CNPJ",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "iss rio certidao municipal nao contribuinte"
+    },
+    {
+      "id": "cic-municipal-divida-rio",
+      "categoria": "municipal",
+      "nome": "Certidão da Dívida Ativa Municipal — Rio",
+      "orgao": "Procuradoria-Geral do Município do Rio de Janeiro",
+      "descricao": "Abrange débitos tributários ou não tributários inscritos em dívida ativa do Município do Rio de Janeiro.",
+      "url": "https://daminternet.rio.rj.gov.br/",
+      "abrangencia": "Município do Rio de Janeiro",
+      "documento": "CPF/CNPJ",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "pgm rio divida ativa municipal certidao"
+    },
+    {
+      "id": "cic-trabalhista-cndt",
+      "categoria": "trabalhista",
+      "nome": "Certidão Negativa de Débitos Trabalhistas — CNDT",
+      "orgao": "Tribunal Superior do Trabalho",
+      "descricao": "Certifica a existência ou inexistência de débitos inadimplidos perante a Justiça do Trabalho.",
+      "url": "https://cndt-certidao.tst.jus.br/inicio.faces",
+      "abrangencia": "Nacional",
+      "documento": "CPF/CNPJ",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "cndt debitos trabalhistas tst licitacao"
+    },
+    {
+      "id": "cic-trabalhista-trt1",
+      "categoria": "trabalhista",
+      "nome": "Certidão Trabalhista — TRT da 1ª Região",
+      "orgao": "Tribunal Regional do Trabalho da 1ª Região",
+      "descricao": "Emissão de certidão de distribuição trabalhista por CPF, nome ou raiz do CNPJ no Rio de Janeiro.",
+      "url": "https://pje.trt1.jus.br/certidoes/trabalhista/emissao",
+      "abrangencia": "Rio de Janeiro",
+      "documento": "CPF/CNPJ/Nome",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "trt1 distribuicao processos trabalhistas rio"
+    },
+    {
+      "id": "cic-fgts-crf",
+      "categoria": "fgts",
+      "nome": "Certificado de Regularidade do FGTS — CRF",
+      "orgao": "Caixa Econômica Federal",
+      "descricao": "Comprova a regularidade do empregador perante o Fundo de Garantia do Tempo de Serviço.",
+      "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf",
+      "abrangencia": "Nacional",
+      "documento": "CNPJ/CEI",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "fgts crf caixa regularidade empregador"
+    },
+    {
+      "id": "cic-previdenciaria",
+      "categoria": "previdenciaria",
+      "nome": "Regularidade Previdenciária na Certidão Federal",
+      "orgao": "Receita Federal e PGFN",
+      "descricao": "Os débitos previdenciários administrados pela Receita Federal integram a Certidão de Regularidade Fiscal perante a Fazenda Nacional.",
+      "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional",
+      "abrangencia": "Nacional",
+      "documento": "CPF/CNPJ/CNO",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "inss previdenciaria contribuicoes certidao federal"
+    },
+    {
+      "id": "cic-justica-federal",
+      "categoria": "justica",
+      "nome": "Certidão Unificada da Justiça Federal",
+      "orgao": "Conselho da Justiça Federal",
+      "descricao": "Emite certidões judiciais federais cíveis, criminais e para fins eleitorais de forma unificada para todos os TRFs.",
+      "url": "https://certidao-unificada.cjf.jus.br/",
+      "abrangencia": "Nacional",
+      "documento": "CPF/CNPJ",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "justica federal civel criminal trf cjf"
+    },
+    {
+      "id": "cic-justica-tjrj",
+      "categoria": "justica",
+      "nome": "Certidões Judiciais — TJRJ",
+      "orgao": "Tribunal de Justiça do Estado do Rio de Janeiro",
+      "descricao": "Acesso aos serviços oficiais de certidões judiciais e distribuição no âmbito da Justiça Estadual do Rio de Janeiro.",
+      "url": "https://www.tjrj.jus.br/servicos/certidoes",
+      "abrangencia": "Estado do Rio de Janeiro",
+      "documento": "CPF/CNPJ/Nome",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "tjrj certidao judicial distribuicao civel criminal"
+    },
+    {
+      "id": "cic-eleitoral-quitacao",
+      "categoria": "eleitoral",
+      "nome": "Certidão de Quitação Eleitoral",
+      "orgao": "Tribunal Superior Eleitoral",
+      "descricao": "Comprova que a pessoa está quite com suas obrigações eleitorais.",
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor",
+      "abrangencia": "Nacional",
+      "documento": "Dados eleitorais",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "tse quitacao eleitoral certidao eleitor"
+    },
+    {
+      "id": "cic-eleitoral-crimes",
+      "categoria": "eleitoral",
+      "nome": "Certidão de Crimes Eleitorais",
+      "orgao": "Tribunal Superior Eleitoral",
+      "descricao": "Informa registros de condenação criminal eleitoral transitada em julgado no histórico consultado.",
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor",
+      "abrangencia": "Nacional",
+      "documento": "Dados eleitorais",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "crimes eleitorais tse certidao"
+    },
+    {
+      "id": "cic-eleitoral-filiacao",
+      "categoria": "eleitoral",
+      "nome": "Certidão de Filiação Partidária",
+      "orgao": "Tribunal Superior Eleitoral",
+      "descricao": "Consulta e emissão de certidão referente à filiação partidária.",
+      "url": "https://filia-consulta.tse.jus.br/",
+      "abrangencia": "Nacional",
+      "documento": "Título eleitoral",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "filiacao partidaria tse partido certidao"
+    },
+    {
+      "id": "cic-ambiental-ibama",
+      "categoria": "ambiental",
+      "nome": "Certidão Negativa de Débitos — IBAMA",
+      "orgao": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+      "descricao": "Acesso aos serviços de certidões e regularidade ambiental administrados pelo IBAMA.",
+      "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
+      "abrangencia": "Nacional",
+      "documento": "CPF/CNPJ",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "ibama ambiental debitos certidao negativa"
+    },
+    {
+      "id": "cic-ambiental-embargos",
+      "categoria": "ambiental",
+      "nome": "Consulta de Áreas Embargadas — IBAMA",
+      "orgao": "IBAMA",
+      "descricao": "Consulta pública oficial de áreas embargadas por infrações ambientais.",
+      "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
+      "abrangencia": "Nacional",
+      "documento": "CPF/CNPJ ou localização",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "ibama areas embargadas ambiental consulta"
+    },
+    {
+      "id": "cic-conselho-cfc",
+      "categoria": "conselhos",
+      "nome": "Consulta Nacional de Registro — CFC",
+      "orgao": "Conselho Federal de Contabilidade",
+      "descricao": "Consulta pública de profissionais e organizações contábeis registrados no Sistema CFC/CRCs.",
+      "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
+      "abrangencia": "Nacional",
+      "documento": "Nome/CPF/Registro",
+      "atualizadoEm": "2026-07-26",
+      "destaque": true,
+      "palavrasChave": "cfc crc contador registro profissional certidao"
+    },
+    {
+      "id": "cic-conselho-crcrj",
+      "categoria": "conselhos",
+      "nome": "Serviços de Registro — CRC-RJ",
+      "orgao": "Conselho Regional de Contabilidade do Rio de Janeiro",
+      "descricao": "Acesso aos serviços oficiais de registro, certidões e regularidade profissional ou de organização contábil no Rio de Janeiro.",
+      "url": "https://www.crc.org.br/servicos/registro",
+      "abrangencia": "Estado do Rio de Janeiro",
+      "documento": "Registro/CPF/CNPJ",
+      "atualizadoEm": "2026-07-26",
+      "destaque": false,
+      "palavrasChave": "crcrj registro contador organizacao contabil certidao"
+    }
+  ],
+  "historico": [
+    {
+      "data": "2026-07-26",
+      "versao": "1.13.0",
+      "alteracao": "Criação da Central Inteligente de Certidões com 20 acessos oficiais e integração à CAA."
+    }
+  ]
+}

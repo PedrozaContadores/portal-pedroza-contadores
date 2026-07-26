@@ -1,7 +1,7 @@
 # Sprint 1.14 — Central Inteligente de Obrigações (CIO)
 
 ## Versão
-1.14.0 — homologação pendente
+2.0.0 — homologação pendente
 
 ## Entregas
 - Central com 24 obrigações e 7 categorias.

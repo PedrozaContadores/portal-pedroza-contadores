@@ -1,0 +1,1 @@
+console.log('Índice global consolidado disponível em data/pesquisa-global.json.');
