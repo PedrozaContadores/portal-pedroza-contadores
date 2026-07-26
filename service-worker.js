@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'pedroza-portal-v1.6.2';
+const CACHE_VERSION = 'pedroza-portal-v1.7.0';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 const ROOT = '/portal-pedroza-contadores/';
@@ -19,7 +19,8 @@ const CORE = [
   `${ROOT}assets/css/utilities.css`,
   `${ROOT}assets/js/utilities.js`,
   `${ROOT}pages/utilidades/`,
-  `${ROOT}data/noticias.json`
+  `${ROOT}data/noticias.json`,
+  `${ROOT}data/utilities.json`
 ];
 
 self.addEventListener('install', (event) => {

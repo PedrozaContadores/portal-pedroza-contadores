@@ -237,3 +237,14 @@
 - Corrigida a síntese padrão das notícias automáticas.
 - Atualizado o gerador para preservar a acentuação nas próximas execuções.
 - Layout, automações, SEO e performance preservados.
+## 1.7.0 - Sprint 1.7 - Central de Utilidades Enterprise (2026-07-26)
+
+- Central transformada em Centro de Serviços Empresariais Enterprise.
+- Base ampliada para 168 serviços oficiais em nove categorias.
+- Pesquisa em tempo real por nome, órgão, descrição, sigla e categoria.
+- Painel com oito serviços mais utilizados e filtros rápidos.
+- Cards com identificador institucional, órgão responsável, selo Portal Oficial, aviso de nova aba e CTA padronizado.
+- Criada a pasta `assets/images/orgaos/` com identificadores institucionais neutros em SVG.
+- Todos os links externos utilizam `target="_blank"` e `rel="noopener noreferrer"`.
+- Atualizados Service Worker, versionamento, sitemap e cache dos ativos.
+- Layout, cabeçalho, rodapé, identidade visual e arquitetura futura da Área do Cliente preservados.
