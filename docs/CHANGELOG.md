@@ -183,3 +183,10 @@
 - Home passou a carregar as tres noticias mais recentes sem alterar o layout.
 - Pagina individual ganhou link para a fonte oficial e noticias relacionadas.
 - Mantidos layout, responsividade, SEO e estrutura futura da Area do Cliente.
+
+## 1.4.5 - Performance
+- Service Worker com cache versionado.
+- Cache inteligente para recursos estaticos, noticias e sitemaps.
+- Precarregamento de links internos por intencao do usuario.
+- Otimizacao automatica de imagens e reducao de movimento.
+- Content visibility nos componentes de maior custo visual.
