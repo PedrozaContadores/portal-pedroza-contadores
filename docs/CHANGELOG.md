@@ -1,5 +1,16 @@
 # Changelog — Portal Pedroza Contadores
 
+## 1.6.0 — Sprint 1.6: Utilidades e Links (2026-07-26)
+
+- Criada a Central de Utilidades com navegação por categorias.
+- Adicionados links oficiais federais, estaduais e municipais.
+- Criada área de certidões e consultas empresariais.
+- Adicionadas fontes oficiais de legislação e normas contábeis.
+- Criada estrutura informativa da Agenda Tributária.
+- Aplicados `target="_blank"` e `rel="noopener noreferrer"` aos links externos.
+- Integrada a nova central ao menu, Home, sitemap e Service Worker.
+- Atualizada a versão do portal para 1.6.0.
+
 ## [1.5.0] — 2026-07-26
 
 ### Sprint 1.5 — Conteúdo Institucional
