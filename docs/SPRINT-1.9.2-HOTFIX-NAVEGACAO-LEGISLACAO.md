@@ -1,4 +1,4 @@
-# Sprint 1.9.2 — Hotfix Navegação Legislação
+# Sprint 1.9.3 — Hotfix Navegação Legislação
 
 ## Objetivo
 Separar definitivamente os destinos “Legislação” e “Links Úteis” no menu principal.
@@ -8,7 +8,7 @@ Separar definitivamente os destinos “Legislação” e “Links Úteis” no m
 - Link “Legislação” direcionado para a nova rota em todo o portal.
 - Link “Links Úteis” mantido em `pages/utilidades/#links-oficiais`.
 - Estado ativo do menu corrigido na página de Utilidades.
-- Versão atualizada para 1.9.2.
+- Versão atualizada para 1.9.3.
 - Sitemap e Service Worker atualizados.
 
 ## Critérios de validação

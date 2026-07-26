@@ -14,3 +14,22 @@
 @media(max-width:1100px){.legislation-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.legislation-path-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){.legislation-toolbar{top:72px}.legislation-toolbar .container,.legislation-intro{grid-template-columns:1fr}.legislation-count{display:none}.legislation-intro{gap:16px}.legislation-page .institutional-hero{min-height:390px}}
 @media(max-width:680px){.legislation-page .institutional-hero .container{padding-top:62px;padding-bottom:58px}.legislation-page .institutional-hero:after{right:-15%;font-size:15rem}.legislation-grid,.legislation-path-grid{grid-template-columns:1fr}.legislation-card{min-height:auto;padding:22px}.legislation-search kbd{display:none}.legislation-content{padding:54px 0 70px}.legislation-path{padding:24px}.legislation-security{align-items:flex-start}}
+
+.legislation-status{padding:22px;margin-bottom:24px;border:1px solid #dfe4ef;border-radius:18px;background:#fff;color:#596176;text-align:center;font-weight:700}.legislation-status[hidden]{display:none}.legislation-status.is-error{border-color:#f1c6c6;background:#fff7f7;color:#9d2a2a}.legislation-updated{display:block;margin:-8px 0 18px;color:#0c7b4d;font-weight:750}.legislation-related-link{display:flex;align-items:center;justify-content:center;min-height:42px;padding:8px 12px;border-radius:10px;background:#f2f5fb;color:#253274;text-decoration:none;font-size:.82rem;font-weight:800;transition:.2s ease}.legislation-related-link:hover{background:#e6ebf7;transform:translateY(-1px)}
+
+/* Sprint 1.10.1 - acabamento dos cards BTI */
+.legislation-card{min-height:430px}
+.legislation-card-top{min-height:56px}
+.legislation-card-badges{display:flex;flex-direction:column;align-items:flex-end;gap:7px;max-width:58%}
+.legislation-sphere{padding:5px 9px;border:1px solid #dbe5fb;border-radius:999px;background:#f5f8ff;color:#253274;font-size:.62rem;font-weight:850;text-transform:uppercase;letter-spacing:.065em}
+.legislation-card-body{display:flex;flex-direction:column;min-height:142px}
+.legislation-card-body h3{margin-bottom:10px}
+.legislation-card-body p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.legislation-meta{min-height:58px;align-content:flex-start;margin-bottom:14px}
+.legislation-trust{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:0 0 18px;padding:12px;border:1px solid #e8ecf4;border-radius:13px;background:#f8fafc;color:#697086;font-size:.69rem;line-height:1.35}
+.legislation-trust span{min-width:0}
+.legislation-trust strong{color:#253274;font-weight:800}
+.legislation-actions{min-height:112px}
+.legislation-related-link{display:block;padding:3px 2px;color:#253274;font-size:.76rem;font-weight:750;text-align:center;text-decoration:none}
+.legislation-related-link:hover{text-decoration:underline}
+@media(max-width:680px){.legislation-card{min-height:auto}.legislation-card-body,.legislation-meta,.legislation-actions{min-height:auto}.legislation-trust{grid-template-columns:1fr}.legislation-card-badges{max-width:62%}}

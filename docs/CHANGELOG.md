@@ -1,3 +1,13 @@
+# Changelog
+
+## 1.10.1 — Acabamento dos cards BTI
+- Alinhamento vertical padronizado dos cards e ações.
+- Indicador de esfera, tipo, status e data de atualização.
+- Identificação explícita de fonte oficial.
+- Contagem automática de recursos relacionados.
+- Ação contextual renomeada para “Ver conteúdos relacionados”.
+- Pesquisa ampliada para os novos metadados.
+
 
 ## 1.9.3 — Redesign da Central de Legislação
 
@@ -306,3 +316,12 @@
 - “Links Úteis” permanece na Central de Utilidades.
 - Adicionada página inicial de legislação com fontes oficiais.
 - Atualizados versão, sitemap e cache do Service Worker.
+
+## 1.10.0 — Biblioteca Tributária Inteligente (2026-07-26)
+
+- Biblioteca de legislação migrada de HTML fixo para base JSON dinâmica.
+- Adicionadas 17 fontes oficiais pesquisáveis e categorizadas.
+- Criadas integrações contextuais com Conteúdo Fiscal e Calculadoras.
+- Atualizados links oficiais do SPED, Receita Federal e eSocial.
+- Atualizados cache, versionamento e documentação.
+- Layout homologado e arquitetura futura da Área do Cliente preservados.

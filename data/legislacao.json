@@ -1,0 +1,538 @@
+{
+  "versao": "1.10.1",
+  "atualizadoEm": "2026-07-26",
+  "politica": "Somente fontes oficiais. A vigência e a aplicação devem ser confirmadas no texto oficial.",
+  "categorias": [
+    {
+      "id": "todos",
+      "nome": "Todos"
+    },
+    {
+      "id": "fundamental",
+      "nome": "Normas fundamentais"
+    },
+    {
+      "id": "reforma",
+      "nome": "Reforma Tributária"
+    },
+    {
+      "id": "regimes",
+      "nome": "Regimes tributários"
+    },
+    {
+      "id": "obrigacoes",
+      "nome": "Obrigações"
+    },
+    {
+      "id": "documentos",
+      "nome": "Documentos fiscais"
+    },
+    {
+      "id": "jurisprudencia",
+      "nome": "Jurisprudência"
+    }
+  ],
+  "itens": [
+    {
+      "id": "constituicao-federal",
+      "titulo": "Constituição Federal",
+      "sigla": "§",
+      "categoria": "fundamental",
+      "categoriaNome": "Norma fundamental",
+      "descricao": "Texto constitucional compilado, incluindo princípios, competências e bases do Sistema Tributário Nacional.",
+      "orgao": "Presidência da República",
+      "referencia": "Constituição Federal",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "atualizacao": "Fonte oficial consolidada",
+      "tags": [
+        "constituição",
+        "sistema tributário nacional",
+        "competência tributária",
+        "impostos"
+      ],
+      "relacionados": {
+        "conteudo": [],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Constituição Federal"
+    },
+    {
+      "id": "ctn",
+      "titulo": "Código Tributário Nacional",
+      "sigla": "CTN",
+      "categoria": "fundamental",
+      "categoriaNome": "Normas gerais",
+      "descricao": "Normas gerais sobre tributos, obrigação, crédito tributário, fiscalização e administração fiscal.",
+      "orgao": "Presidência da República",
+      "referencia": "Lei nº 5.172/1966",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+      "atualizacao": "Texto compilado oficial",
+      "tags": [
+        "ctn",
+        "lei 5172",
+        "crédito tributário",
+        "obrigação tributária"
+      ],
+      "relacionados": {
+        "conteudo": [],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Código"
+    },
+    {
+      "id": "ec-132-2023",
+      "titulo": "Emenda Constitucional nº 132/2023",
+      "sigla": "EC",
+      "categoria": "reforma",
+      "categoriaNome": "Reforma Tributária",
+      "descricao": "Marco constitucional da Reforma Tributária do consumo e da criação do IBS, CBS e Imposto Seletivo.",
+      "orgao": "Presidência da República",
+      "referencia": "EC 132/2023",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+      "atualizacao": "Texto oficial",
+      "tags": [
+        "reforma tributária",
+        "ibs",
+        "cbs",
+        "imposto seletivo"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "reforma-tributaria-ibs-cbs"
+        ],
+        "calculadoras": [
+          "comparativo"
+        ]
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Legislação federal"
+    },
+    {
+      "id": "lc-214-2025",
+      "titulo": "Lei Complementar nº 214/2025",
+      "sigla": "214",
+      "categoria": "reforma",
+      "categoriaNome": "Regulamentação",
+      "descricao": "Regulamenta IBS, CBS e Imposto Seletivo, com regras gerais da nova tributação sobre o consumo.",
+      "orgao": "Presidência da República",
+      "referencia": "LC 214/2025",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+      "atualizacao": "Texto compilado oficial",
+      "tags": [
+        "lc 214",
+        "reforma tributária",
+        "ibs",
+        "cbs",
+        "imposto seletivo"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "reforma-tributaria-ibs-cbs"
+        ],
+        "calculadoras": [
+          "comparativo"
+        ]
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Lei Complementar"
+    },
+    {
+      "id": "simples-nacional",
+      "titulo": "Legislação do Simples Nacional",
+      "sigla": "SN",
+      "categoria": "regimes",
+      "categoriaNome": "Regime tributário",
+      "descricao": "Leis, resoluções do CGSN, manuais e orientações aplicáveis às microempresas e empresas de pequeno porte.",
+      "orgao": "Receita Federal / CGSN",
+      "referencia": "Portal do Simples Nacional",
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/legislacao.aspx",
+      "atualizacao": "Portal oficial",
+      "tags": [
+        "simples nacional",
+        "cgsn",
+        "mei",
+        "microempresa"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "simples-nacional"
+        ],
+        "calculadoras": [
+          "simples",
+          "comparativo"
+        ]
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Regime tributário"
+    },
+    {
+      "id": "receita-normas",
+      "titulo": "Normas da Receita Federal",
+      "sigla": "RFB",
+      "categoria": "regimes",
+      "categoriaNome": "Normas federais",
+      "descricao": "Consulta de instruções normativas, atos declaratórios, soluções de consulta e demais normas da administração tributária federal.",
+      "orgao": "Receita Federal",
+      "referencia": "Sistema Normas",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
+      "atualizacao": "Portal oficial",
+      "tags": [
+        "receita federal",
+        "instrução normativa",
+        "solução de consulta",
+        "normas"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "lucro-presumido",
+          "lucro-real"
+        ],
+        "calculadoras": [
+          "presumido",
+          "comparativo"
+        ]
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Normas administrativas"
+    },
+    {
+      "id": "sped",
+      "titulo": "Sistema Público de Escrituração Digital",
+      "sigla": "SPED",
+      "categoria": "obrigacoes",
+      "categoriaNome": "Obrigações digitais",
+      "descricao": "Portal oficial das escriturações digitais fiscais e contábeis, com documentação e serviços por módulo.",
+      "orgao": "Receita Federal / SPED",
+      "referencia": "Portal SPED",
+      "url": "https://www.gov.br/sped/pt-br",
+      "atualizacao": "Novo portal oficial",
+      "tags": [
+        "sped",
+        "ecd",
+        "ecf",
+        "efd contribuições",
+        "escrituração digital"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "ecd",
+          "ecf",
+          "efd-contribuicoes",
+          "efd-reinf"
+        ],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Obrigação acessória"
+    },
+    {
+      "id": "ecd",
+      "titulo": "Escrituração Contábil Digital — ECD",
+      "sigla": "ECD",
+      "categoria": "obrigacoes",
+      "categoriaNome": "Obrigação acessória",
+      "descricao": "Página oficial com orientações, serviços, downloads e informações da Escrituração Contábil Digital.",
+      "orgao": "Receita Federal / SPED",
+      "referencia": "ECD",
+      "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecd",
+      "atualizacao": "Página oficial",
+      "tags": [
+        "ecd",
+        "livro diário",
+        "livro razão",
+        "contabilidade digital"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "ecd"
+        ],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Obrigação acessória"
+    },
+    {
+      "id": "ecf",
+      "titulo": "Escrituração Contábil Fiscal — ECF",
+      "sigla": "ECF",
+      "categoria": "obrigacoes",
+      "categoriaNome": "Obrigação acessória",
+      "descricao": "Informações oficiais sobre a escrituração que reúne dados fiscais para apuração de IRPJ e CSLL.",
+      "orgao": "Receita Federal / SPED",
+      "referencia": "ECF",
+      "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecf",
+      "atualizacao": "Página oficial",
+      "tags": [
+        "ecf",
+        "irpj",
+        "csll",
+        "lucro real",
+        "lucro presumido"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "ecf",
+          "lucro-real",
+          "lucro-presumido"
+        ],
+        "calculadoras": [
+          "presumido"
+        ]
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Obrigação acessória"
+    },
+    {
+      "id": "efd-contribuicoes",
+      "titulo": "EFD-Contribuições",
+      "sigla": "EFD",
+      "categoria": "obrigacoes",
+      "categoriaNome": "Obrigação acessória",
+      "descricao": "Documentação oficial da escrituração digital de PIS/Pasep e Cofins, inclusive registros e tabelas aplicáveis.",
+      "orgao": "Receita Federal / SPED",
+      "referencia": "EFD-Contribuições",
+      "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/efd-contribuicoes",
+      "atualizacao": "Página oficial",
+      "tags": [
+        "efd contribuições",
+        "pis",
+        "cofins",
+        "m210"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "efd-contribuicoes"
+        ],
+        "calculadoras": [
+          "presumido"
+        ]
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Obrigação acessória"
+    },
+    {
+      "id": "dctfweb",
+      "titulo": "DCTFWeb",
+      "sigla": "DCTF",
+      "categoria": "obrigacoes",
+      "categoriaNome": "Declaração federal",
+      "descricao": "Orientações e serviços da declaração que consolida débitos e créditos para emissão de DARF numerado.",
+      "orgao": "Receita Federal",
+      "referencia": "DCTFWeb",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dctfweb",
+      "atualizacao": "Página oficial",
+      "tags": [
+        "dctfweb",
+        "darf",
+        "mit",
+        "esocial",
+        "efd-reinf"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "dctfweb",
+          "esocial",
+          "efd-reinf"
+        ],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Obrigação acessória"
+    },
+    {
+      "id": "esocial",
+      "titulo": "Documentação Técnica do eSocial",
+      "sigla": "eS",
+      "categoria": "obrigacoes",
+      "categoriaNome": "Trabalhista e previdenciária",
+      "descricao": "Leiautes, manuais, notas técnicas e orientações oficiais dos eventos trabalhistas, previdenciários e tributários.",
+      "orgao": "Governo Federal / eSocial",
+      "referencia": "Documentação Técnica",
+      "url": "https://www.gov.br/esocial/pt-br/documentacao-tecnica",
+      "atualizacao": "Documentação oficial",
+      "tags": [
+        "esocial",
+        "folha",
+        "sst",
+        "eventos periódicos"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "esocial"
+        ],
+        "calculadoras": [
+          "ferias",
+          "decimo",
+          "custo-funcionario"
+        ]
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Obrigação acessória"
+    },
+    {
+      "id": "nfse-nacional",
+      "titulo": "Portal Nacional da NFS-e",
+      "sigla": "NFS-e",
+      "categoria": "documentos",
+      "categoriaNome": "Documento fiscal",
+      "descricao": "Ambiente oficial do padrão nacional da Nota Fiscal de Serviço eletrônica, com emissão, consulta e documentação.",
+      "orgao": "Portal Nacional da NFS-e",
+      "referencia": "NFS-e Padrão Nacional",
+      "url": "https://www.gov.br/nfse/pt-br",
+      "atualizacao": "Portal oficial",
+      "tags": [
+        "nfse",
+        "iss",
+        "nota fiscal de serviço",
+        "emissor nacional"
+      ],
+      "relacionados": {
+        "conteudo": [
+          "nfse-nacional"
+        ],
+        "calculadoras": [
+          "presumido"
+        ]
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Documento fiscal"
+    },
+    {
+      "id": "carf",
+      "titulo": "Jurisprudência do CARF",
+      "sigla": "CARF",
+      "categoria": "jurisprudencia",
+      "categoriaNome": "Jurisprudência administrativa",
+      "descricao": "Pesquisa de acórdãos e decisões administrativas relacionadas a controvérsias tributárias federais.",
+      "orgao": "Conselho Administrativo de Recursos Fiscais",
+      "referencia": "Jurisprudência CARF",
+      "url": "https://carf.economia.gov.br/jurisprudencia",
+      "atualizacao": "Consulta oficial",
+      "tags": [
+        "carf",
+        "acórdãos",
+        "processo administrativo fiscal",
+        "jurisprudência"
+      ],
+      "relacionados": {
+        "conteudo": [],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Jurisprudência"
+    },
+    {
+      "id": "stf",
+      "titulo": "Jurisprudência do STF",
+      "sigla": "STF",
+      "categoria": "jurisprudencia",
+      "categoriaNome": "Jurisprudência constitucional",
+      "descricao": "Consulta de decisões, temas e precedentes constitucionais, inclusive em matéria tributária.",
+      "orgao": "Supremo Tribunal Federal",
+      "referencia": "Jurisprudência STF",
+      "url": "https://portal.stf.jus.br/jurisprudencia/",
+      "atualizacao": "Consulta oficial",
+      "tags": [
+        "stf",
+        "repercussão geral",
+        "constitucional",
+        "tributário"
+      ],
+      "relacionados": {
+        "conteudo": [],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Jurisprudência"
+    },
+    {
+      "id": "stj",
+      "titulo": "Jurisprudência do STJ",
+      "sigla": "STJ",
+      "categoria": "jurisprudencia",
+      "categoriaNome": "Jurisprudência infraconstitucional",
+      "descricao": "Pesquisa de precedentes e temas repetitivos relevantes à interpretação da legislação tributária federal.",
+      "orgao": "Superior Tribunal de Justiça",
+      "referencia": "SCON",
+      "url": "https://processo.stj.jus.br/SCON/",
+      "atualizacao": "Consulta oficial",
+      "tags": [
+        "stj",
+        "recursos repetitivos",
+        "precedentes",
+        "tributário"
+      ],
+      "relacionados": {
+        "conteudo": [],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Jurisprudência"
+    },
+    {
+      "id": "portal-legislacao",
+      "titulo": "Portal da Legislação Federal",
+      "sigla": "⚖",
+      "categoria": "fundamental",
+      "categoriaNome": "Pesquisa federal",
+      "descricao": "Pesquisa centralizada de leis, decretos, medidas provisórias, códigos e demais atos normativos federais.",
+      "orgao": "Presidência da República",
+      "referencia": "Portal da Legislação",
+      "url": "https://www4.planalto.gov.br/legislacao",
+      "atualizacao": "Portal oficial",
+      "tags": [
+        "leis",
+        "decretos",
+        "medidas provisórias",
+        "legislação federal"
+      ],
+      "relacionados": {
+        "conteudo": [],
+        "calculadoras": []
+      },
+      "ultimaAtualizacao": "2026-07-26",
+      "status": "Vigente / consulta oficial",
+      "esfera": "Federal",
+      "tipo": "Legislação federal"
+    }
+  ],
+  "meta": {
+    "versao": "1.10.1",
+    "ultimaAtualizacao": "2026-07-26",
+    "status": "homologado"
+  }
+}
