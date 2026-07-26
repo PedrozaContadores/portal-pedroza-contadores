@@ -61,3 +61,5 @@
 .link-grid .useful-logo--cfc { max-width: 92%; max-height: 62px; }
 .link-grid .useful-logo--correios { max-width: 84%; max-height: 50px; }
 .link-grid .useful-logo--ecac { max-width: 82%; max-height: 62px; }
+
+.content-update-status{display:flex;align-items:center;gap:6px;margin:7px 0 0;color:#68708a;font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}.content-update-status span{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:5px;background:#eef3fb;color:#304a82;font-size:.62rem}.content-update-status strong{color:#10163f;font-weight:800}.section-heading-row>div{min-width:0}

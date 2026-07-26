@@ -1,4 +1,5 @@
 const grid = document.querySelector('#home-news-grid');
+const updateStatus = document.querySelector('#home-news-update');
 
 const escapeHtml = (value = '') => value.replace(/[&<>'"]/g, (char) => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
@@ -7,6 +8,20 @@ const escapeHtml = (value = '') => value.replace(/[&<>'"]/g, (char) => ({
 const formatDate = (date) => new Intl.DateTimeFormat('pt-BR', {
   day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'UTC'
 }).format(new Date(`${date}T12:00:00Z`));
+
+async function loadNewsUpdateStatus() {
+  if (!updateStatus) return;
+  try {
+    const response = await fetch('data/caa-consolidado.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const updatedAt = data?.datasets?.noticias?.updatedAt || data?.generatedAt;
+    if (!updatedAt) return;
+    updateStatus.innerHTML = `<span aria-hidden="true">▣</span> Atualizado em <strong>${formatDate(updatedAt.slice(0, 10))}</strong>`;
+  } catch (error) {
+    console.warn('Data de atualização das notícias indisponível.', error);
+  }
+}
 
 async function loadHomeNews() {
   if (!grid) return;
@@ -33,4 +48,5 @@ async function loadHomeNews() {
   }
 }
 
+loadNewsUpdateStatus();
 loadHomeNews();

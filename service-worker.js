@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'pedroza-portal-v1.10.2';
+const CACHE_VERSION = 'pedroza-portal-v1.12.1';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 const ROOT = '/portal-pedroza-contadores/';
@@ -31,7 +31,10 @@ const CORE = [
   `${ROOT}assets/js/fiscal-content.js`,
   `${ROOT}pages/conteudo-fiscal/`,
   `${ROOT}data/conteudo-fiscal.json`,
-  `${ROOT}data/legislacao.json`
+  `${ROOT}data/legislacao.json`,
+  `${ROOT}data/agenda-tributaria.json`,
+  `${ROOT}data/caa-consolidado.json`,
+  `${ROOT}data/caa-status.json`
 ];
 
 self.addEventListener('install', (event) => {

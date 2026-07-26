@@ -1,3 +1,9 @@
+# Sprint 1.12.1 — Hotfix de navegação e atualização
+
+- Corrigida a navegação do menu Certidões para abrir e filtrar automaticamente a categoria correspondente na Central de Utilidades.
+- Adicionada a data da última atualização automática na seção Últimas Notícias da Home, utilizando os metadados consolidados da CAA.
+- Atualizados Service Worker, cache e versionamento para 1.12.1.
+
 # Changelog
 
 ## 1.10.2 — Refinamento Enterprise dos cards BTI
@@ -334,3 +340,14 @@
 - Atualizados links oficiais do SPED, Receita Federal e eSocial.
 - Atualizados cache, versionamento e documentação.
 - Layout homologado e arquitetura futura da Área do Cliente preservados.
+
+## 1.12.0 — Central de Atualização Automática (CAA) — 2026-07-26
+- Motor central para Biblioteca Tributária, Agenda Tributária, Conteúdo Fiscal e Notícias.
+- Normalização e validação estrutural dos arquivos JSON.
+- Política de fontes oficiais por domínio autorizado.
+- Validação automática de links com relatório persistente.
+- Detecção de alterações por SHA-256 e histórico de até 180 execuções.
+- Arquivos consolidados de status, links, histórico e datasets.
+- Workflow unificado do GitHub Actions em dias úteis.
+- Cache inteligente preparado no Service Worker.
+- Compatibilidade para futura Área do Cliente, sem autenticação ou interface ativa.
