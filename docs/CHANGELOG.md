@@ -1,3 +1,11 @@
+## 1.6.1 - Hotfix Documentos Fiscais Eletrônicos (2026-07-26)
+
+- Criada seção específica para NF-e, NFS-e, NFA-e, NFC-e, CT-e, MDF-e e BP-e.
+- Incluído o Emissor Nacional da NFS-e informado e validado.
+- Agenda Tributária passou a abrir automaticamente o mês e o ano correntes.
+- Atualizados cache, versão e validações de segurança dos links externos.
+- Layout oficial, responsividade e funcionalidades homologadas foram preservados.
+
 # Changelog — Portal Pedroza Contadores
 
 ## 1.6.0 — Sprint 1.6: Utilidades e Links (2026-07-26)
