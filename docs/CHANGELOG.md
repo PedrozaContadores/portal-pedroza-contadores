@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.8.0 — 2026-07-26
+- Nova Central de Inteligência Tributária.
+- Nove calculadoras tributárias, empresariais e trabalhistas.
+- Processamento local, sem armazenamento ou envio de dados.
+- Integração com Central de Utilidades, navegação, SEO, sitemap e Service Worker.
+- Layout oficial preservado.
+
 ## 1.7.1 — Hotfix Visual Enterprise
 
 - Aplicação das identidades visuais específicas nos oito serviços mais utilizados.
