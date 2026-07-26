@@ -286,3 +286,12 @@
 - Ajustado o comportamento em desktop, notebook, tablet e celular.
 - Barras internas das calculadoras e do conteúdo fiscal reposicionadas abaixo do cabeçalho.
 - Conteúdo, rodapé, identidade visual e funcionalidades da versão 1.9.0 preservados.
+
+## 1.9.2 — Hotfix Navegação Legislação
+
+- Corrigida a duplicidade de destino entre “Legislação” e “Links Úteis”.
+- Criada a rota independente `pages/legislacao/`.
+- Atualizados os menus em todas as páginas do portal.
+- “Links Úteis” permanece na Central de Utilidades.
+- Adicionada página inicial de legislação com fontes oficiais.
+- Atualizados versão, sitemap e cache do Service Worker.

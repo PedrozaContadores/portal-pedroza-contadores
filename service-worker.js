@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'pedroza-portal-v1.9.1';
+const CACHE_VERSION = 'pedroza-portal-v1.9.2';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 const ROOT = '/portal-pedroza-contadores/';
@@ -19,6 +19,7 @@ const CORE = [
   `${ROOT}assets/css/utilities.css`,
   `${ROOT}assets/js/utilities.js`,
   `${ROOT}pages/utilidades/`,
+  `${ROOT}pages/legislacao/`,
   `${ROOT}data/noticias.json`,
   `${ROOT}data/utilities.json`,
   `${ROOT}assets/css/calculators.css`,
