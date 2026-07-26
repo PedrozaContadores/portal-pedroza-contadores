@@ -190,3 +190,11 @@
 - Precarregamento de links internos por intencao do usuario.
 - Otimizacao automatica de imagens e reducao de movimento.
 - Content visibility nos componentes de maior custo visual.
+
+## 1.4.5.1 - Hotfix ortográfico e UTF-8
+
+- Corrigida a acentuação da Central de Notícias e dos metadados de SEO.
+- Corrigidos textos dinâmicos de pesquisa, resultados e mensagens de erro.
+- Corrigida a síntese padrão das notícias automáticas.
+- Atualizado o gerador para preservar a acentuação nas próximas execuções.
+- Layout, automações, SEO e performance preservados.

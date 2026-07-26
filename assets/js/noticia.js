@@ -14,7 +14,7 @@ function configureSeo(item) {
   const pageUrl = `${baseUrl}/pages/noticia/?slug=${encodeURIComponent(item.slug)}`;
   const imageUrl = new URL(item.imagem, window.location.href).href;
   const modified = item.atualizado || item.data;
-  const keywords = [item.categoria, item.fonte, 'contabilidade', 'noticias contabeis', 'Pedroza Contadores'].filter(Boolean).join(', ');
+  const keywords = [item.categoria, item.fonte, 'contabilidade', 'notícias contábeis', 'Pedroza Contadores'].filter(Boolean).join(', ');
   document.title = `${item.titulo} | Pedroza Contadores`;
   setMeta('meta[name="description"]', item.resumo);
   setMeta('#meta-keywords', keywords);
@@ -50,7 +50,7 @@ function configureSeo(item) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: `${baseUrl}/` },
-      { '@type': 'ListItem', position: 2, name: 'Noticias', item: `${baseUrl}/pages/noticias/` },
+      { '@type': 'ListItem', position: 2, name: 'Notícias', item: `${baseUrl}/pages/noticias/` },
       { '@type': 'ListItem', position: 3, name: item.titulo, item: pageUrl }
     ]
   });
@@ -62,7 +62,7 @@ async function init() {
     if (!response.ok) throw new Error(`Falha ao carregar: ${response.status}`);
     const items = await response.json();
     const item = items.find((news) => news.slug === slug);
-    if (!item) throw new Error('Noticia nao encontrada');
+    if (!item) throw new Error('Notícia não encontrada');
     document.querySelector('#breadcrumb-current').textContent = item.titulo;
     document.querySelector('#article-category').textContent = item.categoria;
     const time = document.querySelector('#article-date'); time.textContent = formatDate(item.data); time.dateTime = item.data;

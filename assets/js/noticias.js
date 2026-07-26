@@ -33,7 +33,7 @@ function renderFilters() {
 
 function renderNews() {
   const items = filteredNews();
-  resultCount.textContent = `${items.length} ${items.length === 1 ? 'noticia encontrada' : 'noticias encontradas'}`;
+  resultCount.textContent = `${items.length} ${items.length === 1 ? 'notícia encontrada' : 'notícias encontradas'}`;
   empty.hidden = items.length > 0;
   list.hidden = items.length === 0;
   list.innerHTML = items.map((item) => `
@@ -46,7 +46,7 @@ function renderNews() {
         </div>
         <h3>${item.titulo}</h3>
         <p>${item.resumo}</p>
-        <a href="../noticia/?slug=${encodeURIComponent(item.slug)}" aria-label="Ler ${item.titulo}">Ler noticia &rarr;</a>
+        <a href="../noticia/?slug=${encodeURIComponent(item.slug)}" aria-label="Ler ${item.titulo}">Ler notícia &rarr;</a>
       </div>
     </article>
   `).join('');
@@ -68,13 +68,13 @@ search?.addEventListener('input', () => {
 async function init() {
   try {
     const response = await fetch('../../data/noticias.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Falha ao carregar noticias: ${response.status}`);
+    if (!response.ok) throw new Error(`Falha ao carregar notícias: ${response.status}`);
     state.noticias = (await response.json()).sort((a, b) => b.data.localeCompare(a.data));
     renderFilters();
     renderNews();
   } catch (error) {
     console.error(error);
-    resultCount.textContent = 'Nao foi possivel carregar as noticias.';
+    resultCount.textContent = 'Não foi possível carregar as notícias.';
     empty.hidden = false;
     list.hidden = true;
   }

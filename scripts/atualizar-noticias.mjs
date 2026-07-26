@@ -92,7 +92,7 @@ const parseFeed = (xml, source, categories) => {
       url_fonte: urlFonte,
       conteudo: [
         resumo || `Conteudo publicado originalmente por ${source.nome}.`,
-        `Esta e uma sintese automatica. Consulte a publicacao original para ler o conteudo completo.`
+        `Esta é uma síntese automática. Consulte a publicação original para ler o conteúdo completo.`
       ]
     };
   }).filter(Boolean);
