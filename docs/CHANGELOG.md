@@ -1,4 +1,16 @@
-# Changelog
+# Changelog — Portal Pedroza Contadores
+
+## [1.5.0] — 2026-07-26
+
+### Sprint 1.5 — Conteúdo Institucional
+
+- Criada a página institucional **Empresa**, com história, missão, visão, valores e compromisso com os clientes.
+- Criada a página **Diferenciais**, com atendimento consultivo, experiência técnica, segurança, tecnologia e personalização.
+- Criada a página **Segmentos Atendidos**, contemplando serviços, comércio, saúde, advocacia, consultorias, terceiro setor e atividades compatíveis.
+- Implementados breadcrumbs, metadados SEO, Open Graph, Twitter Cards e dados estruturados.
+- Integradas as páginas institucionais à Home, ao menu e ao rodapé.
+- Atualizados sitemap, cache do Service Worker e identificação da versão.
+- Mantidos o layout oficial, a Área do Cliente inativa, os canais de contato e a parceria com a Pedroza Certificadora.
 
 ## 1.2.1 — Home Institucional: SEO e Performance
 
