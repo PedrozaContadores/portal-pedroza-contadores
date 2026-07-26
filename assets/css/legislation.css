@@ -33,3 +33,24 @@
 .legislation-related-link{display:block;padding:3px 2px;color:#253274;font-size:.76rem;font-weight:750;text-align:center;text-decoration:none}
 .legislation-related-link:hover{text-decoration:underline}
 @media(max-width:680px){.legislation-card{min-height:auto}.legislation-card-body,.legislation-meta,.legislation-actions{min-height:auto}.legislation-trust{grid-template-columns:1fr}.legislation-card-badges{max-width:62%}}
+
+
+/* Sprint 1.10.2 - refinamento Enterprise dos cards BTI */
+.legislation-card{min-height:0;padding:24px}
+.legislation-card-body{min-height:132px}
+.legislation-meta{min-height:48px;margin:14px 0 12px}
+.legislation-trust{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:14px;padding:12px}
+.legislation-trust-item{display:flex;align-items:flex-start;gap:7px;min-width:0;color:#667087}
+.legislation-trust-item svg,.legislation-actions svg{flex:0 0 auto;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.legislation-trust-item span{display:flex;flex-direction:column;gap:1px;min-width:0}
+.legislation-trust-item strong{color:#253274;font-size:.65rem;text-transform:uppercase;letter-spacing:.035em}
+.legislation-status-badge{display:inline-flex;align-items:center;justify-self:start;gap:7px;width:max-content;padding:6px 9px;border:1px solid #bce8d2;border-radius:999px;background:#effbf5;color:#087047;font-weight:850;line-height:1}
+.legislation-status-badge i{width:7px;height:7px;border-radius:50%;background:#18a96b;box-shadow:0 0 0 3px rgba(24,169,107,.12)}
+.legislation-last-change{grid-column:1/-1;padding-top:8px;border-top:1px solid #e8ecf4}
+.legislation-actions{min-height:0;margin-top:auto;padding-top:14px;gap:8px}
+.legislation-actions .button--outline{display:flex;align-items:center;gap:8px}
+.legislation-actions .button--outline span:nth-child(2){flex:1}
+.legislation-related-link{display:flex;align-items:center;justify-content:center;gap:8px;min-height:38px;padding:8px 10px;border-radius:10px;background:#f2f5fb;text-decoration:none}
+.legislation-related-link span:nth-child(2){flex:1;text-align:left}
+.legislation-related-link:hover{text-decoration:none;background:#e8edf8}
+@media(max-width:680px){.legislation-card-body,.legislation-meta{min-height:auto}.legislation-trust{grid-template-columns:1fr}.legislation-last-change{grid-column:auto}}

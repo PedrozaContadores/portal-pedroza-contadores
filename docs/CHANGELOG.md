@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.10.2 — Refinamento Enterprise dos cards BTI
+- Redução do espaço vazio e compactação vertical dos cards.
+- Status vigente destacado em badge visual.
+- Fonte, atualização e última alteração apresentadas com ícones vetoriais.
+- Indicador de conteúdos relacionados aprimorado.
+- Botões de calculadora identificados com ícone próprio.
+- Inclusão de `palavrasChaveIA` e `ultimaAlteracao` na base JSON.
+- Pesquisa ampliada para os novos metadados inteligentes.
+
 ## 1.10.1 — Acabamento dos cards BTI
 - Alinhamento vertical padronizado dos cards e ações.
 - Indicador de esfera, tipo, status e data de atualização.

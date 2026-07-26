@@ -1,5 +1,5 @@
 {
-  "versao": "1.10.1",
+  "versao": "1.10.2",
   "atualizadoEm": "2026-07-26",
   "politica": "Somente fontes oficiais. A vigência e a aplicação devem ser confirmadas no texto oficial.",
   "categorias": [
@@ -57,7 +57,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Constituição Federal"
+      "tipo": "Constituição Federal",
+      "palavrasChaveIA": [
+        "constituição",
+        "sistema tributário nacional",
+        "competência tributária",
+        "impostos",
+        "§",
+        "Constituição Federal",
+        "Norma fundamental",
+        "Presidência da República"
+      ],
+      "ultimaAlteracao": "Fonte oficial consolidada"
     },
     {
       "id": "ctn",
@@ -83,7 +94,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Código"
+      "tipo": "Código",
+      "palavrasChaveIA": [
+        "ctn",
+        "lei 5172",
+        "crédito tributário",
+        "obrigação tributária",
+        "Código Tributário Nacional",
+        "Lei nº 5.172/1966",
+        "Normas gerais",
+        "Presidência da República"
+      ],
+      "ultimaAlteracao": "Texto compilado oficial"
     },
     {
       "id": "ec-132-2023",
@@ -113,7 +135,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Legislação federal"
+      "tipo": "Legislação federal",
+      "palavrasChaveIA": [
+        "reforma tributária",
+        "ibs",
+        "cbs",
+        "imposto seletivo",
+        "EC",
+        "Emenda Constitucional nº 132/2023",
+        "EC 132/2023",
+        "Presidência da República"
+      ],
+      "ultimaAlteracao": "Texto oficial"
     },
     {
       "id": "lc-214-2025",
@@ -144,7 +177,20 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Lei Complementar"
+      "tipo": "Lei Complementar",
+      "palavrasChaveIA": [
+        "lc 214",
+        "reforma tributária",
+        "ibs",
+        "cbs",
+        "imposto seletivo",
+        "214",
+        "Lei Complementar nº 214/2025",
+        "LC 214/2025",
+        "Regulamentação",
+        "Presidência da República"
+      ],
+      "ultimaAlteracao": "Texto compilado oficial"
     },
     {
       "id": "simples-nacional",
@@ -175,7 +221,19 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Regime tributário"
+      "tipo": "Regime tributário",
+      "palavrasChaveIA": [
+        "simples nacional",
+        "cgsn",
+        "mei",
+        "microempresa",
+        "SN",
+        "Legislação do Simples Nacional",
+        "Portal do Simples Nacional",
+        "Regime tributário",
+        "Receita Federal / CGSN"
+      ],
+      "ultimaAlteracao": "Portal oficial"
     },
     {
       "id": "receita-normas",
@@ -207,7 +265,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Normas administrativas"
+      "tipo": "Normas administrativas",
+      "palavrasChaveIA": [
+        "receita federal",
+        "instrução normativa",
+        "solução de consulta",
+        "normas",
+        "RFB",
+        "Normas da Receita Federal",
+        "Sistema Normas",
+        "Normas federais"
+      ],
+      "ultimaAlteracao": "Portal oficial"
     },
     {
       "id": "sped",
@@ -239,7 +308,19 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Obrigação acessória"
+      "tipo": "Obrigação acessória",
+      "palavrasChaveIA": [
+        "sped",
+        "ecd",
+        "ecf",
+        "efd contribuições",
+        "escrituração digital",
+        "Sistema Público de Escrituração Digital",
+        "Portal SPED",
+        "Obrigações digitais",
+        "Receita Federal / SPED"
+      ],
+      "ultimaAlteracao": "Novo portal oficial"
     },
     {
       "id": "ecd",
@@ -267,7 +348,17 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Obrigação acessória"
+      "tipo": "Obrigação acessória",
+      "palavrasChaveIA": [
+        "ecd",
+        "livro diário",
+        "livro razão",
+        "contabilidade digital",
+        "Escrituração Contábil Digital — ECD",
+        "Obrigação acessória",
+        "Receita Federal / SPED"
+      ],
+      "ultimaAlteracao": "Página oficial"
     },
     {
       "id": "ecf",
@@ -300,7 +391,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Obrigação acessória"
+      "tipo": "Obrigação acessória",
+      "palavrasChaveIA": [
+        "ecf",
+        "irpj",
+        "csll",
+        "lucro real",
+        "lucro presumido",
+        "Escrituração Contábil Fiscal — ECF",
+        "Obrigação acessória",
+        "Receita Federal / SPED"
+      ],
+      "ultimaAlteracao": "Página oficial"
     },
     {
       "id": "efd-contribuicoes",
@@ -330,7 +432,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Obrigação acessória"
+      "tipo": "Obrigação acessória",
+      "palavrasChaveIA": [
+        "efd contribuições",
+        "pis",
+        "cofins",
+        "m210",
+        "EFD",
+        "EFD-Contribuições",
+        "Obrigação acessória",
+        "Receita Federal / SPED"
+      ],
+      "ultimaAlteracao": "Página oficial"
     },
     {
       "id": "dctfweb",
@@ -361,7 +474,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Obrigação acessória"
+      "tipo": "Obrigação acessória",
+      "palavrasChaveIA": [
+        "dctfweb",
+        "darf",
+        "mit",
+        "esocial",
+        "efd-reinf",
+        "DCTF",
+        "Declaração federal",
+        "Receita Federal"
+      ],
+      "ultimaAlteracao": "Página oficial"
     },
     {
       "id": "esocial",
@@ -393,7 +517,19 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Obrigação acessória"
+      "tipo": "Obrigação acessória",
+      "palavrasChaveIA": [
+        "esocial",
+        "folha",
+        "sst",
+        "eventos periódicos",
+        "eS",
+        "Documentação Técnica do eSocial",
+        "Documentação Técnica",
+        "Trabalhista e previdenciária",
+        "Governo Federal / eSocial"
+      ],
+      "ultimaAlteracao": "Documentação oficial"
     },
     {
       "id": "nfse-nacional",
@@ -423,7 +559,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Documento fiscal"
+      "tipo": "Documento fiscal",
+      "palavrasChaveIA": [
+        "nfse",
+        "iss",
+        "nota fiscal de serviço",
+        "emissor nacional",
+        "NFS-e",
+        "Portal Nacional da NFS-e",
+        "NFS-e Padrão Nacional",
+        "Documento fiscal"
+      ],
+      "ultimaAlteracao": "Portal oficial"
     },
     {
       "id": "carf",
@@ -449,7 +596,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Jurisprudência"
+      "tipo": "Jurisprudência",
+      "palavrasChaveIA": [
+        "carf",
+        "acórdãos",
+        "processo administrativo fiscal",
+        "jurisprudência",
+        "Jurisprudência do CARF",
+        "Jurisprudência CARF",
+        "Jurisprudência administrativa",
+        "Conselho Administrativo de Recursos Fiscais"
+      ],
+      "ultimaAlteracao": "Consulta oficial"
     },
     {
       "id": "stf",
@@ -475,7 +633,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Jurisprudência"
+      "tipo": "Jurisprudência",
+      "palavrasChaveIA": [
+        "stf",
+        "repercussão geral",
+        "constitucional",
+        "tributário",
+        "Jurisprudência do STF",
+        "Jurisprudência STF",
+        "Jurisprudência constitucional",
+        "Supremo Tribunal Federal"
+      ],
+      "ultimaAlteracao": "Consulta oficial"
     },
     {
       "id": "stj",
@@ -501,7 +670,18 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Jurisprudência"
+      "tipo": "Jurisprudência",
+      "palavrasChaveIA": [
+        "stj",
+        "recursos repetitivos",
+        "precedentes",
+        "tributário",
+        "Jurisprudência do STJ",
+        "SCON",
+        "Jurisprudência infraconstitucional",
+        "Superior Tribunal de Justiça"
+      ],
+      "ultimaAlteracao": "Consulta oficial"
     },
     {
       "id": "portal-legislacao",
@@ -527,7 +707,19 @@
       "ultimaAtualizacao": "2026-07-26",
       "status": "Vigente / consulta oficial",
       "esfera": "Federal",
-      "tipo": "Legislação federal"
+      "tipo": "Legislação federal",
+      "palavrasChaveIA": [
+        "leis",
+        "decretos",
+        "medidas provisórias",
+        "legislação federal",
+        "⚖",
+        "Portal da Legislação Federal",
+        "Portal da Legislação",
+        "Pesquisa federal",
+        "Presidência da República"
+      ],
+      "ultimaAlteracao": "Portal oficial"
     }
   ],
   "meta": {
