@@ -14,7 +14,7 @@ const exists = async (relative) => access(path.join(ROOT, relative)).then(() => 
 
 const startedAt = now();
 const previous = await readJson('data/caa-consolidado.json', { datasets: {} });
-const updaters = ['scripts/atualizar-legislacao.mjs', 'scripts/atualizar-noticias.mjs'];
+const updaters = ['scripts/atualizar-legislacao.mjs', 'scripts/atualizar-noticias.mjs', 'scripts/atualizar-certidoes.mjs'];
 const executions = [];
 if (process.env.CAA_SKIP_SOURCES !== '1') {
   for (const script of updaters) if (await exists(script)) executions.push(await run(script));

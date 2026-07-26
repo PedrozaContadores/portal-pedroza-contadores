@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "2026-07-26T07:48:22.010Z-ff34a5ea77",
+      "version": "1.12.2",
+      "startedAt": "2026-07-26T07:48:22.010Z",
+      "finishedAt": "2026-07-26T07:48:22.016Z",
+      "status": "concluido-com-pendencias",
+      "changes": [
+        "biblioteca-tributaria",
+        "conteudo-fiscal",
+        "noticias"
+      ],
+      "datasets": {
+        "biblioteca-tributaria": {
+          "hash": "b9e6a8c7377fe2db1fd943d89c1b1a261910e06609204620124ab89ca74ba20b",
+          "items": 17,
+          "available": true
+        },
+        "agenda-tributaria": {
+          "hash": null,
+          "items": 0,
+          "available": false
+        },
+        "conteudo-fiscal": {
+          "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+          "items": 12,
+          "available": true
+        },
+        "noticias": {
+          "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
+          "items": 23,
+          "available": true
+        }
+      }
+    }
+  ]
+}

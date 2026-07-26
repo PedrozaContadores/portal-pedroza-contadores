@@ -1,0 +1,257 @@
+{
+  "versao": "1.9.0",
+  "atualizado": "2026-07-26",
+  "aviso": "Conteúdo informativo. Consulte sempre a norma vigente e a orientação profissional aplicável ao caso concreto.",
+  "itens": [
+    {
+      "id": "reforma-tributaria-ibs-cbs",
+      "titulo": "Reforma Tributária: fundamentos do IBS e da CBS",
+      "categoria": "Reforma Tributária",
+      "sigla": "IBS/CBS",
+      "resumo": "Visão introdutória sobre os novos tributos sobre o consumo, sua base legal e a transição do sistema tributário brasileiro.",
+      "pontos": [
+        "A Lei Complementar nº 214/2025 institui IBS, CBS e Imposto Seletivo.",
+        "A implementação ocorre de forma gradual, exigindo acompanhamento das regras de transição.",
+        "Empresas devem revisar cadastros, documentos fiscais, contratos, preços e processos internos."
+      ],
+      "orgao": "Presidência da República",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+      "tags": [
+        "reforma tributária",
+        "ibs",
+        "cbs",
+        "imposto seletivo",
+        "lc 214"
+      ]
+    },
+    {
+      "id": "simples-nacional",
+      "titulo": "Simples Nacional: consulta, opção e obrigações",
+      "categoria": "Regimes Tributários",
+      "sigla": "SN",
+      "resumo": "Referência para empresas enquadradas ou interessadas no regime simplificado, incluindo serviços, legislação, manuais e comunicações oficiais.",
+      "pontos": [
+        "A opção depende do atendimento aos requisitos legais e cadastrais.",
+        "Débitos e pendências podem impedir ingresso ou causar exclusão.",
+        "O DTE-SN deve ser acompanhado regularmente pelo contribuinte."
+      ],
+      "orgao": "Receita Federal",
+      "fonte": "https://www.gov.br/receitafederal/simples",
+      "tags": [
+        "simples nacional",
+        "mei",
+        "das",
+        "pgdas",
+        "dte-sn"
+      ]
+    },
+    {
+      "id": "lucro-presumido",
+      "titulo": "Lucro Presumido: estrutura geral de apuração",
+      "categoria": "Regimes Tributários",
+      "sigla": "LP",
+      "resumo": "Conteúdo introdutório sobre a sistemática de presunção para IRPJ e CSLL e a incidência de tributos federais conforme a atividade.",
+      "pontos": [
+        "Os percentuais de presunção variam conforme a natureza da receita.",
+        "PIS e Cofins geralmente seguem o regime cumulativo, observadas exceções legais.",
+        "A análise deve considerar também ISS ou ICMS, retenções e adicional de IRPJ."
+      ],
+      "orgao": "Receita Federal",
+      "fonte": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
+      "tags": [
+        "lucro presumido",
+        "irpj",
+        "csll",
+        "pis",
+        "cofins"
+      ]
+    },
+    {
+      "id": "lucro-real",
+      "titulo": "Lucro Real: apuração e controles essenciais",
+      "categoria": "Regimes Tributários",
+      "sigla": "LR",
+      "resumo": "Panorama sobre o regime baseado no lucro contábil ajustado, com maior exigência de controles fiscais e contábeis.",
+      "pontos": [
+        "A base parte do resultado contábil com adições, exclusões e compensações.",
+        "Pode ser obrigatório conforme atividade, receita ou condições previstas em lei.",
+        "A qualidade da escrituração e dos controles internos é decisiva para a apuração."
+      ],
+      "orgao": "Receita Federal",
+      "fonte": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
+      "tags": [
+        "lucro real",
+        "lalur",
+        "lacs",
+        "irpj",
+        "csll"
+      ]
+    },
+    {
+      "id": "efd-contribuicoes",
+      "titulo": "EFD-Contribuições: escrituração de PIS e Cofins",
+      "categoria": "Obrigações Acessórias",
+      "sigla": "EFD-C",
+      "resumo": "Orientação geral sobre a escrituração digital das contribuições incidentes sobre a receita e, quando aplicável, da CPRB.",
+      "pontos": [
+        "O arquivo registra documentos, receitas, créditos e ajustes do período.",
+        "A escrituração deve ser validada no programa oficial antes da transmissão.",
+        "Erros de CST, base, natureza de receita ou crédito podem gerar inconsistências."
+      ],
+      "orgao": "Receita Federal / SPED",
+      "fonte": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
+      "tags": [
+        "efd contribuições",
+        "sped",
+        "pis",
+        "cofins",
+        "cprb"
+      ]
+    },
+    {
+      "id": "ecf",
+      "titulo": "ECF: Escrituração Contábil Fiscal",
+      "categoria": "Obrigações Acessórias",
+      "sigla": "ECF",
+      "resumo": "Referência para a obrigação que reúne informações econômicas, contábeis e fiscais relacionadas à apuração do IRPJ e da CSLL.",
+      "pontos": [
+        "A ECF recupera dados da ECD quando aplicável.",
+        "Blocos e registros variam conforme o regime tributário e as operações da empresa.",
+        "Conciliações entre contabilidade, apurações e declarações reduzem riscos."
+      ],
+      "orgao": "Receita Federal / SPED",
+      "fonte": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped",
+      "tags": [
+        "ecf",
+        "sped",
+        "irpj",
+        "csll",
+        "escrituração"
+      ]
+    },
+    {
+      "id": "ecd",
+      "titulo": "ECD: Escrituração Contábil Digital",
+      "categoria": "Obrigações Acessórias",
+      "sigla": "ECD",
+      "resumo": "Visão geral da substituição digital dos livros contábeis e da necessidade de consistência, assinatura e validação dos registros.",
+      "pontos": [
+        "A ECD reúne livros contábeis em formato digital padronizado.",
+        "A escrituração deve refletir os registros contábeis regulares da entidade.",
+        "Assinaturas digitais e validação no programa oficial são etapas essenciais."
+      ],
+      "orgao": "Receita Federal / SPED",
+      "fonte": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped",
+      "tags": [
+        "ecd",
+        "sped",
+        "livro diário",
+        "contabilidade digital"
+      ]
+    },
+    {
+      "id": "dctfweb",
+      "titulo": "DCTFWeb: confissão e emissão de DARF",
+      "categoria": "Obrigações Acessórias",
+      "sigla": "DCTFWeb",
+      "resumo": "Conteúdo de apoio sobre a declaração que recebe informações de sistemas integrados e consolida débitos para emissão do DARF numerado.",
+      "pontos": [
+        "As informações são alimentadas principalmente pelo eSocial e pela EFD-Reinf.",
+        "O fechamento e a transmissão devem observar o período e a situação da declaração.",
+        "Créditos, compensações e pagamentos exigem conferência antes da emissão do DARF."
+      ],
+      "orgao": "Receita Federal",
+      "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dctfweb",
+      "tags": [
+        "dctfweb",
+        "darf",
+        "esocial",
+        "efd-reinf",
+        "débitos"
+      ]
+    },
+    {
+      "id": "esocial",
+      "titulo": "eSocial: eventos trabalhistas e previdenciários",
+      "categoria": "Trabalhista e Previdenciário",
+      "sigla": "eSocial",
+      "resumo": "Biblioteca oficial para eventos cadastrais, periódicos, não periódicos, folha de pagamento e segurança e saúde no trabalho.",
+      "pontos": [
+        "O sistema reúne informações trabalhistas, previdenciárias e tributárias.",
+        "Eventos devem respeitar sequência, prazos e regras de validação.",
+        "Alterações extemporâneas podem exigir reabertura e retificação de períodos."
+      ],
+      "orgao": "Governo Federal / eSocial",
+      "fonte": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais",
+      "tags": [
+        "esocial",
+        "folha",
+        "sst",
+        "eventos",
+        "previdenciário"
+      ]
+    },
+    {
+      "id": "efd-reinf",
+      "titulo": "EFD-Reinf: retenções e informações fiscais",
+      "categoria": "Trabalhista e Previdenciário",
+      "sigla": "REINF",
+      "resumo": "Introdução aos eventos fiscais complementares ao eSocial, incluindo retenções e demais informações integradas à DCTFWeb.",
+      "pontos": [
+        "A obrigação complementa informações não abrangidas pelo eSocial.",
+        "Eventos devem ser enviados conforme natureza, competência e prazo aplicável.",
+        "O fechamento influencia a consolidação de débitos na DCTFWeb."
+      ],
+      "orgao": "Receita Federal / SPED",
+      "fonte": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped",
+      "tags": [
+        "efd-reinf",
+        "retenções",
+        "dctfweb",
+        "serviços tomados"
+      ]
+    },
+    {
+      "id": "nfse-nacional",
+      "titulo": "NFS-e Padrão Nacional",
+      "categoria": "Documentos Fiscais",
+      "sigla": "NFS-e",
+      "resumo": "Informações sobre o padrão nacional da Nota Fiscal de Serviço eletrônica e seus ambientes de emissão e consulta.",
+      "pontos": [
+        "A adoção depende das regras e adesão do município competente.",
+        "Dados do prestador, tomador, serviço e tributação devem ser conferidos.",
+        "Cancelamentos, substituições e retenções seguem regras do ambiente aplicável."
+      ],
+      "orgao": "Portal Nacional da NFS-e",
+      "fonte": "https://www.gov.br/nfse/pt-br",
+      "tags": [
+        "nfse",
+        "nota fiscal",
+        "serviços",
+        "iss",
+        "emissor nacional"
+      ]
+    },
+    {
+      "id": "certidoes-fiscais",
+      "titulo": "Certidões fiscais e regularidade tributária",
+      "categoria": "Regularidade Fiscal",
+      "sigla": "CND",
+      "resumo": "Guia para consulta de certidões e situação fiscal perante órgãos federais, estaduais e municipais.",
+      "pontos": [
+        "A certidão pode ser negativa, positiva ou positiva com efeitos de negativa.",
+        "Pendências cadastrais ou de pagamento podem impedir a emissão.",
+        "A validade deve ser conferida diretamente no documento e no órgão emissor."
+      ],
+      "orgao": "Receita Federal / PGFN",
+      "fonte": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir",
+      "tags": [
+        "certidão",
+        "cnd",
+        "regularidade fiscal",
+        "pgfn",
+        "receita federal"
+      ]
+    }
+  ]
+}

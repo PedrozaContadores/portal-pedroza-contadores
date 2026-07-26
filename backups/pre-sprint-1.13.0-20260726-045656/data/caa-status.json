@@ -1,0 +1,63 @@
+{
+  "version": "1.12.2",
+  "status": "concluido-com-pendencias",
+  "startedAt": "2026-07-26T07:48:22.010Z",
+  "finishedAt": "2026-07-26T07:48:22.017Z",
+  "executions": [],
+  "validation": {
+    "valid": true,
+    "datasets": [
+      {
+        "id": "biblioteca-tributaria",
+        "file": "data/legislacao.json",
+        "valid": true,
+        "missing": false,
+        "items": 17,
+        "urls": 17,
+        "hash": "b9e6a8c7377fe2db1fd943d89c1b1a261910e06609204620124ab89ca74ba20b",
+        "errors": [],
+        "nonOfficial": []
+      },
+      {
+        "id": "agenda-tributaria",
+        "file": "data/agenda-tributaria.json",
+        "valid": true,
+        "missing": true,
+        "errors": []
+      },
+      {
+        "id": "conteudo-fiscal",
+        "file": "data/conteudo-fiscal.json",
+        "valid": true,
+        "missing": false,
+        "items": 12,
+        "urls": 9,
+        "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+        "errors": [],
+        "nonOfficial": []
+      },
+      {
+        "id": "noticias",
+        "file": "data/noticias.json",
+        "valid": true,
+        "missing": false,
+        "items": 23,
+        "urls": 20,
+        "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
+        "errors": [],
+        "nonOfficial": []
+      }
+    ]
+  },
+  "linkValidation": {
+    "checkedAt": "2026-07-26T07:48:22.013Z",
+    "total": 0,
+    "online": 0,
+    "alerts": 0
+  },
+  "changes": [
+    "biblioteca-tributaria",
+    "conteudo-fiscal",
+    "noticias"
+  ]
+}

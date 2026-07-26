@@ -1,12 +1,15 @@
 {
   "name": "portal-pedroza-contadores",
   "private": true,
-  "version": "1.12.2",
+  "version": "1.13.0",
   "type": "module",
   "scripts": {
     "caa:update": "node scripts/caa/update-all.mjs",
     "caa:validate": "node scripts/caa/validate-all.mjs",
-    "caa:links": "node scripts/caa/validate-links.mjs"
+    "caa:links": "node scripts/caa/validate-links.mjs",
+    "cic:update": "node scripts/atualizar-certidoes.mjs"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

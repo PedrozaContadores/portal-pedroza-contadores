@@ -1,12 +1,10 @@
 {
-  "version": "1.12.2",
-  "generatedAt": "2026-07-26T07:48:22.015Z",
+  "version": "1.13.0",
+  "generatedAt": "2026-07-26T07:56:05.784Z",
   "policy": "Conteúdos dinâmicos sincronizados exclusivamente a partir de fontes oficiais.",
   "status": "concluido-com-pendencias",
   "changes": [
-    "biblioteca-tributaria",
-    "conteudo-fiscal",
-    "noticias"
+    "certidoes"
   ],
   "datasets": {
     "biblioteca-tributaria": {
@@ -22,6 +20,14 @@
       "available": false,
       "required": false
     },
+    "certidoes": {
+      "file": "data/certidoes.json",
+      "available": true,
+      "required": true,
+      "items": 20,
+      "hash": "dc57ab23e9f2d300957d034cfda35417c3cded511164fa6f3401d79353b2560e",
+      "updatedAt": "2026-07-26T00:00:00-03:00"
+    },
     "conteudo-fiscal": {
       "file": "data/conteudo-fiscal.json",
       "available": true,
@@ -36,14 +42,14 @@
       "required": true,
       "items": 23,
       "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
-      "updatedAt": "2026-07-26T07:48:22.015Z"
+      "updatedAt": "2026-07-26T07:56:05.783Z"
     }
   },
   "pending": [
     "Agenda Tributária Inteligente ausente na base recebida; integração será ativada automaticamente quando data/agenda-tributaria.json estiver presente."
   ],
   "linkValidation": {
-    "checkedAt": "2026-07-26T07:48:22.013Z",
+    "checkedAt": "2026-07-26T07:56:05.781Z",
     "total": 0,
     "online": 0,
     "alerts": 0

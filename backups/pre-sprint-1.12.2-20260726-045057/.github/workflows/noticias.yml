@@ -1,0 +1,44 @@
+name: Atualizar noticias automaticas
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 12 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-noticias
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Atualizar base de noticias
+        run: node scripts/atualizar-noticias.mjs
+
+      - name: Validar JSON
+        run: node -e "JSON.parse(require('fs').readFileSync('data/noticias.json','utf8')); console.log('JSON valido')"
+
+      - name: Publicar alteracoes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "Nenhuma noticia nova encontrada."
+            exit 0
+          fi
+          git config user.name "Pedroza News Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/noticias.json sitemap-noticias.xml news-sitemap.xml
+          git commit -m "Atualizacao automatica de noticias"
+          git push

@@ -1,0 +1,21 @@
+/* Sprint 1.4.5 - Performance */
+.news-list-card,
+.article-card,
+.service-card,
+.footer-grid > section {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 420px;
+}
+
+img[loading="lazy"] {
+  content-visibility: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

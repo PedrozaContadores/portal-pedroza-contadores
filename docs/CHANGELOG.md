@@ -1,3 +1,9 @@
+# 1.13.0 — 2026-07-26
+
+- Central Inteligente de Certidões (CIC).
+- 20 acessos oficiais em 10 esferas.
+- Integração integral à CAA, Pesquisa Inteligente, Utilidades e Service Worker.
+
 # Sprint 1.12.1 — Hotfix de navegação e atualização
 
 - Corrigida a navegação do menu Certidões para abrir e filtrar automaticamente a categoria correspondente na Central de Utilidades.

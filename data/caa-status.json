@@ -1,8 +1,8 @@
 {
-  "version": "1.12.2",
+  "version": "1.13.0",
   "status": "concluido-com-pendencias",
-  "startedAt": "2026-07-26T07:48:22.010Z",
-  "finishedAt": "2026-07-26T07:48:22.017Z",
+  "startedAt": "2026-07-26T07:56:05.776Z",
+  "finishedAt": "2026-07-26T07:56:05.785Z",
   "executions": [],
   "validation": {
     "valid": true,
@@ -24,6 +24,17 @@
         "valid": true,
         "missing": true,
         "errors": []
+      },
+      {
+        "id": "certidoes",
+        "file": "data/certidoes.json",
+        "valid": true,
+        "missing": false,
+        "items": 20,
+        "urls": 17,
+        "hash": "dc57ab23e9f2d300957d034cfda35417c3cded511164fa6f3401d79353b2560e",
+        "errors": [],
+        "nonOfficial": []
       },
       {
         "id": "conteudo-fiscal",
@@ -50,14 +61,12 @@
     ]
   },
   "linkValidation": {
-    "checkedAt": "2026-07-26T07:48:22.013Z",
+    "checkedAt": "2026-07-26T07:56:05.781Z",
     "total": 0,
     "online": 0,
     "alerts": 0
   },
   "changes": [
-    "biblioteca-tributaria",
-    "conteudo-fiscal",
-    "noticias"
+    "certidoes"
   ]
 }
