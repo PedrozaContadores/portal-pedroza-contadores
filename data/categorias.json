@@ -1,7 +1,58 @@
 [
-  { "nome": "Fiscal", "palavras": ["tribut", "imposto", "receita federal", "simples nacional", "fisco", "irpf", "cnpj"] },
-  { "nome": "Trabalhista", "palavras": ["trabalh", "fgts", "esocial", "emprego", "salario", "previdencia"] },
-  { "nome": "Contabilidade", "palavras": ["contabil", "auditoria", "cfc", "crc", "balanco", "norma brasileira"] },
-  { "nome": "Economia", "palavras": ["economia", "inflacao", "juros", "pib", "dolar", "mercado financeiro"] },
-  { "nome": "Empresarial", "palavras": ["empresa", "empreendedor", "negocio", "mei", "gestao", "credito"] }
+  {
+    "nome": "Fiscal",
+    "palavras": [
+      "tribut",
+      "imposto",
+      "receita federal",
+      "simples nacional",
+      "fisco",
+      "irpf",
+      "cnpj"
+    ]
+  },
+  {
+    "nome": "Trabalhista",
+    "palavras": [
+      "trabalh",
+      "fgts",
+      "esocial",
+      "emprego",
+      "salário",
+      "previdência"
+    ]
+  },
+  {
+    "nome": "Contabilidade",
+    "palavras": [
+      "contábil",
+      "auditoria",
+      "cfc",
+      "crc",
+      "balanço",
+      "norma brasileira"
+    ]
+  },
+  {
+    "nome": "Economia",
+    "palavras": [
+      "economia",
+      "inflação",
+      "juros",
+      "pib",
+      "dólar",
+      "mercado financeiro"
+    ]
+  },
+  {
+    "nome": "Empresarial",
+    "palavras": [
+      "empresa",
+      "empreendedor",
+      "negócio",
+      "mei",
+      "gestão",
+      "crédito"
+    ]
+  }
 ]

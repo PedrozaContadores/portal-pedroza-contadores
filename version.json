@@ -1,6 +1,7 @@
 {
-  "version": "1.4.5.1",
-  "sprint": "Sprint 1.4 - Noticias",
+  "version": "1.4.5.2",
+  "sprint": "Sprint 1.4 — Notícias",
   "build": "1.4.5.1",
-  "date": "2026-07-26"
+  "date": "2026-07-26",
+  "status": "Correção global de acentuação"
 }

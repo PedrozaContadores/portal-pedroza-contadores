@@ -11,7 +11,7 @@
       "url": "https://cfc.org.br/category/noticias/feed/",
       "site": "https://cfc.org.br/noticias/",
       "categoria_padrao": "Contabilidade",
-      "imagem_padrao": "../../assets/images/noticia-reforma.jpg",
+      "imagem_padrao": "../../assets/images/notícia-reforma.jpg",
       "ativa": true
     },
     {
@@ -22,30 +22,30 @@
       "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
       "site": "https://agenciabrasil.ebc.com.br/economia",
       "categoria_padrao": "Economia",
-      "imagem_padrao": "../../assets/images/noticia-simples.jpg",
+      "imagem_padrao": "../../assets/images/notícia-simples.jpg",
       "ativa": true
     },
     {
       "id": "receita-federal",
       "nome": "Receita Federal",
       "sigla": "Receita Federal",
-      "tipo": "pagina",
+      "tipo": "página",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias",
       "site": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias",
       "categoria_padrao": "Fiscal",
-      "imagem_padrao": "../../assets/images/noticia-reforma.jpg",
+      "imagem_padrao": "../../assets/images/notícia-reforma.jpg",
       "ativa": false,
-      "observacao": "Aguardando feed publico estavel. A pagina permanece cadastrada para futura ativacao."
+      "observacao": "Aguardando feed publico estavel. A página permanece cadastrada para futura ativação."
     },
     {
       "id": "crcrj",
       "nome": "Conselho Regional de Contabilidade do Rio de Janeiro",
       "sigla": "CRCRJ",
-      "tipo": "pagina",
+      "tipo": "página",
       "url": "https://www.crcrj.org.br/",
       "site": "https://www.crcrj.org.br/",
       "categoria_padrao": "Contabilidade",
-      "imagem_padrao": "../../assets/images/noticia-reforma.jpg",
+      "imagem_padrao": "../../assets/images/notícia-reforma.jpg",
       "ativa": false,
       "observacao": "Aguardando feed publico estavel."
     }
