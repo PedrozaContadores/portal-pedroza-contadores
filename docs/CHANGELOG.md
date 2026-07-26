@@ -1,3 +1,14 @@
+
+## 1.9.3 — Redesign da Central de Legislação
+
+- Hero Enterprise com identidade visual institucional.
+- Pesquisa instantânea por norma, tributo, órgão e assunto.
+- Filtros por categoria.
+- Doze fontes oficiais organizadas em cards premium.
+- Integração com Conteúdo Fiscal, Calculadoras e Links Úteis.
+- Responsividade e acessibilidade preservadas.
+- Service Worker e versão atualizados.
+
 # Changelog
 
 ## 1.8.0 — 2026-07-26
@@ -287,7 +298,7 @@
 - Barras internas das calculadoras e do conteúdo fiscal reposicionadas abaixo do cabeçalho.
 - Conteúdo, rodapé, identidade visual e funcionalidades da versão 1.9.0 preservados.
 
-## 1.9.2 — Hotfix Navegação Legislação
+## 1.9.3 — Hotfix Navegação Legislação
 
 - Corrigida a duplicidade de destino entre “Legislação” e “Links Úteis”.
 - Criada a rota independente `pages/legislacao/`.
