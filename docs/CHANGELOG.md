@@ -1,3 +1,11 @@
+# Sprint 1.6.2 — DP/RH e Obrigações Trabalhistas
+
+- Criada seção exclusiva para DP/RH e rotinas trabalhistas.
+- Incluídos acessos oficiais ao eSocial, DET, FGTS Digital, Conectividade Social ICP V2, Portal Emprega Brasil e Empregador Web.
+- Incluídos Qualificação Cadastral, documentação técnica do eSocial, CRF, CNDT, CTPS Digital e referências de SST.
+- Atualizados Service Worker, identificação visual e versão do portal para 1.6.2.
+- Mantidos UTF-8, abertura segura de links externos e layout oficial.
+
 ## 1.6.1 - Hotfix Documentos Fiscais Eletrônicos (2026-07-26)
 
 - Criada seção específica para NF-e, NFS-e, NFA-e, NFC-e, CT-e, MDF-e e BP-e.

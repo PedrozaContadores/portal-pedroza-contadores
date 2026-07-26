@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'pedroza-portal-v1.6.1';
+const CACHE_VERSION = 'pedroza-portal-v1.6.2';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 const ROOT = '/portal-pedroza-contadores/';
