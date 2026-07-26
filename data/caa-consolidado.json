@@ -1,0 +1,51 @@
+{
+  "version": "1.12.2",
+  "generatedAt": "2026-07-26T07:48:22.015Z",
+  "policy": "Conteúdos dinâmicos sincronizados exclusivamente a partir de fontes oficiais.",
+  "status": "concluido-com-pendencias",
+  "changes": [
+    "biblioteca-tributaria",
+    "conteudo-fiscal",
+    "noticias"
+  ],
+  "datasets": {
+    "biblioteca-tributaria": {
+      "file": "data/legislacao.json",
+      "available": true,
+      "required": true,
+      "items": 17,
+      "hash": "b9e6a8c7377fe2db1fd943d89c1b1a261910e06609204620124ab89ca74ba20b",
+      "updatedAt": "2026-07-26"
+    },
+    "agenda-tributaria": {
+      "file": "data/agenda-tributaria.json",
+      "available": false,
+      "required": false
+    },
+    "conteudo-fiscal": {
+      "file": "data/conteudo-fiscal.json",
+      "available": true,
+      "required": true,
+      "items": 12,
+      "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+      "updatedAt": "2026-07-26"
+    },
+    "noticias": {
+      "file": "data/noticias.json",
+      "available": true,
+      "required": true,
+      "items": 23,
+      "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
+      "updatedAt": "2026-07-26T07:48:22.015Z"
+    }
+  },
+  "pending": [
+    "Agenda Tributária Inteligente ausente na base recebida; integração será ativada automaticamente quando data/agenda-tributaria.json estiver presente."
+  ],
+  "linkValidation": {
+    "checkedAt": "2026-07-26T07:48:22.013Z",
+    "total": 0,
+    "online": 0,
+    "alerts": 0
+  }
+}

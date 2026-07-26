@@ -1,6 +1,6 @@
 {
-  "version": "1.12.1",
+  "version": "1.12.2",
   "sprint": "Sprint 1.12 — Central de Atualização Automática (CAA)",
   "date": "2026-07-26",
-  "status": "homologação pendente - Hotfix Certidões e data das notícias"
+  "status": "homologação pendente — motor CAA implementado"
 }

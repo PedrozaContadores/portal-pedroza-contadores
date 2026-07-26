@@ -351,3 +351,12 @@
 - Workflow unificado do GitHub Actions em dias úteis.
 - Cache inteligente preparado no Service Worker.
 - Compatibilidade para futura Área do Cliente, sem autenticação ou interface ativa.
+
+## 1.12.2 — Central de Atualização Automática
+
+- Implantado motor central para BTI, Conteúdo Fiscal, Notícias e integração opcional da ATI.
+- Adicionadas validação estrutural, normalização, detecção de alterações por SHA-256 e histórico de execuções.
+- Adicionada validação automática de links oficiais e relatórios consolidados.
+- Unificados os workflows de atualização em `.github/workflows/caa.yml`.
+- Sincronizados `version.json`, `build-information.js` e Service Worker.
+- A ATI permanece registrada como pendência automática quando seu JSON não estiver presente na base.
