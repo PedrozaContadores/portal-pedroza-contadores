@@ -2,6 +2,69 @@
   "version": 1,
   "entries": [
     {
+      "id": "2026-07-27T17:14:16.680Z-397c9ca919",
+      "version": "2.0.0",
+      "startedAt": "2026-07-27T17:14:16.680Z",
+      "finishedAt": "2026-07-27T17:16:59.025Z",
+      "status": "concluido-com-alertas",
+      "changes": [
+        "biblioteca-tributaria",
+        "certidoes",
+        "obrigacoes",
+        "noticias",
+        "formularios",
+        "tabelas",
+        "pesquisa-global"
+      ],
+      "datasets": {
+        "biblioteca-tributaria": {
+          "hash": "05c17622b6167b733da7fb21abd3eefaceb86a7e854614e68599b26a2423bcf7",
+          "items": 17,
+          "available": true
+        },
+        "agenda-tributaria": {
+          "hash": null,
+          "items": 0,
+          "available": false
+        },
+        "certidoes": {
+          "hash": "53d24bbebd0c8a9a94830d1e98311c38bce800064e29c39f7d557ceba0fe1d4e",
+          "items": 20,
+          "available": true
+        },
+        "obrigacoes": {
+          "hash": "b6098d6359de1509ed8eea9852123612b3497d30fdd220b2574ba44f6a5187f1",
+          "items": 24,
+          "available": true
+        },
+        "conteudo-fiscal": {
+          "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+          "items": 12,
+          "available": true
+        },
+        "noticias": {
+          "hash": "f15b270a29b67010f670c089c2daca86632b5498761bf66eb7b6543522ff6254",
+          "items": 23,
+          "available": true
+        },
+        "formularios": {
+          "hash": "b665d964d5dd0f1a62e89f779fb6f7fae8e5cff68dd5aa45dbac311dcccf5919",
+          "items": 14,
+          "available": true
+        },
+        "tabelas": {
+          "hash": "15eb2852148636304ab884d1173be01eb731de9064b9c28ced59c9f7c6527979",
+          "items": 15,
+          "available": true
+        },
+        "pesquisa-global": {
+          "hash": "c640aec37a119897ba5554394922835bbba9274039aaee8c6e38845e4deed817",
+          "items": 125,
+          "available": true
+        }
+      }
+    },
+    {
       "id": "2026-07-26T08:07:09.300Z-34b7375cd1",
       "version": "2.0.0",
       "startedAt": "2026-07-26T08:07:09.300Z",

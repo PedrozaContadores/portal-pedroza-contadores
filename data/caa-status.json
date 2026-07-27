@@ -1,9 +1,34 @@
 {
   "version": "2.0.0",
-  "status": "concluido-com-pendencias",
-  "startedAt": "2026-07-26T08:07:09.300Z",
-  "finishedAt": "2026-07-26T08:07:09.312Z",
-  "executions": [],
+  "status": "concluido-com-alertas",
+  "startedAt": "2026-07-27T17:14:16.680Z",
+  "finishedAt": "2026-07-27T17:16:59.025Z",
+  "executions": [
+    {
+      "script": "scripts/atualizar-legislacao.mjs",
+      "code": 0
+    },
+    {
+      "script": "scripts/atualizar-noticias.mjs",
+      "code": 0
+    },
+    {
+      "script": "scripts/atualizar-certidoes.mjs",
+      "code": 0
+    },
+    {
+      "script": "scripts/atualizar-obrigacoes.mjs",
+      "code": 0
+    },
+    {
+      "script": "scripts/atualizar-tabelas.mjs",
+      "code": 0
+    },
+    {
+      "script": "scripts/gerar-pesquisa-global.mjs",
+      "code": 0
+    }
+  ],
   "validation": {
     "valid": true,
     "datasets": [
@@ -14,7 +39,7 @@
         "missing": false,
         "items": 17,
         "urls": 17,
-        "hash": "b9e6a8c7377fe2db1fd943d89c1b1a261910e06609204620124ab89ca74ba20b",
+        "hash": "05c17622b6167b733da7fb21abd3eefaceb86a7e854614e68599b26a2423bcf7",
         "errors": [],
         "nonOfficial": []
       },
@@ -32,7 +57,7 @@
         "missing": false,
         "items": 20,
         "urls": 17,
-        "hash": "dc57ab23e9f2d300957d034cfda35417c3cded511164fa6f3401d79353b2560e",
+        "hash": "53d24bbebd0c8a9a94830d1e98311c38bce800064e29c39f7d557ceba0fe1d4e",
         "errors": [],
         "nonOfficial": []
       },
@@ -43,7 +68,7 @@
         "missing": false,
         "items": 24,
         "urls": 22,
-        "hash": "7da3f61fd76d37b36648282737fbe0ae49f638b08142eed70e531945634fcef9",
+        "hash": "b6098d6359de1509ed8eea9852123612b3497d30fdd220b2574ba44f6a5187f1",
         "errors": [],
         "nonOfficial": []
       },
@@ -65,19 +90,58 @@
         "missing": false,
         "items": 23,
         "urls": 20,
-        "hash": "37d049db34555c04663d0c3a1a556de2f3a09a0ac37609b17a70941c263cad90",
+        "hash": "f15b270a29b67010f670c089c2daca86632b5498761bf66eb7b6543522ff6254",
+        "errors": [],
+        "nonOfficial": []
+      },
+      {
+        "id": "formularios",
+        "file": "data/formularios.json",
+        "valid": true,
+        "missing": false,
+        "items": 14,
+        "urls": 12,
+        "hash": "b665d964d5dd0f1a62e89f779fb6f7fae8e5cff68dd5aa45dbac311dcccf5919",
+        "errors": [],
+        "nonOfficial": []
+      },
+      {
+        "id": "tabelas",
+        "file": "data/tabelas.json",
+        "valid": true,
+        "missing": false,
+        "items": 15,
+        "urls": 12,
+        "hash": "15eb2852148636304ab884d1173be01eb731de9064b9c28ced59c9f7c6527979",
+        "errors": [],
+        "nonOfficial": []
+      },
+      {
+        "id": "pesquisa-global",
+        "file": "data/pesquisa-global.json",
+        "valid": true,
+        "missing": false,
+        "items": 125,
+        "urls": 75,
+        "hash": "c640aec37a119897ba5554394922835bbba9274039aaee8c6e38845e4deed817",
         "errors": [],
         "nonOfficial": []
       }
     ]
   },
   "linkValidation": {
-    "checkedAt": "2026-07-26T08:07:09.306Z",
-    "total": 0,
-    "online": 0,
-    "alerts": 0
+    "checkedAt": "2026-07-27T17:16:59.016Z",
+    "total": 100,
+    "online": 75,
+    "alerts": 25
   },
   "changes": [
-    "obrigacoes"
+    "biblioteca-tributaria",
+    "certidoes",
+    "obrigacoes",
+    "noticias",
+    "formularios",
+    "tabelas",
+    "pesquisa-global"
   ]
 }
