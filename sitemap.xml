@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pedrozacontadores.github.io/portal-pedroza-contadores/</loc>
@@ -91,4 +91,6 @@
 <url><loc>https://pedrozacontadores.github.io/portal-pedroza-contadores/pages/tabelas/</loc><lastmod>2026-07-26</lastmod></url>
 <url><loc>https://pedrozacontadores.github.io/portal-pedroza-contadores/pages/painel/</loc><lastmod>2026-07-26</lastmod></url>
 <url><loc>https://pedrozacontadores.github.io/portal-pedroza-contadores/pages/pesquisa/</loc><lastmod>2026-07-26</lastmod></url>
+  <url><loc>https://pedrozacontadores.github.io/portal-pedroza-contadores/pages/termos-de-uso/</loc><lastmod>2026-07-26</lastmod></url>
 </urlset>
+

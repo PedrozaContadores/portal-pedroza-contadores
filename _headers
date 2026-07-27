@@ -1,0 +1,8 @@
+# Arquivo de referencia para Cloudflare Pages/Netlify.
+# O GitHub Pages nao aplica este arquivo como cabecalho HTTP.
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; frame-ancestors 'self'; object-src 'none'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https:; form-action 'self'; upgrade-insecure-requests

@@ -1,9 +1,11 @@
-const CACHE_VERSION = 'pedroza-portal-v2.0.0';
+﻿const CACHE_VERSION = 'pedroza-portal-v2.0.1';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 const ROOT = '/portal-pedroza-contadores/';
 
 const CORE = [
+  ${ROOT}assets/js/protecao-portal.js,
+  ${ROOT}pages/termos-de-uso/,
   ROOT,
   `${ROOT}index.html`,
   `${ROOT}assets/css/main.css`,
@@ -98,3 +100,6 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(staleWhileRevalidate(request, STATIC_CACHE));
   }
 });
+
+
+

@@ -1,0 +1,5 @@
+Contact: mailto:contato@pedroza.com.br
+Preferred-Languages: pt-BR
+Canonical: https://www.pedroza.com.br/.well-known/security.txt
+Policy: https://www.pedroza.com.br/pages/termos-de-uso/
+Expires: 2027-07-26T23:59:59Z
