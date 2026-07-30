@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-29T16:05:14.504Z",
+  "checkedAt": "2026-07-30T16:14:44.438Z",
   "total": 100,
   "online": 73,
   "alerts": 27,
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -270,9 +270,9 @@
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://notacarioca.rio.gov.br/capa.aspx"
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
@@ -371,16 +371,46 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/acordo-entre-mercosul-e-singapura-garante-tarifa-zero-para-exportacoes",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/antiga-sede-dos-correios-no-centro-do-rio-vai-leilao-nesta-quinta",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/acordo-entre-mercosul-e-singapura-garante-tarifa-zero-para-exportacoes"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/antiga-sede-dos-correios-no-centro-do-rio-vai-leilao-nesta-quinta"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-8-recebem-bolsa-familia-de-julho",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/arrecadacao-federal-cresce-77-em-junho-e-soma-r-2644-bilhoes",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-8-recebem-bolsa-familia-de-julho"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/arrecadacao-federal-cresce-77-em-junho-e-soma-r-2644-bilhoes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/desemprego-no-2o-trimestre-e-54-o-menor-ja-registrado-no-periodo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/desemprego-no-2o-trimestre-e-54-o-menor-ja-registrado-no-periodo"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/igp-m-tem-queda-de-precos-de-116-em-julho-diz-fgv",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/igp-m-tem-queda-de-precos-de-116-em-julho-diz-fgv"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/juros-das-familias-seguem-elevados-e-chegam-64-ao-ano-diz-bc",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/juros-das-familias-seguem-elevados-e-chegam-64-ao-ano-diz-bc"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/sp-registra-queda-de-73-no-numero-de-homicidios-no-1o-semestre",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/sp-registra-queda-de-73-no-numero-de-homicidios-no-1o-semestre"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/brasil-fecha-o-mes-de-junho-com-saldo-positivo-de-145161-empregos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/brasil-fecha-o-mes-de-junho-com-saldo-positivo-de-145161-empregos"
     },
     {
       "url": "https://cfc.org.br/noticias/com-incentivo-do-sistema-cfc-crcs-estudantes-do-acre-conquistam-1o-lugar-na-categoria-diversidade-das-organizacoes-em-congresso-da-usp/",
@@ -389,58 +419,46 @@
       "finalUrl": "https://cfc.org.br/noticias/com-incentivo-do-sistema-cfc-crcs-estudantes-do-acre-conquistam-1o-lugar-na-categoria-diversidade-das-organizacoes-em-congresso-da-usp/"
     },
     {
-      "url": "https://cfc.org.br/noticias/issb-divulga-atualizacao-da-reuniao-de-julho-de-2026-e-novo-episodio-de-podcast-sobre-normas-de-sustentabilidade/",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/divida-publica-sobe-261-em-junho-e-supera-r-92-trilhoes",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/issb-divulga-atualizacao-da-reuniao-de-julho-de-2026-e-novo-episodio-de-podcast-sobre-normas-de-sustentabilidade/"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/divida-publica-sobe-261-em-junho-e-supera-r-92-trilhoes"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/producao-de-petroleo-e-gas-no-brasil-cresce-14-no-2o-trimestre",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-cai-para-r-510-apos-juros-serem-mantidos-nos-eua",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/producao-de-petroleo-e-gas-no-brasil-cresce-14-no-2o-trimestre"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-cai-para-r-510-apos-juros-serem-mantidos-nos-eua"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/china-facilita-exportacao-de-polpas-e-frutas-congeladas-brasileiras",
+      "url": "https://cfc.org.br/noticias/especialistas-orientam-contadores-sobre-regras-financeiras-para-inicio-de-campanhas-eleitorais/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/china-facilita-exportacao-de-polpas-e-frutas-congeladas-brasileiras"
+      "finalUrl": "https://cfc.org.br/noticias/especialistas-orientam-contadores-sobre-regras-financeiras-para-inicio-de-campanhas-eleitorais/"
+    },
+    {
+      "url": "https://cfc.org.br/internacional/issb-divulga-atualizacao-da-reuniao-de-julho-de-2026-e-novo-episodio-de-podcast-sobre-normas-de-sustentabilidade/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/internacional/issb-divulga-atualizacao-da-reuniao-de-julho-de-2026-e-novo-episodio-de-podcast-sobre-normas-de-sustentabilidade/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/novo-sistema-alfandegario-agiliza-desembarque-de-viajantes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/novo-sistema-alfandegario-agiliza-desembarque-de-viajantes"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/proximo-modulo-do-curso-sobre-reforma-tributaria-do-consumo-ja-tem-data-marcada/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/proximo-modulo-do-curso-sobre-reforma-tributaria-do-consumo-ja-tem-data-marcada/"
     },
     {
       "url": "https://cfc.org.br/noticias/confira-o-cronograma-da-2a-edicao-do-exame-de-suficiencia-de-2026/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/confira-o-cronograma-da-2a-edicao-do-exame-de-suficiencia-de-2026/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/consumidores-podem-renegociar-dividas-bancarias-ate-31-de-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/consumidores-podem-renegociar-dividas-bancarias-ate-31-de-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/eco-invest-brasil-promove-quinto-leilao-para-financiar-inovacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/eco-invest-brasil-promove-quinto-leilao-para-financiar-inovacao"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fgts-138-milhoes-de-trabalhadores-receberao-r-13-bilhoes-de-lucros",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fgts-138-milhoes-de-trabalhadores-receberao-r-13-bilhoes-de-lucros"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/financiamento-de-veiculos-cresce-109-no-primeiro-semestre",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/financiamento-de-veiculos-cresce-109-no-primeiro-semestre"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-classifica-mais-17-empresas-como-devedoras-contumazes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-classifica-mais-17-empresas-como-devedoras-contumazes"
     },
     {
       "url": "https://cfc.org.br/noticias/regimes-diferenciados-e-especificos-pautam-10o-modulo-do-curso-sobre-reforma-tributaria/",
@@ -453,12 +471,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/trilha-esg-2026-oferece-capacitacao-para-preparar-profissionais-da-contabilidade-para-os-novos-desafios-da-sustentabilidade/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/vendas-do-tesouro-direto-atingem-segundo-melhor-resultado-da-historia",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/vendas-do-tesouro-direto-atingem-segundo-melhor-resultado-da-historia"
     },
     {
       "url": "https://cfc.org.br/pesquisas-academicas-disponiveis/pesquisas-academicas-disponiveis-pesquisas-academicas-disponiveis/saiba-onde-sera-o-10o-modulo-do-curso-sobre-reforma-tributaria-do-cfc-e-da-rfb/",
@@ -479,18 +491,6 @@
       "finalUrl": "https://cfc.org.br/noticias/congresso-da-usp-reune-representantes-do-cfc-em-troca-de-experiencias-sobre-contabilidade/"
     },
     {
-      "url": "https://cfc.org.br/noticias/iasb-conclui-revisao-da-ifrs-16-e-prepara-mudancas-na-apresentacao-de-tributos-nas-demonstracoes-financeiras/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/iasb-conclui-revisao-da-ifrs-16-e-prepara-mudancas-na-apresentacao-de-tributos-nas-demonstracoes-financeiras/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-e-receita-federal-abordam-regimes-diferenciados-e-especificos-no-10-modulo-da-capacitacao-sobre-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-e-receita-federal-abordam-regimes-diferenciados-e-especificos-no-10-modulo-da-capacitacao-sobre-reforma-tributaria/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
       "status": "alerta",
       "code": 404,
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.jucerja.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
@@ -528,9 +528,9 @@
     },
     {
       "url": "https://carioca.rio/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://carioca.rio/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
