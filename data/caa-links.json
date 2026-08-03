@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-07-31T16:30:26.348Z",
+  "checkedAt": "2026-08-03T17:29:17.994Z",
   "total": 100,
-  "online": 75,
-  "alerts": 25,
+  "online": 74,
+  "alerts": 26,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -342,9 +342,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/simples",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www8.receita.fazenda.gov.br/simplesnacional/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
@@ -371,10 +371,70 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-0-recebem-bolsa-familia-de-julho",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-nesta-terca-reuniao-para-definir-taxa-basica-de-juros",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-0-recebem-bolsa-familia-de-julho"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-nesta-terca-reuniao-para-definir-taxa-basica-de-juros"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/emissao-de-notas-fiscais-com-cbs-e-ibs-comeca-nesta-segunda-feira",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/emissao-de-notas-fiscais-com-cbs-e-ibs-comeca-nesta-segunda-feira"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pela-1a-vez-desde-marco-mercado-reduz-expectativa-para-selic-em-2026",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pela-1a-vez-desde-marco-mercado-reduz-expectativa-para-selic-em-2026"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-descobre-mais-poco-de-gas-na-margem-equatorial-da-colombia",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-descobre-mais-poco-de-gas-na-margem-equatorial-da-colombia"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/brasil-e-quarto-pais-que-mais-ampliou-turismo-internacional-diz-ocde",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/brasil-e-quarto-pais-que-mais-ampliou-turismo-internacional-diz-ocde"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mega-sena-acumula-para-r-135-milhoes-confira-dezenas-sorteadas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mega-sena-acumula-para-r-135-milhoes-confira-dezenas-sorteadas"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mulheres-sao-maioria-no-setor-de-seguros-mas-minoria-na-lideranca",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mulheres-sao-maioria-no-setor-de-seguros-mas-minoria-na-lideranca"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/aumento-de-etanol-na-gasolina-divide-opinioes-sobre-impacto-em-carros",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/aumento-de-etanol-na-gasolina-divide-opinioes-sobre-impacto-em-carros"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cresce-o-numero-de-estabelecimentos-na-cadeia-produtiva-da-cachaca",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cresce-o-numero-de-estabelecimentos-na-cadeia-produtiva-da-cachaca"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/programa-de-renegociacao-de-dividas-e-prorrogado-ate-31-de-agosto",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/programa-de-renegociacao-de-dividas-e-prorrogado-ate-31-de-agosto"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/receita-federal-e-comite-gestor-do-ibs-flexibilizam-validacao-de-dados-fiscais-na-transicao-da-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/receita-federal-e-comite-gestor-do-ibs-flexibilizam-validacao-de-dados-fiscais-na-transicao-da-reforma-tributaria/"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-e-destacado-como-referencia-nacional-em-governanca-transparencia-e-integracao-de-dados/",
@@ -383,64 +443,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-destacado-como-referencia-nacional-em-governanca-transparencia-e-integracao-de-dados/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cidades-transportes-e-fazenda-lideram-desbloqueio-do-orcamento",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cidades-transportes-e-fazenda-lideram-desbloqueio-do-orcamento"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cnpj-alfanumerico-comeca-ser-emitido-nesta-sexta",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cnpj-alfanumerico-comeca-ser-emitido-nesta-sexta"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/deficit-do-setor-publico-sobe-para-r-553-bilhoes-em-junho",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/deficit-do-setor-publico-sobe-para-r-553-bilhoes-em-junho"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/falsos-anuncios-sobre-desenrola-brasil-enganam-usuarios-nas-redes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/falsos-anuncios-sobre-desenrola-brasil-enganam-usuarios-nas-redes"
-    },
-    {
       "url": "https://cfc.org.br/noticias/novo-cronograma-para-documentos-fiscais-da-reforma-tributaria-amplia-prazo-de-adaptacao-dos-sistemas/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/novo-cronograma-para-documentos-fiscais-da-reforma-tributaria-amplia-prazo-de-adaptacao-dos-sistemas/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-adia-cronograma-de-destaque-de-impostos-da-reforma-tributaria",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-adia-cronograma-de-destaque-de-impostos-da-reforma-tributaria"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-paga-nesta-sexta-terceiro-lote-de-restituicao-do-ir-2026",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-paga-nesta-sexta-terceiro-lote-de-restituicao-do-ir-2026"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/saiba-quanto-o-trabalhador-recebera-de-lucro-do-fgts",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/saiba-quanto-o-trabalhador-recebera-de-lucro-do-fgts"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cmn-institui-regime-especial-para-fundos-de-inovacao-no-eco-invest",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cmn-institui-regime-especial-para-fundos-de-inovacao-no-eco-invest"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-cai-ao-menor-nivel-em-quase-dois-meses-com-alivio-externo",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-cai-ao-menor-nivel-em-quase-dois-meses-com-alivio-externo"
     },
     {
       "url": "https://cfc.org.br/noticias/com-incentivo-do-sistema-cfc-crcs-estudantes-do-acre-conquistam-1o-lugar-na-categoria-diversidade-das-organizacoes-em-congresso-da-usp/",
@@ -483,12 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/trilha-esg-2026-oferece-capacitacao-para-preparar-profissionais-da-contabilidade-para-os-novos-desafios-da-sustentabilidade/"
-    },
-    {
-      "url": "https://cfc.org.br/pesquisas-academicas-disponiveis/pesquisas-academicas-disponiveis-pesquisas-academicas-disponiveis/saiba-onde-sera-o-10o-modulo-do-curso-sobre-reforma-tributaria-do-cfc-e-da-rfb/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/pesquisas-academicas-disponiveis/pesquisas-academicas-disponiveis-pesquisas-academicas-disponiveis/saiba-onde-sera-o-10o-modulo-do-curso-sobre-reforma-tributaria-do-cfc-e-da-rfb/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
