@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-05T16:26:17.968Z",
+  "checkedAt": "2026-08-07T12:34:25.662Z",
   "total": 100,
-  "online": 68,
-  "alerts": 32,
+  "online": 75,
+  "alerts": 25,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -114,9 +114,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/certidoes-de-regularidade-fiscal/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/certidoes-de-regularidade-fiscal/"
     },
     {
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
@@ -126,15 +126,15 @@
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp"
     },
     {
       "url": "https://daminternet.rio.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://daminternet.rio.rj.gov.br/"
     },
     {
       "url": "https://cndt-certidao.tst.jus.br/inicio.faces",
@@ -198,9 +198,9 @@
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx"
     },
     {
       "url": "https://www.crc.org.br/servicos/registro",
@@ -270,15 +270,15 @@
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://notacarioca.rio.gov.br/capa.aspx"
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -371,6 +371,78 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-eleitoral-e-partidaria-para-o-pleito-de-2026/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-eleitoral-e-partidaria-para-o-pleito-de-2026/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ninguem-acerta-mega-sena-premio-acumula-para-r-165-milhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ninguem-acerta-mega-sena-premio-acumula-para-r-165-milhoes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pix-amplia-participacao-nos-pagamentos-em-bares-e-restaurantes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pix-amplia-participacao-nos-pagamentos-em-bares-e-restaurantes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/balanca-comercial-de-julho-tem-superavit-de-us-7-bilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/balanca-comercial-de-julho-tem-superavit-de-us-7-bilhoes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cnc-endividamento-das-familias-sobe-para-82-mas-inadimplencia-cai",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cnc-endividamento-das-familias-sobe-para-82-mas-inadimplencia-cai"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-diz-que-aumento-da-divida-decorre-dos-juros-nao-dos-gastos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-diz-que-aumento-da-divida-decorre-dos-juros-nao-dos-gastos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/entenda-o-que-muda-com-nova-lei-do-frete",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/entenda-o-que-muda-com-nova-lei-do-frete"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/familias-brasileiras-perderam-r-625-bilhoes-para-bets-em-2025",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/familias-brasileiras-perderam-r-625-bilhoes-para-bets-em-2025"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/leiloes-de-petroleo-em-outubro-terao-recorde-de-areas-em-disputa",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/leiloes-de-petroleo-em-outubro-terao-recorde-de-areas-em-disputa"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/capacitacoes-agendadas-para-o-mes-de-agosto-somam-mais-de-60-pontos-para-o-pepc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/capacitacoes-agendadas-para-o-mes-de-agosto-somam-mais-de-60-pontos-para-o-pepc/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades"
+    },
+    {
       "url": "https://cfc.org.br/noticias/servicos-financeiros-sera-o-tema-do-12o-modulo-do-curso-sobre-reforma-tributaria-do-consumo/",
       "status": "online",
       "code": 200,
@@ -381,18 +453,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/confederacao-das-santas-casas-consulta-cfc-sobre-capacitacao-voltada-para-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-reuniao-que-definira-taxa-basica-de-juros",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-reuniao-que-definira-taxa-basica-de-juros"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/emplacamentos-de-veiculos-cresceram-10-em-julho",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/emplacamentos-de-veiculos-cresceram-10-em-julho"
     },
     {
       "url": "https://cfc.org.br/noticias/inscricoes-para-2a-edicao-do-eqt-seguem-ate-a-proxima-quarta-feira-12/",
@@ -413,58 +473,10 @@
       "finalUrl": "https://cfc.org.br/noticias/prazo-para-inscricao-na-segunda-edicao-do-exame-de-suficiencia-de-2026-termina-nesta-sexta-feira/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/producao-da-industria-brasileira-cai-18-de-maio-para-junho",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/producao-da-industria-brasileira-cai-18-de-maio-para-junho"
-    },
-    {
       "url": "https://cfc.org.br/noticias/o-desafio-do-brasil-e-decidir-melhor-afirma-presidente-do-cfc-em-evento-sobre-gasto-publico/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/o-desafio-do-brasil-e-decidir-melhor-afirma-presidente-do-cfc-em-evento-sobre-gasto-publico/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ajuda-internacional-sofre-corte-de-231-em-2025-o-maior-da-historia",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ajuda-internacional-sofre-corte-de-231-em-2025-o-maior-da-historia"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-nesta-terca-reuniao-para-definir-taxa-basica-de-juros",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-nesta-terca-reuniao-para-definir-taxa-basica-de-juros"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/emissao-de-notas-fiscais-com-cbs-e-ibs-comeca-nesta-segunda-feira",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/emissao-de-notas-fiscais-com-cbs-e-ibs-comeca-nesta-segunda-feira"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pela-1a-vez-desde-marco-mercado-reduz-expectativa-para-selic-em-2026",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pela-1a-vez-desde-marco-mercado-reduz-expectativa-para-selic-em-2026"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-descobre-novo-poco-de-gas-na-margem-equatorial-da-colombia",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-descobre-novo-poco-de-gas-na-margem-equatorial-da-colombia"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mega-sena-acumula-para-r-135-milhoes-confira-dezenas-sorteadas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mega-sena-acumula-para-r-135-milhoes-confira-dezenas-sorteadas"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mulheres-sao-maioria-no-setor-de-seguros-mas-minoria-na-lideranca",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mulheres-sao-maioria-no-setor-de-seguros-mas-minoria-na-lideranca"
     },
     {
       "url": "https://cfc.org.br/noticias/receita-federal-e-comite-gestor-do-ibs-flexibilizam-validacao-de-dados-fiscais-na-transicao-da-reforma-tributaria/",
@@ -473,22 +485,10 @@
       "finalUrl": "https://cfc.org.br/noticias/receita-federal-e-comite-gestor-do-ibs-flexibilizam-validacao-de-dados-fiscais-na-transicao-da-reforma-tributaria/"
     },
     {
-      "url": "https://cfc.org.br/noticias/cfc-e-destacado-como-referencia-nacional-em-governanca-transparencia-e-integracao-de-dados/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-e-destacado-como-referencia-nacional-em-governanca-transparencia-e-integracao-de-dados/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/novo-cronograma-para-documentos-fiscais-da-reforma-tributaria-amplia-prazo-de-adaptacao-dos-sistemas/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/novo-cronograma-para-documentos-fiscais-da-reforma-tributaria-amplia-prazo-de-adaptacao-dos-sistemas/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/especialistas-orientam-contadores-sobre-regras-financeiras-para-inicio-de-campanhas-eleitorais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/especialistas-orientam-contadores-sobre-regras-financeiras-para-inicio-de-campanhas-eleitorais/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -528,9 +528,9 @@
     },
     {
       "url": "https://carioca.rio/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://carioca.rio/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
@@ -600,9 +600,9 @@
     },
     {
       "url": "https://prefeitura.rio/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://prefeitura.rio/"
     }
   ]
 }
