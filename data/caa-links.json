@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-11T12:34:59.355Z",
+  "checkedAt": "2026-08-12T14:37:04.997Z",
   "total": 100,
   "online": 75,
   "alerts": 25,
@@ -371,34 +371,64 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/anp-atualiza-regras-para-comercializacao-de-biometano",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/anp-atualiza-regras-para-comercializacao-de-biometano"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/setor-de-servicos-fica-estavel-em-junho-e-sobe-2-no-1o-semestre",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/setor-de-servicos-fica-estavel-em-junho-e-sobe-2-no-1o-semestre"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bc-aponta-desaceleracao-da-inflacao-mas-mantem-alerta-sobre-riscos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bc-aponta-desaceleracao-da-inflacao-mas-mantem-alerta-sobre-riscos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasileiros-tem-mais-de-r-51-bilhoes-esquecidos-em-bancos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasileiros-tem-mais-de-r-51-bilhoes-esquecidos-em-bancos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inflacao-recua-para-007-em-julho-e-volta-para-meta-do-governo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inflacao-recua-para-007-em-julho-e-volta-para-meta-do-governo"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inpc-registra-deflacao-em-julho-e-acumula-alta-de-410-em-12-meses",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inpc-registra-deflacao-em-julho-e-acumula-alta-de-410-em-12-meses"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petroleiros-pedem-petrobras-mais-estatal-e-menor-repasse-acionistas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petroleiros-pedem-petrobras-mais-estatal-e-menor-repasse-acionistas"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/producao-de-motos-tem-melhor-mes-de-julho-da-historia-diz-abraciclo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/producao-de-motos-tem-melhor-mes-de-julho-da-historia-diz-abraciclo"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/servicos-financeiros-e-o-tema-do-novo-modulo-do-curso-sobre-reforma-tributaria-do-consumo/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/servicos-financeiros-e-o-tema-do-novo-modulo-do-curso-sobre-reforma-tributaria-do-consumo/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-central-estuda-interligar-pix-com-sistemas-de-outros-paises",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-central-estuda-interligar-pix-com-sistemas-de-outros-paises"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/declaracao-do-imposto-sobre-imoveis-rurais-pode-ser-feita-por-internet",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/declaracao-do-imposto-sobre-imoveis-rurais-pode-ser-feita-por-internet"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desenrola-adimplentes-comeca-operar-nesta-ter%C3%A7a-feira",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desenrola-adimplentes-comeca-operar-nesta-ter%C3%A7a-feira"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/expectativa-do-mercado-para-inflacao-de-2026-cai-para-502",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/expectativa-do-mercado-para-inflacao-de-2026-cai-para-502"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pf-apura-aporte-de-97-milhoes-de-instituto-de-previdencia-de-maceio-no-master",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pf-apura-aporte-de-97-milhoes-de-instituto-de-previdencia-de-maceio-no-master"
     },
     {
       "url": "https://cfc.org.br/noticias/prazo-para-pagamento-do-exame-de-suficiencia-acaba-hoje-as-16h/",
@@ -425,34 +455,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-eleitoral-e-partidaria-para-o-pleito-de-2026/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ninguem-acerta-mega-sena-premio-acumula-para-r-165-milhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ninguem-acerta-mega-sena-premio-acumula-para-r-165-milhoes"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pix-amplia-participacao-nos-pagamentos-em-bares-e-restaurantes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pix-amplia-participacao-nos-pagamentos-em-bares-e-restaurantes"
-    },
-    {
       "url": "https://cfc.org.br/noticias/prazo-para-envio-de-justificativa-pelo-nao-cumprimento-do-pepc-se-encerra-este-mes/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/prazo-para-envio-de-justificativa-pelo-nao-cumprimento-do-pepc-se-encerra-este-mes/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/retiradas-da-poupanca-superam-depositos-em-r-715-bilhoes-em-julho",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/retiradas-da-poupanca-superam-depositos-em-r-715-bilhoes-em-julho"
     },
     {
       "url": "https://cfc.org.br/noticias/capacitacoes-agendadas-para-o-mes-de-agosto-somam-mais-de-60-pontos-para-o-pepc/",
@@ -483,12 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/planos-de-assistencia-a-saude-e-concursos-de-prognosticos-sao-temas-de-curso-sobre-reforma-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/prazo-para-inscricao-na-segunda-edicao-do-exame-de-suficiencia-de-2026-termina-nesta-sexta-feira/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/prazo-para-inscricao-na-segunda-edicao-do-exame-de-suficiencia-de-2026-termina-nesta-sexta-feira/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
