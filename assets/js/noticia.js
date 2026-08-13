@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const slug = params.get('slug');
-const baseUrl = 'https://pedrozacontadores.github.io/portal-pedroza-contadores';
+const baseUrl = 'https://pedroza.com.br';
 const article = document.querySelector('#article-content');
 const errorBox = document.querySelector('#article-error');
 const formatDate = (date) => new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T12:00:00Z`));

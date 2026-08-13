@@ -11,7 +11,7 @@
       "url": "https://cfc.org.br/category/noticias/feed/",
       "site": "https://cfc.org.br/noticias/",
       "categoria_padrao": "Contabilidade",
-      "imagem_padrao": "../../assets/images/notícia-reforma.jpg",
+      "imagem_padrao": "../../assets/images/noticia-reforma.jpg",
       "ativa": true
     },
     {
@@ -22,7 +22,7 @@
       "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
       "site": "https://agenciabrasil.ebc.com.br/economia",
       "categoria_padrao": "Economia",
-      "imagem_padrao": "../../assets/images/notícia-simples.jpg",
+      "imagem_padrao": "../../assets/images/noticia-simples.jpg",
       "ativa": true
     },
     {
@@ -33,7 +33,7 @@
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias",
       "site": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias",
       "categoria_padrao": "Fiscal",
-      "imagem_padrao": "../../assets/images/notícia-reforma.jpg",
+      "imagem_padrao": "../../assets/images/noticia-reforma.jpg",
       "ativa": false,
       "observacao": "Aguardando feed publico estavel. A página permanece cadastrada para futura ativação."
     },
@@ -45,7 +45,7 @@
       "url": "https://www.crcrj.org.br/",
       "site": "https://www.crcrj.org.br/",
       "categoria_padrao": "Contabilidade",
-      "imagem_padrao": "../../assets/images/notícia-reforma.jpg",
+      "imagem_padrao": "../../assets/images/noticia-reforma.jpg",
       "ativa": false,
       "observacao": "Aguardando feed publico estavel."
     }

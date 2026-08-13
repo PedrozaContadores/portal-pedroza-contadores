@@ -8,7 +8,7 @@ const SOURCES_URL = new URL('data/fontes.json', ROOT);
 const CATEGORIES_URL = new URL('data/categorias.json', ROOT);
 const SITEMAP_URL = new URL('sitemap-noticias.xml', ROOT);
 const NEWS_SITEMAP_URL = new URL('news-sitemap.xml', ROOT);
-const BASE_URL = 'https://pedrozacontadores.github.io/portal-pedroza-contadores';
+const BASE_URL = 'https://pedroza.com.br';
 
 const decodeEntities = (value = '') => value
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -101,7 +101,7 @@ const parseFeed = (xml, source, categories) => {
 async function fetchFeed(source) {
   const response = await fetch(source.url, {
     headers: {
-      'User-Agent': 'PortalPedrozaContadores/1.0 (+https://pedrozacontadores.github.io/portal-pedroza-contadores/)'
+      'User-Agent': 'PortalPedrozaContadores/1.0 (+https://pedroza.com.br/)'
     },
     signal: AbortSignal.timeout(30000)
   });
