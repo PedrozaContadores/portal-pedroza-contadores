@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-12T14:37:04.997Z",
+  "checkedAt": "2026-08-13T14:38:12.817Z",
   "total": 100,
-  "online": 75,
-  "alerts": 25,
+  "online": 74,
+  "alerts": 26,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -371,10 +371,64 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/conab-estima-safra-de-graos-de-3608-milhoes-de-toneladas-em-202526",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/conab-estima-safra-de-graos-de-3608-milhoes-de-toneladas-em-202526"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/vendas-no-comercio-crescem-05-em-junho-e-sobem-19-no-1o-semestre",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/vendas-no-comercio-crescem-05-em-junho-e-sobem-19-no-1o-semestre"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/anp-atualiza-regras-para-comercializacao-de-biometano",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/anp-atualiza-regras-para-comercializacao-de-biometano"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bndes-tem-lucro-recorde-de-r-92-bi-no-primeiro-semestre",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bndes-tem-lucro-recorde-de-r-92-bi-no-primeiro-semestre"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-curso-voltado-para-as-eleicoes-2026/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-curso-voltado-para-as-eleicoes-2026/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-e-receita-federal-levam-capacitacao-sobre-reforma-tributaria-para-sao-paulo/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-e-receita-federal-levam-capacitacao-sobre-reforma-tributaria-para-sao-paulo/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-prorroga-inscricoes-para-a-2a-edicao-do-exame-de-qualificacao-tecnica-ate-19-de-agosto/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-prorroga-inscricoes-para-a-2a-edicao-do-exame-de-qualificacao-tecnica-ate-19-de-agosto/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/consumidores-poderao-escolher-fornecedores-de-energia-partir-de-2027",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/consumidores-poderao-escolher-fornecedores-de-energia-partir-de-2027"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/plano-nacional-de-logistica-preve-r-12-trilhao-em-investimentos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/plano-nacional-de-logistica-preve-r-12-trilhao-em-investimentos"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/seminario-debate-impactos-da-reforma-tributaria-credito-e-competitividade-para-pequenos-negocios/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/seminario-debate-impactos-da-reforma-tributaria-credito-e-competitividade-para-pequenos-negocios/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/setor-de-servicos-fica-estavel-em-junho-e-sobe-2-no-1o-semestre",
@@ -383,28 +437,16 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/setor-de-servicos-fica-estavel-em-junho-e-sobe-2-no-1o-semestre"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bc-aponta-desaceleracao-da-inflacao-mas-mantem-alerta-sobre-riscos",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/transpetro-abre-concurso-publico-com-salario-inicial-de-ate-r-15-mil",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bc-aponta-desaceleracao-da-inflacao-mas-mantem-alerta-sobre-riscos"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/transpetro-abre-concurso-publico-com-salario-inicial-de-ate-r-15-mil"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasileiros-tem-mais-de-r-51-bilhoes-esquecidos-em-bancos",
+      "url": "https://cfc.org.br/noticias/vencedor-de-quiz-do-seminario-de-fiscalizacao-leva-propostas-do-amapa-a-presidencia-do-cfc/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasileiros-tem-mais-de-r-51-bilhoes-esquecidos-em-bancos"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inflacao-recua-para-007-em-julho-e-volta-para-meta-do-governo",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inflacao-recua-para-007-em-julho-e-volta-para-meta-do-governo"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inpc-registra-deflacao-em-julho-e-acumula-alta-de-410-em-12-meses",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inpc-registra-deflacao-em-julho-e-acumula-alta-de-410-em-12-meses"
+      "finalUrl": "https://cfc.org.br/noticias/vencedor-de-quiz-do-seminario-de-fiscalizacao-leva-propostas-do-amapa-a-presidencia-do-cfc/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petroleiros-pedem-petrobras-mais-estatal-e-menor-repasse-acionistas",
@@ -425,22 +467,10 @@
       "finalUrl": "https://cfc.org.br/noticias/servicos-financeiros-e-o-tema-do-novo-modulo-do-curso-sobre-reforma-tributaria-do-consumo/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-central-estuda-interligar-pix-com-sistemas-de-outros-paises",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-central-estuda-interligar-pix-com-sistemas-de-outros-paises"
-    },
-    {
       "url": "https://cfc.org.br/noticias/prazo-para-pagamento-do-exame-de-suficiencia-acaba-hoje-as-16h/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/prazo-para-pagamento-do-exame-de-suficiencia-acaba-hoje-as-16h/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/procon-rio-divulga-cartilha-com-orientacoes-sobre-riscos-das-bets",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/procon-rio-divulga-cartilha-com-orientacoes-sobre-riscos-das-bets"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-conquista-quatro-certificacoes-iso-com-foco-na-excelencia-da-contabilidade-brasileira/",
@@ -459,36 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/prazo-para-envio-de-justificativa-pelo-nao-cumprimento-do-pepc-se-encerra-este-mes/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/capacitacoes-agendadas-para-o-mes-de-agosto-somam-mais-de-60-pontos-para-o-pepc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/capacitacoes-agendadas-para-o-mes-de-agosto-somam-mais-de-60-pontos-para-o-pepc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/servicos-financeiros-sera-o-tema-do-12o-modulo-do-curso-sobre-reforma-tributaria-do-consumo/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/servicos-financeiros-sera-o-tema-do-12o-modulo-do-curso-sobre-reforma-tributaria-do-consumo/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/confederacao-das-santas-casas-consulta-cfc-sobre-capacitacao-voltada-para-a-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/confederacao-das-santas-casas-consulta-cfc-sobre-capacitacao-voltada-para-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/inscricoes-para-2a-edicao-do-eqt-seguem-ate-a-proxima-quarta-feira-12/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-2a-edicao-do-eqt-seguem-ate-a-proxima-quarta-feira-12/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/planos-de-assistencia-a-saude-e-concursos-de-prognosticos-sao-temas-de-curso-sobre-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/planos-de-assistencia-a-saude-e-concursos-de-prognosticos-sao-temas-de-curso-sobre-reforma-tributaria/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
