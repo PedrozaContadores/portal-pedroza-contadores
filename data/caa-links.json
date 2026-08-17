@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-14T12:34:21.276Z",
+  "checkedAt": "2026-08-17T11:16:04.178Z",
   "total": 100,
-  "online": 76,
-  "alerts": 24,
+  "online": 73,
+  "alerts": 27,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -96,9 +96,9 @@
     },
     {
       "url": "https://processo.stj.jus.br/SCON/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://processo.stj.jus.br/SCON/"
+      "status": "erro",
+      "code": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "url": "https://www4.planalto.gov.br/legislacao",
@@ -138,9 +138,9 @@
     },
     {
       "url": "https://cndt-certidao.tst.jus.br/inicio.faces",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cndt-certidao.tst.jus.br/inicio.faces"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://pje.trt1.jus.br/certidoes/trabalhista/emissao",
@@ -371,22 +371,70 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/projeto-mapeia-caminhos-para-economia-verde-no-nordeste",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/projeto-mapeia-caminhos-para-economia-verde-no-nordeste"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/amcham-defende-que-adocao-de-reciprocidade-contra-os-eua-seja-evitada",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/amcham-defende-que-adocao-de-reciprocidade-contra-os-eua-seja-evitada"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bc-decreta-liquidacao-extrajudicial-de-consorcio-e-financeira",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bc-decreta-liquidacao-extrajudicial-de-consorcio-e-financeira"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-e-fbc-debatem-impactos-da-reforma-tributaria-no-simples-nacional-em-live/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-e-fbc-debatem-impactos-da-reforma-tributaria-no-simples-nacional-em-live/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-rebate-criticas-de-inercia-sobre-crise-do-brb",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-rebate-criticas-de-inercia-sobre-crise-do-brb"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/em-11-estados-desemprego-esta-abaixo-da-media-do-pais-veja-quais",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/em-11-estados-desemprego-esta-abaixo-da-media-do-pais-veja-quais"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-libera-emprestimo-com-aval-da-uniao-de-r-129-bilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-libera-emprestimo-com-aval-da-uniao-de-r-129-bilhoes"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/galipolo-critica-empresas-que-pressionam-para-usar-fgc",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/galipolo-critica-empresas-que-pressionam-para-usar-fgc"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-ouvira-empresarios-para-decidir-se-aplicara-lei-contra-eua",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-ouvira-empresarios-para-decidir-se-aplicara-lei-contra-eua"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-anuncia-descoberta-de-petroleo-na-foz-do-amazonas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-anuncia-descoberta-de-petroleo-na-foz-do-amazonas"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cai-diferenca-entre-homens-e-mulheres-no-acesso-ao-emprego-formal",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cai-diferenca-entre-homens-e-mulheres-no-acesso-ao-emprego-formal"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/conab-estima-safra-de-graos-de-3608-milhoes-de-toneladas-em-202526",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/conab-estima-safra-de-graos-de-3608-milhoes-de-toneladas-em-202526"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-aprova-orientacao-tecnica-para-aplicacao-obrigatoria-da-nbc-tpe-01-nas-eleicoes-2026/",
@@ -401,12 +449,6 @@
       "finalUrl": "https://cfc.org.br/noticias/conselho-editorial-da-rbc-ganha-novos-membros-e-define-edicoes-especiais-de-2026-e-2027/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mais-de-5-milhoes-de-brasileiros-estao-impedidos-de-apostar-em-bets",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mais-de-5-milhoes-de-brasileiros-estao-impedidos-de-apostar-em-bets"
-    },
-    {
       "url": "https://cfc.org.br/noticias/plenaria-do-cfc-homenageia-personalidades-que-marcaram-a-historia-da-contabilidade-brasileira/",
       "status": "online",
       "code": 200,
@@ -417,36 +459,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/programa-de-conformidade-tributaria-reforca-papel-estrategico-da-contabilidade-na-implementacao-do-ibs-e-da-cbs/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/segunda-maior-refinaria-do-pais-reduz-preco-da-gasolina-em-113",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/segunda-maior-refinaria-do-pais-reduz-preco-da-gasolina-em-113"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/senado-aprova-emprestimos-de-us-18-bi-para-estados-e-municipios",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/senado-aprova-emprestimos-de-us-18-bi-para-estados-e-municipios"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/tupi-pioneiro-do-pre-sal-chega-ao-recorde-de-4-bilhoes-de-barris",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/tupi-pioneiro-do-pre-sal-chega-ao-recorde-de-4-bilhoes-de-barris"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/vendas-no-comercio-crescem-05-em-junho-e-sobem-19-no-1o-semestre",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/vendas-no-comercio-crescem-05-em-junho-e-sobem-19-no-1o-semestre"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bndes-tem-lucro-recorde-de-r-92-bi-no-primeiro-semestre",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bndes-tem-lucro-recorde-de-r-92-bi-no-primeiro-semestre"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-curso-voltado-para-as-eleicoes-2026/",
@@ -473,22 +485,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-prorroga-inscricoes-para-a-2a-edicao-do-exame-de-qualificacao-tecnica-ate-19-de-agosto/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/consumidores-poderao-escolher-fornecedores-de-energia-partir-de-2027",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/consumidores-poderao-escolher-fornecedores-de-energia-partir-de-2027"
-    },
-    {
       "url": "https://cfc.org.br/noticias/seminario-debate-impactos-da-reforma-tributaria-credito-e-competitividade-para-pequenos-negocios/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/seminario-debate-impactos-da-reforma-tributaria-credito-e-competitividade-para-pequenos-negocios/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/vencedor-de-quiz-do-seminario-de-fiscalizacao-leva-propostas-do-amapa-a-presidencia-do-cfc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/vencedor-de-quiz-do-seminario-de-fiscalizacao-leva-propostas-do-amapa-a-presidencia-do-cfc/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -540,9 +540,9 @@
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",

@@ -72,7 +72,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "mensagem": "fetch failed"
       }
     },
@@ -115,7 +115,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "mensagem": "fetch failed"
       }
     },
@@ -162,7 +162,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "mensagem": "fetch failed"
       }
     },
@@ -212,7 +212,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "mensagem": "fetch failed"
       }
     },
@@ -261,7 +261,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www8.receita.fazenda.gov.br/SimplesNacional/legislacao.aspx"
       }
     },
@@ -310,7 +310,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
       }
     },
@@ -360,7 +360,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www.gov.br/sped/pt-br"
       }
     },
@@ -404,7 +404,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecd"
       }
     },
@@ -454,7 +454,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecf"
       }
     },
@@ -501,7 +501,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/efd-contribuicoes"
       }
     },
@@ -549,7 +549,7 @@
       "verificacao": {
         "status": "indisponivel",
         "codigo": 404,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dctfweb"
       }
     },
@@ -599,7 +599,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www.gov.br/esocial/pt-br/documentacao-tecnica"
       }
     },
@@ -646,7 +646,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "urlFinal": "https://www.gov.br/nfse/pt-br"
       }
     },
@@ -689,7 +689,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "mensagem": "fetch failed"
       }
     },
@@ -732,7 +732,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "mensagem": "fetch failed"
       }
     },
@@ -773,10 +773,10 @@
       ],
       "ultimaAlteracao": "Consulta oficial",
       "verificacao": {
-        "status": "erro",
-        "codigo": 0,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
-        "mensagem": "The operation was aborted due to timeout"
+        "status": "online",
+        "codigo": 200,
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
+        "urlFinal": "https://processo.stj.jus.br/SCON/"
       }
     },
     {
@@ -819,7 +819,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-08-14T12:30:51.297Z",
+        "verificadoEm": "2026-08-17T11:12:38.597Z",
         "mensagem": "fetch failed"
       }
     }
@@ -829,10 +829,10 @@
     "ultimaAtualizacao": "2026-07-26",
     "status": "homologado"
   },
-  "verificadoEm": "2026-08-14T12:30:51.297Z",
+  "verificadoEm": "2026-08-17T11:12:38.597Z",
   "resumoVerificacao": {
     "total": 17,
-    "online": 8,
-    "alertas": 9
+    "online": 9,
+    "alertas": 8
   }
 }
