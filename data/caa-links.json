@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-17T11:16:04.178Z",
+  "checkedAt": "2026-08-18T11:16:07.917Z",
   "total": 100,
-  "online": 73,
-  "alerts": 27,
+  "online": 76,
+  "alerts": 24,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -96,9 +96,9 @@
     },
     {
       "url": "https://processo.stj.jus.br/SCON/",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://processo.stj.jus.br/SCON/"
     },
     {
       "url": "https://www4.planalto.gov.br/legislacao",
@@ -138,9 +138,9 @@
     },
     {
       "url": "https://cndt-certidao.tst.jus.br/inicio.faces",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cndt-certidao.tst.jus.br/inicio.faces"
     },
     {
       "url": "https://pje.trt1.jus.br/certidoes/trabalhista/emissao",
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
+      "status": "erro",
+      "code": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -371,22 +371,64 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-encontra-petroleo-em-poco-na-margem-equatorial",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-encontra-petroleo-em-poco-na-margem-equatorial"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aplicativo-do-tesouro-direto-e-desativado-partir-desta-segunda-feira",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aplicativo-do-tesouro-direto-e-desativado-partir-desta-segunda-feira"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-defende-que-brasil-deve-ampliar-comercio-exterior",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-defende-que-brasil-deve-ampliar-comercio-exterior"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fgv-estima-que-pib-desacelerou-e-cresceu-03-no-segundo-trimestre",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fgv-estima-que-pib-desacelerou-e-cresceu-03-no-segundo-trimestre"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ibc-br-recuou-06-em-junho-diz-banco-central",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ibc-br-recuou-06-em-junho-diz-banco-central"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mercado-mantem-estaveis-projecoes-para-inflacao-juros-pib-e-dolar",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mercado-mantem-estaveis-projecoes-para-inflacao-juros-pib-e-dolar"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/prestacao-de-contas-eleitoral-e-tema-de-capacitacao-on-line-do-cfc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/prestacao-de-contas-eleitoral-e-tema-de-capacitacao-on-line-do-cfc/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/tesouro-pagou-r-15246-milhoes-em-dividas-de-estados-e-municipios",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/tesouro-pagou-r-15246-milhoes-em-dividas-de-estados-e-municipios"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/trabalhadores-nascidos-em-novembro-e-dezembro-recebem-abono-salarial",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/trabalhadores-nascidos-em-novembro-e-dezembro-recebem-abono-salarial"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/projeto-mapeia-caminhos-para-economia-verde-no-nordeste",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/projeto-mapeia-caminhos-para-economia-verde-no-nordeste"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/amcham-defende-que-adocao-de-reciprocidade-contra-os-eua-seja-evitada",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/amcham-defende-que-adocao-de-reciprocidade-contra-os-eua-seja-evitada"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bc-decreta-liquidacao-extrajudicial-de-consorcio-e-financeira",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bc-decreta-liquidacao-extrajudicial-de-consorcio-e-financeira"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-e-fbc-debatem-impactos-da-reforma-tributaria-no-simples-nacional-em-live/",
@@ -395,46 +437,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-fbc-debatem-impactos-da-reforma-tributaria-no-simples-nacional-em-live/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-rebate-criticas-de-inercia-sobre-crise-do-brb",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-rebate-criticas-de-inercia-sobre-crise-do-brb"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/em-11-estados-desemprego-esta-abaixo-da-media-do-pais-veja-quais",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/em-11-estados-desemprego-esta-abaixo-da-media-do-pais-veja-quais"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-libera-emprestimo-com-aval-da-uniao-de-r-129-bilhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-libera-emprestimo-com-aval-da-uniao-de-r-129-bilhoes"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/galipolo-critica-empresas-que-pressionam-para-usar-fgc",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/galipolo-critica-empresas-que-pressionam-para-usar-fgc"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-ouvira-empresarios-para-decidir-se-aplicara-lei-contra-eua",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-ouvira-empresarios-para-decidir-se-aplicara-lei-contra-eua"
-    },
-    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-anuncia-descoberta-de-petroleo-na-foz-do-amazonas",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-anuncia-descoberta-de-petroleo-na-foz-do-amazonas"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cai-diferenca-entre-homens-e-mulheres-no-acesso-ao-emprego-formal",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cai-diferenca-entre-homens-e-mulheres-no-acesso-ao-emprego-formal"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-aprova-orientacao-tecnica-para-aplicacao-obrigatoria-da-nbc-tpe-01-nas-eleicoes-2026/",
@@ -483,12 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-prorroga-inscricoes-para-a-2a-edicao-do-exame-de-qualificacao-tecnica-ate-19-de-agosto/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/seminario-debate-impactos-da-reforma-tributaria-credito-e-competitividade-para-pequenos-negocios/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/seminario-debate-impactos-da-reforma-tributaria-credito-e-competitividade-para-pequenos-negocios/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -540,9 +540,9 @@
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
