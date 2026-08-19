@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-18T11:16:07.917Z",
+  "checkedAt": "2026-08-19T11:06:48.501Z",
   "total": 100,
-  "online": 76,
-  "alerts": 24,
+  "online": 75,
+  "alerts": 25,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -192,9 +192,9 @@
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -371,10 +371,76 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-agosto",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-agosto"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/ato-conjunto-fortalece-papel-estrategico-da-contabilidade-na-conformidade-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/ato-conjunto-fortalece-papel-estrategico-da-contabilidade-na-conformidade-tributaria/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-amplia-presenca-institucional-em-debates-sobre-seguranca-juridica-e-ambiente-de-negocios/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-amplia-presenca-institucional-em-debates-sobre-seguranca-juridica-e-ambiente-de-negocios/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-discute-cooperacao-com-entidade-contabil-da-guiana-francesa/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-discute-cooperacao-com-entidade-contabil-da-guiana-francesa/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-reune-governo-e-mercado-para-debater-reportes-de-sustentabilidade/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-reune-governo-e-mercado-para-debater-reportes-de-sustentabilidade/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/crcsp-recebe-discussoes-sobre-a-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/crcsp-recebe-discussoes-sobre-a-reforma-tributaria/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/divida-bancaria-do-rio-chega-r-26-bilhoes-diz-governador",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/divida-bancaria-do-rio-chega-r-26-bilhoes-diz-governador"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-suspende-14-sites-de-apostas-por-irregularidades",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-suspende-14-sites-de-apostas-por-irregularidades"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/inscricoes-para-2a-edicao-do-eqt-terminam-nesta-quarta-feira-19/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-2a-edicao-do-eqt-terminam-nesta-quarta-feira-19/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inscricoes-para-capacitacao-em-ia-para-empreendedoras-estao-abertas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inscricoes-para-capacitacao-em-ia-para-empreendedoras-estao-abertas"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-encontra-petroleo-em-poco-na-margem-equatorial",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-encontra-petroleo-em-poco-na-margem-equatorial"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/ultimas-semanas-para-envio-da-justificativa-pelo-nao-cumprimento-do-pepc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/ultimas-semanas-para-envio-da-justificativa-pelo-nao-cumprimento-do-pepc/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aplicativo-do-tesouro-direto-e-desativado-partir-desta-segunda-feira",
@@ -401,12 +467,6 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ibc-br-recuou-06-em-junho-diz-banco-central"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mercado-mantem-estaveis-projecoes-para-inflacao-juros-pib-e-dolar",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mercado-mantem-estaveis-projecoes-para-inflacao-juros-pib-e-dolar"
-    },
-    {
       "url": "https://cfc.org.br/noticias/prestacao-de-contas-eleitoral-e-tema-de-capacitacao-on-line-do-cfc/",
       "status": "online",
       "code": 200,
@@ -419,76 +479,16 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/tesouro-pagou-r-15246-milhoes-em-dividas-de-estados-e-municipios"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/trabalhadores-nascidos-em-novembro-e-dezembro-recebem-abono-salarial",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/trabalhadores-nascidos-em-novembro-e-dezembro-recebem-abono-salarial"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/projeto-mapeia-caminhos-para-economia-verde-no-nordeste",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/projeto-mapeia-caminhos-para-economia-verde-no-nordeste"
-    },
-    {
       "url": "https://cfc.org.br/noticias/cfc-e-fbc-debatem-impactos-da-reforma-tributaria-no-simples-nacional-em-live/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-fbc-debatem-impactos-da-reforma-tributaria-no-simples-nacional-em-live/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-anuncia-descoberta-de-petroleo-na-foz-do-amazonas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-anuncia-descoberta-de-petroleo-na-foz-do-amazonas"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-aprova-orientacao-tecnica-para-aplicacao-obrigatoria-da-nbc-tpe-01-nas-eleicoes-2026/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-aprova-orientacao-tecnica-para-aplicacao-obrigatoria-da-nbc-tpe-01-nas-eleicoes-2026/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/conselho-editorial-da-rbc-ganha-novos-membros-e-define-edicoes-especiais-de-2026-e-2027/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/conselho-editorial-da-rbc-ganha-novos-membros-e-define-edicoes-especiais-de-2026-e-2027/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/plenaria-do-cfc-homenageia-personalidades-que-marcaram-a-historia-da-contabilidade-brasileira/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/plenaria-do-cfc-homenageia-personalidades-que-marcaram-a-historia-da-contabilidade-brasileira/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/programa-de-conformidade-tributaria-reforca-papel-estrategico-da-contabilidade-na-implementacao-do-ibs-e-da-cbs/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/programa-de-conformidade-tributaria-reforca-papel-estrategico-da-contabilidade-na-implementacao-do-ibs-e-da-cbs/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-curso-voltado-para-as-eleicoes-2026/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-curso-voltado-para-as-eleicoes-2026/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-e-receita-federal-levam-capacitacao-sobre-reforma-tributaria-para-sao-paulo/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-e-receita-federal-levam-capacitacao-sobre-reforma-tributaria-para-sao-paulo/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-jovem-tem-nova-coordenacao-com-foco-na-atracao-e-valorizacao-de-novos-profissionais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-jovem-tem-nova-coordenacao-com-foco-na-atracao-e-valorizacao-de-novos-profissionais/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-prorroga-inscricoes-para-a-2a-edicao-do-exame-de-qualificacao-tecnica-ate-19-de-agosto/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-prorroga-inscricoes-para-a-2a-edicao-do-exame-de-qualificacao-tecnica-ate-19-de-agosto/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
