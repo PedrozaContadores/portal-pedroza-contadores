@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-20T11:49:22.368Z",
+  "checkedAt": "2026-08-21T11:48:22.728Z",
   "total": 100,
-  "online": 76,
-  "alerts": 24,
+  "online": 75,
+  "alerts": 25,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -120,9 +120,9 @@
     },
     {
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -371,10 +371,40 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-4-recebem-bolsa-familia-de-agosto",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-4-recebem-bolsa-familia-de-agosto"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/rn-vai-abrigar-supercomputador-brasileiro-de-inteligencia-artificial",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/rn-vai-abrigar-supercomputador-brasileiro-de-inteligencia-artificial"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aviacao-domestica-brasileira-tem-maior-movimentacao-em-26-anos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aviacao-domestica-brasileira-tem-maior-movimentacao-em-26-anos"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-agosto-0",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-agosto-0"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-e-fbc-promovem-curso-sobre-os-impactos-da-reforma-tributaria-no-simples-nacional/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-e-fbc-promovem-curso-sobre-os-impactos-da-reforma-tributaria-no-simples-nacional/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/credito-para-carros-de-aplicativo-tem-teto-elevado-para-r-200-mil",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/credito-para-carros-de-aplicativo-tem-teto-elevado-para-r-200-mil"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-analisa-mudancas-em-credito-motoristas-de-aplicativos",
@@ -383,22 +413,40 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-analisa-mudancas-em-credito-motoristas-de-aplicativos"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/navio-plataforma-da-petrobras-atinge-producao-maxima-no-pre-sal",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/navio-plataforma-da-petrobras-atinge-producao-maxima-no-pre-sal"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/oxfam-brasil-concentracao-de-riqueza-amplia-desigualdade-politica",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/oxfam-brasil-concentracao-de-riqueza-amplia-desigualdade-politica"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/safra-de-cana-de-acucar-deve-crescer-47-em-relacao-ao-ano-de-2025",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/safra-de-cana-de-acucar-deve-crescer-47-em-relacao-ao-ano-de-2025"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/seminario-internacional-facpcs-abre-inscricoes-com-descontos-progressivos/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/seminario-internacional-facpcs-abre-inscricoes-com-descontos-progressivos/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/sp-enel-apresenta-alegacoes-finais-contra-caducidade-da-concessao",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/sp-enel-apresenta-alegacoes-finais-contra-caducidade-da-concessao"
+    },
+    {
       "url": "https://cfc.org.br/noticias/agronegocio-sera-o-tema-do-proximo-modulo-da-capacitacao-sobre-reforma-tributaria/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/agronegocio-sera-o-tema-do-proximo-modulo-da-capacitacao-sobre-reforma-tributaria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bancarios-farao-paralisacao-de-24-horas-nesta-quinta-feira",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bancarios-farao-paralisacao-de-24-horas-nesta-quinta-feira"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-agosto"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-abre-audiencia-publica-complementar-sobre-norma-de-ativos-nao-circulantes-mantidos-para-venda/",
@@ -413,36 +461,6 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-destaca-papel-estrategico-da-contabilidade-diante-dos-impactos-da-reforma-tributaria-na-saude-filantropica/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/correios-entregam-no-brasil-compras-feitas-em-sites-do-paraguai",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/correios-entregam-no-brasil-compras-feitas-em-sites-do-paraguai"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dolar-cai-para-r-517-apos-anuncio-de-recompra-de-titulos-nos-eua",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dolar-cai-para-r-517-apos-anuncio-de-recompra-de-titulos-nos-eua"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-pretende-mediar-negociacao-do-rio-com-bndes-e-banco-do-brasil",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-pretende-mediar-negociacao-do-rio-com-bndes-e-banco-do-brasil"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/embrapa-entrega-propostas-de-agricultura-sustentavel-para-candidatos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/embrapa-entrega-propostas-de-agricultura-sustentavel-para-candidatos"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-fara-esforco-por-fim-da-taxa-das-blusinhas-diz-durigan",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-fara-esforco-por-fim-da-taxa-das-blusinhas-diz-durigan"
-    },
-    {
       "url": "https://cfc.org.br/noticias/novo-modulo-de-qualificacao-voltada-para-partidos-e-eleicoes-e-publicado-na-plataforma-educont/",
       "status": "online",
       "code": 200,
@@ -455,18 +473,6 @@
       "finalUrl": "https://cfc.org.br/noticias/ato-conjunto-fortalece-papel-estrategico-da-contabilidade-na-conformidade-tributaria/"
     },
     {
-      "url": "https://cfc.org.br/noticias/cfc-amplia-presenca-institucional-em-debates-sobre-seguranca-juridica-e-ambiente-de-negocios/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-amplia-presenca-institucional-em-debates-sobre-seguranca-juridica-e-ambiente-de-negocios/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-discute-cooperacao-com-entidade-contabil-da-guiana-francesa/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-discute-cooperacao-com-entidade-contabil-da-guiana-francesa/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/cfc-reune-governo-e-mercado-para-debater-reportes-de-sustentabilidade/",
       "status": "online",
       "code": 200,
@@ -477,12 +483,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/crcsp-recebe-discussoes-sobre-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/divida-bancaria-do-rio-chega-r-26-bilhoes-diz-governador",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/divida-bancaria-do-rio-chega-r-26-bilhoes-diz-governador"
     },
     {
       "url": "https://cfc.org.br/noticias/ultimas-semanas-para-envio-da-justificativa-pelo-nao-cumprimento-do-pepc/",
