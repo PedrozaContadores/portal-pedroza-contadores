@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-21T11:48:22.728Z",
+  "checkedAt": "2026-08-24T11:50:16.816Z",
   "total": 100,
-  "online": 75,
-  "alerts": 25,
+  "online": 76,
+  "alerts": 24,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -120,9 +120,9 @@
     },
     {
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal"
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
@@ -371,28 +371,64 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-4-recebem-bolsa-familia-de-agosto",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-5-recebem-bolsa-familia-de-agosto",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-4-recebem-bolsa-familia-de-agosto"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-5-recebem-bolsa-familia-de-agosto"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/rn-vai-abrigar-supercomputador-brasileiro-de-inteligencia-artificial",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/receita-libera-consulta-ao-ultimo-lote-de-restituicao-do-ir-2026",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/rn-vai-abrigar-supercomputador-brasileiro-de-inteligencia-artificial"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/receita-libera-consulta-ao-ultimo-lote-de-restituicao-do-ir-2026"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aviacao-domestica-brasileira-tem-maior-movimentacao-em-26-anos",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/saiba-mais-sobre-acordo-para-facilitar-comercio-eletronico-no-mercosul",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aviacao-domestica-brasileira-tem-maior-movimentacao-em-26-anos"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/saiba-mais-sobre-acordo-para-facilitar-comercio-eletronico-no-mercosul"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-agosto-0",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inss-libera-consignado-sem-biometria-facial-para-aposentados",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-agosto-0"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inss-libera-consignado-sem-biometria-facial-para-aposentados"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ons-suspende-geracao-excedente-de-energia-pela-segunda-vez-no-ano",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ons-suspende-geracao-excedente-de-energia-pela-segunda-vez-no-ano"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/opcao-pelo-simples-nacional-para-2027-e-antecipada-para-setembro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/opcao-pelo-simples-nacional-para-2027-e-antecipada-para-setembro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pix-enfrenta-instabilidade-na-manha-deste-domingo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pix-enfrenta-instabilidade-na-manha-deste-domingo"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dolar-cai-r-514-com-alivio-no-mercado-externo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dolar-cai-r-514-com-alivio-no-mercado-externo"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/empresas-com-100-ou-mais-empregados-devem-atualizar-dados-ate-dia-31",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/empresas-com-100-ou-mais-empregados-devem-atualizar-dados-ate-dia-31"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-negocia-exploracao-em-gana-para-ampliar-presenca-na-africa",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-negocia-exploracao-em-gana-para-ampliar-presenca-na-africa"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-e-fbc-promovem-curso-sobre-os-impactos-da-reforma-tributaria-no-simples-nacional/",
@@ -401,46 +437,16 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-fbc-promovem-curso-sobre-os-impactos-da-reforma-tributaria-no-simples-nacional/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/credito-para-carros-de-aplicativo-tem-teto-elevado-para-r-200-mil",
+      "url": "https://cfc.org.br/internacional/fundacao-ifrs-aborda-mudancas-da-norma-para-pmes-em-novo-podcast/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/credito-para-carros-de-aplicativo-tem-teto-elevado-para-r-200-mil"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-analisa-mudancas-em-credito-motoristas-de-aplicativos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fazenda-analisa-mudancas-em-credito-motoristas-de-aplicativos"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/navio-plataforma-da-petrobras-atinge-producao-maxima-no-pre-sal",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/navio-plataforma-da-petrobras-atinge-producao-maxima-no-pre-sal"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/oxfam-brasil-concentracao-de-riqueza-amplia-desigualdade-politica",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/oxfam-brasil-concentracao-de-riqueza-amplia-desigualdade-politica"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/safra-de-cana-de-acucar-deve-crescer-47-em-relacao-ao-ano-de-2025",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/safra-de-cana-de-acucar-deve-crescer-47-em-relacao-ao-ano-de-2025"
+      "finalUrl": "https://cfc.org.br/internacional/fundacao-ifrs-aborda-mudancas-da-norma-para-pmes-em-novo-podcast/"
     },
     {
       "url": "https://cfc.org.br/noticias/seminario-internacional-facpcs-abre-inscricoes-com-descontos-progressivos/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/seminario-internacional-facpcs-abre-inscricoes-com-descontos-progressivos/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/sp-enel-apresenta-alegacoes-finais-contra-caducidade-da-concessao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/sp-enel-apresenta-alegacoes-finais-contra-caducidade-da-concessao"
     },
     {
       "url": "https://cfc.org.br/noticias/agronegocio-sera-o-tema-do-proximo-modulo-da-capacitacao-sobre-reforma-tributaria/",
@@ -483,12 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/crcsp-recebe-discussoes-sobre-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/ultimas-semanas-para-envio-da-justificativa-pelo-nao-cumprimento-do-pepc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/ultimas-semanas-para-envio-da-justificativa-pelo-nao-cumprimento-do-pepc/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
