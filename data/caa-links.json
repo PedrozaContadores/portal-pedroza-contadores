@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-25T10:54:15.597Z",
+  "checkedAt": "2026-08-26T10:55:31.516Z",
   "total": 100,
-  "online": 75,
-  "alerts": 25,
+  "online": 76,
+  "alerts": 24,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -371,10 +371,52 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://cfc.org.br/noticias/agronegocio-e-cooperativismo-sao-pautas-do-14o-modulo-do-curso-sobre-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/agronegocio-e-cooperativismo-sao-pautas-do-14o-modulo-do-curso-sobre-reforma-tributaria/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-federal-cresce-897-em-julho-e-chega-r-2893-bilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-federal-cresce-897-em-julho-e-chega-r-2893-bilhoes"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-6-recebem-bolsa-familia-de-agosto",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-6-recebem-bolsa-familia-de-agosto"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasil-e-eua-definem-data-de-reuniao-para-discutir-tarifaco",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasil-e-eua-definem-data-de-reuniao-para-discutir-tarifaco"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/empresas-afetadas-por-tarifaco-terao-drawback-estendido-por-um-ano",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/empresas-afetadas-por-tarifaco-terao-drawback-estendido-por-um-ano"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fila-de-espera-do-inss-cai-para-12-milhao-de-requerimentos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fila-de-espera-do-inss-cai-para-12-milhao-de-requerimentos"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/forum-dos-conselhos-federais-debate-governanca-e-temas-de-interesse-das-profissoes-regulamentadas/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/forum-dos-conselhos-federais-debate-governanca-e-temas-de-interesse-das-profissoes-regulamentadas/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/previsao-de-gastos-com-inss-em-2027-e-reduzida-em-r-5-bilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/previsao-de-gastos-com-inss-em-2027-e-reduzida-em-r-5-bilhoes"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/salario-minimo-devera-subir-para-r-1741-em-2027",
@@ -383,16 +425,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/salario-minimo-devera-subir-para-r-1741-em-2027"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-do-brasil-lanca-novo-aplicativo-com-foco-em-ia-e-personalizacao",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/vendas-do-tesouro-direto-registram-melhor-julho-da-historia",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-do-brasil-lanca-novo-aplicativo-com-foco-em-ia-e-personalizacao"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-5-recebem-bolsa-familia-de-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-5-recebem-bolsa-familia-de-agosto"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/vendas-do-tesouro-direto-registram-melhor-julho-da-historia"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cmn-flexibiliza-uso-de-recursos-para-renegociar-dividas-rurais",
@@ -407,40 +443,16 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/comercio-eletronico-em-compras-federais-e-regulamentado"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/conselho-aprova-pedido-de-recuperacao-extrajudicial-da-braskem",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/conselho-aprova-pedido-de-recuperacao-extrajudicial-da-braskem"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/empresas-atingidas-por-tarifaco-e-guerras-terao-r-135-bi-em-credito",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/empresas-atingidas-por-tarifaco-e-guerras-terao-r-135-bi-em-credito"
-    },
-    {
       "url": "https://cfc.org.br/noticias/live-aborda-obrigacoes-e-apuracao-do-simples-nacional-na-pratica/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/live-aborda-obrigacoes-e-apuracao-do-simples-nacional-na-pratica/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mercado-reduz-projecao-para-crescimento-da-economia-em-2026",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mercado-reduz-projecao-para-crescimento-da-economia-em-2026"
-    },
-    {
       "url": "https://cfc.org.br/noticias/reforma-tributaria-e-o-tema-da-palestra-magna-da-secofem/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/reforma-tributaria-e-o-tema-da-palestra-magna-da-secofem/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/saiba-mais-sobre-acordo-para-facilitar-comercio-eletronico-no-mercosul",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/saiba-mais-sobre-acordo-para-facilitar-comercio-eletronico-no-mercosul"
     },
     {
       "url": "https://cfc.org.br/noticias/ultima-semana-para-envio-de-justificativas-pelo-nao-cumprimento-do-pepc/",
@@ -465,18 +477,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/seminario-internacional-facpcs-abre-inscricoes-com-descontos-progressivos/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/agronegocio-sera-o-tema-do-proximo-modulo-da-capacitacao-sobre-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/agronegocio-sera-o-tema-do-proximo-modulo-da-capacitacao-sobre-reforma-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-abre-audiencia-publica-complementar-sobre-norma-de-ativos-nao-circulantes-mantidos-para-venda/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-abre-audiencia-publica-complementar-sobre-norma-de-ativos-nao-circulantes-mantidos-para-venda/"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-destaca-papel-estrategico-da-contabilidade-diante-dos-impactos-da-reforma-tributaria-na-saude-filantropica/",
@@ -576,8 +576,8 @@
     },
     {
       "url": "https://www.ibge.gov.br/explica/inflacao.php",
-      "status": "alerta",
-      "code": 403,
+      "status": "online",
+      "code": 200,
       "finalUrl": "https://www.ibge.gov.br/explica/inflacao.php"
     },
     {
