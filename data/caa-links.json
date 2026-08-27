@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-26T10:55:31.516Z",
+  "checkedAt": "2026-08-27T20:36:03.768Z",
   "total": 100,
-  "online": 76,
-  "alerts": 24,
+  "online": 74,
+  "alerts": 26,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -371,76 +371,94 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-8-recebem-bolsa-familia-de-agosto",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-8-recebem-bolsa-familia-de-agosto"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desemprego-cai-para-53-o-menor-para-o-trimestre-terminado-em-julho",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desemprego-cai-para-53-o-menor-para-o-trimestre-terminado-em-julho"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ebc-destaca-protagonismo-da-comunicacao-publica-na-tv-30",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ebc-destaca-protagonismo-da-comunicacao-publica-na-tv-30"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/egc-promove-seminario-sobre-contabilidade-auditoria-e-controle-para-conselhos-de-fiscalizacao-profissional/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/egc-promove-seminario-sobre-contabilidade-auditoria-e-controle-para-conselhos-de-fiscalizacao-profissional/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-central-tem-superavit-de-r-108-bilhoes-em-julho",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-central-tem-superavit-de-r-108-bilhoes-em-julho"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/lideranca-e-governanca-sistema-cfc-crcs-se-prepara-para-liderar-as-grandes-transformacoes-da-contabilidade-brasileira/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/lideranca-e-governanca-sistema-cfc-crcs-se-prepara-para-liderar-as-grandes-transformacoes-da-contabilidade-brasileira/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/lucro-da-caixa-cresce-59-e-chega-r-39-bi-no-segundo-trimestre",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/lucro-da-caixa-cresce-59-e-chega-r-39-bi-no-segundo-trimestre"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/regiao-norte-recebe-mais-um-modulo-de-curso-sobre-a-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/regiao-norte-recebe-mais-um-modulo-de-curso-sobre-a-reforma-tributaria/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/servicos-ocuparam-159-milhoes-e-pagaram-media-de-22-minimos-em-2024",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/servicos-ocuparam-159-milhoes-e-pagaram-media-de-22-minimos-em-2024"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ate-53-da-divida-publica-federal-podera-ser-corrigida-pela-selic",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ate-53-da-divida-publica-federal-podera-ser-corrigida-pela-selic"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/divida-publica-sobe-022-em-julho-e-supera-r-92-trilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/divida-publica-sobe-022-em-julho-e-supera-r-92-trilhoes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dona-de-habibs-e-ragazzo-entra-em-recuperacao-judicial",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dona-de-habibs-e-ragazzo-entra-em-recuperacao-judicial"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/receita-arrecada-r-31-bilhoes-com-ir-sobre-dividendos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/receita-arrecada-r-31-bilhoes-com-ir-sobre-dividendos"
+    },
+    {
       "url": "https://cfc.org.br/noticias/agronegocio-e-cooperativismo-sao-pautas-do-14o-modulo-do-curso-sobre-reforma-tributaria/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/agronegocio-e-cooperativismo-sao-pautas-do-14o-modulo-do-curso-sobre-reforma-tributaria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-federal-cresce-897-em-julho-e-chega-r-2893-bilhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-federal-cresce-897-em-julho-e-chega-r-2893-bilhoes"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-6-recebem-bolsa-familia-de-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-6-recebem-bolsa-familia-de-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasil-e-eua-definem-data-de-reuniao-para-discutir-tarifaco",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasil-e-eua-definem-data-de-reuniao-para-discutir-tarifaco"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/empresas-afetadas-por-tarifaco-terao-drawback-estendido-por-um-ano",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/empresas-afetadas-por-tarifaco-terao-drawback-estendido-por-um-ano"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fila-de-espera-do-inss-cai-para-12-milhao-de-requerimentos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/fila-de-espera-do-inss-cai-para-12-milhao-de-requerimentos"
-    },
-    {
       "url": "https://cfc.org.br/noticias/forum-dos-conselhos-federais-debate-governanca-e-temas-de-interesse-das-profissoes-regulamentadas/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/forum-dos-conselhos-federais-debate-governanca-e-temas-de-interesse-das-profissoes-regulamentadas/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/previsao-de-gastos-com-inss-em-2027-e-reduzida-em-r-5-bilhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/previsao-de-gastos-com-inss-em-2027-e-reduzida-em-r-5-bilhoes"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/salario-minimo-devera-subir-para-r-1741-em-2027",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/salario-minimo-devera-subir-para-r-1741-em-2027"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/vendas-do-tesouro-direto-registram-melhor-julho-da-historia",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/vendas-do-tesouro-direto-registram-melhor-julho-da-historia"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cmn-flexibiliza-uso-de-recursos-para-renegociar-dividas-rurais",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cmn-flexibiliza-uso-de-recursos-para-renegociar-dividas-rurais"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/comercio-eletronico-em-compras-federais-e-regulamentado",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/comercio-eletronico-em-compras-federais-e-regulamentado"
     },
     {
       "url": "https://cfc.org.br/noticias/live-aborda-obrigacoes-e-apuracao-do-simples-nacional-na-pratica/",
@@ -461,12 +479,6 @@
       "finalUrl": "https://cfc.org.br/noticias/ultima-semana-para-envio-de-justificativas-pelo-nao-cumprimento-do-pepc/"
     },
     {
-      "url": "https://cfc.org.br/noticias/cfc-e-fbc-promovem-curso-sobre-os-impactos-da-reforma-tributaria-no-simples-nacional/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-e-fbc-promovem-curso-sobre-os-impactos-da-reforma-tributaria-no-simples-nacional/"
-    },
-    {
       "url": "https://cfc.org.br/internacional/fundacao-ifrs-aborda-mudancas-da-norma-para-pmes-em-novo-podcast/",
       "status": "online",
       "code": 200,
@@ -477,18 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/seminario-internacional-facpcs-abre-inscricoes-com-descontos-progressivos/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-destaca-papel-estrategico-da-contabilidade-diante-dos-impactos-da-reforma-tributaria-na-saude-filantropica/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-destaca-papel-estrategico-da-contabilidade-diante-dos-impactos-da-reforma-tributaria-na-saude-filantropica/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/novo-modulo-de-qualificacao-voltada-para-partidos-e-eleicoes-e-publicado-na-plataforma-educont/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/novo-modulo-de-qualificacao-voltada-para-partidos-e-eleicoes-e-publicado-na-plataforma-educont/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -576,8 +576,8 @@
     },
     {
       "url": "https://www.ibge.gov.br/explica/inflacao.php",
-      "status": "online",
-      "code": 200,
+      "status": "alerta",
+      "code": 403,
       "finalUrl": "https://www.ibge.gov.br/explica/inflacao.php"
     },
     {
