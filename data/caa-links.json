@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-27T20:36:03.768Z",
+  "checkedAt": "2026-08-28T21:14:18.956Z",
   "total": 100,
-  "online": 74,
-  "alerts": 26,
+  "online": 71,
+  "alerts": 29,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -72,9 +72,9 @@
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/documentacao-tecnica",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/esocial/pt-br/documentacao-tecnica"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/nfse/pt-br",
@@ -156,9 +156,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://certidao-unificada.cjf.jus.br/",
@@ -186,9 +186,9 @@
     },
     {
       "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/ibama/pt-br/servicos/certidoes"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
@@ -264,9 +264,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -371,22 +371,52 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-8-recebem-bolsa-familia-de-agosto",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/apesar-de-liminar-camex-prorroga-imposto-sobre-exportacao-de-petroleo",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-8-recebem-bolsa-familia-de-agosto"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/apesar-de-liminar-camex-prorroga-imposto-sobre-exportacao-de-petroleo"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desemprego-cai-para-53-o-menor-para-o-trimestre-terminado-em-julho",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-9-recebem-bolsa-familia-de-agosto",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desemprego-cai-para-53-o-menor-para-o-trimestre-terminado-em-julho"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/beneficiarios-com-nis-de-final-9-recebem-bolsa-familia-de-agosto"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ebc-destaca-protagonismo-da-comunicacao-publica-na-tv-30",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasil-cria-585-mil-postos-de-trabalho-em-julho-aponta-caged",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ebc-destaca-protagonismo-da-comunicacao-publica-na-tv-30"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasil-cria-585-mil-postos-de-trabalho-em-julho-aponta-caged"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/crescimento-populacional-caiu-para-037-em-2026-estima-ibge",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/crescimento-populacional-caiu-para-037-em-2026-estima-ibge"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-sanciona-lei-que-permite-reduzir-tributos-sobre-combustiveis",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-sanciona-lei-que-permite-reduzir-tributos-sobre-combustiveis"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/transparencia-salarial-empregadores-devem-atualizar-dados-ate-segunda",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/transparencia-salarial-empregadores-devem-atualizar-dados-ate-segunda"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cmn-facilita-credito-emergencial-fertilizantes-e-minerais-criticos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cmn-facilita-credito-emergencial-fertilizantes-e-minerais-criticos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/conselho-eleva-limite-de-remuneracao-do-eco-invest-brasil",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/conselho-eleva-limite-de-remuneracao-do-eco-invest-brasil"
     },
     {
       "url": "https://cfc.org.br/noticias/egc-promove-seminario-sobre-contabilidade-auditoria-e-controle-para-conselhos-de-fiscalizacao-profissional/",
@@ -395,22 +425,16 @@
       "finalUrl": "https://cfc.org.br/noticias/egc-promove-seminario-sobre-contabilidade-auditoria-e-controle-para-conselhos-de-fiscalizacao-profissional/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-central-tem-superavit-de-r-108-bilhoes-em-julho",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-central-tem-superavit-de-r-108-bilhoes-em-julho"
-    },
-    {
       "url": "https://cfc.org.br/noticias/lideranca-e-governanca-sistema-cfc-crcs-se-prepara-para-liderar-as-grandes-transformacoes-da-contabilidade-brasileira/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/lideranca-e-governanca-sistema-cfc-crcs-se-prepara-para-liderar-as-grandes-transformacoes-da-contabilidade-brasileira/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/lucro-da-caixa-cresce-59-e-chega-r-39-bi-no-segundo-trimestre",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/limite-de-credito-estados-e-municipios-e-ampliado-em-r-3-bilhoes",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/lucro-da-caixa-cresce-59-e-chega-r-39-bi-no-segundo-trimestre"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/limite-de-credito-estados-e-municipios-e-ampliado-em-r-3-bilhoes"
     },
     {
       "url": "https://cfc.org.br/noticias/regiao-norte-recebe-mais-um-modulo-de-curso-sobre-a-reforma-tributaria/",
@@ -419,34 +443,10 @@
       "finalUrl": "https://cfc.org.br/noticias/regiao-norte-recebe-mais-um-modulo-de-curso-sobre-a-reforma-tributaria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/servicos-ocuparam-159-milhoes-e-pagaram-media-de-22-minimos-em-2024",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/teto-de-credito-para-taxistas-e-motoristas-de-app-sobe-para-r-200-mil",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/servicos-ocuparam-159-milhoes-e-pagaram-media-de-22-minimos-em-2024"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ate-53-da-divida-publica-federal-podera-ser-corrigida-pela-selic",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/ate-53-da-divida-publica-federal-podera-ser-corrigida-pela-selic"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/divida-publica-sobe-022-em-julho-e-supera-r-92-trilhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/divida-publica-sobe-022-em-julho-e-supera-r-92-trilhoes"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dona-de-habibs-e-ragazzo-entra-em-recuperacao-judicial",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dona-de-habibs-e-ragazzo-entra-em-recuperacao-judicial"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/receita-arrecada-r-31-bilhoes-com-ir-sobre-dividendos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/receita-arrecada-r-31-bilhoes-com-ir-sobre-dividendos"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/teto-de-credito-para-taxistas-e-motoristas-de-app-sobe-para-r-200-mil"
     },
     {
       "url": "https://cfc.org.br/noticias/agronegocio-e-cooperativismo-sao-pautas-do-14o-modulo-do-curso-sobre-reforma-tributaria/",
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.jucerja.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
@@ -596,7 +596,7 @@
       "url": "https://portal.fazenda.sp.gov.br/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://portal.fazenda.sp.gov.br/"
+      "finalUrl": "https://www.sfp.sp.gov.br/sefaz"
     },
     {
       "url": "https://prefeitura.rio/",
