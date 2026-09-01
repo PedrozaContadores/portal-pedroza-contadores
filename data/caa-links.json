@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-31T17:40:41.638Z",
+  "checkedAt": "2026-09-01T14:59:17.514Z",
   "total": 100,
-  "online": 76,
-  "alerts": 24,
+  "online": 75,
+  "alerts": 25,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -371,16 +371,28 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/boletim-focus-mercado-preve-reducao-da-inflacao-e-do-pib-de-2026",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-do-brasil-cresce-05-no-segundo-trimestre-mostra-ibge",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/boletim-focus-mercado-preve-reducao-da-inflacao-e-do-pib-de-2026"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-do-brasil-cresce-05-no-segundo-trimestre-mostra-ibge"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/caixa-paga-bolsa-familia-de-agosto-beneficiarios-com-nis-de-final-0",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/prazo-para-empresas-optarem-por-simples-nacional-comeca-nesta-terca",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/caixa-paga-bolsa-familia-de-agosto-beneficiarios-com-nis-de-final-0"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/prazo-para-empresas-optarem-por-simples-nacional-comeca-nesta-terca"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-com-imposto-do-pecado-deve-chegar-r-419-bi-em-2027",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-com-imposto-do-pecado-deve-chegar-r-419-bi-em-2027"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bolsa-familia-nao-tera-reajuste-previsto-no-orcamento-de-2027",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bolsa-familia-nao-tera-reajuste-previsto-no-orcamento-de-2027"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-modulo-de-capacitacao-voltado-para-partidos-e-eleicoes/",
@@ -395,52 +407,40 @@
       "finalUrl": "https://cfc.org.br/noticias/consulta-publica-sobre-guia-de-custos-abre-espaco-para-contribuicao-de-profissionais-da-contabilidade/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/quase-um-terco-dos-usuarios-de-internet-relatam-tentativas-de-golpe",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-preve-arrecadar-r-636-bi-com-nova-cbs-em-2027",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/quase-um-terco-dos-usuarios-de-internet-relatam-tentativas-de-golpe"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-preve-arrecadar-r-636-bi-com-nova-cbs-em-2027"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/receita-paga-nesta-segunda-ultimo-lote-de-restituicao-do-ir-2026",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-limita-reajuste-real-de-servidores-publicos",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/receita-paga-nesta-segunda-ultimo-lote-de-restituicao-do-ir-2026"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-limita-reajuste-real-de-servidores-publicos"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/consulta-sobre-bens-sustentaveis-no-acordo-mercosul-ue-acaba-na-quarta",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-preve-salario-minimo-de-r-1741",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/consulta-sobre-bens-sustentaveis-no-acordo-mercosul-ue-acaba-na-quarta"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-preve-salario-minimo-de-r-1741"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/programa-de-renegociacao-de-dividas-termina-nesta-segunda-feira",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-reserva-r-448-bilhoes-para-emendas-impositivas",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/programa-de-renegociacao-de-dividas-termina-nesta-segunda-feira"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-reserva-r-448-bilhoes-para-emendas-impositivas"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bandeira-tarifaria-de-energia-permanecera-amarela-em-setembro",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-tem-estimativa-de-superavit-de-r-834-bilhoes",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bandeira-tarifaria-de-energia-permanecera-amarela-em-setembro"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-tem-estimativa-de-superavit-de-r-834-bilhoes"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasil-cria-585-mil-postos-de-trabalho-em-julho-aponta-caged",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-tera-aporte-de-r-6-bilhoes-aos-correios",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/brasil-cria-585-mil-postos-de-trabalho-em-julho-aponta-caged"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/crescimento-populacional-caiu-para-037-em-2026-estima-ibge",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/crescimento-populacional-caiu-para-037-em-2026-estima-ibge"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dolar-sobe-r-519-apos-tom-mais-duro-de-presidente-do-fed",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/dolar-sobe-r-519-apos-tom-mais-duro-de-presidente-do-fed"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-tera-aporte-de-r-6-bilhoes-aos-correios"
     },
     {
       "url": "https://cfc.org.br/noticias/semana-voltada-para-contabilidade-publica-e-encerrada-no-sul-do-pais/",
