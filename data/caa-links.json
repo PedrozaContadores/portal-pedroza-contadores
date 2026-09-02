@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-01T14:59:17.514Z",
+  "checkedAt": "2026-09-02T14:35:08.474Z",
   "total": 100,
   "online": 75,
   "alerts": 25,
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -192,9 +192,9 @@
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
@@ -371,6 +371,48 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-industrial-interrompe-2-meses-de-queda-e-sobe-02-em-julho",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-industrial-interrompe-2-meses-de-queda-e-sobe-02-em-julho"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-sobe-13-e-atinge-maior-nivel-em-quase-quatro-meses",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-sobe-13-e-atinge-maior-nivel-em-quase-quatro-meses"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/dialogo-entre-cfc-e-receita-federal-acelera-identificacao-de-bloqueio-no-acesso-ao-meu-imposto-de-renda/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/dialogo-entre-cfc-e-receita-federal-acelera-identificacao-de-bloqueio-no-acesso-ao-meu-imposto-de-renda/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/orcamento-de-2027-preve-r-1338-bilhoes-em-investimentos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/orcamento-de-2027-preve-r-1338-bilhoes-em-investimentos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-reajusta-preco-medio-do-querosene-de-aviacao-em-139",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-reajusta-preco-medio-do-querosene-de-aviacao-em-139"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-brasileiro-tem-5o-maior-crescimento-no-segundo-trimestre",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-brasileiro-tem-5o-maior-crescimento-no-segundo-trimestre"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-do-brasil-cresce-05-no-segundo-trimestre-mostra-ibge",
       "status": "online",
       "code": 200,
@@ -383,16 +425,28 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/prazo-para-empresas-optarem-por-simples-nacional-comeca-nesta-terca"
     },
     {
+      "url": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/seminario-sobre-contabilidade-auditoria-e-controle-divulga-programacao/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/seminario-sobre-contabilidade-auditoria-e-controle-divulga-programacao/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/zona-franca-de-manaus-e-areas-de-livre-comercio-pautam-modulo-de-curso-sobre-a-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/zona-franca-de-manaus-e-areas-de-livre-comercio-pautam-modulo-de-curso-sobre-a-reforma-tributaria/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-com-imposto-do-pecado-deve-chegar-r-419-bi-em-2027",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-com-imposto-do-pecado-deve-chegar-r-419-bi-em-2027"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bolsa-familia-nao-tera-reajuste-previsto-no-orcamento-de-2027",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/bolsa-familia-nao-tera-reajuste-previsto-no-orcamento-de-2027"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-modulo-de-capacitacao-voltado-para-partidos-e-eleicoes/",
@@ -411,36 +465,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-preve-arrecadar-r-636-bi-com-nova-cbs-em-2027"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-limita-reajuste-real-de-servidores-publicos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-limita-reajuste-real-de-servidores-publicos"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-preve-salario-minimo-de-r-1741",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-preve-salario-minimo-de-r-1741"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-reserva-r-448-bilhoes-para-emendas-impositivas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-reserva-r-448-bilhoes-para-emendas-impositivas"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-tem-estimativa-de-superavit-de-r-834-bilhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-tem-estimativa-de-superavit-de-r-834-bilhoes"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-tera-aporte-de-r-6-bilhoes-aos-correios",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/orcamento-de-2027-tera-aporte-de-r-6-bilhoes-aos-correios"
     },
     {
       "url": "https://cfc.org.br/noticias/semana-voltada-para-contabilidade-publica-e-encerrada-no-sul-do-pais/",
@@ -465,30 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/regiao-norte-recebe-mais-um-modulo-de-curso-sobre-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/agronegocio-e-cooperativismo-sao-pautas-do-14o-modulo-do-curso-sobre-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/agronegocio-e-cooperativismo-sao-pautas-do-14o-modulo-do-curso-sobre-reforma-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/forum-dos-conselhos-federais-debate-governanca-e-temas-de-interesse-das-profissoes-regulamentadas/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/forum-dos-conselhos-federais-debate-governanca-e-temas-de-interesse-das-profissoes-regulamentadas/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/live-aborda-obrigacoes-e-apuracao-do-simples-nacional-na-pratica/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/live-aborda-obrigacoes-e-apuracao-do-simples-nacional-na-pratica/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/reforma-tributaria-e-o-tema-da-palestra-magna-da-secofem/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/reforma-tributaria-e-o-tema-da-palestra-magna-da-secofem/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",

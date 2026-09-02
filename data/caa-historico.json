@@ -2,6 +2,67 @@
   "version": 1,
   "entries": [
     {
+      "id": "2026-09-02T14:31:59.809Z-ea294496cb",
+      "version": "2.0.0",
+      "startedAt": "2026-09-02T14:31:59.809Z",
+      "finishedAt": "2026-09-02T14:35:08.483Z",
+      "status": "concluido-com-alertas",
+      "changes": [
+        "biblioteca-tributaria",
+        "certidoes",
+        "obrigacoes",
+        "noticias",
+        "tabelas"
+      ],
+      "datasets": {
+        "biblioteca-tributaria": {
+          "hash": "5a8fd5878666e6d8e892eaef74449a8a4563fe2647b0f934ce025bf4bd96df27",
+          "items": 17,
+          "available": true
+        },
+        "agenda-tributaria": {
+          "hash": null,
+          "items": 0,
+          "available": false
+        },
+        "certidoes": {
+          "hash": "e4f844372582bac9258704694ec498df0bcd057e56da5aec3dec394c7e666b45",
+          "items": 20,
+          "available": true
+        },
+        "obrigacoes": {
+          "hash": "42183b30707859f5c688a4dbc0cc046cf7daf777e300e8ae484a10619752eaab",
+          "items": 24,
+          "available": true
+        },
+        "conteudo-fiscal": {
+          "hash": "eac3440d489b92e68c8abf22264cc5fb2be6b16be76db9abdf4f427424102aef",
+          "items": 12,
+          "available": true
+        },
+        "noticias": {
+          "hash": "fe92ae8ab7cdb2b93a3c8e2febcf2bd66abab2bc97454adae1c218da69502219",
+          "items": 23,
+          "available": true
+        },
+        "formularios": {
+          "hash": "b665d964d5dd0f1a62e89f779fb6f7fae8e5cff68dd5aa45dbac311dcccf5919",
+          "items": 14,
+          "available": true
+        },
+        "tabelas": {
+          "hash": "cd8448114d131cc382a00d09b4b20e39f9ea04d478d6faa8e3e117596c9f0fe6",
+          "items": 15,
+          "available": true
+        },
+        "pesquisa-global": {
+          "hash": "c640aec37a119897ba5554394922835bbba9274039aaee8c6e38845e4deed817",
+          "items": 125,
+          "available": true
+        }
+      }
+    },
+    {
       "id": "2026-09-01T14:56:32.918Z-63afbdd692",
       "version": "2.0.0",
       "startedAt": "2026-09-01T14:56:32.918Z",
