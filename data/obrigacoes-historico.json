@@ -2,6 +2,14 @@
   "version": 1,
   "entries": [
     {
+      "id": "2026-09-03T14:36:41.246Z-6ac0f171d0",
+      "version": "2.0.0",
+      "updatedAt": "2026-09-03T14:36:41.246Z",
+      "items": 24,
+      "hash": "6ac0f171d0c2227ae6901669d2ac3b55799a8ad0a23d56245c2106bd684df300",
+      "note": "Consolidação automática da CIO pela CAA."
+    },
+    {
       "id": "2026-09-02T14:32:23.986Z-42183b3070",
       "version": "2.0.0",
       "updatedAt": "2026-09-02T14:32:23.986Z",

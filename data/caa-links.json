@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-02T14:35:08.474Z",
+  "checkedAt": "2026-09-03T14:38:51.993Z",
   "total": 100,
-  "online": 75,
-  "alerts": 25,
+  "online": 74,
+  "alerts": 26,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -192,9 +192,9 @@
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/"
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
@@ -258,9 +258,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
@@ -371,10 +371,46 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-dispara-3-e-atinge-o-maior-nivel-desde-maio",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-dispara-3-e-atinge-o-maior-nivel-desde-maio"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/empresas-devem-decidir-este-mes-se-fazem-opcao-pelo-simples-nacional-para-2027/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/empresas-devem-decidir-este-mes-se-fazem-opcao-pelo-simples-nacional-para-2027/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/entenda-como-fazer-o-planejamento-para-o-periodo-eleitoral-em-curso-do-cfc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/entenda-como-fazer-o-planejamento-para-o-periodo-eleitoral-em-curso-do-cfc/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/inscricoes-para-o-premio-saber-contabil-vao-ate-6-de-outubro/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-o-premio-saber-contabil-vao-ate-6-de-outubro/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-industrial-interrompe-2-meses-de-queda-e-sobe-02-em-julho",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-industrial-interrompe-2-meses-de-queda-e-sobe-02-em-julho"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/sao-luis-sediara-o-16o-modulo-do-curso-sobre-reforma-tributaria-do-consumo/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/sao-luis-sediara-o-16o-modulo-do-curso-sobre-reforma-tributaria-do-consumo/"
+    },
+    {
+      "url": "https://cfc.org.br/internacional/videos-orientam-empresas-sobre-preparacao-para-a-implementacao-da-ifrs-20/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/internacional/videos-orientam-empresas-sobre-preparacao-para-a-implementacao-da-ifrs-20/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-sobe-13-e-atinge-maior-nivel-em-quase-quatro-meses",
@@ -425,12 +461,6 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/prazo-para-empresas-optarem-por-simples-nacional-comeca-nesta-terca"
     },
     {
-      "url": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/seminario-sobre-contabilidade-auditoria-e-controle-divulga-programacao/",
       "status": "online",
       "code": 200,
@@ -459,36 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/consulta-publica-sobre-guia-de-custos-abre-espaco-para-contribuicao-de-profissionais-da-contabilidade/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-preve-arrecadar-r-636-bi-com-nova-cbs-em-2027",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/governo-preve-arrecadar-r-636-bi-com-nova-cbs-em-2027"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/semana-voltada-para-contabilidade-publica-e-encerrada-no-sul-do-pais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/semana-voltada-para-contabilidade-publica-e-encerrada-no-sul-do-pais/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/egc-promove-seminario-sobre-contabilidade-auditoria-e-controle-para-conselhos-de-fiscalizacao-profissional/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/egc-promove-seminario-sobre-contabilidade-auditoria-e-controle-para-conselhos-de-fiscalizacao-profissional/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/lideranca-e-governanca-sistema-cfc-crcs-se-prepara-para-liderar-as-grandes-transformacoes-da-contabilidade-brasileira/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/lideranca-e-governanca-sistema-cfc-crcs-se-prepara-para-liderar-as-grandes-transformacoes-da-contabilidade-brasileira/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/regiao-norte-recebe-mais-um-modulo-de-curso-sobre-a-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/regiao-norte-recebe-mais-um-modulo-de-curso-sobre-a-reforma-tributaria/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -534,9 +534,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
