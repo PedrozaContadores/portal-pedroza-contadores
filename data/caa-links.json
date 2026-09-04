@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-03T14:38:51.993Z",
+  "checkedAt": "2026-09-04T14:26:48.681Z",
   "total": 100,
-  "online": 74,
-  "alerts": 26,
+  "online": 64,
+  "alerts": 36,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -42,9 +42,9 @@
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/sped/pt-br"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecd",
@@ -140,7 +140,7 @@
       "url": "https://cndt-certidao.tst.jus.br/inicio.faces",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://cndt-certidao.tst.jus.br/inicio.faces"
+      "finalUrl": "https://cndt-certidao.tst.jus.br/"
     },
     {
       "url": "https://pje.trt1.jus.br/certidoes/trabalhista/emissao",
@@ -156,9 +156,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://certidao-unificada.cjf.jus.br/",
@@ -186,9 +186,9 @@
     },
     {
       "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/ibama/pt-br/servicos/certidoes"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
@@ -240,9 +240,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dmed",
@@ -252,21 +252,21 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/efd/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/efd/"
-    },
-    {
-      "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
       "status": "erro",
       "code": 0,
       "message": "fetch failed"
     },
     {
-      "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
+      "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
+    },
+    {
+      "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -288,9 +288,9 @@
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
@@ -312,9 +312,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
@@ -348,9 +348,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped",
@@ -369,6 +369,60 @@
       "status": "alerta",
       "code": 404,
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/apenas-1-em-cada-5-motociclistas-de-app-tem-cobertura-previdenciaria",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/apenas-1-em-cada-5-motociclistas-de-app-tem-cobertura-previdenciaria"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-tem-2-milhoes-de-pessoas-que-trabalham-por-meio-de-aplicativos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-tem-2-milhoes-de-pessoas-que-trabalham-por-meio-de-aplicativos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/fazenda-autoriza-credito-de-us-1-bilhao-do-bid-para-eco-invest-brasil",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/fazenda-autoriza-credito-de-us-1-bilhao-do-bid-para-eco-invest-brasil"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-proibe-publicidade-em-comprovantes-do-pix-partir-de-marco-de-2027",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-proibe-publicidade-em-comprovantes-do-pix-partir-de-marco-de-2027"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-passa-oferecer-modalidade-de-pix-parcelado",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-passa-oferecer-modalidade-de-pix-parcelado"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-recebe-certificados-de-normas-iso-que-reforcam-avancos-em-gestao-e-governanca/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-recebe-certificados-de-normas-iso-que-reforcam-avancos-em-gestao-e-governanca/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/pesquisa-mostra-avanco-da-inteligencia-artificial-na-rotina-dos-profissionais-da-contabilidade/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/pesquisa-mostra-avanco-da-inteligencia-artificial-na-rotina-dos-profissionais-da-contabilidade/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/receita-federal-e-cgibs-dispensam-nanoempreendedores-de-obrigacoes-do-ibs-e-da-cbs/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/receita-federal-e-cgibs-dispensam-nanoempreendedores-de-obrigacoes-do-ibs-e-da-cbs/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ue-suspende-carnes-do-brasil-entenda-impacto-e-proximos-passos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ue-suspende-carnes-do-brasil-entenda-impacto-e-proximos-passos"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-dispara-3-e-atinge-o-maior-nivel-desde-maio",
@@ -425,76 +479,22 @@
       "finalUrl": "https://cfc.org.br/noticias/dialogo-entre-cfc-e-receita-federal-acelera-identificacao-de-bloqueio-no-acesso-ao-meu-imposto-de-renda/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/nova-regra-do-pix-amplia-prazo-para-contestar-golpe"
-    },
-    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/orcamento-de-2027-preve-r-1338-bilhoes-em-investimentos",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/orcamento-de-2027-preve-r-1338-bilhoes-em-investimentos"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-reajusta-preco-medio-do-querosene-de-aviacao-em-139",
+      "url": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-reajusta-preco-medio-do-querosene-de-aviacao-em-139"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-brasileiro-tem-5o-maior-crescimento-no-segundo-trimestre",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-brasileiro-tem-5o-maior-crescimento-no-segundo-trimestre"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-do-brasil-cresce-05-no-segundo-trimestre-mostra-ibge",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pib-do-brasil-cresce-05-no-segundo-trimestre-mostra-ibge"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/prazo-para-empresas-optarem-por-simples-nacional-comeca-nesta-terca",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/prazo-para-empresas-optarem-por-simples-nacional-comeca-nesta-terca"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/seminario-sobre-contabilidade-auditoria-e-controle-divulga-programacao/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/seminario-sobre-contabilidade-auditoria-e-controle-divulga-programacao/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/zona-franca-de-manaus-e-areas-de-livre-comercio-pautam-modulo-de-curso-sobre-a-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/zona-franca-de-manaus-e-areas-de-livre-comercio-pautam-modulo-de-curso-sobre-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-com-imposto-do-pecado-deve-chegar-r-419-bi-em-2027",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/arrecadacao-com-imposto-do-pecado-deve-chegar-r-419-bi-em-2027"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-modulo-de-capacitacao-voltado-para-partidos-e-eleicoes/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-modulo-de-capacitacao-voltado-para-partidos-e-eleicoes/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/consulta-publica-sobre-guia-de-custos-abre-espaco-para-contribuicao-de-profissionais-da-contabilidade/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/consulta-publica-sobre-guia-de-custos-abre-espaco-para-contribuicao-de-profissionais-da-contabilidade/"
+      "finalUrl": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.jucerja.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
@@ -516,9 +516,9 @@
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
@@ -546,9 +546,9 @@
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
