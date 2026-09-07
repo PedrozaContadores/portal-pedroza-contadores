@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-04T14:26:48.681Z",
+  "checkedAt": "2026-09-07T15:56:32.781Z",
   "total": 100,
-  "online": 64,
-  "alerts": 36,
+  "online": 69,
+  "alerts": 31,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -96,8 +96,8 @@
     },
     {
       "url": "https://processo.stj.jus.br/SCON/",
-      "status": "online",
-      "code": 200,
+      "status": "alerta",
+      "code": 403,
       "finalUrl": "https://processo.stj.jus.br/SCON/"
     },
     {
@@ -180,9 +180,9 @@
     },
     {
       "url": "https://filia-consulta.tse.jus.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 503,
+      "finalUrl": "https://filia-consulta.tse.jus.br/"
     },
     {
       "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
@@ -252,9 +252,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/efd/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/efd/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
@@ -264,9 +264,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
+      "status": "erro",
+      "code": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -348,9 +348,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped",
@@ -371,10 +371,28 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ibge-disponibiliza-partir-de-amanha-mapas-mundi-ineditos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ibge-disponibiliza-partir-de-amanha-mapas-mundi-ineditos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-testa-plataforma-para-pesquisas-em-microgravidade-no-espaco",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-testa-plataforma-para-pesquisas-em-microgravidade-no-espaco"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/apenas-1-em-cada-5-motociclistas-de-app-tem-cobertura-previdenciaria",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/apenas-1-em-cada-5-motociclistas-de-app-tem-cobertura-previdenciaria"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/balanca-comercial-tem-superavit-de-us-74-bilhoes-em-agosto",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/balanca-comercial-tem-superavit-de-us-74-bilhoes-em-agosto"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-tem-2-milhoes-de-pessoas-que-trabalham-por-meio-de-aplicativos",
@@ -383,16 +401,28 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-tem-2-milhoes-de-pessoas-que-trabalham-por-meio-de-aplicativos"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cmn-amplia-renegociacao-de-dividas-rurais-ligadas-eventos-climaticos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cmn-amplia-renegociacao-de-dividas-rurais-ligadas-eventos-climaticos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cota-chinesa-faz-exportacao-de-carne-bovina-recuar-271-em-agosto",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cota-chinesa-faz-exportacao-de-carne-bovina-recuar-271-em-agosto"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/fazenda-autoriza-credito-de-us-1-bilhao-do-bid-para-eco-invest-brasil",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/fazenda-autoriza-credito-de-us-1-bilhao-do-bid-para-eco-invest-brasil"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-proibe-publicidade-em-comprovantes-do-pix-partir-de-marco-de-2027",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/precos-maiores-sustentam-alta-das-exportacoes-aos-eua-em-agosto",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-proibe-publicidade-em-comprovantes-do-pix-partir-de-marco-de-2027"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/precos-maiores-sustentam-alta-das-exportacoes-aos-eua-em-agosto"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-passa-oferecer-modalidade-de-pix-parcelado",
@@ -419,18 +449,6 @@
       "finalUrl": "https://cfc.org.br/noticias/receita-federal-e-cgibs-dispensam-nanoempreendedores-de-obrigacoes-do-ibs-e-da-cbs/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ue-suspende-carnes-do-brasil-entenda-impacto-e-proximos-passos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ue-suspende-carnes-do-brasil-entenda-impacto-e-proximos-passos"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-dispara-3-e-atinge-o-maior-nivel-desde-maio",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-dispara-3-e-atinge-o-maior-nivel-desde-maio"
-    },
-    {
       "url": "https://cfc.org.br/noticias/empresas-devem-decidir-este-mes-se-fazem-opcao-pelo-simples-nacional-para-2027/",
       "status": "online",
       "code": 200,
@@ -449,12 +467,6 @@
       "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-o-premio-saber-contabil-vao-ate-6-de-outubro/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-industrial-interrompe-2-meses-de-queda-e-sobe-02-em-julho",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-industrial-interrompe-2-meses-de-queda-e-sobe-02-em-julho"
-    },
-    {
       "url": "https://cfc.org.br/noticias/sao-luis-sediara-o-16o-modulo-do-curso-sobre-reforma-tributaria-do-consumo/",
       "status": "online",
       "code": 200,
@@ -467,22 +479,10 @@
       "finalUrl": "https://cfc.org.br/internacional/videos-orientam-empresas-sobre-preparacao-para-a-implementacao-da-ifrs-20/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-sobe-13-e-atinge-maior-nivel-em-quase-quatro-meses",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-sobe-13-e-atinge-maior-nivel-em-quase-quatro-meses"
-    },
-    {
       "url": "https://cfc.org.br/noticias/dialogo-entre-cfc-e-receita-federal-acelera-identificacao-de-bloqueio-no-acesso-ao-meu-imposto-de-renda/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/dialogo-entre-cfc-e-receita-federal-acelera-identificacao-de-bloqueio-no-acesso-ao-meu-imposto-de-renda/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/orcamento-de-2027-preve-r-1338-bilhoes-em-investimentos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/orcamento-de-2027-preve-r-1338-bilhoes-em-investimentos"
     },
     {
       "url": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/",
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.jucerja.rj.gov.br/"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
@@ -516,9 +516,9 @@
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
@@ -534,9 +534,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
