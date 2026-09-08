@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-07T15:56:32.781Z",
+  "checkedAt": "2026-09-08T14:38:44.504Z",
   "total": 100,
-  "online": 69,
-  "alerts": 31,
+  "online": 73,
+  "alerts": 27,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -42,9 +42,9 @@
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/sped/pt-br"
     },
     {
       "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecd",
@@ -156,9 +156,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional"
     },
     {
       "url": "https://certidao-unificada.cjf.jus.br/",
@@ -186,9 +186,9 @@
     },
     {
       "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/ibama/pt-br/servicos/certidoes"
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
@@ -240,9 +240,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dmed",
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "alerta",
+      "code": 500,
+      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -288,9 +288,9 @@
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
@@ -312,9 +312,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital"
     },
     {
       "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
@@ -342,9 +342,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/simples",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www8.receita.fazenda.gov.br/simplesnacional/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
@@ -369,6 +369,12 @@
       "status": "alerta",
       "code": 404,
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-financeiro-reduz-previsao-da-inflacao-para-5-este-ano",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-financeiro-reduz-previsao-da-inflacao-para-5-este-ano"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ibge-disponibiliza-partir-de-amanha-mapas-mundi-ineditos",
@@ -423,12 +429,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/precos-maiores-sustentam-alta-das-exportacoes-aos-eua-em-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-passa-oferecer-modalidade-de-pix-parcelado",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-passa-oferecer-modalidade-de-pix-parcelado"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-recebe-certificados-de-normas-iso-que-reforcam-avancos-em-gestao-e-governanca/",
