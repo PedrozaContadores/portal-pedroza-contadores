@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-08T14:38:44.504Z",
+  "checkedAt": "2026-09-09T14:42:01.855Z",
   "total": 100,
   "online": 73,
   "alerts": 27,
@@ -204,9 +204,9 @@
     },
     {
       "url": "https://www.crc.org.br/servicos/registro",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.crc.org.br/servicos/registro"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "http://www.crc.org.br/404.asp"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/DCTFWeb",
@@ -216,9 +216,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/efd-reinf",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/efd-reinf"
+      "status": "erro",
+      "code": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "url": "https://sped.rfb.gov.br/projeto/show/268",
@@ -258,9 +258,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
@@ -277,7 +277,7 @@
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
       "status": "alerta",
-      "code": 500,
+      "code": 404,
       "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
@@ -312,9 +312,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital"
+      "status": "erro",
+      "code": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
@@ -342,9 +342,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/simples",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www8.receita.fazenda.gov.br/simplesnacional/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
@@ -371,6 +371,36 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cvm-multa-vorcaro-em-r-20-milhoes-por-fraude-em-fundo-imobiliario",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cvm-multa-vorcaro-em-r-20-milhoes-por-fraude-em-fundo-imobiliario"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dinheiro-esquecido-nos-bancos-sobe-para-r-565-bilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dinheiro-esquecido-nos-bancos-sobe-para-r-565-bilhoes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-cai-r-508-e-atinge-menor-valor-em-um-mes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-cai-r-508-e-atinge-menor-valor-em-um-mes"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/educacao-continuada-tecnologia-e-visao-de-negocios-moldam-o-futuro-da-profissao-contabil/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/educacao-continuada-tecnologia-e-visao-de-negocios-moldam-o-futuro-da-profissao-contabil/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/inscricoes-abertas-para-o-seminario-de-contabilidade-auditoria-e-controle-para-conselhos-de-fiscalizacao-profissional/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/inscricoes-abertas-para-o-seminario-de-contabilidade-auditoria-e-controle-para-conselhos-de-fiscalizacao-profissional/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-financeiro-reduz-previsao-da-inflacao-para-5-este-ano",
       "status": "online",
       "code": 200,
@@ -389,22 +419,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-testa-plataforma-para-pesquisas-em-microgravidade-no-espaco"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/apenas-1-em-cada-5-motociclistas-de-app-tem-cobertura-previdenciaria",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/apenas-1-em-cada-5-motociclistas-de-app-tem-cobertura-previdenciaria"
-    },
-    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/balanca-comercial-tem-superavit-de-us-74-bilhoes-em-agosto",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/balanca-comercial-tem-superavit-de-us-74-bilhoes-em-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-tem-2-milhoes-de-pessoas-que-trabalham-por-meio-de-aplicativos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-tem-2-milhoes-de-pessoas-que-trabalham-por-meio-de-aplicativos"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cmn-amplia-renegociacao-de-dividas-rurais-ligadas-eventos-climaticos",
@@ -417,12 +435,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cota-chinesa-faz-exportacao-de-carne-bovina-recuar-271-em-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/fazenda-autoriza-credito-de-us-1-bilhao-do-bid-para-eco-invest-brasil",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/fazenda-autoriza-credito-de-us-1-bilhao-do-bid-para-eco-invest-brasil"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/precos-maiores-sustentam-alta-das-exportacoes-aos-eua-em-agosto",
@@ -479,22 +491,10 @@
       "finalUrl": "https://cfc.org.br/internacional/videos-orientam-empresas-sobre-preparacao-para-a-implementacao-da-ifrs-20/"
     },
     {
-      "url": "https://cfc.org.br/noticias/dialogo-entre-cfc-e-receita-federal-acelera-identificacao-de-bloqueio-no-acesso-ao-meu-imposto-de-renda/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/dialogo-entre-cfc-e-receita-federal-acelera-identificacao-de-bloqueio-no-acesso-ao-meu-imposto-de-renda/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/programacao-do-xxiii-seminario-internacional-facpcs-preve-palestras-paineis-e-sessoes-simultaneas-masterclass/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -546,9 +546,9 @@
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
