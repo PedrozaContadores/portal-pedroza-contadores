@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-09T14:42:01.855Z",
+  "checkedAt": "2026-09-10T14:31:46.970Z",
   "total": 100,
-  "online": 73,
-  "alerts": 27,
+  "online": 74,
+  "alerts": 26,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -216,9 +216,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/efd-reinf",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/efd-reinf"
     },
     {
       "url": "https://sped.rfb.gov.br/projeto/show/268",
@@ -252,15 +252,15 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/efd/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/efd/"
-    },
-    {
-      "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
       "status": "erro",
       "code": 0,
       "message": "fetch failed"
+    },
+    {
+      "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
@@ -312,9 +312,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital"
     },
     {
       "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
@@ -371,6 +371,48 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/setor-de-servicos-fica-estavel-em-julho-e-sobe-24-em-12-meses",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/setor-de-servicos-fica-estavel-em-julho-e-sobe-24-em-12-meses"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/combustiveis-e-agricultura-familiar-recebem-quase-r-7-bi-em-creditos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/combustiveis-e-agricultura-familiar-recebem-quase-r-7-bi-em-creditos"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cp-casp-debate-revisao-da-nbc-tsp-39-e-reforca-papel-estrategico-da-contabilidade-publica/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cp-casp-debate-revisao-da-nbc-tsp-39-e-reforca-papel-estrategico-da-contabilidade-publica/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/maranhao-recebe-discussoes-sobre-a-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/maranhao-recebe-discussoes-sobre-a-reforma-tributaria/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/novas-medidas-para-combustiveis-terao-impacto-de-r-7-bilhoes-por-mes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/novas-medidas-para-combustiveis-terao-impacto-de-r-7-bilhoes-por-mes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/novo-computador-quantico-educacional-passa-ser-usado-no-senai",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/novo-computador-quantico-educacional-passa-ser-usado-no-senai"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/subsidios-gasolina-e-ao-diesel-sao-ampliados-apos-alta-do-petroleo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/subsidios-gasolina-e-ao-diesel-sao-ampliados-apos-alta-do-petroleo"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cvm-multa-vorcaro-em-r-20-milhoes-por-fraude-em-fundo-imobiliario",
       "status": "online",
       "code": 200,
@@ -413,36 +455,6 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ibge-disponibiliza-partir-de-amanha-mapas-mundi-ineditos"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-testa-plataforma-para-pesquisas-em-microgravidade-no-espaco",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-testa-plataforma-para-pesquisas-em-microgravidade-no-espaco"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/balanca-comercial-tem-superavit-de-us-74-bilhoes-em-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/balanca-comercial-tem-superavit-de-us-74-bilhoes-em-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cmn-amplia-renegociacao-de-dividas-rurais-ligadas-eventos-climaticos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cmn-amplia-renegociacao-de-dividas-rurais-ligadas-eventos-climaticos"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cota-chinesa-faz-exportacao-de-carne-bovina-recuar-271-em-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cota-chinesa-faz-exportacao-de-carne-bovina-recuar-271-em-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/precos-maiores-sustentam-alta-das-exportacoes-aos-eua-em-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/precos-maiores-sustentam-alta-das-exportacoes-aos-eua-em-agosto"
-    },
-    {
       "url": "https://cfc.org.br/noticias/cfc-recebe-certificados-de-normas-iso-que-reforcam-avancos-em-gestao-e-governanca/",
       "status": "online",
       "code": 200,
@@ -471,18 +483,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/entenda-como-fazer-o-planejamento-para-o-periodo-eleitoral-em-curso-do-cfc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/inscricoes-para-o-premio-saber-contabil-vao-ate-6-de-outubro/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-o-premio-saber-contabil-vao-ate-6-de-outubro/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/sao-luis-sediara-o-16o-modulo-do-curso-sobre-reforma-tributaria-do-consumo/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/sao-luis-sediara-o-16o-modulo-do-curso-sobre-reforma-tributaria-do-consumo/"
     },
     {
       "url": "https://cfc.org.br/internacional/videos-orientam-empresas-sobre-preparacao-para-a-implementacao-da-ifrs-20/",
@@ -534,9 +534,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
