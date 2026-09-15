@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-14T16:26:07.678Z",
+  "checkedAt": "2026-09-15T15:05:41.658Z",
   "total": 100,
-  "online": 75,
-  "alerts": 25,
+  "online": 74,
+  "alerts": 26,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -371,10 +371,58 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/encontro-sobre-futuro-profissional-deve-reunir-15-mil-jovens-no-rio",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-deve-dobrar-investimentos-para-zerar-deficit-em-infraestrutura",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/encontro-sobre-futuro-profissional-deve-reunir-15-mil-jovens-no-rio"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-deve-dobrar-investimentos-para-zerar-deficit-em-infraestrutura"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-muda-horario-do-sorteio-da-lotofacil-da-independencia",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-muda-horario-do-sorteio-da-lotofacil-da-independencia"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/vendas-no-comercio-caem-08-em-julho-com-ressaca-da-copa-do-mundo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/vendas-no-comercio-caem-08-em-julho-com-ressaca-da-copa-do-mundo"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/alerta-de-golpe-fiquem-atentos-a-mensagens-com-cobranca-indevida-de-anuidades/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/alerta-de-golpe-fiquem-atentos-a-mensagens-com-cobranca-indevida-de-anuidades/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-e-eua-voltarao-discutir-tarifas-em-encontro-do-g20",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-e-eua-voltarao-discutir-tarifas-em-encontro-do-g20"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/confianca-da-industria-recua-e-mantem-21-meses-de-pessimismo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/confianca-da-industria-recua-e-mantem-21-meses-de-pessimismo"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/conselho-regulamenta-credito-para-taxistas-e-motoristas-de-aplicativo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/conselho-regulamenta-credito-para-taxistas-e-motoristas-de-aplicativo"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-sobe-e-fecha-perto-de-r-515-com-aversao-risco",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-sobe-e-fecha-perto-de-r-515-com-aversao-risco"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/estados-e-municipios-tem-limite-de-credito-para-2026-ampliado",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/estados-e-municipios-tem-limite-de-credito-para-2026-ampliado"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-projeta-corte-da-selic-para-1375-nesta-semana",
@@ -383,10 +431,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-projeta-corte-da-selic-para-1375-nesta-semana"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bancarios-rejeitam-proposta-da-caixa-e-mantem-greve-nacional",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/move-brasil-tera-R-30-bilhoes-para-credito-de-veiculos",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bancarios-rejeitam-proposta-da-caixa-e-mantem-greve-nacional"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/move-brasil-tera-R-30-bilhoes-para-credito-de-veiculos"
     },
     {
       "url": "https://cfc.org.br/noticias/2o-exame-de-suficiencia-de-2026-candidatos-devem-apresentar-documento-fisico-de-identificacao-no-dia-da-prova/",
@@ -407,18 +455,6 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-apresenta-19-pontos-de-aprimoramento-na-regulamentacao-do-simples-nacional/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/inflacao-oficial-de-agosto-fecha-em-032-menor-taxa-em-quatro-anos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/inflacao-oficial-de-agosto-fecha-em-032-menor-taxa-em-quatro-anos"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/inpc-tem-variacao-negativa-em-agosto-e-soma-398-em-12-meses",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/inpc-tem-variacao-negativa-em-agosto-e-soma-398-em-12-meses"
-    },
-    {
       "url": "https://cfc.org.br/noticias/nordeste-recebe-mais-uma-etapa-do-curso-sobre-a-reforma-tributaria/",
       "status": "online",
       "code": 200,
@@ -431,28 +467,10 @@
       "finalUrl": "https://cfc.org.br/noticias/xxxv-secofem-sera-realizada-em-fortaleza-ce-em-novembro/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasileiros-retiram-r-105-bilhoes-da-poupanca-em-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasileiros-retiram-r-105-bilhoes-da-poupanca-em-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-entra-em-greve-nacional-bb-tem-paralisacao-parcial",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/caixa-entra-em-greve-nacional-bb-tem-paralisacao-parcial"
-    },
-    {
       "url": "https://cfc.org.br/noticias/esg-day-2026-reune-especialistas-para-debater-avancos-e-desafios-da-sustentabilidade/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/esg-day-2026-reune-especialistas-para-debater-avancos-e-desafios-da-sustentabilidade/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/faturamento-da-industria-cai-2-em-julho-segundo-cni",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/faturamento-da-industria-cai-2-em-julho-segundo-cni"
     },
     {
       "url": "https://cfc.org.br/noticias/governanca-e-integracao-pautam-reuniao-intersetorial-do-cfc/",
@@ -461,28 +479,10 @@
       "finalUrl": "https://cfc.org.br/noticias/governanca-e-integracao-pautam-reuniao-intersetorial-do-cfc/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/minha-casa-minha-vida-conselho-do-fgts-aumenta-subsidios-para-2026",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/minha-casa-minha-vida-conselho-do-fgts-aumenta-subsidios-para-2026"
-    },
-    {
       "url": "https://cfc.org.br/noticias/orientacao-prestacao-de-contas-parcial-das-eleicoes-2026-no-sistema-contaje/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/orientacao-prestacao-de-contas-parcial-das-eleicoes-2026-no-sistema-contaje/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/transpetro-prorroga-prazo-de-inscricao-em-concurso-para-21-de-setembro",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/transpetro-prorroga-prazo-de-inscricao-em-concurso-para-21-de-setembro"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cp-casp-debate-revisao-da-nbc-tsp-39-e-reforca-papel-estrategico-da-contabilidade-publica/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cp-casp-debate-revisao-da-nbc-tsp-39-e-reforca-papel-estrategico-da-contabilidade-publica/"
     },
     {
       "url": "https://cfc.org.br/noticias/maranhao-recebe-discussoes-sobre-a-reforma-tributaria/",
@@ -492,9 +492,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.jucerja.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
