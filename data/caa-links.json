@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-18T14:35:14.197Z",
+  "checkedAt": "2026-09-21T16:32:04.386Z",
   "total": 100,
   "online": 76,
   "alerts": 24,
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -371,6 +371,42 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-reduz-projecao-da-selic-para-1350",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-reduz-projecao-da-selic-para-1350"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/conheca-chongqing-metropole-chave-da-transformacao-economica-chinesa",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/conheca-chongqing-metropole-chave-da-transformacao-economica-chinesa"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-aprova-adesao-subvencao-ao-oleo-diesel",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-aprova-adesao-subvencao-ao-oleo-diesel"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-batiza-primeiro-navio-navegar-com-tripulacao-100-feminina",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-batiza-primeiro-navio-navegar-com-tripulacao-100-feminina"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/forca-tarefa-coloca-profissionais-da-contabilidade-no-centro-da-orientacao-sobre-a-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/forca-tarefa-coloca-profissionais-da-contabilidade-no-centro-da-orientacao-sobre-a-reforma-tributaria/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/plataforma-reune-228-indicadores-para-comparar-estados-brasileiros",
       "status": "online",
       "code": 200,
@@ -381,12 +417,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/aviso-de-pauta-cfc-receita-federal-sebrae-e-fenacon-anunciam-forca-tarefa-para-orientar-sobre-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-familia-e-reajustado-em-15-medida-vale-partir-de-outubro",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-familia-e-reajustado-em-15-medida-vale-partir-de-outubro"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-soberano-3-comeca-a-receber-pedidos-de-emprestimos-de-empresas",
@@ -413,24 +443,6 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/economia-recua-04-na-passagem-de-junho-para-julho-estima-fgv"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/entenda-mudanca-no-mapa-que-tirou-sorriso-do-topo-da-producao-agricola",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/entenda-mudanca-no-mapa-que-tirou-sorriso-do-topo-da-producao-agricola"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-aumenta-diesel-mas-subsitio-mantem-valor-final-entenda",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-aumenta-diesel-mas-subsitio-mantem-valor-final-entenda"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-vai-buscar-petroleo-na-margem-equatorial-da-costa-do-marfim",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-vai-buscar-petroleo-na-margem-equatorial-da-costa-do-marfim"
-    },
-    {
       "url": "https://cfc.org.br/noticias/plenaria-do-cfc-reune-avancos-em-fiscalizacao-tecnologia-qualificacao-e-valorizacao-da-profissao/",
       "status": "online",
       "code": 200,
@@ -441,12 +453,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/prevencao-de-acidentes-de-transito-e-tema-de-seminario-internacional"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-agricola-brasileira-superou-r-927-bilhoes-em-2025",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-agricola-brasileira-superou-r-927-bilhoes-em-2025"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/trabalhadores-da-caixa-decidem-na-proxima-semana-sobre-fim-da-greve",
@@ -483,12 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/2a-edicao-do-eqt-inicia-provas-em-28-de-setembro/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/alerta-de-golpe-fiquem-atentos-a-mensagens-com-cobranca-indevida-de-anuidades/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/alerta-de-golpe-fiquem-atentos-a-mensagens-com-cobranca-indevida-de-anuidades/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
