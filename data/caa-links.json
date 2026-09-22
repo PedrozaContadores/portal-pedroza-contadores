@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-21T16:32:04.386Z",
+  "checkedAt": "2026-09-22T15:01:53.666Z",
   "total": 100,
   "online": 76,
   "alerts": 24,
@@ -371,10 +371,46 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/arrecadacao-federal-ultrapassa-r-2-trilhoes-em-oito-meses",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/arrecadacao-federal-ultrapassa-r-2-trilhoes-em-oito-meses"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/artigo-presidente-do-cfc-destaca-papel-da-contabilidade-no-aperfeicoamento-da-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/artigo-presidente-do-cfc-destaca-papel-da-contabilidade-no-aperfeicoamento-da-reforma-tributaria/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ata-do-copom-atribui-corte-da-selic-desaceleracao-da-economia",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/ata-do-copom-atribui-corte-da-selic-desaceleracao-da-economia"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/seguranca-alimentar-e-povos-indigenas-tem-r-643-milhoes-em-credito",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/seguranca-alimentar-e-povos-indigenas-tem-r-643-milhoes-em-credito"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/empregados-da-caixa-rejeitam-proposta-da-empresa-e-greve-continua",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/empregados-da-caixa-rejeitam-proposta-da-empresa-e-greve-continua"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-reduz-projecao-da-selic-para-1350",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mercado-reduz-projecao-da-selic-para-1350"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/senacon-vai-investigar-70-postos-por-aumento-abusivo-de-precos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/senacon-vai-investigar-70-postos-por-aumento-abusivo-de-precos"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/conheca-chongqing-metropole-chave-da-transformacao-economica-chinesa",
@@ -401,28 +437,16 @@
       "finalUrl": "https://cfc.org.br/noticias/forca-tarefa-coloca-profissionais-da-contabilidade-no-centro-da-orientacao-sobre-a-reforma-tributaria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario",
+      "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/renda-de-pcds-equivale-70-do-rendimento-de-pessoas-sem-deficiencia",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/plataforma-reune-228-indicadores-para-comparar-estados-brasileiros",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/plataforma-reune-228-indicadores-para-comparar-estados-brasileiros"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/renda-de-pcds-equivale-70-do-rendimento-de-pessoas-sem-deficiencia"
     },
     {
       "url": "https://cfc.org.br/noticias/aviso-de-pauta-cfc-receita-federal-sebrae-e-fenacon-anunciam-forca-tarefa-para-orientar-sobre-a-reforma-tributaria/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/aviso-de-pauta-cfc-receita-federal-sebrae-e-fenacon-anunciam-forca-tarefa-para-orientar-sobre-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-soberano-3-comeca-a-receber-pedidos-de-emprestimos-de-empresas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-soberano-3-comeca-a-receber-pedidos-de-emprestimos-de-empresas"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-disponibiliza-novo-modulo-de-capacitacao-voltada-para-eleicoes/",
@@ -437,28 +461,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-crcdf-participam-de-programacao-de-congresso-internacional/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/economia-recua-04-na-passagem-de-junho-para-julho-estima-fgv",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/economia-recua-04-na-passagem-de-junho-para-julho-estima-fgv"
-    },
-    {
       "url": "https://cfc.org.br/noticias/plenaria-do-cfc-reune-avancos-em-fiscalizacao-tecnologia-qualificacao-e-valorizacao-da-profissao/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/plenaria-do-cfc-reune-avancos-em-fiscalizacao-tecnologia-qualificacao-e-valorizacao-da-profissao/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/prevencao-de-acidentes-de-transito-e-tema-de-seminario-internacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/prevencao-de-acidentes-de-transito-e-tema-de-seminario-internacional"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/trabalhadores-da-caixa-decidem-na-proxima-semana-sobre-fim-da-greve",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/trabalhadores-da-caixa-decidem-na-proxima-semana-sobre-fim-da-greve"
     },
     {
       "url": "https://cfc.org.br/noticias/ultimo-modulo-do-curso-sobre-a-reforma-tributaria-acontece-na-proxima-semana/",
@@ -483,12 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-ibracon-reforcam-parceria-institucional-em-defesa-do-protagonismo-da-contabilidade/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/2a-edicao-do-eqt-inicia-provas-em-28-de-setembro/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/2a-edicao-do-eqt-inicia-provas-em-28-de-setembro/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
