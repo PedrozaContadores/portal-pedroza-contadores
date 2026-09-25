@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
   "status": "concluido-com-alertas",
-  "startedAt": "2026-09-24T15:10:45.264Z",
-  "finishedAt": "2026-09-24T15:13:41.823Z",
+  "startedAt": "2026-09-25T15:18:21.022Z",
+  "finishedAt": "2026-09-25T15:21:19.859Z",
   "executions": [
     {
       "script": "scripts/atualizar-legislacao.mjs",
@@ -39,7 +39,7 @@
         "missing": false,
         "items": 17,
         "urls": 17,
-        "hash": "d6d19ddf66e24a90ee86c4f9ac9b5f5fe528513fa38d9932180d469489669620",
+        "hash": "6fabfa0b1d7441ae24ff65ee55087b9d21213c21130289a2a2ba499ca7cf21d3",
         "errors": [],
         "nonOfficial": []
       },
@@ -57,7 +57,7 @@
         "missing": false,
         "items": 20,
         "urls": 17,
-        "hash": "9ff6b5bb2fe74f12fb9c6be1e00f8987a779c3d8f07df3ab98f79d8ba0371c2a",
+        "hash": "643573f955ada67f4e64b3a27f920ecd5bba0e6d23dd4c6f6933226eb44185a5",
         "errors": [],
         "nonOfficial": []
       },
@@ -68,7 +68,7 @@
         "missing": false,
         "items": 24,
         "urls": 22,
-        "hash": "6e6bd0c79b5ace65674195dff980054e7316951fa1ea766335e5535ef7e84ca2",
+        "hash": "d9d829d7e950c271689f79d91a8f9e0abc3466e21627cd18c2aa44796a970193",
         "errors": [],
         "nonOfficial": []
       },
@@ -90,7 +90,7 @@
         "missing": false,
         "items": 23,
         "urls": 20,
-        "hash": "f39445e2ebe1eb844a300785202bd442d5fcc909ae8e43d629d4784bfc82e491",
+        "hash": "584927a05803faa4b78098d6226a5dc77fb1586f2b6adc35b6cc15e37ec440cb",
         "errors": [],
         "nonOfficial": []
       },
@@ -112,7 +112,7 @@
         "missing": false,
         "items": 15,
         "urls": 12,
-        "hash": "720cf29eb1b376c3196df5cde1068d2ae9b4c52f14b5afb29b69ba4bffa232cf",
+        "hash": "b0572da24792b24ccf2caddc2cd30650b5da62af8b5e5c540c41711fc720117e",
         "errors": [],
         "nonOfficial": []
       },
@@ -130,7 +130,7 @@
     ]
   },
   "linkValidation": {
-    "checkedAt": "2026-09-24T15:13:41.813Z",
+    "checkedAt": "2026-09-25T15:21:19.851Z",
     "total": 100,
     "online": 74,
     "alerts": 26

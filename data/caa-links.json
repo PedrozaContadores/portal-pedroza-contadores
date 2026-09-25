@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-24T15:13:41.813Z",
+  "checkedAt": "2026-09-25T15:21:19.851Z",
   "total": 100,
   "online": 74,
   "alerts": 26,
@@ -270,9 +270,9 @@
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://notacarioca.rio.gov.br/capa.aspx"
+      "status": "alerta",
+      "code": 503,
+      "finalUrl": "https://notacarioca.rio.gov.br/"
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -342,9 +342,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/simples",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www8.receita.fazenda.gov.br/simplesnacional/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
@@ -371,22 +371,76 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-reduz-projecao-de-crescimento-da-economia-para-18",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/beneficiarios-com-nis-de-final-7-recebem-bolsa-familia-de-setembro",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-reduz-projecao-de-crescimento-da-economia-para-18"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/beneficiarios-com-nis-de-final-7-recebem-bolsa-familia-de-setembro"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/beneficiarios-com-nis-de-final-6-recebem-bolsa-familia-de-setembro",
+      "url": "https://cfc.org.br/noticias/cfc-destaca-papel-estrategico-da-contabilidade-na-gestao-dos-municipios/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/beneficiarios-com-nis-de-final-6-recebem-bolsa-familia-de-setembro"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-destaca-papel-estrategico-da-contabilidade-na-gestao-dos-municipios/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-florestal-no-pais-alcanca-recorde-de-r-479-bilhoes-em-2025",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/combustiveis-terao-novos-precos-medios-partir-de-outubro",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-florestal-no-pais-alcanca-recorde-de-r-479-bilhoes-em-2025"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/combustiveis-terao-novos-precos-medios-partir-de-outubro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/previa-da-inflacao-oficial-de-setembro-fica-em-070-mostra-ibge",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/previa-da-inflacao-oficial-de-setembro-fica-em-070-mostra-ibge"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/tst-60-dos-empregados-da-caixa-devem-permanecer-em-atividade",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/tst-60-dos-empregados-da-caixa-devem-permanecer-em-atividade"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/2o-exame-de-suficiencia-acontece-neste-domingo/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/2o-exame-de-suficiencia-acontece-neste-domingo/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cmn-endurece-regras-para-fundos-comprarem-creditos-judiciais",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/cmn-endurece-regras-para-fundos-comprarem-creditos-judiciais"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/com-pessimismo-externo-dolar-sobe-047-e-aproxima-se-de-r-520",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/com-pessimismo-externo-dolar-sobe-047-e-aproxima-se-de-r-520"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/contencao-no-orcamento-e-reduzida-de-r-179-bi-para-r-161-bi",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/contencao-no-orcamento-e-reduzida-de-r-179-bi-para-r-161-bi"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/economistas-lancam-iniciativa-por-economia-focada-na-vida-real",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/economistas-lancam-iniciativa-por-economia-focada-na-vida-real"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mpsp-recomenda-intervencao-na-feira-do-bras-por-causa-de-divida",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/mpsp-recomenda-intervencao-na-feira-do-bras-por-causa-de-divida"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/quintas-do-saber-destaca-impacto-dos-indices-da-educacao-na-regularidade-do-cauc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/quintas-do-saber-destaca-impacto-dos-indices-da-educacao-na-regularidade-do-cauc/"
     },
     {
       "url": "https://cfc.org.br/noticias/sistema-cfc-crcs-disponibiliza-plataforma-com-cursos-gratuitos-para-a-classe-contabil/",
@@ -395,34 +449,16 @@
       "finalUrl": "https://cfc.org.br/noticias/sistema-cfc-crcs-disponibiliza-plataforma-com-cursos-gratuitos-para-a-classe-contabil/"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/subsidio-de-r-212-ao-diesel-deve-ser-mantido-por-30-dias",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/subsidio-de-r-212-ao-diesel-deve-ser-mantido-por-30-dias"
+    },
+    {
       "url": "https://cfc.org.br/noticias/a-contabilidade-brasileira-esta-representada-no-8o-congresso-dos-contabilistas-certificados/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/a-contabilidade-brasileira-esta-representada-no-8o-congresso-dos-contabilistas-certificados/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/anp-aplicou-r-200-milhoes-em-multas-por-alta-abusiva-de-combustiveis",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/anp-aplicou-r-200-milhoes-em-multas-por-alta-abusiva-de-combustiveis"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-amplia-controle-sobre-criptomoedas-e-mira-carteiras-proprias",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bc-amplia-controle-sobre-criptomoedas-e-mira-carteiras-proprias"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-chega-a-35-dos-empreendedores-com-registro-no-cnpj",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/brasil-chega-a-35-dos-empreendedores-com-registro-no-cnpj"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-e-premiado-por-excelencia-no-relatorio-de-gestao-do-exercicio-de-2025/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-e-premiado-por-excelencia-no-relatorio-de-gestao-do-exercicio-de-2025/"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-jovem-realiza-primeira-reuniao-nacional-e-traca-estrategias-para-aproximar-jovens-da-contabilidade/",
@@ -443,22 +479,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cooperacao-entre-brasil-e-portugal-e-desafios-da-profissao-sao-destaques-da-rbc-no-280/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-aproxima-se-de-r-517-com-noticias-do-exterior-e-eleicoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-aproxima-se-de-r-517-com-noticias-do-exterior-e-eleicoes"
-    },
-    {
       "url": "https://cfc.org.br/noticias/normas-para-as-eleicoes-dos-crcs-de-2027-entram-em-processo-de-atualizacao/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/normas-para-as-eleicoes-dos-crcs-de-2027-entram-em-processo-de-atualizacao/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-fecha-acordo-para-cooperar-na-area-de-petroleo-em-mocambique",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/petrobras-fecha-acordo-para-cooperar-na-area-de-petroleo-em-mocambique"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-realiza-live-sobre-prestacao-de-contas-final-das-eleicoes-2026-em-outubro/",
@@ -467,34 +491,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-realiza-live-sobre-prestacao-de-contas-final-das-eleicoes-2026-em-outubro/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/saiba-como-dar-entrada-em-inventario-extrajudicial",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/saiba-como-dar-entrada-em-inventario-extrajudicial"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/setimo-modulo-de-curso-sobre-eleicoes-e-liberado-ao-publico/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/setimo-modulo-de-curso-sobre-eleicoes-e-liberado-ao-publico/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/tcu-recomenda-analise-de-alternativas-caducidade-da-enel-em-sp",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/tcu-recomenda-analise-de-alternativas-caducidade-da-enel-em-sp"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-rfb-e-fenacon-apresentam-ultimo-modulo-do-curso-sobre-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-rfb-e-fenacon-apresentam-ultimo-modulo-do-curso-sobre-reforma-tributaria/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -546,9 +546,9 @@
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
