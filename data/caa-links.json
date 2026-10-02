@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-01T17:07:05.126Z",
+  "checkedAt": "2026-10-02T16:20:24.284Z",
   "total": 100,
-  "online": 40,
-  "alerts": 60,
+  "online": 75,
+  "alerts": 25,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -30,57 +30,57 @@
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/legislacao.aspx",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www8.receita.fazenda.gov.br/SimplesNacional/legislacao.aspx"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/sped/pt-br"
     },
     {
       "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecd",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecd"
     },
     {
       "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecf",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecf"
     },
     {
       "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/efd-contribuicoes",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/efd-contribuicoes"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dctfweb",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dctfweb"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/documentacao-tecnica",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/esocial/pt-br/documentacao-tecnica"
     },
     {
       "url": "https://www.gov.br/nfse/pt-br",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/nfse/pt-br"
     },
     {
       "url": "https://carf.economia.gov.br/jurisprudencia",
@@ -90,9 +90,9 @@
     },
     {
       "url": "https://portal.stf.jus.br/jurisprudencia/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 403,
+      "finalUrl": "https://portal.stf.jus.br/jurisprudencia/"
     },
     {
       "url": "https://processo.stj.jus.br/SCON/",
@@ -108,9 +108,9 @@
     },
     {
       "url": "https://servicos.receitafederal.gov.br/servico/certidoes/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://servicos.receitafederal.gov.br/servico/certidoes/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/certidoes-de-regularidade-fiscal/",
@@ -138,9 +138,9 @@
     },
     {
       "url": "https://cndt-certidao.tst.jus.br/inicio.faces",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cndt-certidao.tst.jus.br/"
     },
     {
       "url": "https://pje.trt1.jus.br/certidoes/trabalhista/emissao",
@@ -156,9 +156,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional"
     },
     {
       "url": "https://certidao-unificada.cjf.jus.br/",
@@ -180,15 +180,15 @@
     },
     {
       "url": "https://filia-consulta.tse.jus.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://filia-consulta.tse.jus.br/"
     },
     {
       "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/ibama/pt-br/servicos/certidoes"
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
@@ -210,15 +210,15 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/DCTFWeb",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/DCTFWeb"
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/efd-reinf",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/efd-reinf"
     },
     {
       "url": "https://sped.rfb.gov.br/projeto/show/268",
@@ -240,15 +240,15 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dmed",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-servicos-medicos-e-da-saude"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/efd/",
@@ -258,9 +258,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
@@ -276,33 +276,33 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
+      "status": "erro",
+      "code": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/esocial/pt-br"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/empresas",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/esocial/pt-br/empresas"
     },
     {
       "url": "https://sped.rfb.gov.br/projeto/show/1196",
@@ -312,63 +312,105 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital"
     },
     {
       "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://fgtsdigital.sistema.gov.br/portal/servicos"
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=8",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=8"
     },
     {
       "url": "https://www.gov.br/receitafederal/simples",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www8.receita.fazenda.gov.br/simplesnacional/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais"
     },
     {
       "url": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/agencia-espacial-institui-politica-de-inovacao-para-fortalecer-setor",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/agencia-espacial-institui-politica-de-inovacao-para-fortalecer-setor"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-imobiliaria-e-construtoras/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-imobiliaria-e-construtoras/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-faz-2a-descoberta-de-petroleo-em-poco-da-margem-equatorial",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-faz-2a-descoberta-de-petroleo-em-poco-da-margem-equatorial"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-industrial-cai-06-de-julho-para-agosto-diz-ibge",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-industrial-cai-06-de-julho-para-agosto-diz-ibge"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/carne-brasileira-vai-pagar-tarifa-de-67-para-entrar-na-china",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/carne-brasileira-vai-pagar-tarifa-de-67-para-entrar-na-china"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-acima-de-r-522-em-dia-de-mal-estar-global",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-acima-de-r-522-em-dia-de-mal-estar-global"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/entra-em-vigor-tarifa-zero-para-instrumentos-musicais-importados",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/entra-em-vigor-tarifa-zero-para-instrumentos-musicais-importados"
     },
     {
       "url": "https://cfc.org.br/noticias/forum-ibracon-jovem-reune-novas-geracoes-da-contabilidade-neste-sabado-3/",
@@ -383,6 +425,12 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/liberacao-de-r-188-bi-beneficia-ministerios-das-cidades-e-da-saude"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-modalidade-de-renegociacao-de-dividas-de-mei-comeca-nesta-quinta",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-modalidade-de-renegociacao-de-dividas-de-mei-comeca-nesta-quinta"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-por-aproximacao-deixa-de-ter-teto-de-r-500-partir-desta-quinta",
       "status": "online",
       "code": 200,
@@ -393,18 +441,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/auditoria-interna-e-externa-sao-tema-de-modulo-de-seminario-do-cfc/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/beneficiarios-com-nis-de-final-0-recebem-bolsa-familia-de-setembro",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/beneficiarios-com-nis-de-final-0-recebem-bolsa-familia-de-setembro"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/contas-publicas-tem-deficit-de-r-10-bilhoes-em-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/contas-publicas-tem-deficit-de-r-10-bilhoes-em-agosto"
     },
     {
       "url": "https://cfc.org.br/noticias/controles-processos-e-inovacao-tecnologica-encerram-seminario-da-egc/",
@@ -443,40 +479,10 @@
       "finalUrl": "https://cfc.org.br/noticias/palestra-sobre-auditoria-interna-abre-segundo-dia-de-capacitacao-para-conselhos-profissionais/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-de-leite-bate-recorde-mesmo-com-reducao-de-vacas-ordenhadas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/producao-de-leite-bate-recorde-mesmo-com-reducao-de-vacas-ordenhadas"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/receita-paga-nesta-quarta-lote-da-malha-fina-do-imposto-de-renda",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/receita-paga-nesta-quarta-lote-da-malha-fina-do-imposto-de-renda"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/seguro-rural-novas-regras-ampliam-cobertura-e-protecao-ao-produtor",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/seguro-rural-novas-regras-ampliam-cobertura-e-protecao-ao-produtor"
-    },
-    {
       "url": "https://cfc.org.br/noticias/sistemas-de-envio-e-entrega-das-contas-eleitorais-pautam-modulo-de-curso-do-cfc/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/sistemas-de-envio-e-entrega-das-contas-eleitorais-pautam-modulo-de-curso-do-cfc/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/termina-nesta-quarta-prazo-para-pedir-dinheiro-do-fundo-pispasep",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/termina-nesta-quarta-prazo-para-pedir-dinheiro-do-fundo-pispasep"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/uniao-europeia-sinaliza-retomada-de-compras-de-frango-e-mel-do-brasil",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/uniao-europeia-sinaliza-retomada-de-compras-de-frango-e-mel-do-brasil"
     },
     {
       "url": "https://cfc.org.br/noticias/gestao-de-riscos-e-alcance-de-resultados-eficazes-foram-temas-em-seminario-da-egc/",
@@ -485,28 +491,22 @@
       "finalUrl": "https://cfc.org.br/noticias/gestao-de-riscos-e-alcance-de-resultados-eficazes-foram-temas-em-seminario-da-egc/"
     },
     {
-      "url": "https://cfc.org.br/noticias/governanca-e-padroes-contabeis-ganham-destaque-em-capacitacao-para-conselhos-profissionais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/governanca-e-padroes-contabeis-ganham-destaque-em-capacitacao-para-conselhos-profissionais/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/redesim"
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.jucerja.rj.gov.br/"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
@@ -516,15 +516,15 @@
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www8.receita.fazenda.gov.br/SimplesNacional/"
     },
     {
       "url": "https://carioca.rio/",
@@ -534,39 +534,39 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br"
     },
     {
       "url": "https://www.gov.br/inss/pt-br",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/inss/pt-br"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br"
     },
     {
       "url": "https://www.bcb.gov.br/controleinflacao/taxaselic",

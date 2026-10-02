@@ -1,6 +1,6 @@
 {
   "version": "2.0.0",
-  "generatedAt": "2026-10-01T17:07:05.133Z",
+  "generatedAt": "2026-10-02T16:20:24.290Z",
   "policy": "Conteúdos dinâmicos sincronizados exclusivamente a partir de fontes oficiais.",
   "status": "concluido-com-alertas",
   "changes": [
@@ -16,7 +16,7 @@
       "available": true,
       "required": true,
       "items": 17,
-      "hash": "f674c9ce1367b2cbf88e80e0c7cae6598738651076faf22a92353961c2e35db3",
+      "hash": "bd3df469bbadf89fa4a74d5e781871ccac7522223edd9005e894483dd551b2df",
       "updatedAt": "2026-07-26"
     },
     "agenda-tributaria": {
@@ -29,16 +29,16 @@
       "available": true,
       "required": true,
       "items": 20,
-      "hash": "5dd00755d658bde42f33718b593a509af50f7ce96b46d8fdcf4a5bcb2d82a8ef",
-      "updatedAt": "2026-10-01T17:03:05.887Z"
+      "hash": "a486183256903ca5b72091d1255eb997897eb2a85f99de21a75e0d658d1f0196",
+      "updatedAt": "2026-10-02T16:17:31.975Z"
     },
     "obrigacoes": {
       "file": "data/obrigacoes.json",
       "available": true,
       "required": true,
       "items": 24,
-      "hash": "bcf69bcbd262f98cf7c0975e1d28d0f6cd23db0897f552004315d3cef4ef362a",
-      "updatedAt": "2026-10-01T17:03:05.923Z"
+      "hash": "16ccd0f13bd43dfc40b4040706ace24ed71bb9ec168716224a1c48805a326652",
+      "updatedAt": "2026-10-02T16:17:32.011Z"
     },
     "conteudo-fiscal": {
       "file": "data/conteudo-fiscal.json",
@@ -53,8 +53,8 @@
       "available": true,
       "required": true,
       "items": 23,
-      "hash": "82d85ebe6bdd747a2fb70518284a5d41562a86ffb14bc3eeb7699d675ba5b9e4",
-      "updatedAt": "2026-10-01T17:07:05.130Z"
+      "hash": "18cf479636ba85ff1aab622214aff03b45fff7cbf78737f60a9229357602c6a4",
+      "updatedAt": "2026-10-02T16:20:24.288Z"
     },
     "formularios": {
       "file": "data/formularios.json",
@@ -69,8 +69,8 @@
       "available": true,
       "required": true,
       "items": 15,
-      "hash": "433a81bcd7d3d5f1b4d14405964e37f9173769a9aba42adfde1e285c53216472",
-      "updatedAt": "2026-10-01"
+      "hash": "329e16b062e14dadcdbb5a750b728e000d2d60590197241ec2f0fec26b73d0ba",
+      "updatedAt": "2026-10-02"
     },
     "pesquisa-global": {
       "file": "data/pesquisa-global.json",
@@ -78,16 +78,16 @@
       "required": true,
       "items": 125,
       "hash": "c640aec37a119897ba5554394922835bbba9274039aaee8c6e38845e4deed817",
-      "updatedAt": "2026-10-01T17:07:05.133Z"
+      "updatedAt": "2026-10-02T16:20:24.290Z"
     }
   },
   "pending": [
     "Agenda Tributária Inteligente ausente na base recebida; integração será ativada automaticamente quando data/agenda-tributaria.json estiver presente."
   ],
   "linkValidation": {
-    "checkedAt": "2026-10-01T17:07:05.126Z",
+    "checkedAt": "2026-10-02T16:20:24.284Z",
     "total": 100,
-    "online": 40,
-    "alerts": 60
+    "online": 75,
+    "alerts": 25
   }
 }
