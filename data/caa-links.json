@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-02T16:20:24.284Z",
+  "checkedAt": "2026-10-05T19:26:54.293Z",
   "total": 100,
-  "online": 75,
-  "alerts": 25,
+  "online": 71,
+  "alerts": 29,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -180,8 +180,8 @@
     },
     {
       "url": "https://filia-consulta.tse.jus.br/",
-      "status": "online",
-      "code": 200,
+      "status": "alerta",
+      "code": 503,
       "finalUrl": "https://filia-consulta.tse.jus.br/"
     },
     {
@@ -258,15 +258,15 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -371,10 +371,52 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/agencia-espacial-institui-politica-de-inovacao-para-fortalecer-setor",
+      "url": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/agencia-espacial-institui-politica-de-inovacao-para-fortalecer-setor"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fenabrave-emplacamentos-passam-de-500-mil-e-batem-recorde-em-setembro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fenabrave-emplacamentos-passam-de-500-mil-e-batem-recorde-em-setembro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/focus-mercado-eleva-previsao-da-inflacao-para-501-em-2026",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/focus-mercado-eleva-previsao-da-inflacao-para-501-em-2026"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-sacar-dinheiro-das-bets-termina-nesta-segunda",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-sacar-dinheiro-das-bets-termina-nesta-segunda"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-atinge-recorde-de-valor-de-mercado-apos-descoberta-no-amapa",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-atinge-recorde-de-valor-de-mercado-apos-descoberta-no-amapa"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/preco-do-limao-esta-acima-da-media-mesmo-na-entressafra",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/preco-do-limao-esta-acima-da-media-mesmo-na-entressafra"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-amplia-margem-equatorial-com-base-em-decisao-da-onu-entenda",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-amplia-margem-equatorial-com-base-em-decisao-da-onu-entenda"
+    },
+    {
+      "url": "https://cfc.org.br/internacional/cfc-integra-agenda-de-sustentabilidade-no-unctad-isar/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/internacional/cfc-integra-agenda-de-sustentabilidade-no-unctad-isar/"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-imobiliaria-e-construtoras/",
@@ -383,58 +425,52 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-imobiliaria-e-construtoras/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-faz-2a-descoberta-de-petroleo-em-poco-da-margem-equatorial",
+      "url": "https://cfc.org.br/noticias/cfc-oferece-capacitacoes-gratuitas-na-area-de-contabilidade-eleitoral-e-partidaria/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-faz-2a-descoberta-de-petroleo-em-poco-da-margem-equatorial"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-oferece-capacitacoes-gratuitas-na-area-de-contabilidade-eleitoral-e-partidaria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-industrial-cai-06-de-julho-para-agosto-diz-ibge",
+      "url": "https://cfc.org.br/noticias/cfc-participa-de-agenda-internacional-sobre-normas-contabeis-em-londres/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-industrial-cai-06-de-julho-para-agosto-diz-ibge"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-participa-de-agenda-internacional-sobre-normas-contabeis-em-londres/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/carne-brasileira-vai-pagar-tarifa-de-67-para-entrar-na-china",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/distribuidoras-se-preparam-para-garantir-energia-no-dia-da-eleicao",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/carne-brasileira-vai-pagar-tarifa-de-67-para-entrar-na-china"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/distribuidoras-se-preparam-para-garantir-energia-no-dia-da-eleicao"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-acima-de-r-522-em-dia-de-mal-estar-global",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/embraer-tem-alta-de-6-nas-entregas-no-terceiro-trimestre",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-acima-de-r-522-em-dia-de-mal-estar-global"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/embraer-tem-alta-de-6-nas-entregas-no-terceiro-trimestre"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/entra-em-vigor-tarifa-zero-para-instrumentos-musicais-importados",
+      "url": "https://cfc.org.br/noticias/inscricoes-para-o-3o-premio-saber-contabil-seguem-ate-a-proxima-terca-feira-6/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/entra-em-vigor-tarifa-zero-para-instrumentos-musicais-importados"
+      "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-o-3o-premio-saber-contabil-seguem-ate-a-proxima-terca-feira-6/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/movimentacao-das-bets-cai-r-652-milhoes-por-dia-apos-proibicao",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/movimentacao-das-bets-cai-r-652-milhoes-por-dia-apos-proibicao"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-descoberta-aumenta-expectativa-da-petrobras-na-foz-do-amazonas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-descoberta-aumenta-expectativa-da-petrobras-na-foz-do-amazonas"
     },
     {
       "url": "https://cfc.org.br/noticias/forum-ibracon-jovem-reune-novas-geracoes-da-contabilidade-neste-sabado-3/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/forum-ibracon-jovem-reune-novas-geracoes-da-contabilidade-neste-sabado-3/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/liberacao-de-r-188-bi-beneficia-ministerios-das-cidades-e-da-saude",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/liberacao-de-r-188-bi-beneficia-ministerios-das-cidades-e-da-saude"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-modalidade-de-renegociacao-de-dividas-de-mei-comeca-nesta-quinta",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-modalidade-de-renegociacao-de-dividas-de-mei-comeca-nesta-quinta"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-por-aproximacao-deixa-de-ter-teto-de-r-500-partir-desta-quinta",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/pix-por-aproximacao-deixa-de-ter-teto-de-r-500-partir-desta-quinta"
     },
     {
       "url": "https://cfc.org.br/noticias/auditoria-interna-e-externa-sao-tema-de-modulo-de-seminario-do-cfc/",
@@ -449,52 +485,16 @@
       "finalUrl": "https://cfc.org.br/noticias/controles-processos-e-inovacao-tecnologica-encerram-seminario-da-egc/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-cai-para-r-517-e-acumula-recuo-de-015-em-setembro",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/dolar-cai-para-r-517-e-acumula-recuo-de-015-em-setembro"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/fgv-prorroga-prazo-para-recursos-contra-gabarito-preliminar-do-2o-exame-de-suficiencia-de-2026/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/fgv-prorroga-prazo-para-recursos-contra-gabarito-preliminar-do-2o-exame-de-suficiencia-de-2026/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/integracao-e-qualidade-pautam-reuniao-da-comissao-de-educacao-profissional-continuada-do-sistema-cfc-crcs/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/integracao-e-qualidade-pautam-reuniao-da-comissao-de-educacao-profissional-continuada-do-sistema-cfc-crcs/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/nota-de-pesar-paulo-viana-nunes/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/nota-de-pesar-paulo-viana-nunes/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/palestra-sobre-auditoria-interna-abre-segundo-dia-de-capacitacao-para-conselhos-profissionais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/palestra-sobre-auditoria-interna-abre-segundo-dia-de-capacitacao-para-conselhos-profissionais/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/sistemas-de-envio-e-entrega-das-contas-eleitorais-pautam-modulo-de-curso-do-cfc/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/sistemas-de-envio-e-entrega-das-contas-eleitorais-pautam-modulo-de-curso-do-cfc/"
     },
     {
-      "url": "https://cfc.org.br/noticias/gestao-de-riscos-e-alcance-de-resultados-eficazes-foram-temas-em-seminario-da-egc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/gestao-de-riscos-e-alcance-de-resultados-eficazes-foram-temas-em-seminario-da-egc/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.jucerja.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
@@ -516,9 +516,9 @@
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
@@ -534,9 +534,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
@@ -558,9 +558,9 @@
     },
     {
       "url": "https://www.gov.br/inss/pt-br",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/inss/pt-br"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br",
