@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-05T19:26:54.293Z",
+  "checkedAt": "2026-10-06T16:52:45.475Z",
   "total": 100,
-  "online": 71,
-  "alerts": 29,
+  "online": 76,
+  "alerts": 24,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -264,9 +264,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -371,10 +371,40 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-cria-indicador-para-acompanhar-reajustes-salariais-negociados",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-cria-indicador-para-acompanhar-reajustes-salariais-negociados"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-e-atricon-reforcam-cooperacao-para-fortalecer-transparencia-e-controle-dos-recursos-publicos/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-e-atricon-reforcam-cooperacao-para-fortalecer-transparencia-e-controle-dos-recursos-publicos/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/fgv-divulga-gabarito-oficial-preliminar-da-segunda-edicao-do-eqt-2026/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/fgv-divulga-gabarito-oficial-preliminar-da-segunda-edicao-do-eqt-2026/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/profissionais-podem-contribuir-com-novas-normas-sobre-receitas-e-despesas-de-transferencia/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/profissionais-podem-contribuir-com-novas-normas-sobre-receitas-e-despesas-de-transferencia/"
+    },
+    {
       "url": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-5-e-bolsa-sobe-quase-8-apos-primeiro-turno",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-5-e-bolsa-sobe-quase-8-apos-primeiro-turno"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fenabrave-emplacamentos-passam-de-500-mil-e-batem-recorde-em-setembro",
@@ -405,12 +435,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/preco-do-limao-esta-acima-da-media-mesmo-na-entressafra"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-amplia-margem-equatorial-com-base-em-decisao-da-onu-entenda",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-amplia-margem-equatorial-com-base-em-decisao-da-onu-entenda"
     },
     {
       "url": "https://cfc.org.br/internacional/cfc-integra-agenda-de-sustentabilidade-no-unctad-isar/",
@@ -455,12 +479,6 @@
       "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-o-3o-premio-saber-contabil-seguem-ate-a-proxima-terca-feira-6/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/movimentacao-das-bets-cai-r-652-milhoes-por-dia-apos-proibicao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/movimentacao-das-bets-cai-r-652-milhoes-por-dia-apos-proibicao"
-    },
-    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-descoberta-aumenta-expectativa-da-petrobras-na-foz-do-amazonas",
       "status": "online",
       "code": 200,
@@ -473,28 +491,10 @@
       "finalUrl": "https://cfc.org.br/noticias/forum-ibracon-jovem-reune-novas-geracoes-da-contabilidade-neste-sabado-3/"
     },
     {
-      "url": "https://cfc.org.br/noticias/auditoria-interna-e-externa-sao-tema-de-modulo-de-seminario-do-cfc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/auditoria-interna-e-externa-sao-tema-de-modulo-de-seminario-do-cfc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/controles-processos-e-inovacao-tecnologica-encerram-seminario-da-egc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/controles-processos-e-inovacao-tecnologica-encerram-seminario-da-egc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/sistemas-de-envio-e-entrega-das-contas-eleitorais-pautam-modulo-de-curso-do-cfc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/sistemas-de-envio-e-entrega-das-contas-eleitorais-pautam-modulo-de-curso-do-cfc/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.jucerja.rj.gov.br/"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
@@ -516,9 +516,9 @@
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
@@ -558,9 +558,9 @@
     },
     {
       "url": "https://www.gov.br/inss/pt-br",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/inss/pt-br"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br",
