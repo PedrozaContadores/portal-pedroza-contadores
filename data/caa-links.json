@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-06T16:52:45.475Z",
+  "checkedAt": "2026-10-07T17:29:12.952Z",
   "total": 100,
-  "online": 76,
-  "alerts": 24,
+  "online": 74,
+  "alerts": 26,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -371,10 +371,58 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-adia-discussao-sobre-fim-de-contrato-com-enel-em-sao-paulo",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-adia-discussao-sobre-fim-de-contrato-com-enel-em-sao-paulo"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/anp-espera-leiloar-mais-de-320-blocos-de-petroleo-nesta-quarta",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/anp-espera-leiloar-mais-de-320-blocos-de-petroleo-nesta-quarta"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/evento-voltado-para-a-area-de-contabilidade-publica-aborda-39-temas/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/evento-voltado-para-a-area-de-contabilidade-publica-aborda-39-temas/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/maior-leilao-do-pre-sal-termina-com-sete-dos-13-blocos-arrematados",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/maior-leilao-do-pre-sal-termina-com-sete-dos-13-blocos-arrematados"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/novo-modulo-do-curso-sobre-contabilidade-eleitoral-e-partidaria-esta-disponivel/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/novo-modulo-do-curso-sobre-contabilidade-eleitoral-e-partidaria-esta-disponivel/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/visitas-tecnicas-do-cfc-aos-crcs-do-acre-e-do-maranhao-fortalecem-a-governanca-e-promovem-melhorias-na-gestao/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/visitas-tecnicas-do-cfc-aos-crcs-do-acre-e-do-maranhao-fortalecem-a-governanca-e-promovem-melhorias-na-gestao/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/balanca-comercial-tem-superavit-de-us-774-bilhoes-em-setembro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/balanca-comercial-tem-superavit-de-us-774-bilhoes-em-setembro"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-cria-indicador-para-acompanhar-reajustes-salariais-negociados",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-cria-indicador-para-acompanhar-reajustes-salariais-negociados"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cerca-de-132-mil-sites-de-bets-ilegais-sao-bloqueados",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cerca-de-132-mil-sites-de-bets-ilegais-sao-bloqueados"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-e-atricon-reforcam-cooperacao-para-fortalecer-transparencia-e-controle-dos-recursos-publicos/",
@@ -383,10 +431,22 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-atricon-reforcam-cooperacao-para-fortalecer-transparencia-e-controle-dos-recursos-publicos/"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio"
+    },
+    {
       "url": "https://cfc.org.br/noticias/fgv-divulga-gabarito-oficial-preliminar-da-segunda-edicao-do-eqt-2026/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/fgv-divulga-gabarito-oficial-preliminar-da-segunda-edicao-do-eqt-2026/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-comercial-de-2026-cai-para-us-844-bilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-comercial-de-2026-cai-para-us-844-bilhoes"
     },
     {
       "url": "https://cfc.org.br/noticias/profissionais-podem-contribuir-com-novas-normas-sobre-receitas-e-despesas-de-transferencia/",
@@ -407,46 +467,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-5-e-bolsa-sobe-quase-8-apos-primeiro-turno"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fenabrave-emplacamentos-passam-de-500-mil-e-batem-recorde-em-setembro",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fenabrave-emplacamentos-passam-de-500-mil-e-batem-recorde-em-setembro"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/focus-mercado-eleva-previsao-da-inflacao-para-501-em-2026",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/focus-mercado-eleva-previsao-da-inflacao-para-501-em-2026"
-    },
-    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-sacar-dinheiro-das-bets-termina-nesta-segunda",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-sacar-dinheiro-das-bets-termina-nesta-segunda"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-atinge-recorde-de-valor-de-mercado-apos-descoberta-no-amapa",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-atinge-recorde-de-valor-de-mercado-apos-descoberta-no-amapa"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/preco-do-limao-esta-acima-da-media-mesmo-na-entressafra",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/preco-do-limao-esta-acima-da-media-mesmo-na-entressafra"
-    },
-    {
-      "url": "https://cfc.org.br/internacional/cfc-integra-agenda-de-sustentabilidade-no-unctad-isar/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/internacional/cfc-integra-agenda-de-sustentabilidade-no-unctad-isar/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-imobiliaria-e-construtoras/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-lanca-curso-gratuito-sobre-contabilidade-imobiliaria-e-construtoras/"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-oferece-capacitacoes-gratuitas-na-area-de-contabilidade-eleitoral-e-partidaria/",
@@ -461,40 +485,16 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-participa-de-agenda-internacional-sobre-normas-contabeis-em-londres/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/distribuidoras-se-preparam-para-garantir-energia-no-dia-da-eleicao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/distribuidoras-se-preparam-para-garantir-energia-no-dia-da-eleicao"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/embraer-tem-alta-de-6-nas-entregas-no-terceiro-trimestre",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/embraer-tem-alta-de-6-nas-entregas-no-terceiro-trimestre"
-    },
-    {
       "url": "https://cfc.org.br/noticias/inscricoes-para-o-3o-premio-saber-contabil-seguem-ate-a-proxima-terca-feira-6/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-o-3o-premio-saber-contabil-seguem-ate-a-proxima-terca-feira-6/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-descoberta-aumenta-expectativa-da-petrobras-na-foz-do-amazonas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nova-descoberta-aumenta-expectativa-da-petrobras-na-foz-do-amazonas"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/forum-ibracon-jovem-reune-novas-geracoes-da-contabilidade-neste-sabado-3/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/forum-ibracon-jovem-reune-novas-geracoes-da-contabilidade-neste-sabado-3/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
