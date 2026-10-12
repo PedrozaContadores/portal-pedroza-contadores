@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-09T17:03:47.322Z",
+  "checkedAt": "2026-10-12T19:52:43.625Z",
   "total": 100,
-  "online": 73,
-  "alerts": 27,
+  "online": 69,
+  "alerts": 31,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -120,9 +120,9 @@
     },
     {
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal"
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
@@ -156,9 +156,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://certidao-unificada.cjf.jus.br/",
@@ -186,9 +186,9 @@
     },
     {
       "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/ibama/pt-br/servicos/certidoes"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
@@ -240,9 +240,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dmed",
@@ -258,9 +258,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
+      "status": "erro",
+      "code": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -288,9 +288,9 @@
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
@@ -312,9 +312,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
@@ -348,9 +348,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped",
@@ -371,10 +371,28 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bets-mais-de-r-1-bilhao-foram-devolvidos-apostadores",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bets-mais-de-r-1-bilhao-foram-devolvidos-apostadores"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bancos-comecam-devolver-r-13-bilhao-apostadores-de-bets",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bancos-comecam-devolver-r-13-bilhao-apostadores-de-bets"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/credito-extraordinario-de-r-75-bi-reforca-subsidios-combustiveis",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/credito-extraordinario-de-r-75-bi-reforca-subsidios-combustiveis"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/industria-aponta-juros-altos-como-principal-barreira-ao-credito",
@@ -395,6 +413,12 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inpc-inflacao-que-corrige-salarios-acumula-429-em-12-meses"
     },
     {
+      "url": "https://cfc.org.br/noticias/maria-clara-bugarim-e-a-primeira-mulher-brasileira-a-conquistar-premio-internacional-de-lideranca-na-contabilidade/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/maria-clara-bugarim-e-a-primeira-mulher-brasileira-a-conquistar-premio-internacional-de-lideranca-na-contabilidade/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pix-ultrapassa-1-bilhao-de-chaves-cadastradas-no-brasil",
       "status": "online",
       "code": 200,
@@ -407,16 +431,16 @@
       "finalUrl": "https://cfc.org.br/noticias/reforma-tributaria-normas-internacionais-e-sustentabilidade-pautam-seminario-da-facpcs/"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/reforma-tributaria-86-das-notas-fiscais-destacam-cbs",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/reforma-tributaria-86-das-notas-fiscais-destacam-cbs"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tributos-da-gasolina-sao-zerados-e-subsidios-combustiveis-ampliados",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tributos-da-gasolina-sao-zerados-e-subsidios-combustiveis-ampliados"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aliexpress-e-correios-firmam-acordo-para-acelerar-entregas-no-brasil",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aliexpress-e-correios-firmam-acordo-para-acelerar-entregas-no-brasil"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-e-fbc-realizam-conferencia-de-pericia-em-dezembro/",
@@ -431,28 +455,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-fenacon-apresentam-acoes-conjuntas-durante-reuniao-plenaria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/durigan-preve-envio-de-mp-do-imposto-seletivo-apos-eleicoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/durigan-preve-envio-de-mp-do-imposto-seletivo-apos-eleicoes"
-    },
-    {
       "url": "https://cfc.org.br/noticias/homenagem-pelos-80-anos-reconhece-legado-de-transformacao-da-contabilidade-publica-brasileira/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/homenagem-pelos-80-anos-reconhece-legado-de-transformacao-da-contabilidade-publica-brasileira/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nove-conteineres-com-produtos-da-china-sao-apreendidos-no-porto-do-rio",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/nove-conteineres-com-produtos-da-china-sao-apreendidos-no-porto-do-rio"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/saiba-como-ficam-os-servicos-bancarios-no-feriado-do-dia-12-de-outubro",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/saiba-como-ficam-os-servicos-bancarios-no-feriado-do-dia-12-de-outubro"
     },
     {
       "url": "https://cfc.org.br/noticias/2a-edicao-do-eqt-registra-aumento-de-presentes-e-queda-na-taxa-de-abstencao/",
@@ -485,16 +491,10 @@
       "finalUrl": "https://cfc.org.br/noticias/visitas-tecnicas-do-cfc-aos-crcs-do-acre-e-do-maranhao-fortalecem-a-governanca-e-promovem-melhorias-na-gestao/"
     },
     {
-      "url": "https://cfc.org.br/noticias/fgv-divulga-gabarito-oficial-preliminar-da-segunda-edicao-do-eqt-2026/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/fgv-divulga-gabarito-oficial-preliminar-da-segunda-edicao-do-eqt-2026/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -534,9 +534,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
@@ -546,9 +546,9 @@
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
