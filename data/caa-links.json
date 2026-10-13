@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-12T19:52:43.625Z",
+  "checkedAt": "2026-10-13T17:40:26.444Z",
   "total": 100,
-  "online": 69,
-  "alerts": 31,
+  "online": 75,
+  "alerts": 25,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -156,9 +156,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional"
     },
     {
       "url": "https://certidao-unificada.cjf.jus.br/",
@@ -186,9 +186,9 @@
     },
     {
       "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/ibama/pt-br/servicos/certidoes"
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
@@ -240,9 +240,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dmed",
@@ -258,9 +258,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
@@ -288,9 +288,9 @@
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
@@ -312,9 +312,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital"
     },
     {
       "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
@@ -348,9 +348,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped",
@@ -371,6 +371,36 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/medida-provisoria-quer-coibir-excesso-de-chamadas-e-golpes-telefonicos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/medida-provisoria-quer-coibir-excesso-de-chamadas-e-golpes-telefonicos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mercado-eleva-previsao-da-inflacao-para-522-em-2026",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mercado-eleva-previsao-da-inflacao-para-522-em-2026"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/norma-amplia-exigencias-para-atendimento-ao-consumidor-saiba-quais",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/norma-amplia-exigencias-para-atendimento-ao-consumidor-saiba-quais"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/saiba-como-acessar-a-plataforma-de-cursos-do-cfc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/saiba-como-acessar-a-plataforma-de-cursos-do-cfc/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bets-mais-de-r-1-bilhao-foram-devolvidos-apostadores",
       "status": "online",
       "code": 200,
@@ -383,34 +413,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bancos-comecam-devolver-r-13-bilhao-apostadores-de-bets"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/credito-extraordinario-de-r-75-bi-reforca-subsidios-combustiveis",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/credito-extraordinario-de-r-75-bi-reforca-subsidios-combustiveis"
-    },
-    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/industria-aponta-juros-altos-como-principal-barreira-ao-credito",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/industria-aponta-juros-altos-como-principal-barreira-ao-credito"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inflacao-oficial-de-setembro-fica-em-082-mostra-ibge",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inflacao-oficial-de-setembro-fica-em-082-mostra-ibge"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inpc-inflacao-que-corrige-salarios-acumula-429-em-12-meses",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inpc-inflacao-que-corrige-salarios-acumula-429-em-12-meses"
     },
     {
       "url": "https://cfc.org.br/noticias/maria-clara-bugarim-e-a-primeira-mulher-brasileira-a-conquistar-premio-internacional-de-lideranca-na-contabilidade/",
@@ -473,12 +479,6 @@
       "finalUrl": "https://cfc.org.br/noticias/curso-de-contabilidade-imobiliaria-e-construtoras-e-lancado-pelo-cfc/"
     },
     {
-      "url": "https://cfc.org.br/noticias/evento-voltado-para-a-area-de-contabilidade-publica-aborda-39-temas/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/evento-voltado-para-a-area-de-contabilidade-publica-aborda-39-temas/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/novo-modulo-do-curso-sobre-contabilidade-eleitoral-e-partidaria-esta-disponivel/",
       "status": "online",
       "code": 200,
@@ -492,9 +492,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -546,9 +546,9 @@
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
