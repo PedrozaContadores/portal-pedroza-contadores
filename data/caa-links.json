@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-14T15:14:29.856Z",
+  "checkedAt": "2026-10-15T15:08:21.366Z",
   "total": 100,
-  "online": 73,
-  "alerts": 27,
+  "online": 74,
+  "alerts": 26,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -96,8 +96,8 @@
     },
     {
       "url": "https://processo.stj.jus.br/SCON/",
-      "status": "alerta",
-      "code": 403,
+      "status": "online",
+      "code": 200,
       "finalUrl": "https://processo.stj.jus.br/SCON/"
     },
     {
@@ -192,9 +192,9 @@
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 403,
+      "finalUrl": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php"
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
@@ -258,9 +258,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -371,22 +371,76 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibge-estima-safra-de-graos-recorde-em-2026-3545-milhoes-de-toneladas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibge-estima-safra-de-graos-recorde-em-2026-3545-milhoes-de-toneladas"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/lote-complementar-do-abono-salarial-comeca-a-ser-pago-nesta-quinta",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/lote-complementar-do-abono-salarial-comeca-a-ser-pago-nesta-quinta"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-empresas-optarem-por-simples-acaba-nesta-quinta",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-empresas-optarem-por-simples-acaba-nesta-quinta"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-brasileira-de-graos-deve-aumentar-apesar-do-el-nino",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-brasileira-de-graos-deve-aumentar-apesar-do-el-nino"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/vendas-no-comercio-varejista-tem-variacao-de-01-em-agosto",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/vendas-no-comercio-varejista-tem-variacao-de-01-em-agosto"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/confianca-da-industria-sobe-em-outubro-mas-setor-segue-pessimista",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/confianca-da-industria-sobe-em-outubro-mas-setor-segue-pessimista"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/durigan-defende-receita-como-plataforma-de-inteligencia-do-estado",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/durigan-defende-receita-como-plataforma-de-inteligencia-do-estado"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-de-dividas-de-meis-tera-impacto-de-r-3-bilhoes",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-federal-regulamenta-marco-legal-dos-jogos-eletronicos",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-de-dividas-de-meis-tera-impacto-de-r-3-bilhoes"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-federal-regulamenta-marco-legal-dos-jogos-eletronicos"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-pra-bancos-devolverem-r-13-bilhao-de-bets-acaba-nesta-quarta",
+      "url": "https://cfc.org.br/noticias/iasb-e-issb-discutem-novas-normas-contabeis-e-de-sustentabilidade-em-seminario-internacional/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-pra-bancos-devolverem-r-13-bilhao-de-bets-acaba-nesta-quarta"
+      "finalUrl": "https://cfc.org.br/noticias/iasb-e-issb-discutem-novas-normas-contabeis-e-de-sustentabilidade-em-seminario-internacional/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/inscricoes-para-3o-exame-de-suficiencia-do-cfc-vao-ate-30-de-outubro/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-3o-exame-de-suficiencia-do-cfc-vao-ate-30-de-outubro/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/seminario-internacional-integra-assuntos-da-atualidade-com-universo-contabil/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/seminario-internacional-integra-assuntos-da-atualidade-com-universo-contabil/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/setor-de-servicos-cai-01-de-julho-para-agosto-mostra-ibge",
@@ -395,40 +449,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/setor-de-servicos-cai-01-de-julho-para-agosto-mostra-ibge"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abriu-700-mercados-para-agropecuaria-desde-2023",
+      "url": "https://cfc.org.br/noticias/xxiii-seminario-internacional-facpcs-especialistas-discutem-os-impactos-do-ibs-e-da-cbs-nas-demonstracoes-financeiras/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abriu-700-mercados-para-agropecuaria-desde-2023"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dinheiro-esquecido-em-bancos-sobe-para-r-58-bilhoes-em-agosto",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dinheiro-esquecido-em-bancos-sobe-para-r-58-bilhoes-em-agosto"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-074-e-volta-fechar-acima-de-r-5",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-074-e-volta-fechar-acima-de-r-5"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fmi-preve-crescimento-de-22-do-pib-do-brasil-em-2026",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fmi-preve-crescimento-de-22-do-pib-do-brasil-em-2026"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-de-motos-no-brasil-cresce-e-tem-melhor-setembro-desde-2011",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-de-motos-no-brasil-cresce-e-tem-melhor-setembro-desde-2011"
+      "finalUrl": "https://cfc.org.br/noticias/xxiii-seminario-internacional-facpcs-especialistas-discutem-os-impactos-do-ibs-e-da-cbs-nas-demonstracoes-financeiras/"
     },
     {
       "url": "https://cfc.org.br/noticias/saiba-como-acessar-a-plataforma-de-cursos-do-cfc/",
@@ -467,30 +491,6 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-fenacon-apresentam-acoes-conjuntas-durante-reuniao-plenaria/"
     },
     {
-      "url": "https://cfc.org.br/noticias/homenagem-pelos-80-anos-reconhece-legado-de-transformacao-da-contabilidade-publica-brasileira/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/homenagem-pelos-80-anos-reconhece-legado-de-transformacao-da-contabilidade-publica-brasileira/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/2a-edicao-do-eqt-registra-aumento-de-presentes-e-queda-na-taxa-de-abstencao/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/2a-edicao-do-eqt-registra-aumento-de-presentes-e-queda-na-taxa-de-abstencao/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/curso-de-contabilidade-imobiliaria-e-construtoras-e-lancado-pelo-cfc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/curso-de-contabilidade-imobiliaria-e-construtoras-e-lancado-pelo-cfc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/visitas-tecnicas-do-cfc-aos-crcs-do-acre-e-do-maranhao-fortalecem-a-governanca-e-promovem-melhorias-na-gestao/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/visitas-tecnicas-do-cfc-aos-crcs-do-acre-e-do-maranhao-fortalecem-a-governanca-e-promovem-melhorias-na-gestao/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
       "status": "alerta",
       "code": 404,
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.jucerja.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
@@ -570,9 +570,9 @@
     },
     {
       "url": "https://www.bcb.gov.br/controleinflacao/taxaselic",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.bcb.gov.br/controleinflacao/taxaselic"
     },
     {
       "url": "https://www.ibge.gov.br/explica/inflacao.php",
