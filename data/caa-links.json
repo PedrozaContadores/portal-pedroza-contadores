@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-19T17:01:53.608Z",
+  "checkedAt": "2026-10-20T15:10:45.840Z",
   "total": 100,
-  "online": 77,
-  "alerts": 23,
+  "online": 78,
+  "alerts": 22,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -264,9 +264,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -371,10 +371,46 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/representantes-do-desenvolvimento-profissional-de-todo-pais-discutem-inovacoes-para-a-area/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/representantes-do-desenvolvimento-profissional-de-todo-pais-discutem-inovacoes-para-a-area/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-cresce-05-em-agosto-apos-dois-meses-de-recuo-estima-fgv",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-cresce-05-em-agosto-apos-dois-meses-de-recuo-estima-fgv"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-pretende-realocar-r-20-bilhoes-no-orcamento-de-2027",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-pretende-realocar-r-20-bilhoes-no-orcamento-de-2027"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/integracao-e-fortalecimento-da-capacitacao-orientam-seminario-de-desenvolvimento-profissional/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/integracao-e-fortalecimento-da-capacitacao-orientam-seminario-de-desenvolvimento-profissional/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/outubro-rosa-informacao-e-diagnostico-precoce-sao-aliados-no-combate-ao-cancer-de-mama/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/outubro-rosa-informacao-e-diagnostico-precoce-sao-aliados-no-combate-ao-cancer-de-mama/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda",
@@ -425,24 +461,6 @@
       "finalUrl": "https://cfc.org.br/noticias/19o-encc-promove-em-natal-debates-com-olhar-mais-critico-sobre-como-se-deve-pensar-a-nova-contabilidade/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-deve-voltar-ser-8a-maior-economia-do-mundo-em-2027-preve-fmi",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-deve-voltar-ser-8a-maior-economia-do-mundo-em-2027-preve-fmi"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/do-trabalho-sem-limites-ao-fim-da-escala-6x1-veja-evolucao-da-jornada",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/do-trabalho-sem-limites-ao-fim-da-escala-6x1-veja-evolucao-da-jornada"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-preve-credito-empresas-afetadas-por-fim-da-6x1-diz-durigan",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-preve-credito-empresas-afetadas-por-fim-da-6x1-diz-durigan"
-    },
-    {
       "url": "https://cfc.org.br/noticias/novos-modulos-do-curso-contabilidade-imobiliaria-e-construtoras-sao-liberados-pelo-cfc/",
       "status": "online",
       "code": 200,
@@ -455,12 +473,6 @@
       "finalUrl": "https://cfc.org.br/noticias/receita-federal-implementara-nova-versao-do-modulo-administracao-tributaria/"
     },
     {
-      "url": "https://cfc.org.br/noticias/conheca-a-programacao-da-conferencia-nacional-de-pericia-contabil/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/conheca-a-programacao-da-conferencia-nacional-de-pericia-contabil/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/crcpb-e-tce-pb-vao-fortalecer-politicas-publicas-voltadas-a-primeira-infancia/",
       "status": "online",
       "code": 200,
@@ -471,18 +483,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/eliseu-martins-resgata-a-historia-da-contabilidade-em-palestra-de-encerramento-do-xxiii-seminario-internacional-da-facpcs/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/mercado-de-carbono-pauta-palestra-do-seminario-internacional-da-facpcs/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/mercado-de-carbono-pauta-palestra-do-seminario-internacional-da-facpcs/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/prestacao-de-contas-final-e-tema-de-live-do-cfc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/prestacao-de-contas-final-e-tema-de-live-do-cfc/"
     },
     {
       "url": "https://cfc.org.br/internacional/xxiii-seminario-internacional-facpcs-cfc-cvm-e-susep-discutem-avancos-e-desafios-da-regulacao-contabil-e-da-sustentabilidade/",
