@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T15:10:45.840Z",
+  "checkedAt": "2026-10-21T15:21:38.286Z",
   "total": 100,
   "online": 78,
   "alerts": 22,
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
+      "status": "erro",
+      "code": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -371,10 +371,52 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-3-0-recebem-bolsa-familia-de-outubro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-3-0-recebem-bolsa-familia-de-outubro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-destina-r-649-bilhoes-setor-de-exportacao",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-destina-r-649-bilhoes-setor-de-exportacao"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-define-cotas-para-exportar-com-tarifas-reduzidas-para-noruega",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-define-cotas-para-exportar-com-tarifas-reduzidas-para-noruega"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-para-r-501-com-exterior-e-expectativa-eleitoral-no-brasil",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-para-r-501-com-exterior-e-expectativa-eleitoral-no-brasil"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/exame-de-suficiencia-3a-edicao-inscricoes-se-encerram-em-30-de-outubro/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/exame-de-suficiencia-3a-edicao-inscricoes-se-encerram-em-30-de-outubro/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibge-e-autorizado-abrir-325-vagas-temporarias",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibge-e-autorizado-abrir-325-vagas-temporarias"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas",
@@ -383,22 +425,34 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas"
     },
     {
+      "url": "https://cfc.org.br/noticias/primeira-reuniao-da-comissao-cfc-voluntario-define-atuacao-do-grupo/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/primeira-reuniao-da-comissao-cfc-voluntario-define-atuacao-do-grupo/"
+    },
+    {
       "url": "https://cfc.org.br/noticias/representantes-do-desenvolvimento-profissional-de-todo-pais-discutem-inovacoes-para-a-area/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/representantes-do-desenvolvimento-profissional-de-todo-pais-discutem-inovacoes-para-a-area/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-cresce-05-em-agosto-apos-dois-meses-de-recuo-estima-fgv",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/restituicoes-do-ir-batem-recorde-e-chegam-r-41-bilhoes-em-2026",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-cresce-05-em-agosto-apos-dois-meses-de-recuo-estima-fgv"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/restituicoes-do-ir-batem-recorde-e-chegam-r-41-bilhoes-em-2026"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-pretende-realocar-r-20-bilhoes-no-orcamento-de-2027",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-contas-do-bc-de-2025-apos-desvincular-processo-do-master",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-pretende-realocar-r-20-bilhoes-no-orcamento-de-2027"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-contas-do-bc-de-2025-apos-desvincular-processo-do-master"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/vice-presidentes-de-desenvolvimento-profissional-se-reunem-em-imersao-voltada-para-a-integracao/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/vice-presidentes-de-desenvolvimento-profissional-se-reunem-em-imersao-voltada-para-a-integracao/"
     },
     {
       "url": "https://cfc.org.br/noticias/integracao-e-fortalecimento-da-capacitacao-orientam-seminario-de-desenvolvimento-profissional/",
@@ -413,46 +467,10 @@
       "finalUrl": "https://cfc.org.br/noticias/outubro-rosa-informacao-e-diagnostico-precoce-sao-aliados-no-combate-ao-cancer-de-mama/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda"
-    },
-    {
       "url": "https://cfc.org.br/noticias/xi-cumbre-de-las-americas-2026-reune-liderancas-internacionais-em-tres-dias-de-programacao/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/xi-cumbre-de-las-americas-2026-reune-liderancas-internacionais-em-tres-dias-de-programacao/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bb-recebe-ate-31-de-outubro-inscricoes-para-projetos-de-impacto-social",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bb-recebe-ate-31-de-outubro-inscricoes-para-projetos-de-impacto-social"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/empresas-de-tres-regioes-terao-aporte-de-r-450-milhoes-para-inovacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/empresas-de-tres-regioes-terao-aporte-de-r-450-milhoes-para-inovacao"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/anac-estabelece-regras-mais-restritivas-para-aviacao-em-congonhas-sp",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/anac-estabelece-regras-mais-restritivas-para-aviacao-em-congonhas-sp"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cortes-em-auxilios-sociais-podem-gerar-retracao-em-cidades-do-interior",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cortes-em-auxilios-sociais-podem-gerar-retracao-em-cidades-do-interior"
     },
     {
       "url": "https://cfc.org.br/noticias/19o-encc-promove-em-natal-debates-com-olhar-mais-critico-sobre-como-se-deve-pensar-a-nova-contabilidade/",
@@ -471,24 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/receita-federal-implementara-nova-versao-do-modulo-administracao-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/crcpb-e-tce-pb-vao-fortalecer-politicas-publicas-voltadas-a-primeira-infancia/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/crcpb-e-tce-pb-vao-fortalecer-politicas-publicas-voltadas-a-primeira-infancia/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/eliseu-martins-resgata-a-historia-da-contabilidade-em-palestra-de-encerramento-do-xxiii-seminario-internacional-da-facpcs/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/eliseu-martins-resgata-a-historia-da-contabilidade-em-palestra-de-encerramento-do-xxiii-seminario-internacional-da-facpcs/"
-    },
-    {
-      "url": "https://cfc.org.br/internacional/xxiii-seminario-internacional-facpcs-cfc-cvm-e-susep-discutem-avancos-e-desafios-da-regulacao-contabil-e-da-sustentabilidade/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/internacional/xxiii-seminario-internacional-facpcs-cfc-cvm-e-susep-discutem-avancos-e-desafios-da-regulacao-contabil-e-da-sustentabilidade/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
