@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-21T15:21:38.286Z",
+  "checkedAt": "2026-10-22T15:22:09.818Z",
   "total": 100,
-  "online": 78,
-  "alerts": 22,
+  "online": 77,
+  "alerts": 23,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -276,9 +276,9 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
       "url": "https://www.gov.br/esocial/pt-br",
@@ -360,9 +360,9 @@
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir",
@@ -371,10 +371,40 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/arrecadacao-federal-cresce-562-em-setembro-e-soma-r-2394-bilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/arrecadacao-federal-cresce-562-em-setembro-e-soma-r-2394-bilhoes"
+    },
+    {
+      "url": "https://cfc.org.br/internacional/cfc-e-cpc-disponibilizam-a-audiencia-publica-o-pronunciamento-tecnico-cpc-52-aplicado-as-entidades-sem-obrigacao-de-prestacao-publica-de-contas/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/internacional/cfc-e-cpc-disponibilizam-a-audiencia-publica-o-pronunciamento-tecnico-cpc-52-aplicado-as-entidades-sem-obrigacao-de-prestacao-publica-de-contas/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-soma-mais-de-10-pontos-no-pepc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-soma-mais-de-10-pontos-no-pepc/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-3-0-recebem-bolsa-familia-de-outubro",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-3-0-recebem-bolsa-familia-de-outubro"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/comissao-de-educacao-profissional-do-cfc-discute-novas-oportunidades-para-fortalecer-a-classe/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/comissao-de-educacao-profissional-do-cfc-discute-novas-oportunidades-para-fortalecer-a-classe/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/evento-on-line-esclarece-regras-para-atuacao-dos-auditores-independentes-no-mercado-de-capitais/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/evento-on-line-esclarece-regras-para-atuacao-dos-auditores-independentes-no-mercado-de-capitais/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-destina-r-649-bilhoes-setor-de-exportacao",
@@ -383,22 +413,52 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-destina-r-649-bilhoes-setor-de-exportacao"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/importacoes-para-pesquisa-publica-terao-imunidade-tributaria",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/importacoes-para-pesquisa-publica-terao-imunidade-tributaria"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/mcce-avalia-eleicoes-e-reforca-acoes-contra-a-compra-de-votos-e-pela-transparencia-eleitoral/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/mcce-avalia-eleicoes-e-reforca-acoes-contra-a-compra-de-votos-e-pela-transparencia-eleitoral/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ministro-preve-renegociacao-de-r-90-bi-em-3a-fase-do-desenrola",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ministro-preve-renegociacao-de-r-90-bi-em-3a-fase-do-desenrola"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-define-cotas-para-exportar-com-tarifas-reduzidas-para-noruega",
+      "url": "https://cfc.org.br/noticias/novo-modulo-de-curso-contabilidade-imobiliaria-e-construtoras-e-disponibilizado-pelo-cfc/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-define-cotas-para-exportar-com-tarifas-reduzidas-para-noruega"
+      "finalUrl": "https://cfc.org.br/noticias/novo-modulo-de-curso-contabilidade-imobiliaria-e-construtoras-e-disponibilizado-pelo-cfc/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-de-dividas-e-novo-teto-do-mei-entenda-o-que-muda",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-de-dividas-e-novo-teto-do-mei-entenda-o-que-muda"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/procon-paulistano-multa-enel-por-falhas-no-fornecimento-de-energia",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/procon-paulistano-multa-enel-por-falhas-no-fornecimento-de-energia"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/sancionada-lei-que-perdoa-divida-e-aumenta-limite-de-mei",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/sancionada-lei-que-perdoa-divida-e-aumenta-limite-de-mei"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-para-r-501-com-exterior-e-expectativa-eleitoral-no-brasil",
@@ -413,18 +473,6 @@
       "finalUrl": "https://cfc.org.br/noticias/exame-de-suficiencia-3a-edicao-inscricoes-se-encerram-em-30-de-outubro/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibge-e-autorizado-abrir-325-vagas-temporarias",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibge-e-autorizado-abrir-325-vagas-temporarias"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas"
-    },
-    {
       "url": "https://cfc.org.br/noticias/primeira-reuniao-da-comissao-cfc-voluntario-define-atuacao-do-grupo/",
       "status": "online",
       "code": 200,
@@ -437,58 +485,10 @@
       "finalUrl": "https://cfc.org.br/noticias/representantes-do-desenvolvimento-profissional-de-todo-pais-discutem-inovacoes-para-a-area/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/restituicoes-do-ir-batem-recorde-e-chegam-r-41-bilhoes-em-2026",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/restituicoes-do-ir-batem-recorde-e-chegam-r-41-bilhoes-em-2026"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-contas-do-bc-de-2025-apos-desvincular-processo-do-master",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-contas-do-bc-de-2025-apos-desvincular-processo-do-master"
-    },
-    {
       "url": "https://cfc.org.br/noticias/vice-presidentes-de-desenvolvimento-profissional-se-reunem-em-imersao-voltada-para-a-integracao/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/vice-presidentes-de-desenvolvimento-profissional-se-reunem-em-imersao-voltada-para-a-integracao/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/integracao-e-fortalecimento-da-capacitacao-orientam-seminario-de-desenvolvimento-profissional/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/integracao-e-fortalecimento-da-capacitacao-orientam-seminario-de-desenvolvimento-profissional/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/outubro-rosa-informacao-e-diagnostico-precoce-sao-aliados-no-combate-ao-cancer-de-mama/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/outubro-rosa-informacao-e-diagnostico-precoce-sao-aliados-no-combate-ao-cancer-de-mama/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/xi-cumbre-de-las-americas-2026-reune-liderancas-internacionais-em-tres-dias-de-programacao/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/xi-cumbre-de-las-americas-2026-reune-liderancas-internacionais-em-tres-dias-de-programacao/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/19o-encc-promove-em-natal-debates-com-olhar-mais-critico-sobre-como-se-deve-pensar-a-nova-contabilidade/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/19o-encc-promove-em-natal-debates-com-olhar-mais-critico-sobre-como-se-deve-pensar-a-nova-contabilidade/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/novos-modulos-do-curso-contabilidade-imobiliaria-e-construtoras-sao-liberados-pelo-cfc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/novos-modulos-do-curso-contabilidade-imobiliaria-e-construtoras-sao-liberados-pelo-cfc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/receita-federal-implementara-nova-versao-do-modulo-administracao-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/receita-federal-implementara-nova-versao-do-modulo-administracao-tributaria/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
