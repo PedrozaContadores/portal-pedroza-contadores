@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-22T15:22:09.818Z",
+  "checkedAt": "2026-10-23T15:11:22.238Z",
   "total": 100,
-  "online": 77,
-  "alerts": 23,
+  "online": 75,
+  "alerts": 25,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -192,9 +192,9 @@
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/"
+      "status": "alerta",
+      "code": 403,
+      "finalUrl": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php"
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
@@ -258,15 +258,15 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -276,8 +276,8 @@
     },
     {
       "url": "https://www.rio.rj.gov.br/web/smf/iss",
-      "status": "alerta",
-      "code": 404,
+      "status": "online",
+      "code": 200,
       "finalUrl": "https://www.rio.rj.gov.br/web/smf/iss"
     },
     {
@@ -360,15 +360,51 @@
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais"
     },
     {
       "url": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir",
       "status": "alerta",
       "code": 404,
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/durigan-diz-que-contador-sera-o-agente-de-conformidade-da-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/durigan-diz-que-contador-sera-o-agente-de-conformidade-da-reforma-tributaria/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-disponibiliza-em-audiencia-publica-duas-normas-do-setor-publico/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-disponibiliza-em-audiencia-publica-duas-normas-do-setor-publico/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previa-da-inflacao-oficial-cai-pela-metade-e-fecha-outubro-em-032",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previa-da-inflacao-oficial-cai-pela-metade-e-fecha-outubro-em-032"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-abre-consulta-lote-residual-do-imposto-de-renda",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-abre-consulta-lote-residual-do-imposto-de-renda"
+    },
+    {
+      "url": "https://cfc.org.br/internacional/revista-brasileira-de-contabilidade-destaca-parceria-brasil-portugal-e-pesquisas-sobre-inteligencia-artificial-e-reforma-tributaria/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/internacional/revista-brasileira-de-contabilidade-destaca-parceria-brasil-portugal-e-pesquisas-sobre-inteligencia-artificial-e-reforma-tributaria/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/arrecadacao-federal-cresce-562-em-setembro-e-soma-r-2394-bilhoes",
@@ -383,16 +419,22 @@
       "finalUrl": "https://cfc.org.br/internacional/cfc-e-cpc-disponibilizam-a-audiencia-publica-o-pronunciamento-tecnico-cpc-52-aplicado-as-entidades-sem-obrigacao-de-prestacao-publica-de-contas/"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance"
+    },
+    {
       "url": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-soma-mais-de-10-pontos-no-pepc/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-soma-mais-de-10-pontos-no-pepc/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-3-0-recebem-bolsa-familia-de-outubro",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-no-orcamento-de-2027-esta-mantida-diz-durigan",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-3-0-recebem-bolsa-familia-de-outubro"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-no-orcamento-de-2027-esta-mantida-diz-durigan"
     },
     {
       "url": "https://cfc.org.br/noticias/comissao-de-educacao-profissional-do-cfc-discute-novas-oportunidades-para-fortalecer-a-classe/",
@@ -407,12 +449,6 @@
       "finalUrl": "https://cfc.org.br/noticias/evento-on-line-esclarece-regras-para-atuacao-dos-auditores-independentes-no-mercado-de-capitais/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-destina-r-649-bilhoes-setor-de-exportacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-destina-r-649-bilhoes-setor-de-exportacao"
-    },
-    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/importacoes-para-pesquisa-publica-terao-imunidade-tributaria",
       "status": "online",
       "code": 200,
@@ -423,12 +459,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/mcce-avalia-eleicoes-e-reforca-acoes-contra-a-compra-de-votos-e-pela-transparencia-eleitoral/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ministro-preve-renegociacao-de-r-90-bi-em-3a-fase-do-desenrola",
@@ -455,40 +485,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/procon-paulistano-multa-enel-por-falhas-no-fornecimento-de-energia"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/sancionada-lei-que-perdoa-divida-e-aumenta-limite-de-mei",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/sancionada-lei-que-perdoa-divida-e-aumenta-limite-de-mei"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-para-r-501-com-exterior-e-expectativa-eleitoral-no-brasil",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-para-r-501-com-exterior-e-expectativa-eleitoral-no-brasil"
-    },
-    {
       "url": "https://cfc.org.br/noticias/exame-de-suficiencia-3a-edicao-inscricoes-se-encerram-em-30-de-outubro/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/exame-de-suficiencia-3a-edicao-inscricoes-se-encerram-em-30-de-outubro/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/primeira-reuniao-da-comissao-cfc-voluntario-define-atuacao-do-grupo/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/primeira-reuniao-da-comissao-cfc-voluntario-define-atuacao-do-grupo/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/representantes-do-desenvolvimento-profissional-de-todo-pais-discutem-inovacoes-para-a-area/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/representantes-do-desenvolvimento-profissional-de-todo-pais-discutem-inovacoes-para-a-area/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/vice-presidentes-de-desenvolvimento-profissional-se-reunem-em-imersao-voltada-para-a-integracao/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/vice-presidentes-de-desenvolvimento-profissional-se-reunem-em-imersao-voltada-para-a-integracao/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -534,9 +534,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
