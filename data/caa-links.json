@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-27T15:56:48.512Z",
+  "checkedAt": "2026-10-28T16:43:35.797Z",
   "total": 100,
-  "online": 75,
-  "alerts": 25,
+  "online": 77,
+  "alerts": 23,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -120,9 +120,9 @@
     },
     {
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal"
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
@@ -252,9 +252,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/efd/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/efd/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
@@ -264,9 +264,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -371,10 +371,40 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-libera-r-52-bilhoes-para-reforcar-assistencia-social-e-saude",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-libera-r-52-bilhoes-para-reforcar-assistencia-social-e-saude"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-calculo-da-aliquota-de-referencia-da-cbs-em-113",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-calculo-da-aliquota-de-referencia-da-cbs-em-113"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-lanca-cartilha-de-diversidade-equidade-e-inclusao-para-fortalecer-a-cultura-institucional-do-sistema-cfc-crcs/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-lanca-cartilha-de-diversidade-equidade-e-inclusao-para-fortalecer-a-cultura-institucional-do-sistema-cfc-crcs/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-quase-1-e-ibovespa-recua-apos-tombo-eleitoral",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-quase-1-e-ibovespa-recua-apos-tombo-eleitoral"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
@@ -395,6 +425,12 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos",
       "status": "online",
       "code": 200,
@@ -407,22 +443,10 @@
       "finalUrl": "https://cfc.org.br/noticias/2a-edicao-do-exame-de-suficiencia-resultado-final-publicado/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula"
-    },
-    {
       "url": "https://cfc.org.br/noticias/issb-abre-consulta-publica-sobre-divulgacao-de-informacoes-relacionadas-a-natureza/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/issb-abre-consulta-publica-sobre-divulgacao-de-informacoes-relacionadas-a-natureza/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta"
     },
     {
       "url": "https://cfc.org.br/noticias/visita-ao-cfc-aproxima-estudantes-de-ciencias-contabeis-da-profissao/",
@@ -431,22 +455,10 @@
       "finalUrl": "https://cfc.org.br/noticias/visita-ao-cfc-aproxima-estudantes-de-ciencias-contabeis-da-profissao/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito"
-    },
-    {
       "url": "https://cfc.org.br/noticias/cfc-atualiza-regras-de-processos-de-fiscalizacao-e-procedimentos-de-auditoria/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-atualiza-regras-de-processos-de-fiscalizacao-e-procedimentos-de-auditoria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana"
     },
     {
       "url": "https://cfc.org.br/noticias/durigan-diz-que-contador-sera-o-agente-de-conformidade-da-reforma-tributaria/",
@@ -459,12 +471,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-disponibiliza-em-audiencia-publica-duas-normas-do-setor-publico/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-abre-consulta-lote-residual-do-imposto-de-renda",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-abre-consulta-lote-residual-do-imposto-de-renda"
     },
     {
       "url": "https://cfc.org.br/internacional/revista-brasileira-de-contabilidade-destaca-parceria-brasil-portugal-e-pesquisas-sobre-inteligencia-artificial-e-reforma-tributaria/",
@@ -483,12 +489,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-soma-mais-de-10-pontos-no-pepc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/evento-on-line-esclarece-regras-para-atuacao-dos-auditores-independentes-no-mercado-de-capitais/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/evento-on-line-esclarece-regras-para-atuacao-dos-auditores-independentes-no-mercado-de-capitais/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -534,9 +534,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
