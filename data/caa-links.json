@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-28T16:43:35.797Z",
+  "checkedAt": "2026-10-29T16:59:29.207Z",
   "total": 100,
   "online": 77,
   "alerts": 23,
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -371,70 +371,94 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-libera-r-52-bilhoes-para-reforcar-assistencia-social-e-saude",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aposta-do-mato-grosso-leva-premio-de-mais-de-r-324-milhoes-da-mega",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-libera-r-52-bilhoes-para-reforcar-assistencia-social-e-saude"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aposta-do-mato-grosso-leva-premio-de-mais-de-r-324-milhoes-da-mega"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-calculo-da-aliquota-de-referencia-da-cbs-em-113",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/consumo-nos-lares-acumula-alta-de-270-ate-setembro-diz-abras",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-calculo-da-aliquota-de-referencia-da-cbs-em-113"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/consumo-nos-lares-acumula-alta-de-270-ate-setembro-diz-abras"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/contas-do-governo-tem-superavit-de-r-48-bilhoes-em-setembro",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/contas-do-governo-tem-superavit-de-r-48-bilhoes-em-setembro"
     },
     {
-      "url": "https://cfc.org.br/noticias/cfc-lanca-cartilha-de-diversidade-equidade-e-inclusao-para-fortalecer-a-cultura-institucional-do-sistema-cfc-crcs/",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-lanca-cartilha-de-diversidade-equidade-e-inclusao-para-fortalecer-a-cultura-institucional-do-sistema-cfc-crcs/"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-quase-1-e-ibovespa-recua-apos-tombo-eleitoral",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-quase-1-e-ibovespa-recua-apos-tombo-eleitoral"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-autoriza-contrato-de-r-30-bi-para-motoristas-de-aplicativos",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-autoriza-contrato-de-r-30-bi-para-motoristas-de-aplicativos"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
+      "url": "https://cfc.org.br/noticias/iaasb-recebe-contribuicoes-sobre-propostas-de-revisao-de-normas-de-auditoria/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel"
+      "finalUrl": "https://cfc.org.br/noticias/iaasb-recebe-contribuicoes-sobre-propostas-de-revisao-de-normas-de-auditoria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-das-dividas-de-meis-e-medida-fiscal-necessaria-diz-ministro",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-das-dividas-de-meis-e-medida-fiscal-necessaria-diz-ministro"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes",
+      "url": "https://cfc.org.br/noticias/cfc-fara-live-com-orientacoes-para-a-reta-final-do-processo-eleitoral/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-fara-live-com-orientacoes-para-a-reta-final-do-processo-eleitoral/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
+      "url": "https://cfc.org.br/noticias/cfc-libera-novo-modulo-de-qualificacao-sobre-contabilidade-imobiliaria-e-construtoras/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-libera-novo-modulo-de-qualificacao-sobre-contabilidade-imobiliaria-e-construtoras/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos",
+      "url": "https://cfc.org.br/noticias/conselhao-debate-os-impactos-do-novo-sistema-tributario-para-profissionais-e-entidades-regulamentadas/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos"
+      "finalUrl": "https://cfc.org.br/noticias/conselhao-debate-os-impactos-do-novo-sistema-tributario-para-profissionais-e-entidades-regulamentadas/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-estuda-restringir-credito-empresas-por-assedio-eleitoral",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-estuda-restringir-credito-empresas-por-assedio-eleitoral"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/inscricoes-para-3a-edicao-do-exame-de-suficiencia-de-2026-terminam-nesta-sexta-feira-30/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-3a-edicao-do-exame-de-suficiencia-de-2026-terminam-nesta-sexta-feira-30/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/uniao-libera-r-950-milhoes-para-instalar-comite-do-ibs",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/uniao-libera-r-950-milhoes-para-instalar-comite-do-ibs"
     },
     {
       "url": "https://cfc.org.br/noticias/2a-edicao-do-exame-de-suficiencia-resultado-final-publicado/",
@@ -461,34 +485,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-atualiza-regras-de-processos-de-fiscalizacao-e-procedimentos-de-auditoria/"
     },
     {
-      "url": "https://cfc.org.br/noticias/durigan-diz-que-contador-sera-o-agente-de-conformidade-da-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/durigan-diz-que-contador-sera-o-agente-de-conformidade-da-reforma-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-disponibiliza-em-audiencia-publica-duas-normas-do-setor-publico/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-disponibiliza-em-audiencia-publica-duas-normas-do-setor-publico/"
-    },
-    {
       "url": "https://cfc.org.br/internacional/revista-brasileira-de-contabilidade-destaca-parceria-brasil-portugal-e-pesquisas-sobre-inteligencia-artificial-e-reforma-tributaria/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/internacional/revista-brasileira-de-contabilidade-destaca-parceria-brasil-portugal-e-pesquisas-sobre-inteligencia-artificial-e-reforma-tributaria/"
-    },
-    {
-      "url": "https://cfc.org.br/internacional/cfc-e-cpc-disponibilizam-a-audiencia-publica-o-pronunciamento-tecnico-cpc-52-aplicado-as-entidades-sem-obrigacao-de-prestacao-publica-de-contas/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/internacional/cfc-e-cpc-disponibilizam-a-audiencia-publica-o-pronunciamento-tecnico-cpc-52-aplicado-as-entidades-sem-obrigacao-de-prestacao-publica-de-contas/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-soma-mais-de-10-pontos-no-pepc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-soma-mais-de-10-pontos-no-pepc/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -534,9 +534,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
