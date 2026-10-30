@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-29T16:59:29.207Z",
+  "checkedAt": "2026-10-30T16:45:19.818Z",
   "total": 100,
-  "online": 77,
-  "alerts": 23,
+  "online": 78,
+  "alerts": 22,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/legislacao"
     },
     {
       "url": "https://www.gov.br/sped/pt-br",
@@ -371,40 +371,88 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aposta-do-mato-grosso-leva-premio-de-mais-de-r-324-milhoes-da-mega",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aposta-do-mato-grosso-leva-premio-de-mais-de-r-324-milhoes-da-mega"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/consumo-nos-lares-acumula-alta-de-270-ate-setembro-diz-abras",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abre-mercados-de-bangladesh-e-colombia",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/consumo-nos-lares-acumula-alta-de-270-ate-setembro-diz-abras"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abre-mercados-de-bangladesh-e-colombia"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/contas-do-governo-tem-superavit-de-r-48-bilhoes-em-setembro",
+      "url": "https://cfc.org.br/noticias/cfc-e-fenacon-promovem-seminario-sobre-reforma-tributaria-em-minas-gerais/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/contas-do-governo-tem-superavit-de-r-48-bilhoes-em-setembro"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-e-fenacon-promovem-seminario-sobre-reforma-tributaria-em-minas-gerais/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-autoriza-contrato-de-r-30-bi-para-motoristas-de-aplicativos",
+      "url": "https://cfc.org.br/noticias/entenda-como-registrar-cursos-e-consultar-pontuacao-do-pepc-em-e-book-desenvolvido-pelo-cfc/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-autoriza-contrato-de-r-30-bi-para-motoristas-de-aplicativos"
+      "finalUrl": "https://cfc.org.br/noticias/entenda-como-registrar-cursos-e-consultar-pontuacao-do-pepc-em-e-book-desenvolvido-pelo-cfc/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/evento-reune-destaques-da-pericia-contabil-nacional-em-brasilia/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/evento-reune-destaques-da-pericia-contabil-nacional-em-brasilia/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-paga-nesta-sexta-feira-lote-da-malha-fina-do-imposto-de-renda",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-paga-nesta-sexta-feira-lote-da-malha-fina-do-imposto-de-renda"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/webinar-do-ibracon-aborda-pontos-de-atencao-na-auditoria-independente-no-mercado-de-capitais/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/webinar-do-ibracon-aborda-pontos-de-atencao-na-auditoria-independente-no-mercado-de-capitais/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-amplia-em-r-2-bi-limite-de-credito-estados-e-municipios",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-amplia-em-r-2-bi-limite-de-credito-estados-e-municipios"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fgts-mantem-orcamento-de-r-1445-bilhoes-para-habitacao-em-2027",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fgts-mantem-orcamento-de-r-1445-bilhoes-para-habitacao-em-2027"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/grupo-tecnico-do-cfc-aprova-encaminhamento-de-norma-e-discute-regras-previdenciarias/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/grupo-tecnico-do-cfc-aprova-encaminhamento-de-norma-e-discute-regras-previdenciarias/"
     },
     {
       "url": "https://cfc.org.br/noticias/iaasb-recebe-contribuicoes-sobre-propostas-de-revisao-de-normas-de-auditoria/",
@@ -413,10 +461,10 @@
       "finalUrl": "https://cfc.org.br/noticias/iaasb-recebe-contribuicoes-sobre-propostas-de-revisao-de-normas-de-auditoria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-das-dividas-de-meis-e-medida-fiscal-necessaria-diz-ministro",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-das-dividas-de-meis-e-medida-fiscal-necessaria-diz-ministro"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-fara-live-com-orientacoes-para-a-reta-final-do-processo-eleitoral/",
@@ -437,58 +485,10 @@
       "finalUrl": "https://cfc.org.br/noticias/conselhao-debate-os-impactos-do-novo-sistema-tributario-para-profissionais-e-entidades-regulamentadas/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-estuda-restringir-credito-empresas-por-assedio-eleitoral",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-estuda-restringir-credito-empresas-por-assedio-eleitoral"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534"
-    },
-    {
       "url": "https://cfc.org.br/noticias/inscricoes-para-3a-edicao-do-exame-de-suficiencia-de-2026-terminam-nesta-sexta-feira-30/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-3a-edicao-do-exame-de-suficiencia-de-2026-terminam-nesta-sexta-feira-30/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/uniao-libera-r-950-milhoes-para-instalar-comite-do-ibs",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/uniao-libera-r-950-milhoes-para-instalar-comite-do-ibs"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/2a-edicao-do-exame-de-suficiencia-resultado-final-publicado/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/2a-edicao-do-exame-de-suficiencia-resultado-final-publicado/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/issb-abre-consulta-publica-sobre-divulgacao-de-informacoes-relacionadas-a-natureza/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/issb-abre-consulta-publica-sobre-divulgacao-de-informacoes-relacionadas-a-natureza/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/visita-ao-cfc-aproxima-estudantes-de-ciencias-contabeis-da-profissao/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/visita-ao-cfc-aproxima-estudantes-de-ciencias-contabeis-da-profissao/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-atualiza-regras-de-processos-de-fiscalizacao-e-procedimentos-de-auditoria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-atualiza-regras-de-processos-de-fiscalizacao-e-procedimentos-de-auditoria/"
-    },
-    {
-      "url": "https://cfc.org.br/internacional/revista-brasileira-de-contabilidade-destaca-parceria-brasil-portugal-e-pesquisas-sobre-inteligencia-artificial-e-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/internacional/revista-brasileira-de-contabilidade-destaca-parceria-brasil-portugal-e-pesquisas-sobre-inteligencia-artificial-e-reforma-tributaria/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
