@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-30T16:45:19.818Z",
+  "checkedAt": "2026-11-02T20:25:35.016Z",
   "total": 100,
-  "online": 78,
-  "alerts": 22,
+  "online": 76,
+  "alerts": 24,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -342,9 +342,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/simples",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www8.receita.fazenda.gov.br/simplesnacional/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
@@ -371,10 +371,52 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-juros",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-juros"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-reajusta-combustivel-de-aviacao-em-r-045-por-litro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-reajusta-combustivel-de-aviacao-em-r-045-por-litro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acordo-mercosul-ue-eleva-exportacoes-brasileiras-em-21",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acordo-mercosul-ue-eleva-exportacoes-brasileiras-em-21"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/contabilidade-brasileira-recebe-reconhecimento-internacional-em-el-salvador/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/contabilidade-brasileira-recebe-reconhecimento-internacional-em-el-salvador/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-propoem-taxar-ricos-em-vez-de-cortar-gastos-sociais",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-propoem-taxar-ricos-em-vez-de-cortar-gastos-sociais"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/estudo-mostra-necessidade-de-proteger-soja-para-evitar-perdas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/estudo-mostra-necessidade-de-proteger-soja-para-evitar-perdas"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-preve-tres-leiloes-de-transmissao-de-energia-em-2027",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-preve-tres-leiloes-de-transmissao-de-energia-em-2027"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abre-mercados-de-bangladesh-e-colombia",
@@ -395,10 +437,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008"
     },
     {
       "url": "https://cfc.org.br/noticias/entenda-como-registrar-cursos-e-consultar-pontuacao-do-pepc-em-e-book-desenvolvido-pelo-cfc/",
@@ -413,58 +455,16 @@
       "finalUrl": "https://cfc.org.br/noticias/evento-reune-destaques-da-pericia-contabil-nacional-em-brasilia/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-paga-nesta-sexta-feira-lote-da-malha-fina-do-imposto-de-renda",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-paga-nesta-sexta-feira-lote-da-malha-fina-do-imposto-de-renda"
-    },
-    {
       "url": "https://cfc.org.br/noticias/webinar-do-ibracon-aborda-pontos-de-atencao-na-auditoria-independente-no-mercado-de-capitais/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/webinar-do-ibracon-aborda-pontos-de-atencao-na-auditoria-independente-no-mercado-de-capitais/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-amplia-em-r-2-bi-limite-de-credito-estados-e-municipios",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-amplia-em-r-2-bi-limite-de-credito-estados-e-municipios"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fgts-mantem-orcamento-de-r-1445-bilhoes-para-habitacao-em-2027",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fgts-mantem-orcamento-de-r-1445-bilhoes-para-habitacao-em-2027"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/grupo-tecnico-do-cfc-aprova-encaminhamento-de-norma-e-discute-regras-previdenciarias/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/grupo-tecnico-do-cfc-aprova-encaminhamento-de-norma-e-discute-regras-previdenciarias/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/iaasb-recebe-contribuicoes-sobre-propostas-de-revisao-de-normas-de-auditoria/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/iaasb-recebe-contribuicoes-sobre-propostas-de-revisao-de-normas-de-auditoria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-fara-live-com-orientacoes-para-a-reta-final-do-processo-eleitoral/",
@@ -492,9 +492,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -546,9 +546,9 @@
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
