@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-03T17:55:26.112Z",
+  "checkedAt": "2026-11-04T18:04:27.510Z",
   "total": 100,
-  "online": 74,
-  "alerts": 26,
+  "online": 76,
+  "alerts": 24,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -48,8 +48,8 @@
     },
     {
       "url": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecd",
-      "status": "alerta",
-      "code": 429,
+      "status": "online",
+      "code": 200,
       "finalUrl": "https://www.gov.br/sped/pt-br/assuntos/escrituracoes-digitais/ecd"
     },
     {
@@ -138,9 +138,9 @@
     },
     {
       "url": "https://cndt-certidao.tst.jus.br/inicio.faces",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cndt-certidao.tst.jus.br/"
     },
     {
       "url": "https://pje.trt1.jus.br/certidoes/trabalhista/emissao",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -371,16 +371,58 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://cfc.org.br/noticias/auditoria-independente-e-fraude-artigo-analisa-novas-exigencias-e-os-desafios-da-profissao/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/auditoria-independente-e-fraude-artigo-analisa-novas-exigencias-e-os-desafios-da-profissao/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/copom-decide-nesta-quarta-feira-se-corta-ou-mantem-taxa-selic",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/copom-decide-nesta-quarta-feira-se-corta-ou-mantem-taxa-selic"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/resultado-definitivo-da-prova-objetiva-do-2o-eqt-de-2026-ja-esta-disponivel/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/resultado-definitivo-da-prova-objetiva-do-2o-eqt-de-2026-ja-esta-disponivel/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/acessos-site-e-aplicativo-do-banco-do-brasil-sao-normalizados",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/acessos-site-e-aplicativo-do-banco-do-brasil-sao-normalizados"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-074-e-aproxima-se-de-r-550-em-dia-de-cautela-fiscal",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-074-e-aproxima-se-de-r-550-em-dia-de-cautela-fiscal"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/exame-de-suficiencia-prazo-para-pagamento-da-taxa-de-inscricao-e-prorrogado-ate-5-de-novembro/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/exame-de-suficiencia-prazo-para-pagamento-da-taxa-de-inscricao-e-prorrogado-ate-5-de-novembro/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-quer-enviar-mp-do-imposto-seletivo-ainda-hoje-ao-congresso",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-quer-enviar-mp-do-imposto-seletivo-ainda-hoje-ao-congresso"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/ibracon-lanca-hotsite-exclusivo-sobre-normas-de-auditoria-revisadas-pelo-cfc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/ibracon-lanca-hotsite-exclusivo-sobre-normas-de-auditoria-revisadas-pelo-cfc/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-da-virada-caixa-anuncia-que-premio-deve-superar-r-1-bilhao",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-da-virada-caixa-anuncia-que-premio-deve-superar-r-1-bilhao"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-para-inflacao-juros-e-dolar-em-2026",
@@ -413,22 +455,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-reajusta-combustivel-de-aviacao-em-r-045-por-litro"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acordo-mercosul-ue-eleva-exportacoes-brasileiras-em-21",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acordo-mercosul-ue-eleva-exportacoes-brasileiras-em-21"
-    },
-    {
       "url": "https://cfc.org.br/noticias/contabilidade-brasileira-recebe-reconhecimento-internacional-em-el-salvador/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/contabilidade-brasileira-recebe-reconhecimento-internacional-em-el-salvador/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-propoem-taxar-ricos-em-vez-de-cortar-gastos-sociais",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-propoem-taxar-ricos-em-vez-de-cortar-gastos-sociais"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/estudo-mostra-necessidade-de-proteger-soja-para-evitar-perdas",
@@ -441,12 +471,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-fenacon-promovem-seminario-sobre-reforma-tributaria-em-minas-gerais/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008"
     },
     {
       "url": "https://cfc.org.br/noticias/entenda-como-registrar-cursos-e-consultar-pontuacao-do-pepc-em-e-book-desenvolvido-pelo-cfc/",
@@ -467,39 +491,15 @@
       "finalUrl": "https://cfc.org.br/noticias/webinar-do-ibracon-aborda-pontos-de-atencao-na-auditoria-independente-no-mercado-de-capitais/"
     },
     {
-      "url": "https://cfc.org.br/noticias/grupo-tecnico-do-cfc-aprova-encaminhamento-de-norma-e-discute-regras-previdenciarias/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/grupo-tecnico-do-cfc-aprova-encaminhamento-de-norma-e-discute-regras-previdenciarias/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/iaasb-recebe-contribuicoes-sobre-propostas-de-revisao-de-normas-de-auditoria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/iaasb-recebe-contribuicoes-sobre-propostas-de-revisao-de-normas-de-auditoria/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-libera-novo-modulo-de-qualificacao-sobre-contabilidade-imobiliaria-e-construtoras/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-libera-novo-modulo-de-qualificacao-sobre-contabilidade-imobiliaria-e-construtoras/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/inscricoes-para-3a-edicao-do-exame-de-suficiencia-de-2026-terminam-nesta-sexta-feira-30/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/inscricoes-para-3a-edicao-do-exame-de-suficiencia-de-2026-terminam-nesta-sexta-feira-30/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
-      "status": "alerta",
-      "code": 404,
+      "status": "online",
+      "code": 200,
       "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/redesim"
     },
     {
@@ -516,8 +516,8 @@
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
-      "status": "alerta",
-      "code": 404,
+      "status": "online",
+      "code": 200,
       "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
     },
     {
@@ -558,9 +558,9 @@
     },
     {
       "url": "https://www.gov.br/inss/pt-br",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/inss/pt-br"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br",
