@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-10T17:56:59.783Z",
+  "checkedAt": "2026-11-11T17:57:53.791Z",
   "total": 100,
-  "online": 76,
-  "alerts": 24,
+  "online": 77,
+  "alerts": 23,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -198,9 +198,9 @@
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.crc.org.br/servicos/registro",
@@ -324,9 +324,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/declarar-apuracoes-mensais-do-simples-nacional"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Servicos/Grupo.aspx?grp=5",
@@ -371,64 +371,76 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ata-do-copom-indica-que-desaceleracao-da-economia-nao-conteve-inflacao",
+      "url": "https://cfc.org.br/noticias/cfc-e-fenacon-entregam-a-receita-nove-propostas-para-a-reforma-tributaria/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ata-do-copom-indica-que-desaceleracao-da-economia-nao-conteve-inflacao"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-e-fenacon-entregam-a-receita-nove-propostas-para-a-reforma-tributaria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dinheiro-esquecido-no-sistema-financeiro-ultrapassa-r-6-bilhoes",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/em-alta-producao-de-veiculos-ultrapassa-250-mil-unidades-em-outubro",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dinheiro-esquecido-no-sistema-financeiro-ultrapassa-r-6-bilhoes"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/em-alta-producao-de-veiculos-ultrapassa-250-mil-unidades-em-outubro"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/gas-do-povo-libera-vale-recarga-para-31-milhoes-de-familias",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/faturamento-da-industria-sobe-08-em-setembro-mostra-cni",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/gas-do-povo-libera-vale-recarga-para-31-milhoes-de-familias"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/faturamento-da-industria-sobe-08-em-setembro-mostra-cni"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-prorroga-ate-9-de-dezembro-desoneracao-da-gasolina-e-do-etanol",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-tem-lucro-de-r-398-bilhoes-alta-de-215",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-prorroga-ate-9-de-dezembro-desoneracao-da-gasolina-e-do-etanol"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-tem-lucro-de-r-398-bilhoes-alta-de-215"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/movimentos-sociais-denunciam-proposta-do-mercado-de-corte-de-gastos",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-governo-apresentara-texto-para-facilitar-adaptacao",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/movimentos-sociais-denunciam-proposta-do-mercado-de-corte-de-gastos"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-governo-apresentara-texto-para-facilitar-adaptacao"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabalho-10-ocupacoes-detem-um-terco-de-notificacoes-de-acidentes",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/saques-da-poupanca-superam-depositos-em-r-888-bilhoes-em-outubro",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabalho-10-ocupacoes-detem-um-terco-de-notificacoes-de-acidentes"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/saques-da-poupanca-superam-depositos-em-r-888-bilhoes-em-outubro"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/setor-de-servicos-varia-01-em-setembro-impactado-pelos-transportes",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/aneel-propoe-tarifa-hora-certa-para-reduzir-valor-em-funcao-do-horario"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/setor-de-servicos-varia-01-em-setembro-impactado-pelos-transportes"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-passa-divulgar-lista-de-empresas-aptas-operar-com-criptoativos",
+      "url": "https://cfc.org.br/noticias/aviso-de-pauta/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-passa-divulgar-lista-de-empresas-aptas-operar-com-criptoativos"
+      "finalUrl": "https://cfc.org.br/noticias/aviso-de-pauta/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bolsa-sobe-222-e-registra-maior-alta-diaria-desde-outubro",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/deputados-admitem-rever-isencoes-se-iva-superar-265",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bolsa-sobe-222-e-registra-maior-alta-diaria-desde-outubro"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/deputados-admitem-rever-isencoes-se-iva-superar-265"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-apresenta-nova-identidade-visual-apos-quase-30-anos",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-146-e-fecha-no-maior-valor-em-15-meses",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-apresenta-nova-identidade-visual-apos-quase-30-anos"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-146-e-fecha-no-maior-valor-em-15-meses"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/nova-plataforma-do-mdic-identificara-oportunidades-de-comercio-com-ue",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/nova-plataforma-do-mdic-identificara-oportunidades-de-comercio-com-ue"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/porto-de-santos-sistemas-seguem-afetados-apos-ataque-cibernetico",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/porto-de-santos-sistemas-seguem-afetados-apos-ataque-cibernetico"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-abre-audiencia-publica-para-revisao-de-quatro-normas-de-auditoria/",
@@ -479,22 +491,10 @@
       "finalUrl": "https://cfc.org.br/noticias/projeto-do-cfc-fortalece-a-governanca-e-promove-melhorias-na-gestao-do-crcap/"
     },
     {
-      "url": "https://cfc.org.br/noticias/reforma-tributaria-ibracon-abre-pesquisa-para-avaliar-desafios-da-auditoria-independente/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/reforma-tributaria-ibracon-abre-pesquisa-para-avaliar-desafios-da-auditoria-independente/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/vice-presidente-do-cfc-assume-presidencia-de-comite-internacional-de-prevencao-a-lavagem-de-dinheiro/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/vice-presidente-do-cfc-assume-presidencia-de-comite-internacional-de-prevencao-a-lavagem-de-dinheiro/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "alerta",
+      "code": 404,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -546,9 +546,9 @@
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
