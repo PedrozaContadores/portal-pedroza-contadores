@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-12T18:24:36.060Z",
+  "checkedAt": "2026-11-13T17:51:22.770Z",
   "total": 101,
-  "online": 81,
-  "alerts": 20,
+  "online": 70,
+  "alerts": 31,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/planalto/pt-br"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/planalto/pt-br",
@@ -18,9 +18,9 @@
     },
     {
       "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/planalto/pt-br"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
@@ -30,9 +30,9 @@
     },
     {
       "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/planalto/pt-br"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/legislacao.aspx",
@@ -108,9 +108,9 @@
     },
     {
       "url": "https://www4.planalto.gov.br/legislacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/planalto/pt-br"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://servicos.receitafederal.gov.br/servico/certidoes/",
@@ -128,7 +128,7 @@
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal"
+      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-conjunta-de-regularidade-fiscal-do-estado-do-rio-de-janeiro-ccrf"
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
@@ -162,9 +162,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-regularidade-fiscal-perante-a-fazenda-nacional"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://certidao-unificada.cjf.jus.br/",
@@ -192,9 +192,9 @@
     },
     {
       "url": "https://www.gov.br/ibama/pt-br/servicos/certidoes",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/ibama/pt-br/servicos/certidoes"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php",
@@ -216,9 +216,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/DCTFWeb",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/DCTFWeb"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/efd-reinf",
@@ -246,9 +246,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dimob"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/declaracoes-e-demonstrativos/dmed",
@@ -294,9 +294,9 @@
     },
     {
       "url": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/esocial/pt-br/empresas/manual-web-geral"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
@@ -318,9 +318,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/pt-br/servicos/emissao-de-guia-para-recolhimento-do-fgts-atraves-do-fgts-digital"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://fgtsdigital.sistema.gov.br/portal/servicos",
@@ -348,9 +348,9 @@
     },
     {
       "url": "https://www.gov.br/receitafederal/simples",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www8.receita.fazenda.gov.br/simplesnacional/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/sped/efdc",
@@ -377,10 +377,28 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-recebe-selo-diamante-de-transparencia-publica-pela-quarta-vez",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ex-tesoureiro-da-caixa-e-condenado-por-desviar-quase-r-890-mil",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-recebe-selo-diamante-de-transparencia-publica-pela-quarta-vez"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ex-tesoureiro-da-caixa-e-condenado-por-desviar-quase-r-890-mil"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vendas-no-comercio-variam-02-em-setembro-ibge-mostra-estabilidade",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vendas-no-comercio-variam-02-em-setembro-ibge-mostra-estabilidade"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-aponta-recusa-de-parte-dos-produtores-em-renegociar-dividas-do-agro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-aponta-recusa-de-parte-dos-produtores-em-renegociar-dividas-do-agro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-seguridade-informa-ataque-cibernetico-e-vazamento-de-dados",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-seguridade-informa-ataque-cibernetico-e-vazamento-de-dados"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-fortalece-dialogo-com-justica-e-seguranca-publica-no-combate-ao-crime-organizado/",
@@ -393,6 +411,18 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-mulher-ganha-novo-reforco/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-fenacon-e-receita-federal-instalam-sala-de-situacao-um-dia-apos-anuncio-de-joaquim-bezerra/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-fenacon-e-receita-federal-instalam-sala-de-situacao-um-dia-apos-anuncio-de-joaquim-bezerra/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-dispara-158-e-fecha-r-565-maior-nivel-em-17-meses",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-dispara-158-e-fecha-r-565-maior-nivel-em-17-meses"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-estuda-novo-modelo-para-concurso-publico-unificado-em-2027",
@@ -411,12 +441,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inpc-inflacao-que-corrige-salarios-acumula-449-em-12-meses"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/lucro-do-bb-cai-665-no-3o-trimestre-com-inadimplencia-do-agro",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/lucro-do-bb-cai-665-no-3o-trimestre-com-inadimplencia-do-agro"
     },
     {
       "url": "https://cfc.org.br/noticias/nova-norma-sobre-recursos-minerais-recebe-contribuicoes-ate-o-dia-7-de-dezembro/",
@@ -461,28 +485,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-propoe-medidas-para-garantir-seguranca-aos-profissionais-da-contabilidade-na-transicao-da-reforma-tributaria/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-042-e-fecha-r-556-com-foco-em-pacote-fiscal",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-042-e-fecha-r-556-com-foco-em-pacote-fiscal"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pacote-fiscal-preve-120-dias-para-congresso-discutir-supersalarios",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pacote-fiscal-preve-120-dias-para-congresso-discutir-supersalarios"
-    },
-    {
       "url": "https://cfc.org.br/noticias/parlamentares-e-representante-do-tesouro-nacional-recebem-homenagem-pelos-80-anos-do-sistema-cfc-crcs/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/parlamentares-e-representante-do-tesouro-nacional-recebem-homenagem-pelos-80-anos-do-sistema-cfc-crcs/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-amplia-capacidade-de-11-plataformas-sem-novos-investimentos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-amplia-capacidade-de-11-plataformas-sem-novos-investimentos"
     },
     {
       "url": "https://cfc.org.br/noticias/aviso-de-pauta/",
@@ -491,16 +497,10 @@
       "finalUrl": "https://cfc.org.br/noticias/aviso-de-pauta/"
     },
     {
-      "url": "https://cfc.org.br/noticias/cfc-tesouro-nacional-e-crcce-realizam-a-semana-contabil-e-fiscal-para-estados-e-municipios-em-fortaleza/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-tesouro-nacional-e-crcce-realizam-a-semana-contabil-e-fiscal-para-estados-e-municipios-em-fortaleza/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
-      "status": "alerta",
-      "code": 404,
-      "finalUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
@@ -552,9 +552,9 @@
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br",

@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
   "status": "concluido-com-alertas",
-  "startedAt": "2026-11-12T18:21:36.650Z",
-  "finishedAt": "2026-11-12T18:24:36.066Z",
+  "startedAt": "2026-11-13T17:48:01.007Z",
+  "finishedAt": "2026-11-13T17:51:22.778Z",
   "executions": [
     {
       "script": "scripts/atualizar-legislacao.mjs",
@@ -39,7 +39,7 @@
         "missing": false,
         "items": 17,
         "urls": 18,
-        "hash": "6249f896a3cd01b508e2eab40a08a94d4cfb96d5218fd6d567e2d9e7cc77070c",
+        "hash": "4be90da2baab47a027210c03c9d7df5100f288fe29850ceb6038659792dceaf5",
         "errors": [],
         "nonOfficial": []
       },
@@ -57,7 +57,7 @@
         "missing": false,
         "items": 20,
         "urls": 17,
-        "hash": "367196f62f31991d2518d6d6333ba2d5c141eb7484c2185a272f1c026ab33d38",
+        "hash": "feda9f067e3203317fc71bc926b2639096fb5defc291d464c66e81f2e340af48",
         "errors": [],
         "nonOfficial": []
       },
@@ -68,7 +68,7 @@
         "missing": false,
         "items": 24,
         "urls": 22,
-        "hash": "ae5327dd258ed3d167fdb3ff3b011df3aa04b6a8331c2fe65c56fdde8268e8bb",
+        "hash": "78b508f845d1fbd429385cff190f3fb2014dd40a16ed402ed65e09329491ec0f",
         "errors": [],
         "nonOfficial": []
       },
@@ -90,7 +90,7 @@
         "missing": false,
         "items": 23,
         "urls": 20,
-        "hash": "476b094127774f1e2d78930abbf924caba2e96749bef125f360c8984d539998f",
+        "hash": "76aea2f5a00864a36e43c7253c6bb35da43dcde36993603cc436398b230682b8",
         "errors": [],
         "nonOfficial": []
       },
@@ -112,7 +112,7 @@
         "missing": false,
         "items": 15,
         "urls": 12,
-        "hash": "97feb00c5b4cff4485ec26d3d8f73b541e7ed9ccf856cf71c4032dcec96929a6",
+        "hash": "0294781f7877d2ba1dea4dd4fd73bc45d20d9cd391c68ad295d84dd04369aee7",
         "errors": [],
         "nonOfficial": []
       },
@@ -130,10 +130,10 @@
     ]
   },
   "linkValidation": {
-    "checkedAt": "2026-11-12T18:24:36.060Z",
+    "checkedAt": "2026-11-13T17:51:22.770Z",
     "total": 101,
-    "online": 81,
-    "alerts": 20
+    "online": 70,
+    "alerts": 31
   },
   "changes": [
     "biblioteca-tributaria",
