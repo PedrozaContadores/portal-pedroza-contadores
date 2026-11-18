@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-17T19:15:19.934Z",
+  "checkedAt": "2026-11-18T18:55:45.431Z",
   "total": 101,
   "online": 75,
   "alerts": 26,
@@ -11,22 +11,22 @@
       "finalUrl": "https://www.gov.br/planalto/pt-br"
     },
     {
-      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
-    },
-    {
       "url": "https://www.gov.br/planalto/pt-br",
       "status": "erro",
       "code": 0,
       "message": "fetch failed"
     },
     {
-      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
       "status": "erro",
       "code": 0,
       "message": "fetch failed"
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/planalto/pt-br"
     },
     {
       "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
@@ -102,8 +102,8 @@
     },
     {
       "url": "https://processo.stj.jus.br/SCON/",
-      "status": "online",
-      "code": 200,
+      "status": "alerta",
+      "code": 503,
       "finalUrl": "https://processo.stj.jus.br/SCON/"
     },
     {
@@ -132,9 +132,9 @@
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp"
     },
     {
       "url": "https://daminternet.rio.rj.gov.br/",
@@ -204,9 +204,9 @@
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx"
     },
     {
       "url": "https://www.crc.org.br/servicos/registro",
@@ -222,9 +222,9 @@
     },
     {
       "url": "https://www.gov.br/pt-br/servicos/efd-reinf",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.gov.br/pt-br/servicos/efd-reinf"
     },
     {
       "url": "https://sped.rfb.gov.br/projeto/show/268",
@@ -258,9 +258,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/efd/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/efd/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
@@ -377,22 +377,58 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-novembro",
+      "url": "https://cfc.org.br/noticias/associados-das-entidades-filiadas-a-febrapam-terao-descontos-em-evento-de-pericia-contabil/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-novembro"
+      "finalUrl": "https://cfc.org.br/noticias/associados-das-entidades-filiadas-a-febrapam-terao-descontos-em-evento-de-pericia-contabil/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/capacitacoes-da-plataforma-educont-do-sistema-cfc-crcs-geram-mais-de-70-pontos-para-o-pepc/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/capacitacoes-da-plataforma-educont-do-sistema-cfc-crcs-geram-mais-de-70-pontos-para-o-pepc/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-fortalece-dialogo-com-embaixada-do-brasil-na-coreia-do-sul-e-amplia-perspectivas-de-cooperacao-internacional/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-fortalece-dialogo-com-embaixada-do-brasil-na-coreia-do-sul-e-amplia-perspectivas-de-cooperacao-internacional/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ibge-percentual-de-negros-com-ensino-superior-e-metade-da-de-brancos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ibge-percentual-de-negros-com-ensino-superior-e-metade-da-de-brancos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/numero-de-desempregados-ha-dois-anos-ou-mais-e-o-menor-ja-registrado",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/numero-de-desempregados-ha-dois-anos-ou-mais-e-o-menor-ja-registrado"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pretos-e-pardos-ocupam-apenas-307-dos-cargos-gerenciais-mostra-ibge",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pretos-e-pardos-ocupam-apenas-307-dos-cargos-gerenciais-mostra-ibge"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-simplifica-exportacao-de-cosmeticos-para-america-latina",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-simplifica-exportacao-de-cosmeticos-para-america-latina"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/clima-afeta-producao-e-eleva-preco-do-tomate-em-diversas-capitais",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/clima-afeta-producao-e-eleva-preco-do-tomate-em-diversas-capitais"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-defende-aliquota-da-reforma-e-estima-media-efetiva-de-85",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-defende-aliquota-da-reforma-e-estima-media-efetiva-de-85"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-preve-impacto-inicial-da-reforma-tributaria-sobre-inflacao",
@@ -413,10 +449,22 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026"
     },
     {
+      "url": "https://cfc.org.br/noticias/maria-clara-bugarim-recebe-maior-honraria-da-ifac-e-destaca-protagonismo-da-contabilidade-brasileira-no-cenario-mundial/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/maria-clara-bugarim-recebe-maior-honraria-da-ifac-e-destaca-protagonismo-da-contabilidade-brasileira-no-cenario-mundial/"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mulheres-lideram-63-dos-negocios-da-rocinha-diz-pesquisa",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mulheres-lideram-63-dos-negocios-da-rocinha-diz-pesquisa"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/plataforma-crescimento-sustentavel-apoia-pequenos-negocios-e-amplia-oportunidades-para-contadores/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/plataforma-crescimento-sustentavel-apoia-pequenos-negocios-e-amplia-oportunidades-para-contadores/"
     },
     {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe",
@@ -425,28 +473,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-577-e-fecha-no-maior-valor-desde-abril-de-2025",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-577-e-fecha-no-maior-valor-desde-abril-de-2025"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/economia-circular-movimenta-ate-r-907-bilhoes-no-brasil-aponta-cni",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/economia-circular-movimenta-ate-r-907-bilhoes-no-brasil-aponta-cni"
-    },
-    {
       "url": "https://cfc.org.br/noticias/ibracon-lanca-volume-2-de-obra-sobre-missao-e-responsabilidades-da-auditoria-independente/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/ibracon-lanca-volume-2-de-obra-sobre-missao-e-responsabilidades-da-auditoria-independente/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/regulacao-de-big-techs-pode-reduzir-custos-em-ate-r-50-bilhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/regulacao-de-big-techs-pode-reduzir-custos-em-ate-r-50-bilhoes"
     },
     {
       "url": "https://cfc.org.br/noticias/sistema-cfc-crcs-orienta-profissionais-da-contabilidade-sobre-regularizacao-de-pendencias-financeiras/",
@@ -465,36 +495,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-e-conselhos-regionais-se-posicionam-contra-aumento-da-carga-tributaria-e-restricoes-a-compensacao-de-tributos/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-abre-inscricoes-para-modalidade-on-line/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/oportunidade-conferencia-nacional-de-pericia-contabil-abre-inscricoes-para-modalidade-on-line/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/ultimo-modulo-do-curso-sobre-contabilidade-eleitoral-e-partidaria-e-disponibilizado-pelo-cfc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/ultimo-modulo-do-curso-sobre-contabilidade-eleitoral-e-partidaria-e-disponibilizado-pelo-cfc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-fortalece-dialogo-com-justica-e-seguranca-publica-no-combate-ao-crime-organizado/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-fortalece-dialogo-com-justica-e-seguranca-publica-no-combate-ao-crime-organizado/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-mulher-ganha-novo-reforco/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-mulher-ganha-novo-reforco/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/revisao-de-pronunciamentos-tecnicos-no-31-traz-alteracoes-com-vigencia-para-2027/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/revisao-de-pronunciamentos-tecnicos-no-31-traz-alteracoes-com-vigencia-para-2027/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -522,9 +522,9 @@
     },
     {
       "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/",
@@ -540,9 +540,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
