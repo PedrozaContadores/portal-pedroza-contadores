@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-19T19:03:40.030Z",
-  "total": 101,
-  "online": 75,
-  "alerts": 26,
+  "checkedAt": "2026-11-20T18:41:03.737Z",
+  "total": 100,
+  "online": 76,
+  "alerts": 24,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -102,12 +102,6 @@
     },
     {
       "url": "https://www4.planalto.gov.br/legislacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www.gov.br/planalto/pt-br"
-    },
-    {
-      "url": "https://www.gov.br/planalto/pt-br",
       "status": "erro",
       "code": 0,
       "message": "fetch failed"
@@ -126,9 +120,9 @@
     },
     {
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-conjunta-de-regularidade-fiscal-do-estado-do-rio-de-janeiro-ccrf"
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
@@ -156,8 +150,8 @@
     },
     {
       "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf",
-      "status": "online",
-      "code": 200,
+      "status": "alerta",
+      "code": 403,
       "finalUrl": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
     },
     {
@@ -204,9 +198,9 @@
     },
     {
       "url": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://www3.cfc.org.br/spw/ConsultaNacionalCFC/cfc/consultaprofissional.aspx"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://www.crc.org.br/servicos/registro",
@@ -264,15 +258,15 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/"
     },
     {
       "url": "https://notacarioca.rio.gov.br/",
@@ -377,10 +371,58 @@
       "finalUrl": "https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PJ/Emitir"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-sena-acumula-e-premio-vai-para-r-45-milhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-sena-acumula-e-premio-vai-para-r-45-milhoes"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-injetou-r-254-bi-de-credito-na-economia-de-janeiro-setembro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bndes-injetou-r-254-bi-de-credito-na-economia-de-janeiro-setembro"
+    },
+    {
       "url": "https://cfc.org.br/noticias/novo-canal-de-atendimento-orienta-profissionais-da-contabilidade-sobre-a-reforma-tributaria/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/novo-canal-de-atendimento-orienta-profissionais-da-contabilidade-sobre-a-reforma-tributaria/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/especialistas-debatem-perspectivas-para-2027-em-etapa-da-reforma-tributaria-pelo-brasil-no-rio-grande-do-sul/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/especialistas-debatem-perspectivas-para-2027-em-etapa-da-reforma-tributaria-pelo-brasil-no-rio-grande-do-sul/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/receita-federal-cgibs-e-cfc-vao-orientar-mais-de-25-mil-profissionais-da-contabilidade-sobre-destaque-de-cbs-ibs-em-documentos-fiscais/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/receita-federal-cgibs-e-cfc-vao-orientar-mais-de-25-mil-profissionais-da-contabilidade-sobre-destaque-de-cbs-ibs-em-documentos-fiscais/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/veja-como-sera-o-calculo-da-hora-extra-com-escala-de-trabalho-5x2",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/veja-como-sera-o-calculo-da-hora-extra-com-escala-de-trabalho-5x2"
     },
     {
       "url": "https://cfc.org.br/noticias/associados-das-entidades-filiadas-a-febrapam-terao-descontos-em-evento-de-pericia-contabil/",
@@ -443,58 +485,10 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/senado-pede-explicacoes-tcu-sobre-aliquota-de-113-da-cbs"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-simplifica-exportacao-de-cosmeticos-para-america-latina",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-simplifica-exportacao-de-cosmeticos-para-america-latina"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/clima-afeta-producao-e-eleva-preco-do-tomate-em-diversas-capitais",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/clima-afeta-producao-e-eleva-preco-do-tomate-em-diversas-capitais"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-defende-aliquota-da-reforma-e-estima-media-efetiva-de-85",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-defende-aliquota-da-reforma-e-estima-media-efetiva-de-85"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-preve-impacto-inicial-da-reforma-tributaria-sobre-inflacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-preve-impacto-inicial-da-reforma-tributaria-sobre-inflacao"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/ibracon-debate-impactos-da-reforma-tributaria-na-auditoria-independente/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/ibracon-debate-impactos-da-reforma-tributaria-na-auditoria-independente/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/maria-clara-bugarim-recebe-maior-honraria-da-ifac-e-destaca-protagonismo-da-contabilidade-brasileira-no-cenario-mundial/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/maria-clara-bugarim-recebe-maior-honraria-da-ifac-e-destaca-protagonismo-da-contabilidade-brasileira-no-cenario-mundial/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mulheres-lideram-63-dos-negocios-da-rocinha-diz-pesquisa",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mulheres-lideram-63-dos-negocios-da-rocinha-diz-pesquisa"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/plataforma-crescimento-sustentavel-apoia-pequenos-negocios-e-amplia-oportunidades-para-contadores/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/plataforma-crescimento-sustentavel-apoia-pequenos-negocios-e-amplia-oportunidades-para-contadores/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
@@ -546,9 +540,9 @@
     },
     {
       "url": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf",
-      "status": "erro",
-      "code": 0,
-      "message": "The operation was aborted due to timeout"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://sd.maisemprego.mte.gov.br/sdweb/empregadorweb/index.jsf"
     },
     {
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital",
