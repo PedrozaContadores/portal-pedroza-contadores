@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-23T22:13:07.505Z",
+  "checkedAt": "2026-11-24T20:50:08.379Z",
   "total": 100,
-  "online": 50,
-  "alerts": 50,
+  "online": 51,
+  "alerts": 49,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -371,70 +371,94 @@
       "message": "fetch failed"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/camara-pode-votar-ajuste-fiscal-nesta-segunda-feira",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/camara-pode-votar-ajuste-fiscal-nesta-segunda-feira"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cvm-suspende-registro-do-brb-e-de-outras-quatro-empresas",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bcs-de-paises-de-lingua-portuguesa-criam-rede-de-cooperacao",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cvm-suspende-registro-do-brb-e-de-outras-quatro-empresas"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bcs-de-paises-de-lingua-portuguesa-criam-rede-de-cooperacao"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fazenda-reduz-previsao-do-pib-e-eleva-inflacao-para-2027",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brb-diz-que-banco-segue-funcionando-apos-suspensao-da-cvm",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/fazenda-reduz-previsao-do-pib-e-eleva-inflacao-para-2027"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brb-diz-que-banco-segue-funcionando-apos-suspensao-da-cvm"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026",
+      "url": "https://cfc.org.br/noticias/cfc-amplia-pontuacao-da-conferencia-nacional-de-pericia-contabil/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mercado-eleva-projecao-do-dolar-para-r-555-em-2026"
+      "finalUrl": "https://cfc.org.br/noticias/cfc-amplia-pontuacao-da-conferencia-nacional-de-pericia-contabil/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/receita-amplia-participacao-em-piloto-da-cbs-para-todas-empresas",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/empresas-tem-ate-30-de-novembro-para-pagar-primeira-parcela-do-13o",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/receita-amplia-participacao-em-piloto-da-cbs-para-todas-empresas"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/empresas-tem-ate-30-de-novembro-para-pagar-primeira-parcela-do-13o"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/sebrae-abre-inscricoes-para-empreendedores-negros",
+      "url": "https://cfc.org.br/noticias/enciclopedia-inedita-de-pericia-contabil-e-lancada-em-evento-nacional/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/sebrae-abre-inscricoes-para-empreendedores-negros"
+      "finalUrl": "https://cfc.org.br/noticias/enciclopedia-inedita-de-pericia-contabil-e-lancada-em-evento-nacional/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/servico-geologico-do-brasil-traz-retorno-de-r-14-por-real-investido",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-publica-regras-para-jornadas-especiais-ate-proxima-semana",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/servico-geologico-do-brasil-traz-retorno-de-r-14-por-real-investido"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-publica-regras-para-jornadas-especiais-ate-proxima-semana"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-sena-acumula-e-premio-vai-para-r-45-milhoes",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inss-comeca-pagar-decimo-terceiro-salario-nesta-terca-feira-24",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-sena-acumula-e-premio-vai-para-r-45-milhoes"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inss-comeca-pagar-decimo-terceiro-salario-nesta-terca-feira-24"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/nova-ferramenta-do-open-finance-automatizara-repasses-entre-bancos",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/banco-central-amplia-acesso-de-cooperativas-ao-mercado-aberto"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/nova-ferramenta-do-open-finance-automatizara-repasses-entre-bancos"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-adquire-participacao-em-empresa-que-produz-etanol",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-adquire-participacao-em-empresa-que-produz-etanol"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-aprova-pagamento-de-r-156-bilhoes-acionistas",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-aprova-pagamento-de-r-156-bilhoes-acionistas"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-preve-investimentos-de-us-122-bilhoes-entre-2027-e-2031",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-preve-investimentos-de-us-122-bilhoes-entre-2027-e-2031"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/sistema-cfc-crcs-atua-no-congresso-para-evitar-aumento-da-carga-tributaria-e-preservar-direitos-dos-contribuintes/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/sistema-cfc-crcs-atua-no-congresso-para-evitar-aumento-da-carga-tributaria-e-preservar-direitos-dos-contribuintes/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/tcu-convida-sociedade-a-definir-prioridades-de-fiscalizacao-para-2027/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/tcu-convida-sociedade-a-definir-prioridades-de-fiscalizacao-para-2027/"
     },
     {
       "url": "https://cfc.org.br/noticias/novo-canal-de-atendimento-orienta-profissionais-da-contabilidade-sobre-a-reforma-tributaria/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/novo-canal-de-atendimento-orienta-profissionais-da-contabilidade-sobre-a-reforma-tributaria/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-amplia-controle-sobre-recolhimentos-de-tributos-dos-bancos"
     },
     {
       "url": "https://cfc.org.br/noticias/especialistas-debatem-perspectivas-para-2027-em-etapa-da-reforma-tributaria-pelo-brasil-no-rio-grande-do-sul/",
@@ -447,24 +471,6 @@
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/receita-federal-cgibs-e-cfc-vao-orientar-mais-de-25-mil-profissionais-da-contabilidade-sobre-destaque-de-cbs-ibs-em-documentos-fiscais/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/associados-das-entidades-filiadas-a-febrapam-terao-descontos-em-evento-de-pericia-contabil/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/associados-das-entidades-filiadas-a-febrapam-terao-descontos-em-evento-de-pericia-contabil/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/capacitacoes-da-plataforma-educont-do-sistema-cfc-crcs-geram-mais-de-70-pontos-para-o-pepc/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/capacitacoes-da-plataforma-educont-do-sistema-cfc-crcs-geram-mais-de-70-pontos-para-o-pepc/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-fortalece-dialogo-com-embaixada-do-brasil-na-coreia-do-sul-e-amplia-perspectivas-de-cooperacao-internacional/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-fortalece-dialogo-com-embaixada-do-brasil-na-coreia-do-sul-e-amplia-perspectivas-de-cooperacao-internacional/"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-fenacon-receita-federal-e-sebrae-anunciam-apoio-direto-a-contadores-e-lancam-canal-para-esclarecer-duvidas/",
@@ -485,12 +491,6 @@
       "finalUrl": "https://cfc.org.br/noticias/prazo-para-contribuir-com-normas-contabeis-termina-nesta-quinta-feira-19/"
     },
     {
-      "url": "https://cfc.org.br/noticias/maria-clara-bugarim-recebe-maior-honraria-da-ifac-e-destaca-protagonismo-da-contabilidade-brasileira-no-cenario-mundial/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/maria-clara-bugarim-recebe-maior-honraria-da-ifac-e-destaca-protagonismo-da-contabilidade-brasileira-no-cenario-mundial/"
-    },
-    {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
       "status": "erro",
       "code": 0,
@@ -504,9 +504,9 @@
     },
     {
       "url": "https://www.jucerja.rj.gov.br/",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://www.jucerja.rj.gov.br/"
     },
     {
       "url": "https://cav.receita.fazenda.gov.br/",
