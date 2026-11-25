@@ -72,7 +72,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -115,7 +115,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -162,7 +162,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -212,7 +212,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -261,7 +261,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "urlFinal": "https://www8.receita.fazenda.gov.br/SimplesNacional/legislacao.aspx"
       }
     },
@@ -310,7 +310,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -360,7 +360,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -404,7 +404,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -454,7 +454,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -501,7 +501,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -549,7 +549,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -599,7 +599,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -646,7 +646,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -689,7 +689,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     },
@@ -732,7 +732,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "urlFinal": "https://portal.stf.jus.br/jurisprudencia/"
       }
     },
@@ -775,7 +775,7 @@
       "verificacao": {
         "status": "online",
         "codigo": 200,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "urlFinal": "https://processo.stj.jus.br/SCON/"
       }
     },
@@ -819,7 +819,7 @@
       "verificacao": {
         "status": "erro",
         "codigo": 0,
-        "verificadoEm": "2026-11-24T20:41:01.268Z",
+        "verificadoEm": "2026-11-25T19:57:51.373Z",
         "mensagem": "fetch failed"
       }
     }
@@ -829,7 +829,7 @@
     "ultimaAtualizacao": "2026-07-26",
     "status": "homologado"
   },
-  "verificadoEm": "2026-11-24T20:41:01.268Z",
+  "verificadoEm": "2026-11-25T19:57:51.373Z",
   "resumoVerificacao": {
     "total": 17,
     "online": 3,

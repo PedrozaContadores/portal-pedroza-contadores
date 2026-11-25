@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-24T20:50:08.379Z",
+  "checkedAt": "2026-11-25T20:06:55.716Z",
   "total": 100,
-  "online": 51,
-  "alerts": 49,
+  "online": 50,
+  "alerts": 50,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -120,9 +120,9 @@
     },
     {
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-conjunta-de-regularidade-fiscal-do-estado-do-rio-de-janeiro-ccrf"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
@@ -371,6 +371,42 @@
       "message": "fetch failed"
     },
     {
+      "url": "https://cfc.org.br/noticias/ao-correio-braziliense-presidente-do-cfc-destaca-protagonismo-da-contabilidade-na-transformacao-economica-do-pais/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/ao-correio-braziliense-presidente-do-cfc-destaca-protagonismo-da-contabilidade-na-transformacao-economica-do-pais/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-disponibiliza-capacitacao-completa-sobre-contabilidade-imobiliaria-e-de-construtoras/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-disponibiliza-capacitacao-completa-sobre-contabilidade-imobiliaria-e-de-construtoras/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/confaz-divulga-precos-medios-de-combustiveis-para-calculo-do-icms",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/confaz-divulga-precos-medios-de-combustiveis-para-calculo-do-icms"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/falta-uma-semana-para-evento-nacional-de-pericia-contabil/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/falta-uma-semana-para-evento-nacional-de-pericia-contabil/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-libera-r-343-bilhoes-do-orcamento-apos-ajuste-fiscal",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-libera-r-343-bilhoes-do-orcamento-apos-ajuste-fiscal"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ibge-coleta-seletiva-avanca-e-atinge-2675-municipios-brasileiros",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ibge-coleta-seletiva-avanca-e-atinge-2675-municipios-brasileiros"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro",
       "status": "online",
       "code": 200,
@@ -383,22 +419,16 @@
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bcs-de-paises-de-lingua-portuguesa-criam-rede-de-cooperacao"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brb-diz-que-banco-segue-funcionando-apos-suspensao-da-cvm",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brb-diz-que-banco-segue-funcionando-apos-suspensao-da-cvm"
-    },
-    {
       "url": "https://cfc.org.br/noticias/cfc-amplia-pontuacao-da-conferencia-nacional-de-pericia-contabil/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/cfc-amplia-pontuacao-da-conferencia-nacional-de-pericia-contabil/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/empresas-tem-ate-30-de-novembro-para-pagar-primeira-parcela-do-13o",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-591-com-expectativa-de-ajuste-fiscal",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/empresas-tem-ate-30-de-novembro-para-pagar-primeira-parcela-do-13o"
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-591-com-expectativa-de-ajuste-fiscal"
     },
     {
       "url": "https://cfc.org.br/noticias/enciclopedia-inedita-de-pericia-contabil-e-lancada-em-evento-nacional/",
@@ -407,40 +437,34 @@
       "finalUrl": "https://cfc.org.br/noticias/enciclopedia-inedita-de-pericia-contabil-e-lancada-em-evento-nacional/"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/entenda-o-pacote-fiscal-que-preve-ajuste-de-ate-r-56-bilhoes",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/entenda-o-pacote-fiscal-que-preve-ajuste-de-ate-r-56-bilhoes"
+    },
+    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-publica-regras-para-jornadas-especiais-ate-proxima-semana",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-publica-regras-para-jornadas-especiais-ate-proxima-semana"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inss-comeca-pagar-decimo-terceiro-salario-nesta-terca-feira-24",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inss-comeca-pagar-decimo-terceiro-salario-nesta-terca-feira-24"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/nova-ferramenta-do-open-finance-automatizara-repasses-entre-bancos",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/nova-ferramenta-do-open-finance-automatizara-repasses-entre-bancos"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-adquire-participacao-em-empresa-que-produz-etanol",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-adquire-participacao-em-empresa-que-produz-etanol"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-aprova-pagamento-de-r-156-bilhoes-acionistas",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-aprova-pagamento-de-r-156-bilhoes-acionistas"
-    },
-    {
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-preve-investimentos-de-us-122-bilhoes-entre-2027-e-2031",
       "status": "online",
       "code": 200,
       "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-preve-investimentos-de-us-122-bilhoes-entre-2027-e-2031"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/plano-busca-fortalecer-protagonismo-das-mulheres-no-agronegocio",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/plano-busca-fortalecer-protagonismo-das-mulheres-no-agronegocio"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/reforma-tributaria-cfc-debate-desafios-e-impactos-na-gestao-dos-conselhos-profissionais/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/reforma-tributaria-cfc-debate-desafios-e-impactos-na-gestao-dos-conselhos-profissionais/"
     },
     {
       "url": "https://cfc.org.br/noticias/sistema-cfc-crcs-atua-no-congresso-para-evitar-aumento-da-carga-tributaria-e-preservar-direitos-dos-contribuintes/",
@@ -455,40 +479,16 @@
       "finalUrl": "https://cfc.org.br/noticias/tcu-convida-sociedade-a-definir-prioridades-de-fiscalizacao-para-2027/"
     },
     {
-      "url": "https://cfc.org.br/noticias/novo-canal-de-atendimento-orienta-profissionais-da-contabilidade-sobre-a-reforma-tributaria/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/novo-canal-de-atendimento-orienta-profissionais-da-contabilidade-sobre-a-reforma-tributaria/"
-    },
-    {
       "url": "https://cfc.org.br/noticias/especialistas-debatem-perspectivas-para-2027-em-etapa-da-reforma-tributaria-pelo-brasil-no-rio-grande-do-sul/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/especialistas-debatem-perspectivas-para-2027-em-etapa-da-reforma-tributaria-pelo-brasil-no-rio-grande-do-sul/"
     },
     {
-      "url": "https://cfc.org.br/noticias/receita-federal-cgibs-e-cfc-vao-orientar-mais-de-25-mil-profissionais-da-contabilidade-sobre-destaque-de-cbs-ibs-em-documentos-fiscais/",
+      "url": "https://cfc.org.br/noticias/plataforma-crescimento-sustentavel-facilita-a-elaboracao-de-relatorios-de-sustentabilidade-para-pequenos-negocios/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/receita-federal-cgibs-e-cfc-vao-orientar-mais-de-25-mil-profissionais-da-contabilidade-sobre-destaque-de-cbs-ibs-em-documentos-fiscais/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-fenacon-receita-federal-e-sebrae-anunciam-apoio-direto-a-contadores-e-lancam-canal-para-esclarecer-duvidas/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-fenacon-receita-federal-e-sebrae-anunciam-apoio-direto-a-contadores-e-lancam-canal-para-esclarecer-duvidas/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/no-senado-cfc-defende-transparencia-no-calculo-da-aliquota-da-cbs/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/no-senado-cfc-defende-transparencia-no-calculo-da-aliquota-da-cbs/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/prazo-para-contribuir-com-normas-contabeis-termina-nesta-quinta-feira-19/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/prazo-para-contribuir-com-normas-contabeis-termina-nesta-quinta-feira-19/"
+      "finalUrl": "https://cfc.org.br/noticias/plataforma-crescimento-sustentavel-facilita-a-elaboracao-de-relatorios-de-sustentabilidade-para-pequenos-negocios/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
