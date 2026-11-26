@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-25T20:06:55.716Z",
+  "checkedAt": "2026-11-26T19:49:42.817Z",
   "total": 100,
-  "online": 50,
-  "alerts": 50,
+  "online": 49,
+  "alerts": 51,
   "results": [
     {
       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
@@ -96,8 +96,8 @@
     },
     {
       "url": "https://processo.stj.jus.br/SCON/",
-      "status": "online",
-      "code": 200,
+      "status": "alerta",
+      "code": 403,
       "finalUrl": "https://processo.stj.jus.br/SCON/"
     },
     {
@@ -120,9 +120,9 @@
     },
     {
       "url": "https://pge.rj.gov.br/divida-ativa-certidao-de-regularidade-fiscal",
-      "status": "erro",
-      "code": 0,
-      "message": "fetch failed"
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://pge.rj.gov.br/divida-ativa-certidao-conjunta-de-regularidade-fiscal-do-estado-do-rio-de-janeiro-ccrf"
     },
     {
       "url": "https://dief.rio.rj.gov.br/dief/asp/issdpni/default.asp",
@@ -258,9 +258,9 @@
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/gia-icms/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://portal.fazenda.rj.gov.br/icms/gia-icms/"
+      "status": "erro",
+      "code": 0,
+      "message": "fetch failed"
     },
     {
       "url": "https://portal.fazenda.rj.gov.br/icms/declaracoes-economico-fiscais/",
@@ -371,10 +371,100 @@
       "message": "fetch failed"
     },
     {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/alckmin-trata-possivel-tarifa-avioes-do-brasil-como-descabida",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/alckmin-trata-possivel-tarifa-avioes-do-brasil-como-descabida"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/black-friday-veja-dicas-para-evitar-golpes-nas-compras-line",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/black-friday-veja-dicas-para-evitar-golpes-nas-compras-line"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-defende-regulamentacao-do-conselho-de-gestao-fiscal-para-aprimorar-a-qualidade-do-gasto-publico/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-defende-regulamentacao-do-conselho-de-gestao-fiscal-para-aprimorar-a-qualidade-do-gasto-publico/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-publica-resultado-do-premio-olivio-koliver-e-destaca-pesquisa-sobre-hedge-no-agronegocio/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-publica-resultado-do-premio-olivio-koliver-e-destaca-pesquisa-sobre-hedge-no-agronegocio/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-prestigia-posse-da-nova-diretoria-da-fea-usp/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-prestigia-posse-da-nova-diretoria-da-fea-usp/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-externas-tem-deficit-de-us-4-bilhoes-em-outubro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-externas-tem-deficit-de-us-4-bilhoes-em-outubro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-publicas-demanda-por-financiamento-cresceu-271-em-2025",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/contas-publicas-demanda-por-financiamento-cresceu-271-em-2025"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/evento-debate-desafios-e-perspectivas-da-contabilidade-regulatoria-no-brasil/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/evento-debate-desafios-e-perspectivas-da-contabilidade-regulatoria-no-brasil/"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-prorroga-subsidio-de-r-212-ao-diesel-por-mais-30-dias",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-prorroga-subsidio-de-r-212-ao-diesel-por-mais-30-dias"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/investimento-estrangeiro-no-pais-chega-us-1416-trilhao-em-2025",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/investimento-estrangeiro-no-pais-chega-us-1416-trilhao-em-2025"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ipca-15-teve-alta-de-022-em-novembro",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ipca-15-teve-alta-de-022-em-novembro"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/quase-70-dos-consumidores-ja-se-sentiram-enganados-na-black-friday",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/quase-70-dos-consumidores-ja-se-sentiram-enganados-na-black-friday"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/seca-na-amazonia-governo-estuda-auxilio-emergencial-para-pescadores",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/seca-na-amazonia-governo-estuda-auxilio-emergencial-para-pescadores"
+    },
+    {
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/turismo-estrangeiro-movimentou-r-53-bi-na-economia-brasileira-em-2026",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/turismo-estrangeiro-movimentou-r-53-bi-na-economia-brasileira-em-2026"
+    },
+    {
       "url": "https://cfc.org.br/noticias/ao-correio-braziliense-presidente-do-cfc-destaca-protagonismo-da-contabilidade-na-transformacao-economica-do-pais/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/ao-correio-braziliense-presidente-do-cfc-destaca-protagonismo-da-contabilidade-na-transformacao-economica-do-pais/"
+    },
+    {
+      "url": "https://cfc.org.br/noticias/cfc-assina-recomendacao-para-implementacao-do-guia-de-custos-para-o-setor-publico/",
+      "status": "online",
+      "code": 200,
+      "finalUrl": "https://cfc.org.br/noticias/cfc-assina-recomendacao-para-implementacao-do-guia-de-custos-para-o-setor-publico/"
     },
     {
       "url": "https://cfc.org.br/noticias/cfc-disponibiliza-capacitacao-completa-sobre-contabilidade-imobiliaria-e-de-construtoras/",
@@ -383,10 +473,10 @@
       "finalUrl": "https://cfc.org.br/noticias/cfc-disponibiliza-capacitacao-completa-sobre-contabilidade-imobiliaria-e-de-construtoras/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/confaz-divulga-precos-medios-de-combustiveis-para-calculo-do-icms",
+      "url": "https://cfc.org.br/noticias/conselhos-federais-e-ministros-do-tcu-discutem-regras-de-fiscalizacao-em-mesa-redonda-na-fgv/",
       "status": "online",
       "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/confaz-divulga-precos-medios-de-combustiveis-para-calculo-do-icms"
+      "finalUrl": "https://cfc.org.br/noticias/conselhos-federais-e-ministros-do-tcu-discutem-regras-de-fiscalizacao-em-mesa-redonda-na-fgv/"
     },
     {
       "url": "https://cfc.org.br/noticias/falta-uma-semana-para-evento-nacional-de-pericia-contabil/",
@@ -395,100 +485,10 @@
       "finalUrl": "https://cfc.org.br/noticias/falta-uma-semana-para-evento-nacional-de-pericia-contabil/"
     },
     {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-libera-r-343-bilhoes-do-orcamento-apos-ajuste-fiscal",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-libera-r-343-bilhoes-do-orcamento-apos-ajuste-fiscal"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ibge-coleta-seletiva-avanca-e-atinge-2675-municipios-brasileiros",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ibge-coleta-seletiva-avanca-e-atinge-2675-municipios-brasileiros"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/arrecadacao-federal-atinge-r-294-bilhoes-e-bate-recorde-para-outubro"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bcs-de-paises-de-lingua-portuguesa-criam-rede-de-cooperacao",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bcs-de-paises-de-lingua-portuguesa-criam-rede-de-cooperacao"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/cfc-amplia-pontuacao-da-conferencia-nacional-de-pericia-contabil/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/cfc-amplia-pontuacao-da-conferencia-nacional-de-pericia-contabil/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-591-com-expectativa-de-ajuste-fiscal",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-cai-para-r-591-com-expectativa-de-ajuste-fiscal"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/enciclopedia-inedita-de-pericia-contabil-e-lancada-em-evento-nacional/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/enciclopedia-inedita-de-pericia-contabil-e-lancada-em-evento-nacional/"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/entenda-o-pacote-fiscal-que-preve-ajuste-de-ate-r-56-bilhoes",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/entenda-o-pacote-fiscal-que-preve-ajuste-de-ate-r-56-bilhoes"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-publica-regras-para-jornadas-especiais-ate-proxima-semana",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-publica-regras-para-jornadas-especiais-ate-proxima-semana"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-preve-investimentos-de-us-122-bilhoes-entre-2027-e-2031",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-preve-investimentos-de-us-122-bilhoes-entre-2027-e-2031"
-    },
-    {
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/plano-busca-fortalecer-protagonismo-das-mulheres-no-agronegocio",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/plano-busca-fortalecer-protagonismo-das-mulheres-no-agronegocio"
-    },
-    {
       "url": "https://cfc.org.br/noticias/reforma-tributaria-cfc-debate-desafios-e-impactos-na-gestao-dos-conselhos-profissionais/",
       "status": "online",
       "code": 200,
       "finalUrl": "https://cfc.org.br/noticias/reforma-tributaria-cfc-debate-desafios-e-impactos-na-gestao-dos-conselhos-profissionais/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/sistema-cfc-crcs-atua-no-congresso-para-evitar-aumento-da-carga-tributaria-e-preservar-direitos-dos-contribuintes/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/sistema-cfc-crcs-atua-no-congresso-para-evitar-aumento-da-carga-tributaria-e-preservar-direitos-dos-contribuintes/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/tcu-convida-sociedade-a-definir-prioridades-de-fiscalizacao-para-2027/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/tcu-convida-sociedade-a-definir-prioridades-de-fiscalizacao-para-2027/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/especialistas-debatem-perspectivas-para-2027-em-etapa-da-reforma-tributaria-pelo-brasil-no-rio-grande-do-sul/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/especialistas-debatem-perspectivas-para-2027-em-etapa-da-reforma-tributaria-pelo-brasil-no-rio-grande-do-sul/"
-    },
-    {
-      "url": "https://cfc.org.br/noticias/plataforma-crescimento-sustentavel-facilita-a-elaboracao-de-relatorios-de-sustentabilidade-para-pequenos-negocios/",
-      "status": "online",
-      "code": 200,
-      "finalUrl": "https://cfc.org.br/noticias/plataforma-crescimento-sustentavel-facilita-a-elaboracao-de-relatorios-de-sustentabilidade-para-pequenos-negocios/"
     },
     {
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/cadastros/cnpj",
